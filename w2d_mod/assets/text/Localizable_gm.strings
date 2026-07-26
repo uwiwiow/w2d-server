@@ -1,0 +1,678 @@
+/* 
+  Localizable.strings
+  WelcomeD
+
+  Created by Administrator on 2014. 3. 26..
+
+*/
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/NotoSans-Bold.ttf";
+"local_fontBold"="font/NotoSans-Bold.ttf";
+// Tutorial, right after prologue
+"local_tutorialtalk01"="@eye:Die Welt der Menschen.{Es gibt Kerker, die die Dämonen-Magie noch nicht erreichen kann.{Bearbeite jeden Kerker, um die Macht auszubreiten.{Deine Bewertung wird in jedem Schand-Level angezeigt.";
+"local_tutorialtalk02"="@eye:Gehen wir zum ersten Kerker.";
+"local_tutorialtalk03"="@eye:Gemütlich, was?{Menschliche Krieger sind verpflichtet, die berüchtigten Kerker zu besuchen. Das wird einige Zeit dauern…{Lasst uns dunkle Magie benutzen.{Mit dem Gerät können wir jederzeit Ritter rufen.";
+"local_tutorialtalk04"="@eye:Später kannst du deine Magie verwenden, um diese Geräte zu aktivieren und Ritter auszuwählen, die den Kerker betreten sollen.{Bitte ziehen.";
+"local_tutorialtalk05"="@eye:Menschen denken nicht über ihre Auswahl nach, sie überprüfen nur ihre Ergebnisse. @hero:Ich spüre die Aura des Bösen! @eye:Hehe ... mal sehen, was die Wahl der Ritter bringt!";
+"local_tutorialtalk06"="@eye:Ausgezeichnet! Du, Herr, bist tatsächlich auf der Seite der Dunkelheit.";
+"local_tutorialtalk07"="@eye:Glückwunsch. Du hast den Kerker besiegt.{Wegen ihrer hohen Schande, wird hier keiner mehr herkommen.{Gehen wir zum größeren Kerker.";
+"local_tutorialtalk08"="@eye:Gefällt dir der neue Kerker?{Positioniere deine Monster. Die ersten Kerker-Monster sind Beispiele.{Da deine Monster-Box leer ist, wählen wir eins.{Wähle im Menü SUMMON Monster.";
+"local_tutorialtalk09"="@eye:Du weißt zwar nicht was du bekommst, aber das macht Spaß.{Die Magie-Regel besagt, was jetzt einfach erscheint wird später teuer.{Da du genügend Gold hast, such dir ein Monster aus.";
+"local_tutorialtalk10"="@eye:Das hast du bekommen. Stärkung kann sinnvoll sein.{Das hast du bestimmt schon festgestellt. Je mehr Sterne die Monster haben, je seltener und effektiver sind sie.";
+"local_tutorialtalk11"="@eye:Gewählte Monsterkarten sind in der Monster-Box.";
+"local_tutorialtalk12"="@eye:Die Anzahl der Sterne in der linken oberen Ecke sind die KOSTEN für die Platzierung der Monster.{Wenn sich deine Schande erhöht, erhöht sich der Preis.";
+"local_tutorialtalk13"="@eye:Sei siegreich in der Schlacht, sammle Monster, und erhöhe deine Schande!\nDies musst du in dieser Welt tun.{Bis später, wenn du Hilfe brauchst.{Hier noch 10.000 Münzen, um Verstärkung zu rufen und die Monster zu positionieren.";
+
+"local_tutorialtalkbattle01"="@eye:Die Krieger in der ersten Linie haben Feuerkräfte. Monster mit Wasserkräfte sind hier nützlich.{Da dies ein manueller Kampf ist, kannst du die Anordnung bestimmen.{ Die Krieger haben die Feuer-Kraft,  wähle ein Monster mit Wasser-Kraft (blau markiert).";
+"local_tutorialtalkbattle02"="@eye:Monster, die von vielen Kriegern attackiert wurden, können den 'tötlichen Schlag' bei Kriegern einsetzen.{Drücke schnell die Fähigkeitstaste.";
+"local_tutorialtalkbattle03"="@eye:Alle Kerker haben eine Falle.\nSieh, was mit einer Fallenkarte passiert.";
+
+
+"local_tutorialtalkskip00"="@eye:Warte, Herr! Höre mir bis zum Ende zu!\nIch werde dir mehr Gold geben! Es dauert nur einen Augenblick.";
+"local_tutorialtalkskip01"="@eye:Hier sind die Regeln in Kürze:{1) Gewinne so viele Kämpfe wie möglich mit den gerufenen Kriegern.\n2) Sammle Gold und rufe Monster oder stärke sie.\n3) Erhöhe deine Schande durch Siege.\nDies sind die Dinge, die du in dieser Welt tun musst.{Wenn du wieder Hilfe brauchst, komme ich zurück.";
+
+
+// character event results
+"local_talkeventsystemgetgold"="Du hast %d Gold gewonnen.";
+"local_talkeventsystemlosegold"="Du hast %d Gold verloren.";
+"local_talkeventsystemlosegold2"="Du hast %d Gold gewonnen.";
+"local_talkeventsystemgetsuccubuscard"="Du hast eine 'Succubus'-Karte erhalten!";
+"local_talkeventsystemmonsterlevelsup"="Fähigkeit des Monsters ist vorübergehend gestärkt.";
+"local_talkeventsystemmonsterlevelup"="Monster sind vorübergehend gestärkt.";
+"local_talkeventsystemherolevelsup"="Die Ritter im Kerker sind ein wenig stärker.";
+"local_talkeventsystemherohpdown"="HP der Ritter im Kerker ist zurückgegangen.";
+"local_talkeventsystemdealmonsterlevelup"="Möchtest du vorübergehend die Monster mittels Gold stärken?";
+"local_talkeventsystemdealgem"="Akzeptierst du den Deal?";
+"local_talkeventsystemgetgem"="Du hast %d Edelsteine erhalten.";
+"local_talkeventsystemgetexp"="Du hast %d Gold gewonnen.";
+
+
+// Character events dialogue
+"local_talkeventswordcatenter"="@sword_cat:Hallo! Miau. {Ist das der berüchtigten Kerker des Underlords? Mein Name ist Toby. Ich bin eine Degenkatze. {Mein besonderer Charme und Witz gefiel meinem Meister, der mir meine Fähigkeiten lehrte. {Ich habe gehört, dass viele Krieger das Dorf verlassen haben,  deswegen kam ich zu Besuch. {Ich bin nur hier, um die Münzen einzusammeln. {Ignoriere mich einfach!";
+"local_talkeventswordcatlose"="@sword_cat:(Arg!!) Bitte erspare mir das!!! {Ich gebe dir mein ganzes Geld, {wenn du mich verschonst! {(Verdammt, ich komme mit besseren Fähigkeiten wieder!) #get gold";
+"local_talkeventswordcatwin"="@sword_cat:Ich wollte nur ein paar Münzen sammeln… {Deine Monster motzen ja überhaupt nicht auf. {Naja, naja, naja, naja) #lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(Miau) Ich komme zurück! {Es tut uns leid, was beim letzten Mal passiert ist. {Ich habe hungrige Kätzchen zu Hause… {Ich werde etwas Kleingeld aufheben, und weg bin ich. {(Diesmal ganz sicher!)";
+"local_talkeventswordcatenterwin"="@sword_cat:(Miau) Erinnerst du dich an mich, Underlord? Hehe {Ich nehme mir noch etwas Gold. {(Dieser Kerker hat den gleichen fadenscheinigen Betrieb?)";
+"local_talkeventmysterywoman"="@mystery_woman:… {Mein Mann ist im Ausland… {ich hoffe, er isst alle seine Mahlzeiten… {Ich helfe so viel ich kann. #monsters level up";
+"local_talkeventprincessenter"="@princess:… Dies ist der Ort! {Ich bin entschlossen, den Underlord heute zu treffen!";
+"local_talkeventprincessexit"="@princess:Ah!!!!";
+"local_talkeventprincesssuccess"="@princess:Ah, endlich! {Wir treffen uns, Underlord. {Als Prinzessin eines gefallenen Königreichs, {ist es mein Wunsch, mich zu rächen. {Bitte!{Ich möchte dir dienen! #get succubus card";
+"local_talkeventkingenter"="@king:Es war nicht einfach, heimlich hierher zu kommen! {Ich hoffte, ein gutes Wort für mich einlegen zu können, {bevor die Dämonen die Welt wieder regieren. {bevor die Dämonen die Welt wieder regieren. {Möge deine Schande steigen! #get gold2";
+"local_talkeventkingafter"="@king:Ich bin zurück, großer Underlord. {Ich stehe dir zur Verfügung, hehe…#get gold2";
+"local_talkeventmerchantenter"="@merchant:Wie geht es dir, Underlord? {Ich bin ein Kaufmann der Magie, hausiere meine Waren in der menschlichen und unmenschlichen Welt, überall, wo es profitabel ist. {Ich kann den Level der Monster in diesem Kampf erhöhen, ist das OK? (3000 Gold) #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:Nun, egal. {Vielleicht kaufen die Ritter?";
+"local_talkeventmerchantaccpet"="@merchant:Es wird dir eine große Hilfe in der Schlacht sein! {Ich werde bald wieder kommen. #monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:Du teuflisches Ding! {Die Krieger der Legende sollen dich zerquetschen!! {Im Namen Gottes, {weg mit den Dämonen!! #hero levels up";
+"local_talkeventwitchesenter"="@witches:Lieber Underlord♥ Bist du da!!!{Ich bin froh, dass wir den Rittern gefolgt sind! {Blöd {Wir haben die Krieger vergiftet~ {Ich hoffe, Sie werden diesen Kampf gewinnen!♥ #hero hp down";
+"local_talkeventfairiesenter"="@warrior: Uh ... das sieht aus wie ein guter Ort, um mein Level zu erhöhen. {Es ist nicht die Hauptquest oder so. @fairy: Gerüchten zufolge hat der Underlord andere Kerker errichtet. {Sei vorsichtig! @warrior: Hehe, mir ist der Underlords egal… {Ich bin der Held meiner Geschichte!";
+"local_talkeventwarriorlose"="@warrior: Uh… ich glaub es nicht… ich kann doch nicht hier sterben, oder das Ende gesehen zu haben … @fairy: … Ich sagte, du sollst vorsichtig sein! {Versuche um dein Leben zu feilschen.{Underlord, wir geben dir etwas, wenn du uns verschonst.#deal gem";
+"local_talkeventwarriordie"="@fairy: Oh nein! Ich wusste es… {Ein Dämon lässt nicht mit sich reden…… @warrior: Aaaah, ich will nicht sterben! @fairy:… es ist OK. Du wirst im Dorf wiederbelebt.#get gold3";
+"local_talkeventwarrioralive"="@fairy: Oh danke! {(Komm, raus hier!) @warrior: Verdammt… so ein Unsinn… {(Ich komme wieder, wenn ich stärker bin)#get gem";
+"local_talkeventwarriorwin"="@warrior: Aha! Ich wusste, es war nichts. {Froh, dass ich meine Waffe verstärkt hatte! {So Underlord, bis später? @fairy: Verschwinden wir und gehen zum Hauptquest!";
+"local_talkeventwarriorafter"="@warrior: Ist das auch der Kerker des Underlords? Frage mich, ob er besser geworden ist.  @fairy: Sei nicht so arrogant. Konzentriere dich!  @warrior: Ha, ich kann jedes Monster, das mir im Weg steht, töten!";
+
+
+
+"local_episodetalk01"="@blank: Episode 1. Ein Ritter entdeckt den Kerker @hero: Geschichten von Monstern die Amok laufen sind wahr! {Geh zurück ins Dorf und verbreite die Nachricht! @eye: Ooh! Die Schande des Meisters wächst von Tag zu Tag! @hero: Solltest du nicht nervös sein?";
+"local_episodetalk02"="@blank: Episode 2. Was ist ein Ritter @hero: Es gibt viele Arten von Kriegern. {Ich bin nur ein Anfänger, aber sobald ich ein besserer Ritter bin, {werde ich diesen erbärmlichen Kerker erobern! @eye: Hallo? 1-1-0? Kann ich für jemanden reservieren?@hero: Reserviere dir doch selbst einen!!";
+"local_episodetalk03"="@blank: Episode 3. Kitty Swordsman@sword_cat: Hallo! Ich bin Mieze! Wie Katze!@hero: Bist etwas, äh, anders? Anders als die anderen?@sword_cat: Ich habe gehört, dass der Kerker von Underlord eine Herausforderung ist. {Ich liebe Herausforderungen.@hero: Klar doch. Streue Sand über den Quatsch bevor du gehst!@eye: Über was soll ich Sand streuen?";
+"local_episodetalk04"="@blank: Episode 4. Schnittstelle des Ritters@eye: Willkommen im Kerker! @hero: Uh-oh. {Ich kann nicht ohne das Boss-Monster zu töten zurück. Zu peinlich! @eye: Würdest du nicht lieber Monsterfutter sein, als zurück gehen und arbeitslos? @hero: Nein, ich lade wieder ab meiner letzten gespeicherten Position.@eye: du… du kannst das?";
+"local_episodetalk05"="@blank: Episode 5. Eine Beziehung aufbauen@hero: Hey, Augapfel! {Achtest du (verstanden?) heute auf unseren Ritter? @eye: Mit mir musst du nicht freundlich sein. {Ich verbrüdere mich nicht mit Rittern, die auf dem Weg zum Fleischwolf sind. @hero: Ach, ja? {Sie werden mich in meinen Dorf wiederbeleben. {Freu dich!@eye: Fein, Ritter. Hier ein Rätsel. {Ein Ritter, ein Wikinger und eine Fee betreten einen Kerker, aber nur die Fee ist gestorben. Rate mal warum.@hero: … Die Fee hatte das niedrigeste Kraft-Level?@eye: Ha. Der Grund war, weil die Elfe zuerst eingetreten ist. {So funktionieren die Kerker. {Als erster rein, als erster tot. {Also, pass auf, wo du dich anstellst.@hero: Ein Monster hat mirgerade einen Rat gegeben. {Wie interessant.@eye: Das bedeutet nicht, dass ich dich immer als Dritten einsetze. {Nun zurück zu unseren professionellen Grenzen.";
+"local_episodetalk06"="@blank: Episode 6. Geheimnis des Boss-Monsters@hero: Wer sagt`s! Ich kehre lebendig zurück! Ganz modern.@sword_cat: Was sonst! Ich kehre mit einem Haufen Gold zurück.@eye: Ihr Narren! Ihr hattet lediglich Glück. Es waren nur die kleinen Monster! @hero: Im Gegenteil, wir wurden von dem Boss-Monster besiegt, aber es sagte, dass es die Km-Punkte für diesen Tag verwenden wird, um uns zu schonen.@eye: So wird er die Inflation nie bekämpfen.";
+"local_episodetalk07"="@blank: Episode 7. Hauptquest@hero: Ich habe etwas Wichtiges entdeckt! @eye: Endlich bist du mal ernst.@hero: Ich bin im Sammeln Antiker Fragmente Quest, dort fand ich ein Bild von Underlord und Gott.@hero: Dass die Antiken Völker den Underlord  und Gott Seite-an-Seite darstellten.  {Wie denkst denn du darüber?@eye: Na, ja… Ich überlebt kaum das letzte Dämonensterben, {und der Underlord ist mit Gedächtnisschwund wiedergeboren.  {Nicht einmal er kann sich an die Vergangenheit gut erinnern.@hero: Ich werde den Rest der Fragmente noch einsammeln.@eye: Ooh… ein Plot, unglaublich!";
+"local_episodetalk08"="@blank: Episode 8. Schlüssel zum Lösen des Quests@sword_cat: Du kennst das Sammeln Antiker Fragmente Quest-Dingsbums?@eye: Oh, dieses Dingsbums. Das Hauptquest Dingsbums.@sword_cat: Der Ritter meint, das es der Schlüssel der Vergangenheit des Underlords ist, {und ausgerechnet ich habe das letzte Stück.@eye: Wie, möchtest du einen Deal machen?! Möchtest du mal meinen Speichel probieren? {Her damit!@sword_cat: Igit! Sei nicht zu ekelhaft. Oder mörderisch. {Vergiss es! Ich beschäftige mich lieber mit dem Ritter!";
+"local_episodetalk09"="@blank: Episode 9. Verständigung@hero: Nun, da es mehrere Kerker gibt, weiß ich nicht, welchen ich nehmen soll. @eye: Schwierigkeitsgrad variiert je nach Positionierung und Leistungsstufen der Monster. {Aber es ist abenteuerlich, in einen Kerker mit lauter starken Rittern zu gehen.@hero: Andererseits sind die Monster abwechslungsreicher und man muss die Kraft erhöhen @eye: Die Länge des Korridors beeinflusst auch, wie die Ritter warten.  {Das System ist nicht einfach. ";
+"local_episodetalk10"="@blank: Episode 10. Abenteuer der Prinzessin@princess: Ist das der Kerker des Underlords?@eye: Ja… ätzend! {Eine menschliche Prinzessin!@princess: Die menschliche Welt ist ein Chaos. {Dämonen werden zum Sündenbock gemacht und jeder wird in den Krieg geschickt. {Die Comic-Bücher und Spiele mit Dämonen werden verbrannt.  {Aber ich kann mir ein Abenteuer ohne Böses nicht vorstellen@eye: So, du bist wegen der Regulierung gegen Spiele hier?@princess: Ich weiß genug von der Welt oben, jetzt will ich die Welt unten kennen lernen.  {Ich bin wirklich abenteuerlich. {Ich möchte den Underlord kennen lernen!@eye: Bizarre. {Na, dann probiere dein Glück. {Wenn du das Boss-Monster erreicht, kann sogar sein, dass du den Underlord triffst!";
+"local_episodetalk11"="@blank: Episode 11. Gemeinsamer Quest@hero: Eine Prinzessin ist hier im Kerker? {Es gab einen Unter-Quest für die Rettung einer Prinzessin. {Ich wollte ein gutes Schwert mit meinem Quest-Ertrag kaufen. @eye: Ja, sie war hier. Bereits ein weibliches sexy Monster oder so. @hero: Mein lieber Gott! Ein attraktives weibliches Monster… {Gah! {Die muss ich kennen lernen!@eye: … {Du bist sicher, dass es Rettung im Sinn hat?";
+"local_episodetalk12"="@blank: Episode 12. Die Vergangenheit des Underlords@hero: Ich habe den Sammeln Antiker Fragmente Quest beendet, und etwas seltsames gefunden.@eye: Was denn?@hero: Ich denke, die Menschen haben den Underlord angebetet. @eye: Den Underlord angebetet… Dämonen?@hero: Das würde bedeuten, Dämonen und Menschen lebten zusammen. {Wie auch immer, das einzige, was ich aus dieser Quest erzielte, war eben  das und Erfahrungsstufen.@eye: Die Vergangenheit des Underlords… {Welche Beziehung der Underlord und Gott hatten?";
+"local_episodetalk13"="@blank: Episode 13. Die mächtige Konkurrenz des Ritters@warrior: Aha! Was ist los Augapfel?@fairy: Beruhige dich. {Das ist der Kerker des Underlords. {Er ist voller Dämonen, keine gewöhnlichen Tiere.@eye: He. Ein Krieger mit einem Elfen-Kumpel. {Ein Held mit dem richtigen Zubehör!@warrior: Natürlich bin ich der Held! {Die Fee ist nur ein Kumpel!@fairy: Dieser Idiot ... {Wieder total aufgeregt ...) @sword_cat: Stark sein und ein hohes Level mucht noch keinen Helden. {Es sind die aufwendigen Story-Katalysatoren wie ich, die wahren Helden sind.@warrior: Ich pfeif auf aufwendige Stories Katze, was auch immer! {Erst im Kampf erkennst du die Stärken. {Wenn ich dich zerstöre bin ich von allem erlöst. {Man muss erst alles verlieren, um den wahren Frieden zu erkennen.@sword_cat: Das kommt mir doch bekannt vor…@eye: Ha, komm rein {Ich bin mir nicht sicher, wer der Held und wer der Kumpel ist {aber ich werde gleichermaßen Hackfleisch aus euch machen.";
+"local_episodetalk14"="@blank: Episode 14. Die Getreuen des Underlords@hero: Wer aufgibt, gibt die wertvollsten Regeln auf. @eye: Hmm?@hero: Wer aufgibt, gibt die wertvollsten Regeln auf. @eye: Soll das ein Rätsel sein?@hero: Es steht im Tempel geschrieben. {Aber warum muss man das aufgeben, was kostbar war, um zu herrschen?@eye: Diese Tempel müssen Prophezeiungen beibehalten, wenn sie im Geschäft bleiben möchten.@hero: Gott ist genauso verwirrend wie der Underlord.@king: Wau. Endlich angekommen.@hero: Gah! Der King!@eye: Oh, je. Was macht denn dieser Kerl hier?@king: Na, wie geht`s?@hero: Nicht so gut. {Das Königreich ist ein einziges Chaos!@king: Die Prinzessinnen fehlen, deshalb.  Man sagt, es ist ein schlechtes Zeichen. {Keine Sorge, es gibt viele, die darauf achten, dass Monarchie am Leben bleibt. Es gibt über 3000 Prinzessinnen aus gefallenen Reichen, hehe. {Man sagt, dass man alles verlieren muss, um das Wertvollsten zu schätzen, um zu regieren ?@eye: Über was sprichst du? (Schrecklich.)@king: Hehe… {Eigentlich stehe ich auf der Seite der Dämonen.@hero: ?! Willst du mich verarschen?! {Der King steht auf der Seite der Dämonen?@king:  Du wirst es erfahren, wenn du den Quest  Sammeln von alten Fragmenten abgeschlossen hast.  {Der Underlord wurde einst von  Dämonen und Menschen verehrt.  Ich bin ein Nachkomme seiner menschlichen Verehrer.@hero: Gott und der Underlord wurden zusammen verehrt?@eye: Ach, so ... wir beginnen, mehr über der Vergangenheit des Underlords zu lernen.  {Aber weißt du, war er weggeschlossen wurde?@king: Wissen wir nicht. {Wir wissen nur, dass der Underlord und die Dämonen zusammen verschwanden.  {Dann wurde die Geschichte neu geschrieben, so dass der Underlord die Ursache allen Übels war.@hero: Wenn das wahr ist, werde ich die Wahrheit hinter der Geschichte heraus finden!@eye: Was für eine Motivation!@king: Er wird die Wahrheit in diesen Levels nicht finden…";
+"local_episodetalk15"="@blank: Episode 15. Die Krieger-Anfrage @hero: Nächster Quest… Sammle Drachenschuppen? {Es ist ein Drache im Kerker? @eye: Drachen? Es ist sehr selten…{Nicht sicher, ob der Meister ein ausgesucht hat. Das Reinigen danach ist schwer.@sword_cat: Upsala. Drachen sind beängstigend.@hero: Vielleicht sollten wir diesen in Ruhe lassen.@warrior: Hehe, ich war bereits erfolgreich. {Ich habe einige im Shop gekauft.@eye: Dieser Shop hat ja alles was man braucht.@sword_cat: Der Schwarze Ritter ist schnell.@warrior: Wenn du das Geld nicht hast, dann geh und fange einen Drachen.@hero: Erst muss ich einen sehen, bevor ich einen fange… {Hey, Underlord! Such dir einen Drachen aus!@eye: Vertraue dem Glück des Underlords.";
+"local_episodetalk16"="@blank: Episode 16. Legendäre Gegenstände @hero: Das Schwert vom letzten Boss-Monster ist legendär und heißt Hälfte der Ewigkeit.@eye: …Geh Junge.@hero: Und wie der Name schon sagt, es war ein bestimmter Gegenstand.{Es gibt ein Schild dazu.@eye: Wenn er so selten ist, wird es nicht leicht sein ihn zu finden.@merchant: Ich habe zufällig das dazugehörige Schild!@hero: Ooh!@eye: Schlauer Händler… {Er riecht die nachfrage!@merchant: Mit Gold kann man alles kaufen. {50.000 in Gold, bitte.@eye: Teuer. {Kann sich ein Ritter nicht erlauben…@hero: Hier hast du es.@eye: ?!!@merchant: Genieße deinen Einkauf!@eye: Woher hast du denn so viel Geld?@hero: Ich verkaufte das legendäre Schwert. {Ich brauche eher Verteidigung mehr als Angriff.@eye: …";
+"local_episodetalk17"="@blank: Episode 17. Die verschwundene Macht@hero: Das legendäre Schild habe ich erhalten, es ist seltsam.@eye: Was? Was jetzt?@hero: Das Schwert brachte schlechte Leistungen, aber das Schild nicht. {Hat der Händler mich beschissen? @eye: Das ist seltsam. Ohne Kraft, kannst du keinen zusätzlichen Effekt handhaben und du wirst verlieren…@warrior: Warte! Ich glaube, ich habe Waffen ohne Kraft gesehen. {Die Hexen sagen, dass sie von einem Element sind, das jetzt verschwunden ist.@hero: Du meinst, es gab noch ein anderes Element?  {Außer  Feuer, Wasser, Holz und Licht?@warrior: Frag die Hexen. {Sie treiben sich oft mit Plakaten bei den Kerkern herum, und jubeln dem Underlord zu.";
+"local_episodetalk18"="@blank: Episode 18. Die Hexen stehen auf der Seite von Underlord @witches: Der Underlord wurde heute böse. {Ich brauche Monsters unterschiedlicher Stärken, um zu gewinnen. @hero: Super~ gefunden. {Ihr seid die Hexen, die den Schwarzen Ritter kennen? @witches: So? Gegacker. {Was geht dich das an?@hero: Ich wollte dich nach der Kraft fragen, die in den alten Zeiten verschwunden ist.@witches: Ein Ritter, der Interesse an solchen Dingen hat … unglaublich! {Es ist gefährlich zu reden. Also, halten wir. {Wenn der Tempel des Lichts erfährt, dass wir sprechen, dann beginnt eine Hexenjagd.@hero: Ich habe einen super-teuren Artikel gekauft und keine Kraft dafür! {Ich will nicht, dass du so ein Idiot bist,  der den Kerker ohne Kraft betritt …@witches: Warum machst du keinen Test?  {Du bist ein Ritter, also solltet du an Quests gewohnt sein.@hero: Wie lautet… dein Quest? (Gulp)@witches: Du sollst unserem Underlord helfen. Gegacker! {Opfere 5 Edelsteine, so dass der Underlord ein neues Monster rufen kann. {Gegacker!@hero: Ein Ritter hilft dem Underlord?!  Absurd.@eye: Betrachte es als … eine Eintrittsgebühr für die Jagdgründe!@hero: … Fein. {5 Edelsteine ist so viel wie nichts. Ich komme gleich wieder! ";
+"local_episodetalk19"="@blank: Episode 19. Die Vergangenheit des Underlords (2)@hero: Dauert länger als dachte, 5 Edelsteine zu erhalten. @witches: Du hast sie? Gib sie jetzt dem Underlord.@hero: Gut, gut.@witches: Jetzt können wir reden. Wie du vielleicht schon erraten hast, ist das verschwundene Element das Gegenteil von Licht: Dunkelheit @hero: Dunkelheit?!@witches: Der Underlord wurde mit Gott Seite an Seite angebetet. {Gott und der Underlord kreierten Lebensformen der verschiedenen Kräfte und eine dieser Kräfte war die Finsternis.@hero: Der Underlord war ein kreativer Gott?@witches: Ja. Und eines Tages, warf Gott den Underlord und die Kreaturen der Finsternis, die Dämonen, raus.  {Dann ist Dunkelheit selbst verschwunden .@hero: Der Underlord wurde hinausgeworfen?@senior_priest: Genug! Du böse Hexe (B*Hexe) {So ein blödes Geschwätz!@witches: Igit!! Wo kommst du denn her?@senior_priest: Jeder, der vom antiken Tempel des Lichtes spricht, wird verdammt werden!@witches: Humph! Die Schande des Underlords steigt von Tag zu Tag! ! {Es ist nur eine Frage der Zeit, bis die Kräfte der Finsternis zurück sind! @senior_priest:  Gott hat der Underlord verlassen.  {Sterbliche wie wir können niemals den Willen Gottes verstehen, nur folgen.  Das ist unser Dasein.@hero: Lass uns von hier verschwinden, bevor der Hohepriester uns sieht. ";
+"local_episodetalk20"="@blank: Episode 20. Nicht erledigte Monster@hero: Also das legendäre Schild war die Finsternis. {Kann nicht glauben, dass ich so viel Geld für etwas so nutzloses...@eye: Am Tag, an dem sich alle Kerker von Underlord öffnen, kehrt die Dunkelheit zurück! @hero: Auf der Seite des Underlords zu sein, nur um einen Gegenstand zu benutzen, ist doch etwas…@succubus: Hey, Ritter, {sexy Schild hast du da.@hero: Igit! Ein Monster außerhalb des Kerkers!@succubus: Ich wollte nur etwas frische Luft schnappen.@eye: Sag mal Hallo, sie was schließlich mal eine Prinzessin.@hero: Prinzessin? {Die Prinzessin ist jetzt ein Succubus?@succubus: Jawohl. Jetzt, wo ich hier bin ist es doch etwas langweilig.@hero: Du bis ein Monster, und es ist mir egal, wie langweilig es ist!@succubus: Na, Ritter, wie sieht es auch, möchtest du mich nicht erschlagen, oder so?@hero: Oh… die Prinzessin, auf die ich mal ein Auge geworfen hatte… (und meine Chance zum sozialen Aufstieg…!)@succubus: Kein Mitgefühl bitte. {Als Monster sehe ich viele Dinge, die ich zuvor nicht gesehen habe {Monster sind wie Menschen, uns fehlt immer etwas. {Jemand muss an ihrer Seite sein.@hero: Ich glaube, dass du eher mit den andern liebäugelst als mit uns…@succubus: Wir müssen auch die dunklen Seite des Lebens verstehen!";
+"local_episodetalk21"="@blank: Episode 21. Androhung Gottes@hero: Wie wird Gott zurückschlagen, wenn der Underlord die Kerker aller vier Länder übernimmt?@warrior: Keine Sorge. {Ich werde alle Quests lösen und den Underlord zerstören.@sword_cat: Unabhängig davon, welche Seite gewinnt, es ist am besten, wenn man genug Geld hat, nur für den Fall!@hero: In anderen Ländern sagen sie, dass es Krieger in 99 Level gibt.@warrior: 99 Level? Sogar ein Krieger mit 10.000 Level kann ein Boss Monster mit einmal Pusten nicht umhauen.@eye: Idioten! Egal, wie viele Levels, die sie bekommen und wie viele Krieger sie schicken, der Underlord hat unbegrenzte Kräfte! {Jemand in einer anderen Dimension hilft ihm.@warrior: Humph! Also, dieses gewisse jemand außerhalb unserer Dimension UND der Underlord müssen sich warm anziehen! {Engel erscheinen im Land des Lichts!@eye: Engel? Wir haben sogar Dämons mit Flügel {Bringe sie her!";
+"local_episodetalk22"="@blank: Episode 22. Zweck des Priesters @senior_priest: Krieger! Senkt die Schande Underlords, {alle Ehre Gott!@eye: Hey! Man kann nicht einfach in den Kerker laufen! {Zieh eine Nummer!@senior_priest: …@hero: Sprich Priester, was ist nun der Deal mit Gott und dem Underlord? {Warum sind sie Freund und eine Minute später Feinde?@senior_priest: Das… geht dich nichts an. {Gott verspricht Reichtum nur denjenigen, die ihn anbeten.@hero: Anbetung ist eine Voraussetzung für Reichtum …?@senior_priest: Macht dich das unsicher? {Leben wir nicht alle für den Reichtum? {Ein Priester ist eine Person, die dieses System unterstützt. {Niemand muss die Wahrheit erfahren. So sind wir alle Gewinner.@hero: Ich möchte die Wahrheit erfahren! {Wie sind der Underlord und die Macht der Finsternis verschwunden?@senior_priest: Wenn du so neugierig bist, werde ich es dir sagen. {Nachdem du dich um den Boss im Kerker gekümmert hast!@eye: Das ist jetzt aber unbequem. Wenn ich helfen möchte, muss der Boss gegenüber dem Held verlieren.";
+"local_episodetalk23"="@blank: Episode 23. Der Underlord und Gott @hero: Ich habe das Boss-Monster getötet. @eye: Dank dessen, fiel die Schandesebene. {Nun geh zum Hohepriester und frage ihn nach der Vergangenheit des Underlords. @senior_priest: Willkommen, Held Du hast das Boss Monster tatsächlich erledigt.Held: Erzähl mir von der Vergangenheit des Underlords.@senior_priest: Lange Rede kurzer Sinn, Gott und der Underlord regierten zusammen. {Aber der Underlord handelte gegen den Willen Gottes, also hat sich Gott der Dämonen und Dunkelheit befreit. {Er gelöschte die Erinnerung des Underlords und sperrte ihn in den Kerker.@hero: Aha. {Also hatten Dämonen und Menschen zusammen  gelebt?@senior_priest: Dämonen und Menschen wurden von einander entsprechend ihren Kräften getrennt. {Sie waren keine getrennten Körper.@hero: Die Kräfte waren einst in einem Körper, sind aber jetzt getrennt.@senior_priest: Dies liegt alles hinter uns. {Alles, was wir als Menschen tun können, ist, uns durch Güte führen lassen und gute Dinge zu wünschen und zu genießen.@eye: Auch Menschen müssen sich mit der Finsternis auseinander setzen! {Man muss die dunkle Seite sehen, um Fortschritte zu erkennen {Wer wird Eier auf Menschen werfen, die einen Pelz tragen und den Armen helfen?@senior_priest: Halt mit diesem Unsinn!";
+"local_episodetalk24"="@blank: Episode 24. Gottes Offenbarung@eye: Also, bevor der Underlord weggeschlossen wurde, waren die Menschen eins. {Dann wurden sie, nach ihren Kräften in Engel, Sterbliche, Feen, Elfen und Dämonen unterteilt. @hero: Und jetzt, dass Gott weiß dass der Underlord entkommen ist, wird Gott versuchen, Ihn wieder einzusperren.@eye: Was wirst du jetzt machen?@hero: Ich weiß… nicht. {Für wen soll ich denn kämpfen…?@eye: Gah!@eye_white: …@hero: Aha...dein Augapfel ist jetzt weiß!@eye_white: … Ich bin… Gott…@hero: Gott? Der Augapfel ist Gott?@eye_white: Gott hat sich kurz wie dieser Augapfel manifestiert. Es ist hässlich, aber vertraue mir. {Ich spreche nun zu den Wesen einer anderen Dimension, die dem Underlord helfen. {Wenn du die Dämonen, die du bisher gesammelt hast freigibst und verschwindest, verschone ich dein Leben.@hero: Lügner! Was kannst denn du gegen ein Wesen außerhalb unserer Dimension ausrichten?@eye_white: In-App Rabatte! Edelsteine! {Dein Namen im Nachspann für besonderen Dank!@hero: Aber das sind alles gute  Dinge! {Underlord! Nicht verlieren! Du kannst das nicht verlieren!@eye_white: Ich habe dich trotzdem gewarnt. {Meine stärkste Armee wird in diesen Kerker hinabsteigen. {Wir werden sehen, wie hoch deine Schande steigen wird!@eye: (Unentschieden!) {Urrrrgh… Ich komme zurück…@hero: Hey! Alles in Ordnung? Gott war in deinem Körper!@eye: Ugh… Ich könnte einige Gedanken Gottes lesen.@hero: Was? Deine Gedanken wurden verknüpft während dein Geist gesteuert wurde? {Ich glaube, ich habe das in einem Film gesehen…@eye: Irgendwie. Im ´Tempel des Lichtes befindet sich eine Autobiografie von Gott. {Die Vergangenheit des Underlords kann man im Buch nachlesen.@hero: Ich hole mir es!@merchant: Musst du nicht. Ich habe es vorrätig.@eye: Gah!!@merchant: 50.000 in Gold, bitte.";
+"local_episodetalk25"="@blank: Episode 25. Autobiographie von Gott{Am Anfang war ich alleine.{Ich wollte eine Emotion, die kostbar und wahr ist.{ Also kreierte ich eine Persönlichkeit, die anders als sich war. Die Geburtsstunde des Underlords.{Wir haben viel Zeit miteinander verbracht, hatte Dinge kreiert und hatten Spaß.{ Die Kreationen, die die Mächte der Finsternis beteten nur der Underlord an.{Ich war eifersüchtig. Ich begann den Underlord und seine Schergen zu hassen. {Der Underlord weigerte sich, die Kreationen, die Finsternis beinhalteten zu zerstören. {Also habe ich das Gedächtnis des Underlords gelöscht, trennte die Kräfte zwischen den Kreationen und eliminierte die Finsternis. {Und die Getrennten nennt man noch heute Dämonen. ";
+"local_episodetalk26"="@blank: Episode 26. Das Urteil beginnt@eye: Das Geheimnis ist gelüftet. {Der Underlord versucht unser Aussterben zu verhindern … {Gott hat es verhindert. {Gott versucht immer noch, die Dämonen zu töten. @hero: Konfrontation ist unvermeidlich. @angel: Marionetten des Underlords! {Man wird dir nie verzeihen! {Hier kommen die Mächte des Lichtes!@hero: Die Engel greifen an!@senior_priest: Die Engel haben astronomsche Kräfte. {Bereite dich vor, dein Schicksal zu treffen, Underlord.@eye: Sieg im Land des Kerker-Lichts wird hart erkämpft werden müssen {Wir tun unser Bestes!@hero: Hey Augapfel, Ich möchte mit dir kämpfen!@eye: Huh? {Ein Ritter, der auf unserer Seite kämpft?@hero: Jawohl! {Rufe mit meinen Edelsteinen noch mehr Dämonen herbei!@eye: Aber was passiert mit dir?@hero: Mein Quest ist nicht mehr wichtig.@angel: Ein Mensch an der Seite der Dämonen… {Unverzeihlich! Stirb!@hero: Arg!! Ich… sterben… (plop)@eye: Igit! Der Ritter ist gestorben. Sie unwahr aus, ist aber wahr. {Er ist für die Dämonen gestorben…";
+"local_episodetalk27"="@blank: Episode 27. Abschluss @warrior: Töten des Underlords ist die letzte Quest. {Ich glaube nicht, dass der Ritter noch bei seiner Quest ist.{Weniger Konkurrenz für mich! Hehe. @angel: Für deine edle Arbeit schenkt Gotte dir seinen Segen. @warrior: Gottes Segen? @angel: Das ist richtig. {Für dich ist es das Ende. {Sag ade zu deine Fee.@angel: Ich werde aus die eine vollständige Kreatur machen. {Eine Art Kreatur wie sie einst war, bevor Menschen und Dämonen getrennt wurden. {Ein Dämonen-Schwertkämpfer. {Dämonen-Schwertkämpfer! @warrior: Dämon… Dämonen-Schwertkämpfer! Ooh!@eye: Er wird noch unerträglicher sein.@knight: … Äh… was gibt es neues über mich?@angel: … Dein Level wird etwas erhöht.@knight: … Ich glaube ich habe ein schlechtes Geschäft gemacht.@angel: Trotzdem! Auf, zum Kerker!";
+"local_episodetalk28"="@blank: Epilog@eye: Meister, gute Arbeit! {Du hast viele der Feinde zerstört und auf dieser Ebene der Schande wird Gott dich als eine Macht, die anerkennt werden muss, betrachten. @king: Glückwunsch! {Gute Arbeit beim Lesen der Lektüre. @senior_priest: Ungh! Wer hätte gedacht, dass die Befreiung der Welt der Finsternis so schwer sein würde .@hero: Hey Aufapfel! Na, wie geht`s?@eye: Igit!! Ich dachte du bist tot, Ritter!@hero: Hehe… Ich habe gerade etwas unglaubliches entdeckt.@hero: Ich bin ein Ritter einer anderen Dimension. {Es gibt mehr als einen Gott und einen Underlord.@eye: ?@hero: Als die Finsternis von der anderen Macht getrennt wurde, wurden der Underlord und seine Dämonen in verschiedene Fragmente zerschmettert. {Deswegen haben Krieger, Dämonen und die Underlords verschiedene Erscheinungsformen.@eye: Es gibt verschiedene Masters?!@hero: Die Kriege des Underlords, die in verschiedenen Dimensionen begannen wurde stärker, wenn sie an einem Ort vereint waren. {Jeder Underlord kann seinen Fortschritt auf einem Leaderboard mit anderen Underlords vergleichen.@eye: Wau… unendlich Kompetition!@hero: Die Herausforderung des Underlords beginnt jetzt! {Ich werde nie aufhören, mein eigenes Niveau anzuheben! @eye: So, fahre hin. {Es fühlt sich komisch an, dass es verschiedene Versionen von mir gibt. {Aber was soll`s. Ich hoffe der Master macht es weiterhin in seiner Dimension gut, um die Nummer eins in der Underlord-Existenz zu werden !@blank: DAS ENDE";
+"local_episodetalk29"="@blank: Anfang der Dämonenkriege @sword_cat: Das Zeitalter der Finsternis ist gekommen. {Das Erschreckende ist ... die Underlords halten sich gegenseitig in Schach.@eye: Was bedeutet das? @sword_cat: Underlords anderer Dimensionen schicken von Zeit zu Zeit Monster. {Monster können in den Kerker hineinstürmen.@eye: Ein Krieg zwischen den Dämonen.@sword_cat: Damit du es weißt, Monster können nach dem Zufallsprinzip eintreten.@succubus: Rette mich, sexy Kätzchen-Schwertmann!@sword_cat: Igit! Ich bin dann mal weg!";
+
+
+
+
+// Heroes, when they enter the dungeon
+"local_minitalkenter01"="Meine Güte, viel Staub?";
+"local_minitalkenter02"="Auf geht's!";
+"local_minitalkenter03"="Sieht jemand eine Schatztruhe?";
+"local_minitalkenter04"="Gott des Lichts, hilf mir!";
+"local_minitalkenter05"="Iss mein Schwert!";
+"local_minitalkenter06"="Heute Abendessen in der Hölle!";
+"local_minitalkenter07"="Hat jemand einen gut Aussehenden gerufen?";
+"local_minitalkenter08"="Töte den Boss, heirate die Prinzessin!";
+"local_minitalkenter09"="Mein legendäres Schwert hat keine Freunde!";
+"local_minitalkenter10"="Hey Underlord! Friss meine Levels!";
+"local_minitalkenter11"="Mein Schwert durchbohrt den Himmel!";
+"local_minitalkenter12"="Der Kerker ist tief ... und so schön!";
+"local_minitalkenter13"="Dieser Ort ist erledigt, ich bin weg";
+"local_minitalkenter14"="Na, hallo, du großes, starkes Etwas";
+"local_minitalkenter15"="Nee, Knochen, brauchst du welche?";
+// Heroes, when they walk the dungeon
+"local_minitalkcrossroad01"="Nach links, nach links… oder nicht";
+"local_minitalkcrossroad02"="Ich habe ein schlechtes Gefühl dabei …";
+"local_minitalkcrossroad03"="Gute Schwingungen kommen von hier";
+"local_minitalkcrossroad04"="Riecht nach Blut…";
+"local_minitalkcrossroad05"="Ich wähle diese Seite!";
+"local_minitalkcrossroad06"="Alle mir nach!";
+"local_minitalkcrossroad07"="Wo immer ich hingehe, Tot den Monster!";
+"local_minitalkcrossroad08"="Hey! Drängle nicht!";
+"local_minitalkcrossroad09"="Egal, keine Sorge!";
+"local_minitalkcrossroad10"="Wenn in Rom…";
+"local_minitalkcrossroad11"="Spüre Dämonenschwingungen…!";
+"local_minitalkcrossroad12"="Jede Entscheidung hat eine Konsequenz";
+"local_minitalkcrossroad13"="Es gibt immer einen Weg!";
+"local_minitalkcrossroad14"="Nein, nach rechts! Links ist die Antwort!";
+"local_minitalkcrossroad15"="Nee. Brauche ich einen Grund?";
+// Heroes, when they are waiting battle
+"local_minitalkwaitting01"="Auf, los!";
+"local_minitalkwaitting02"="Wo brennt`s?";
+"local_minitalkwaitting03"="Jep! Direkt in die Fresse!";
+"local_minitalkwaitting04"="Das wird ein Zeichen setzen";
+"local_minitalkwaitting05"="Lass mir etwas übrig!";
+"local_minitalkwaitting06"="Teures Schwert hast du da";
+"local_minitalkwaitting07"="Wo ist hier die Toilette?";
+"local_minitalkwaitting08"="Idioten!";
+"local_minitalkwaitting09"="Beweg dich!";
+"local_minitalkwaitting10"="Nicht sterben! Denk an deine Mutter!";
+"local_minitalkwaitting11"="Zeit ist Gold, mein Freund!";
+"local_minitalkwaitting12"="Du bist schon tot.";
+"local_minitalkwaitting13"="Kerker sind unterhaltsam.";
+"local_minitalkwaitting14"="Überlasse das Töten mir!";
+"local_minitalkwaitting15"="Ob es zu spät zum Wegrennen ist";
+// heroes, when they fight with monster
+"local_minitalkbattle01"="Du Unhold!";
+"local_minitalkbattle02"="Stirb, Monster!";
+"local_minitalkbattle03"="Das hier ist für Mama!";
+"local_minitalkbattle04"="Au! Das tut weh!";
+"local_minitalkbattle05"="Oh nein! Mein Schwert ist stumpf…";
+"local_minitalkbattle06"="Wir! Verlieren! Nicht!";
+"local_minitalkbattle07"="Mein Level wird bald steigen!";
+"local_minitalkbattle08"="Nun, das war nicht so schlecht?";
+"local_minitalkbattle09"="Es war ein starkes Monster. Was für eine Vergeudung.";
+"local_minitalkbattle10"="Nein! Vielleicht sterbe ich…";
+"local_minitalkbattle11"="Ein Rudel, das zusammen jagt, überlebt zusammen!";
+"local_minitalkbattle12"="Habe ich die Katze gefüttert, bevor ich ging?";
+"local_minitalkbattle13"="Ich habe erst angefangen zu kämpfen!";
+"local_minitalkbattle14"="Die Sache mit meinem Schwertkampf ist… ah! Aaaah!!";
+"local_minitalkbattle15"="Du stirbst… jetzt!";
+// heroes, when they won
+"local_minitalkwin01"="Gewonnen! Dämliche Monster!";
+"local_minitalkwin02"="Der Tag des Sieges lebt in der Geschichte weiter!";
+"local_minitalkwin03"="Waow! Waow! Waow!";
+"local_minitalkwin04"="Abendessen zu Hause.";
+"local_minitalkwin05"="Hat jemand neue Gegenstände erhalten?";
+"local_minitalkwin06"="Wow… Ich habe überlebt.";
+"local_minitalkwin07"="Dieser Kerker ist irgendwie doof.";
+"local_minitalkwin08"="Das war knapp";
+"local_minitalkwin09"="Quantität zieht…";
+"local_minitalkwin10"="Ich komme zurück!";
+"local_minitalkwin11"="Es gibt ein Morgen!";
+"local_minitalkwin12"="Sieg oder Tot!";
+"local_minitalkwin13"="Zurück zu meiner Frau, die zu Hause wartet";
+"local_minitalkwin14"="Bis bald!";
+"local_minitalkwin15"="Wen juckt das Gold? Es ist die Botschaft, die zählt.";
+// heroes, when they lost the battle
+"local_minitalkdie01"="Ich… sterbe…";
+"local_minitalkdie02"="Schade, so nah vor dem nächsten Level…";
+"local_minitalkdie03"="Könnte ich mich nur an meinen Zaubertrank erinnern!";
+"local_minitalkdie04"="Das tut weh…";
+"local_minitalkdie05"="Das Level war eine Nummer zu groß!";
+"local_minitalkdie06"="So… weiter kämpfen…";
+"local_minitalkdie07"="Die Wunde ist zu tief…";
+"local_minitalkdie08"="Menschen… werden triumphieren…";
+"local_minitalkdie09"="Aah! Das brennt!";
+"local_minitalkdie10"="Ich vermisse meine Mama!";
+"local_minitalkdie11"="Ach du liebe Zeit!";
+"local_minitalkdie12"="Die Nacht ist dunkel und voller Schrecken";
+"local_minitalkdie13"="Unsere Familie bezahlt dafür…!";
+"local_minitalkdie14"="Der Winter kommt";
+"local_minitalkdie15"="Alle Schulden sind bezahlt ...";
+
+// Eyeball, when monster lost the battle (at the result popup)
+"local_minitalklost01"="Gier zahlt sich nicht aus";
+"local_minitalklost02"="Kann der Boss sich nicht konzentrieren?";
+"local_minitalklost03"="Konzentriere dich auf diesen Kerker";
+"local_minitalklost04"="Es ist OK. Du gewinnst das nächste Mal";
+"local_minitalklost05"="Wir werden das dreifache zurückgeben…";
+"local_minitalklost06"="Verdammte Krieger!";
+"local_minitalklost07"="Für die Ehre der Dämonenwelt!";
+"local_minitalklost08"="Die Krieger sind in einem Rausch";
+"local_minitalklost09"="Bestrafe mich, Meister!";
+"local_minitalklost10"="Du hast Pech";
+"local_minitalklost11"="Möge das Glück mit euch sein, Meister!";
+"local_minitalklost12"="Schau mich an, mein inneres Monster ist gewachsen!";
+"local_minitalklost13"="Niederlage ist die Mutter der Rache";
+"local_minitalklost14"="Freche Dämonen müssen bestraft werden";
+"local_minitalklost15"="Da gab es einen ärgerlichen Kerl";
+
+// Normal monster, when they are summoned.
+"local_minitalksummonlow01"="Ich bin nicht groß, aber ich werde dir helfen";
+"local_minitalksummonlow02"="Gerne gebe ich mein einziges Leben";
+"local_minitalksummonlow03"="Menschen… sind ätzend";
+"local_minitalksummonlow04"="Krieger Fleisch ist lecker";
+"local_minitalksummonlow05"="Dieser Kampf wird nicht umsonst gewesen sein!";
+"local_minitalksummonlow06"="Blut ... gib mir Blut!";
+"local_minitalksummonlow07"="Schluck, Elfe.";
+"local_minitalksummonlow08"="Ich beherzige deinen Ruf.";
+"local_minitalksummonlow09"="Dunkelheit der Menschheit!";
+"local_minitalksummonlow10"="Seit langen keine Luft!";
+"local_minitalksummonlow11"="Ich war schon lange nicht mehr in diesem Kerker";
+"local_minitalksummonlow12"="Ich werde mindestens drei Krieger töten!";
+"local_minitalksummonlow13"="Wenn ich sterbe, möchte ich im Kampf sterben!";
+"local_minitalksummonlow14"="Oh, je! Ob ich gewinne?";
+"local_minitalksummonlow15"="Werde ich?";
+
+
+// Superior monster, when they are summoned.
+"local_minitalksummonhigh01"="Brauchst du meine Hilfe, mein Herr.";
+"local_minitalksummonhigh02"="Ich werde ein wenig helfen, und weg bin ich";
+"local_minitalksummonhigh03"="Dude, I war gerade auf dem WC!";
+"local_minitalksummonhigh04"="Was für ein Glück für dich, dass du mich gewählt hast";
+"local_minitalksummonhigh05"="Dein Level ist das gleiche wie das eines Einweg-Monsters";
+"local_minitalksummonhigh06"="Menschen… schlecht… du… Ich helfe…";
+"local_minitalksummonhigh07"="Du hast Mut, mich anzurufen!";
+"local_minitalksummonhigh08"="Wenn wir uns mehr aneinander gewöhnt, werden wir Freunde";
+"local_minitalksummonhigh09"="Ich frage mich, wie die heutigen Krieger schmecken?";
+"local_minitalksummonhigh10"="Können wir meinen Vertrag später diskutieren? Danke";
+"local_minitalksummonhigh11"="Je höher der Bekanntheitsgrad, desto stärker werde ich";
+"local_minitalksummonhigh12"="Das genügt";
+"local_minitalksummonhigh13"="Was soll`s, hab heute nichts anderes geplant";
+"local_minitalksummonhigh14"="Tod den Menschen ...";
+"local_minitalksummonhigh15"="Sicher? Deine Levels sind niedrig";
+
+
+// system texts please, Don't delete codes. %d means numbers. \n means enter key.
+
+"local_popupalreadyclear"="Dies ist ein Tutoriell-Kerker.";
+"local_popupneedlevel"="Du kannst diesen Kerker nur vom Schand-Level aus betreten. %d.";
+"local_popuphealallmonster"="Das HP aller Monster im Kerker wird wieder hergestellt.";
+"local_popupemptypotion"="Nicht genug Zaubertrank. Möchtest du welchen kaufen?";
+"local_popupbought"="Gekauft.";
+"local_popupcannotbuy"="Nicht genug Edelsteine.";
+"local_popupnhnpriceerror"="";
+"local_popupslotcountiszero"="Nicht genug Spins. \nMöchtest du welche kaufen?";
+"local_popupnomoreenhance"="Kann nicht verstärkt werden.";
+"local_popupnotenoughmoney"="Nicht genug Gold.";
+"local_popupnotenoughpotion"="Nicht genug Zaubertrank.";
+"local_popupnotenoughgem"="Nicht genug Edelsteine. \nMöchtest du welche kaufen?";
+"local_popupnotenoughspin"="Nicht genug Spins.";
+"local_popupcannotsummon"="Positionieren nur nachdem der Kampf beendet ist.";
+"local_popupcostover"="Zu viele gute Monster, nicht genug Team-Kosten.";
+"local_popupcostzero"="Der Kampf kann nicht ohne ein Monster auf dem Deck beginnen.\nPlatziere deine Monster.";
+"local_popupasksell"="Möchtest du es für Gold umtauschen?\n(%d)";
+"local_popupbossroomisempty"="Der Kampf kann nicht ohne ein Monster im Boss-Raum beginnen.\nPlatziere deine Monster.";
+"local_popupstageexitnotice"="Im Kampf auf die Weltkarte gehen bedeutet Niederlage.";
+"local_popupinvenisfull"="Deine  Monster-Box ist voll.";
+"local_popupusingmonster"="Dieses Monster wird benutzt.";
+"local_popupgetreward"="Du hast eine Belohnung erhalten.";
+"local_popupcompletebonus"="Du hast Magie gesammelt! Du hast Edelsteine erhalten.";
+
+// episode names
+"local_episodetitle00"="Prolog";
+"local_episodetitle01"="Ein Ritter entdeckt den Kerker";
+"local_episodetitle02"="Was ist ein Ritter";
+"local_episodetitle03"="Kitty Swordsman";
+"local_episodetitle04"="Schnittstelle des Ritters";
+"local_episodetitle05"="Eine Beziehung aufbauen";
+"local_episodetitle06"="Geheimnis des Boss-Monsters";
+"local_episodetitle07"="Hauptquest";
+"local_episodetitle08"="Schlüssel zum Lösen des Quests";
+"local_episodetitle09"="Verständigung";
+"local_episodetitle10"="Abenteuer der Prinzessin";
+"local_episodetitle11"="Gemeinsamer Quest";
+"local_episodetitle12"="Vergangenheit des Underlords";
+"local_episodetitle13"="Die mächtige Konkurrenz des Ritters";
+"local_episodetitle14"="Die Getreuen des Underlords";
+"local_episodetitle15"="Die Krieger-Anfrage";
+"local_episodetitle16"="Legendäre Gegenstände";
+"local_episodetitle17"="Die verschwundene Macht";
+"local_episodetitle18"="Die Hexen stehen auf der Seite von Underlord";
+"local_episodetitle19"="Vergangenheit des Underlords (2)";
+"local_episodetitle20"="Nicht erledigte Monster";
+"local_episodetitle21"="Androhung Gottes";
+"local_episodetitle22"="Zweck des Priesters";
+"local_episodetitle23"="Der Underlord und Gott";
+"local_episodetitle24"="Gottes Offenbarung";
+"local_episodetitle25"="Autobiographie von Gott";
+"local_episodetitle26"="Das Urteil beginnt";
+"local_episodetitle27"="Abschluss";
+"local_episodetitle28"="Epilog";
+
+// store menu
+"local_uigemtitle"="Goblin-Truhe";
+"local_uislottitle"="Spin-Ladegerät";
+"local_uislotdes"="Spins von der Macht der Finsternis gefüllt";
+"local_uipotiontitle"="Succubus Fallenkarte-Shop";
+"local_uiPotiondes"="Sieh, was mit einer Fallenkarte passiert.";
+// result UI
+"local_uibattleresultgetmoney"="Pokal erworben!";
+"local_uibattleresultgetmobexp"="Kampf-EXP erhöht!";
+"local_uibattleresultgetlevelbonus"="LV-Bonus erworben!";
+"local_uibattleresultgetexplose"="Schande bleibt gleich, weil das Monster bei der Verteidigung gescheitert ist.";
+"local_uibattleresultgetexplose2"="Wenn dieser Kerker zu schwierig ist, versuche Gold in einem bereits gelösten Kerker zu sammeln.";
+"local_uibattleresultgetexpwin"="Schande stiegt!";
+// strengthen UI
+"local_uienhancedes"="Wähle Materialmonster";
+"local_uienhancelvdes"="Nach LV";
+"local_uienhancepricedes"="Gold";
+"local_uienhanceselectdes"="Gewählt";
+
+"local_levelupeventlevel"="Schande-Level Up-Bonus";
+"local_levelupeventdungeon"="Gut!\nDie Leute in dieser Region \n haben sich der Finsternis gebeugt.";
+// menu title
+"local_gotchatitle"="Monster herbeirufen";
+"local_inventitle"="Monster-Box";
+"local_equipmonster"="Monster-\nAttachment";
+
+"local_summonmonsterdes"="Wähle ein Monster.";
+"local_summonmonstercarddes"="Wähle einen Raum, um Monster zu platzieren.";
+
+
+// heroes, when they are walking around dungeon.
+"local_readytalk01"="Meine Güte, viel Staub?";
+"local_readytalk02"="Auf geht's!";
+"local_readytalk03"="Sieht jemand eine Schatztruhe?";
+"local_readytalk04"="Gott des Lichts, hilf mir!";
+"local_readytalk05"="Iss mein Schwert!";
+"local_readytalk06"="Heute Abendessen in der Hölle!";
+"local_readytalk07"="Hat jemand einen gut Aussehenden gerufen?";
+"local_readytalk08"="Töte den Boss, heirate die Prinzessin!";
+"local_readytalk09"="Mein legendäres Schwert hat keine Freunde!";
+"local_readytalk10"="Hey Underlord! Friss meine Levels!";
+"local_readytalk11"="Mein Schwert durchbohrt den Himmel!";
+"local_readytalk12"="Der Kerker ist tief ... und so schön!";
+"local_readytalk13"="Na, hallo, du großes, starkes Etwas";
+"local_readytalk14"="Nee, Knochen, brauchst du welche?";
+"local_readytalk15"="Ich habe ein schlechtes Gefühl dabei …";
+"local_readytalk16"="Gute Schwingungen kommen von hier";
+"local_readytalk17"="Riecht nach Blut…";
+"local_readytalk18"="Ich wähle diese Seite!";
+"local_readytalk19"="Alle mir nach!";
+"local_readytalk20"="Wo immer ich hingehe, Tot den Monster!";
+"local_readytalk21"="Hey! Drängle nicht!";
+"local_readytalk22"="Egal, keine Sorge!";
+"local_readytalk23"="Das ist mein Reich komme";
+"local_readytalk24"="Spüre Dämonenschwingungen…!";
+"local_readytalk25"="Jede Entscheidung hat eine Konsequenz";
+"local_readytalk26"="Es gibt immer einen Weg!";
+"local_readytalk27"="Nein, nach rechts! Links ist die Antwort!";
+"local_readytalk28"="Nee. Brauche ich einen Grund?";
+"local_readytalk29"="Wo brennt`s?";
+"local_readytalk30"="Jep! Direkt in die Fresse!";
+"local_readytalk31"="Teures Schwert hast du da";
+"local_readytalk32"="Wo ist hier die Toilette?";
+"local_readytalk33"="Zeit ist Gold, mein Freund!";
+"local_readytalk34"="Du bist schon tot.";
+"local_readytalk35"="Kerker sind unterhaltsam.";
+"local_readytalk36"="Überlasse das Töten mir!";
+"local_readytalk37"="Ob es zu spät zum Wegrennen ist";
+"local_readytalk38"="Du Unhold!";
+"local_readytalk39"="Oh nein! Mein Schwert ist stumpf…";
+"local_readytalk40"="Wir! Verlieren! Nicht!";
+"local_readytalk41"="Mein Level wird bald steigen!";
+"local_readytalk42"="Ein Rudel, das zusammen jagt, überlebt zusammen!";
+"local_readytalk43"="Habe ich die Katze gefüttert, bevor ich ging?";
+"local_readytalk44"="Ich habe erst angefangen zu kämpfen!";
+"local_readytalk45"="Die Sache mit meinem Schwertkampf ist… ah! Aaaah!!";
+"local_readytalk46"="Du stirbst… jetzt!";
+"local_readytalk47"="Waow! Waow! Waow!";
+"local_readytalk48"="Hat jemand neue Gegenstände erhalten?";
+"local_readytalk49"="Wow… Ich habe überlebt.";
+"local_readytalk50"="Dieser Kerker ist irgendwie doof.";
+"local_readytalk51"="Das war knapp";
+"local_readytalk52"="Quantität zieht…";
+"local_readytalk53"="Ich komme zurück!";
+"local_readytalk54"="Es gibt ein Morgen!";
+"local_readytalk55"="Sieg oder Tot!";
+"local_readytalk56"="Zurück zu meiner Frau, die zu Hause wartet";
+"local_readytalk57"="Bis bald!";
+"local_readytalk58"="Wen juckt das Gold? Es ist die Botschaft, die zählt.";
+"local_readytalk59"="Schade, so nah vor dem nächsten Level…";
+"local_readytalk60"="Könnte ich mich nur an meinen Zaubertrank erinnern!";
+"local_readytalk61"="Das Level war eine Nummer zu groß!";
+"local_readytalk62"="Menschen… werden triumphieren…";
+"local_readytalk63"="Ach du liebe Zeit!";
+"local_readytalk64"="Die Nacht ist dunkel und voller Schrecken";
+"local_readytalk65"="Unsere Familie bezahlt dafür…!";
+"local_readytalk66"="Der Winter kommt";
+"local_readytalk67"="Alle Schulden sind bezahlt ...";
+
+
+"local_yes"="Ja";
+"local_no"="Nein";
+"local_ok"="Ok";
+"local_cancel"="Abbrechen";
+
+"local_networkdisconnected"="Netzwerk getrennt";
+"local_networkdisconnecteddes"="Das Gerät ist nicht mit dem Netzwerk verbunden";
+"local_waitaminute"="Warte eine Minute ...";
+"local_networkretry"="Das Netzwerk ist nicht stabil.\nErneut versuchen?";
+"local_couldnotgoshop"="Kaufen nur nachdem der Kampf beendet ist.";
+
+// Eyeball monster, when he's idle. He talks very much.
+"local_tips01"="Sei vorsichtig, denn es sind noch mehr mächtiger Krieger.";
+"local_tips02"="Platziere starke Monster als die Helden, wenn du eine effektive Verteidigung möchtest!";
+"local_tips03"="Unklar was du bekommst, ist aber Teil des Vergnügens.";
+"local_tips04"="Da du genügend Gold hast, wähle ein Monster.";
+"local_tips05"="Gewählte Monsterkarten sind in der Monster-Box.";
+"local_tips06"="Gier zahlt sich nicht aus";
+"local_tips07"="Ich glaube du solltest dich auf diesen Kerker konzentrieren";
+"local_tips08"="Verdammte Krieger!";
+"local_tips09"="Die Krieger sind in einem Rausch";
+"local_tips10"="Schau mich an, mein inneres Monster ist gewachsen!";
+"local_tips11"="Sei siegreich in der Schlacht, sammle Monster, und erhöhe deine Schande!";
+"local_tips12"="Gewinne so viele Kämpfe wie möglich durch herbeirufen von Kriegern.";
+"local_tips13"="Sammle Gold und rufe Monster herbei oder stärke sie.";
+"local_tips14"="Durch Siegen erhöhst du deine Schande.";
+"local_tips15"="Es ist, wo sich meine Dämonen verstecken.";
+"local_tips16"="Willkommen im extremen Kerker! Sei teuflisch!";
+"local_tips17"="O Meister! Dämonen haben dieses Land längst aufgegeben!";
+"local_tips18"="Suche das Geheimnis der verschwundenen Kräfte.";
+"local_tips19"="Wende den Dämonen-Spin, so dass die Finsternis im Land des Lichtes zurückkehrt.";
+"local_tips20"="Rufe und stärke Monster mit Gold und Edelsteinen!";
+"local_tips21"="Sieh zu, wie die lästigen Ritter verbluten!";
+"local_tips22"="Wende den Dämonen-Spin an, und bringe Ritter in den Kerker.";
+"local_tips23"="Deine Schande steigt nur, wenn das Monster im Boss-Raum gewinnt.";
+"local_tips24"="Der letzte Krieg zwischen Licht und Dunkelheit! Nur du kannst ihn beenden!";
+"local_tips25"="Platziere starke Monster als die Helden, wenn du eine effektive Verteidigung möchtest!";
+"local_tips26"="Licht gewinnt über alle anderen Mächte.";
+
+"local_pleaselevelup"="Stärke mich!";
+
+"local_exitgametitle"="BEENDEN";
+"local_exitgamedes"="Möchtest du das Spiel beenden?";
+
+// push message, when user doesn't play the game for a while.
+"local_localnoticeday1"="Meister! Der letzte Krieg zwischen Licht und Dunkelheit! Nur du kannst ihn beenden!";
+"local_localnoticeday3"="Meister! Bitte auferstehen!";
+"local_localnoticeday7"="Meister! Dämonen haben dieses Land längst aufgegeben!";
+
+// Skill description
+"local_skilldescritical"="Kritische Attacke!!";
+"local_skilldesheal"="Monster HP wiederherstellen um %d";
+"local_skilldespoison"="Krieger verliert %d HP wenn er sich bewegt";
+"local_skilldesleech"="Absorbiert %d HP eines Kriegers";
+"local_skilldesinsight"="Zerstörung der Held-Attribute";
+"local_skilldesterror"="Verringert ATK eines Kriegers bei %.1f%%";
+"local_skilldeshorror"="Verringert DEF eines Kriegers bei %.1f%%";
+"local_skilldescurse"="Reduziert das Level um %d nach unten";
+
+
+
+"local_popupmvmpopup"="Die Welt kämpft für den Titel der Herrscher aller Magie.\nPrüfe heute dein Ranking.";
+
+// Daily quest list
+"local_dailyquestdes01"="Gewinne 5 Spiele";
+"local_dailyquestdes02"="Gewinne 10 Spiele";
+"local_dailyquestdes03"="Töte 5 FEUER-Attribut Helden";
+"local_dailyquestdes04"="Töte 5 WASSER-Attribut Helden";
+"local_dailyquestdes05"="Töte 5 BAUM-Attribut Helden";
+"local_dailyquestdes06"="Rufe 3 Monster herbei";
+"local_dailyquestdes07"="Rufe 2 Monster herbei";
+"local_dailyquestdes08"="Rufe ein Monster herbei";
+"local_dailyquestdes09"="Rufe ein Monster mit 3-Sternen herbei";
+"local_dailyquestdes10"="Rufe ein Monster mit 2-Sternen herbei";
+"local_dailyquestdes11"="Das Monster stärken und einen Level-Up";
+"local_dailyquestdes12"="Herausforderung Monster gegen Monster";
+
+// error messages
+"local_dberrorexit"="DB-Fehler";
+"local_dbdeviceerrorexit"="Geräte-Id Fehler";
+"local_dbchangeerrorexit"="Datenbankänderung erkannt.";
+"local_iapnotice"="Schließzwang während der Transaktion kann zu Fehlern führen";
+"local_noticenewversion"="Bitte auf die neueste Version aktualisieren.";
+
+"local_serverfileerror"="Doppelte Daten in anderen Geräten verwendet wurden.";
+"local_servernetworkretry"="Schwache Netzwerkverbindung.  Erneut versuchen?";
+"local_levelupcounterror"="Exp-Fehler;
+"local_serverfirstconnet"="Das erste Spiel erfordert Netzwerkverbindung.";
+
+"local_popupuiaskbuy"="Möchtest du wirklich herbeirufen?";
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+"local_adventuredaybonus01"="Bring mich nicht um.";
+ "local_adventuredaybonus02"="Ich habe ein Baby zu Hause.";
+ "local_adventuredaybonus03"="Bitte! Ich bin frisch verheiratet!";
+ "local_adventuredaybonus04"="Du wirst mich töten?";
+ "local_adventuredaybonus05"="Ich habe überhaupt keine Angst.";
+ "local_adventuredaybonus06"="Ugh! Schmuddeliger Dämon!";
+ "local_adventuredaybonus07"="Erspare mir das und Karma wird dich vielleicht belohnen!";
+ "local_adventuredaybonus08"="Ich werde nie wieder kommen!";
+ "local_adventuredaybonus09"="Sag mir, warum hast du mir das angetan?";
+ "local_adventuredaybonus10"="Ich wählte die falsche Gruppe! Verdammt!";
+ "local_adventuredaybonus11"="So kann ich nicht zurück in das Dorf gehen.";
+ "local_adventuredaybonus12"="Ich verliere nicht gegen die Finsternis!";
+
+ "local_adventuredaybonustitle"="Einen Krieger als Opfer wählen.";
+ "local_adventureinfo00"="Sammle Planeten durch das Töten von Monstern und sende Krieger in das Land der Abenteuer.";
+ "local_adventureinfo01"="Freue dich auf unerwartete Geschichten und Belohnungen.";
+ "local_adventuretip"="Platziere Monster, die am effektivsten gegen die heraneilenden Krieger kämpfen können.";
+
+ "local_adventureeventeye01"="Hey! Schön, dich zu treffen.";
+ "local_adventureeventeye02"="Sind meine Leute gut?";
+ "local_adventureeventeye03"="Hast du auf mich gewartet?";
+ "local_adventureeventeye04"="Du kannst sogar fettes Schwein zu mir sagen, wenn du willst, solange ich nur bei euch sein darf ...";
+ "local_adventureeventmeetmagicianfailed"="Oh nein ... du hast die Niete gezogen.";
+
+ "local_adventureeventmeetmagician"="Oh! Dämonen! Ich warte schon sehr lange.{Für den Moment, wenn der Teufel wieder aufersteht!{Alles fällt unter das Gesetz von Ursache und Wirkung.{Alles wird von der Finsternis verzehrt werden.";
+ "local_adventureeventmeetmagician01"="Aber was ist denn das für eine Schöpfung?{Ich dachte, der Dämon des King Monsters würde sich lohnen, und ist mindestens 3 oder 4 Sterne ...";
+ "local_adventureeventmeetmagician02"="Wann werden wir aufhören neugierig auf die andere Welt zu sein?{Ich hörte, dass sogar die Toten nicht aufhören können, darüber nachzudenken.{Ich hoffe es war auch für euch eine angenehme Reise ...";
+ "local_adventureeventmeetmagician03"="Die Sukkubus verursacht Schwierigkeiten, wenn ihre Lust nicht befriedigt wird.{Es ist gut, dass sie ein anderes Monster gefunden hat, mit dem sie sich paaren kann.";
+ "local_adventureeventmeetmagician04"="Wie süß! Auch kleine Monster kommen den ganzen Weg hierher ...{Ich bewundere langlebige Ausdauer.";
+ "local_adventureeventmeetmagician05"="Jedoch kurz oder zerbrechlich, aber auch ein Teil der Natur.{Ich bewundere den Wunsch der Tiere stärker zu werden, um sich vor Angriffen der Menschen zu schützen.";
+ "local_adventureeventmeetmagician06"="Diebe! Zerschmettere die Gier und Wünsche der Menschen!";
+ "local_adventureeventmeetmagician07"="Wann werden wir aufhören neugierig auf die andere Welt zu sein?{Ich hörte, dass sogar die Toten nicht aufhören können, darüber nachzudenken.{Ich hoffe es war auch für euch eine angenehme Reise ...";
+ "local_adventureeventmeetmagician08"="Wie süß! Auch kleine Monster kommen den ganzen Weg hierher ...{Ich bewundere langlebige Ausdauer.";
+ "local_adventureeventmeetmagician09"="Kreaturen mit Vorliebe zum Handwerk!{Cthulhu kommt in dieses Land zurück ... Dies ist das Ende der Welt.";
+ "local_adventureeventmeetmagician10"="Ist es Halloween? Diese Monster scheinen sehr vertraut ...{Ich kann dir nur dieses anstatt Süßigkeiten geben.";
+ "local_adventureeventmeetmagician11"="Bis du auf diese Reise nur gegangen, um EXP für Krieger zu erhalten?{Vergiss nicht Level-Up.";
+ "local_adventureeventmeetmagician12"="Wann werden wir aufhören neugierig auf die andere Welt zu sein?{Ich hörte, dass sogar die Toten nicht aufhören können, darüber nachzudenken.{Ich hoffe es war auch für euch eine angenehme Reise ...";
+ "local_adventureeventmeetmagician13"="Deine Schwert-Fähigkeiten sind so gut wie die der menschlichen Krieger.{Lösche ihren Mut und Stolz aus!";
+ "local_adventureeventmeetmagician14"="Die Prophezeiung, dass der letzte von uns Spaghetti mit Fleischbällchen essen muss, damit der Dämon Diablo aufersteht, wurde heute wahr.";
+ "local_adventureeventmeetmagician15"="Ich kam gerannt, als ich spürte, dass die Erde zittert und fand euch hier.{Ich gebe dir dies, damit du den Mund hältst?";
+ "local_adventureeventmeetmagician16"="Bist du die Schönheitskönigin der Hölle?{Ich glaube, ich weiß jetzt, was die Macht der bösen Mädchen ist.";
+ "local_adventureeventmeetmagician17"="Auf keinen Fall ... die beiden härtesten Drachen zu kontrollieren ist ein Abenteuer ...{Der Dämonenkönig ist diesmal wirklich etwas anderes.";
+ "local_adventureeventmeetmagician18"="Was ist es diesmal?{Diese seltenen bösen Geister auf einmal ... gerade wenn du denkst, dass du alles im Leben gesehen hast .....";
+ "local_adventureeventmeetmagician19"="Ich bin tief beeindruckt von der Tatsache, dass ich Zeuge solcher riesigen bösen Geister wie diese geworden bin!";
+ "local_adventureeventmeetmagician20"="Ich bin tief beeindruckt von der Tatsache, dass ich Zeuge solcher riesigen bösen Geister wie diese geworden bin!";
+ "local_adventureeventmeetmagician21"="Ich bin tief beeindruckt von der Tatsache, dass ich Zeuge solcher riesigen bösen Geister wie diese geworden bin!";
+ "local_adventureeventmeetmagician22"="Ich bin tief beeindruckt von der Tatsache, dass ich Zeuge solcher riesigen bösen Geister wie diese geworden bin!";
+ "local_adventureeventmeetmagician23"="Was ist es diesmal?{Diese seltenen bösen Geister auf einmal ... gerade wenn du denkst, dass du alles im Leben gesehen hast .....";
+ "local_adventureeventmeetmagician24"="Legendäre Tiere alle an einem Ort wie diesem ... heute muss mein Glückstag sein.";
+ "local_adventureeventmeetmagician25"="Das sind geheimnisvolle Monster.";
+ "local_adventureeventmeetmagician26"="Das sind geheimnisvolle Monster.";
+"local_adventureeventmeetmagician27"="Das sind geheimnisvolle Monster.";
+"local_adventureeventmeetmagician28"="Das sind geheimnisvolle Monster.";
+ "local_adventureeventmeetmagicianend"="Deswegen ... werde ich dir dein Glück preiswert voraussagen.{Von Edelsteinen zu speziellen Monster ... du weißt nicht, welche Belohnung du bekommst.";
+ "local_adventureeventmeetmagicianselect"="Soll ich dir dein Glück für %d Gold voraussagen?";
+ "local_adventureeventmeetmagicianno"="Eine Chance wie diese ... aber das Schicksal ist nicht klar, so werde ich dir dies geben.#get gold";
+ "local_adventureeventmeetmagicianok"="Hier wähle eine dieser 12 Karten.#show magician";
+
+ "local_teameffectdes01"="1-Stern-Monster ATK erhöht sich um 50%.";
+ "local_teameffectdes02"="Dunkle Monster-Arten, ATK erhöht sich um 10%";
+ "local_teameffectdes03"="3-Stern-Monster ATK erhöht sich um 10%.";
+ "local_teameffectdes04"="Gold-Akquisition um 10% erhöht";
+ "local_teameffectdes05"="3-Stern-Monster HP erhöht sich je um 1000.";
+ "local_teameffectdes06"="Wasser Monster-Arten ATK erhöht sich um 13%";
+ "local_teameffectdes07"="Feuer Monster-Arten ATK erhöht sich um 10%";
+ "local_teameffectdes08"="2-Stern-Monster ATK erhöht sich um 30%.";
+ "local_teameffectdes09"="3-Stern-Monster HP erhöht sich je um 1000.";
+ "local_teameffectdes10"="Holz Monster-Arten, ATK erhöht sich um 12%";
+ "local_teameffectdes11"="Alle Monster ATK erhöht sich um 15%.";
+ "local_teameffectdes12"="Dunkle Monster-Arten, ATK erhöht sich um 15%";
+ "local_teameffectdes13"="5-Stern-Monster ATK erhöht sich um 15%.";
+ "local_teameffectdes14"="4-Stern-Monster ATK erhöht sich um 20%.";
+ "local_teameffectdes15"="4-Stern-Monster ATK erhöht sich um 30%.";
+ "local_teameffectdes16"="4-Stern-Monster HP erhöht sich je um 2000.";
+ "local_teameffectdes17"="Dunkle Monster-Arten HP erhöht sich je um 5000.";
+ "local_teameffectdes18"="Alle Monster ATK erhöht sich um 20%.";
+ "local_teameffectdes19"="Alle Monster DEF erhöht sich um 50%.";
+ "local_teameffectdes20"="6-Stern-Monster HP erhöht sich je um 4000.";
+ "local_teameffectdes21"="5-Stern-Monster HP erhöht sich je um 3000.";
+ "local_teameffectdes22"="Feuer Monster HP erhöht sich je um 3000.";
+ "local_teameffectdes23"="Wasser Monster-Arten HP erhöht sich je um 3000.";
+ "local_teameffectdes24"="Holz Monster-Arten HP erhöht sich je um 3500.";
+ "local_teameffectdes25"="HP erhöht sich um 3000 bei Monstern unter Level 50.";
+ "local_teameffectdes26"="ATK erhöht sich um 20% bei Monstern unter Level 50.";
+"local_teameffectdes27"="5-Stern-Monster ATK erhöht sich um 30%.";
+"local_teameffectdes28"="5-Stern-Monster ATK erhöht sich um 30%.";
+
+ "local_teamtripinfotitle"="Abenteuer";
+
+ "local_coupon_error_01"="Dieser Gutschein kann nicht verwendet werden.";
+ "local_coupon_error_02"="Dieser Gutschein bereits verwendet.";
+ "local_coupon_error_03"="Dieser Gutschein Typ bereits verwendet.";
+ "local_coupon_error_04"="Dieser Gutschein ist abgelaufen.";
+ "local_coupon_success"="Coupon wurde erfolgreich angewendet.";
+ "local_purchase_error_01"="Versäumt, die Transaktion abzuschließen.";
+ "local_purchase_error_02"="Falsche Transaktionsinformationen.";
+
+ "local_popupnotenoughorb"="Nicht genug orb.";
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 

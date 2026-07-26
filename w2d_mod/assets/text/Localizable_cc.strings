@@ -1,0 +1,674 @@
+/* 
+  Localizable.strings
+  WelcomeD
+
+  Created by Administrator on 2014. 3. 26..
+
+*/
+
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="";
+"local_fontBold"="";
+
+"local_font"="font/BMHANNA.ttf";
+"local_tutorialtalk01"="@eye:這裡就是人間界。\n有一些地下城至今沒有受到魔力的影響。{只要從第一個地下城開始，按照順序擴張你的勢力。\n主公的戰績就是惡名度等級。";
+"local_tutorialtalk02"="@eye:先進到第一個地下城去看看。";
+"local_tutorialtalk03"="@eye:地下城小的可愛吧？{愈是惡名昭彰的地下城愈會有更多的人間勇士上門，不過這要花上太多時間...{今天先來試試魔界的力量。{就是那個在必要時召喚勇士的設備。";
+"local_tutorialtalk04"="@eye:時間久了就會有魔力累積，你可以使用這些魔力，拉下這個裝置，被選中的勇士就會進到地下城來。{現在，你可以放心的拉下";
+"local_tutorialtalk05"="@eye:人類從來就不會去想自己所做的過程，只懂得去問結果。@hero:我能感應到惡魔的邪氣！@eye:呵呵呵...這個勇士選的這條路，會有什麼命運等待著他呢？";
+"local_tutorialtalk06"="@eye:做得好！主公果然是站在黑暗這一邊。{不過還是要小心。偶爾也會有強悍的勇士上門。";
+"local_tutorialtalk07"="@eye:恭喜你！征服了地下城。{惡名持續上升，看來再也沒有人敢亂闖這個地下城了。\n去探探更大一些的地下城吧！";
+"local_tutorialtalk08"="@eye:新的地下城還滿意嗎？{現在你該試著重新配置怪獸了。\n第一個地下城的怪獸就像是樣品。\n保管箱裡沒有怪獸，先去抽些怪獸。{請在選單中選擇召喚怪獸。";
+"local_tutorialtalk09"="@eye:誰也無法預料轉蛋的結果會是哪個怪獸。\n這個過程緊張卻也有趣。\n輕易得手的是要支付獎勵的，這就是魔界的法則。{反正金幣也不少，就試一個吧！";
+"local_tutorialtalk10"="@eye:就是這傢伙了，經過強化鍛鍊也許會很有用的。{你應該看得出星星愈多的怪獸稀有度也高，會更有用哦。";
+"local_tutorialtalk11"="@eye:抽中的怪獸卡會放進保管箱內。{按下保管箱鈕查看。";
+"local_tutorialtalk12"="@eye:畫面左上角的星點數，就是可以把怪獸放進地下城的費用。\n惡名度上升，費用的上限也會上升。";
+"local_tutorialtalk13"="@eye:打造顯赫的戰績，召喚強悍的怪獸提升惡名度！\n這是主公在這世上的使命。{我先告辭，有需要時再叫我。\n送你 10000 代幣，抽出各種怪獸來，好好配置並開始戰鬥吧";
+
+"local_tutorialtalkbattle01"="@eye:最前排的勇士是火屬性。\n所以第一戰派出水屬性的怪獸會比較有利。{目前是手動戰鬥，所以可以任意安排順序。\n勇士既然是火屬性的，就選一個代表水屬性的藍色標識怪獸。";
+"local_tutorialtalkbattle02"="@eye:戰績顯赫的怪獸就有機會獲得「致命擊」來擊敗勇士，{快速按下技能鈕試一試。";
+"local_tutorialtalkbattle03"="@eye:所有的地下城裡都設有陷阱屋。\n假若持有陷阱卡牌就等著看它產生的效果吧。";
+
+//스킵 시도
+"local_tutorialtalkskip00"="@eye:唉...呀，主公！拜託別按暫停或打瞌睡，好好聽我的講解啦！！\n聽完還有金幣可以拿！聽一下下就好";
+"local_tutorialtalkskip01"="@eye:我以最快的速度把遊戲的重點講給你聽。{1) 在轉蛋召喚出的勇士戰鬥中，儘可能戰勝這些勇士們\n2) 收集金幣來召喚新的強悍怪獸或是強化怪獸\n3) 利用戰鬥來提升惡名度級別{以上就是主公在這世上的使命。{我先告辭，有需要時再叫我。";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트 시스템
+"local_talkeventsystemgetgold"="%d獲得金幣。";
+"local_talkeventsystemlosegold"="%d失去金幣。";
+"local_talkeventsystemlosegold2"="%d獲得金幣。";
+"local_talkeventsystemgetsuccubuscard"="獲得女妖卡牌。";
+"local_talkeventsystemmonsterlevelsup"="怪獸能力得到暫時性的強化。";
+"local_talkeventsystemmonsterlevelup"="怪獸們得到暫時性的強化。";
+"local_talkeventsystemherolevelsup"="地下城內勇士們的能力稍微上升。";
+"local_talkeventsystemherohpdown"="地下城內勇士們的 HP 值下降。";
+"local_talkeventsystemdealmonsterlevelup"="要使用金幣來進行怪獸的暫時性強化嗎？";
+"local_talkeventsystemdealgem"="要進行交易嗎？";
+"local_talkeventsystemgetgem"="獲得寶石 %d 個。";
+"local_talkeventsystemgetexp"="%d獲得金幣。";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트
+"local_talkeventswordcatenter"="@sword_cat:你好嗎~？(喵-喵)\n這就是那個鼎鼎有名的魔王地下城嗎？{我是托比貓勇士。{我有天生的才智和勇猛，深受師傅的疼愛，還學到高深的劍術。{我們村子有不少勇士來到這裡，我也順便來看看。{我不過是想來撿個銅板什麼的。\n千萬別生氣喵~";
+"local_talkeventswordcatlose"="@sword_cat:(天哪!!) 唉呀！{這是我身上所有的錢財\n千萬饒命啊~{(真可惜喵，我一定要苦練後重新挑戰喵！)#get gold";
+"local_talkeventswordcatwin"="@sword_cat:我只是想在地上撿個銅板而已..\n不過你手下的實力也並沒有傳聞那麼好。{金幣就不好意思啦..\n(喵喵喵)#lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(是-我)我~又來啦。\n上次真是失禮多多。{因為要養家餬口..\n我發誓今天就要撿到掉在地上的金幣~{(我才沒這麼傻！)";
+"local_talkeventswordcatenterwin"="@sword_cat:(喵-喵)大魔王，還記得我嗎？呼呼呼呼...\n今天也要取走一些金幣囉{(這個地下城該和上次的一樣差勁吧？呼呼..)";
+"local_talkeventmysterywoman"="@mystery_woman:…{一個人支身在外...\n不知他三餐能不能吃得飽..{只好背著我老公幫偷他一把。#monsters level up";
+"local_talkeventprincessenter"="@princess:...就是這裡！{我今天一定要參見大魔王成為他的怪獸！";
+"local_talkeventprincessexit"="@princess:咳啊啊啊啊！！";
+"local_talkeventprincesssuccess"="@princess:啊啊..終於！{見到大魔王了。{其實我是戰敗國的公主，\n我生存的唯一目標就是為我們王國的老百姓血恥報仇。{拜託！！\n求求你收留我，把我留在你身邊。#get succubus card";
+"local_talkeventkingenter"="@king:呵，躲開眾人的視線來到這裡，真是辛苦你了。{當你有朝一日支配整個魔界時，\n千萬要多關照我...{我收集了一些金弊。\n但願你的惡名度能日漸高漲。#get gold2";
+"local_talkeventkingafter"="@king:又來看你了，偉大的魔王。{請你多多關照啊。嘿嘿..#get gold2";
+"local_talkeventmerchantenter"="@merchant:你好嗎？大魔王。{我的名字是什麼都賣魔法商人。不論是人間界也好，是魔界也好，只要是有錢賺的地方就有我。{我可以讓你的怪獸在這次戰鬥中，個個等級都能升上一大截，只要 3000 金幣就好。要嗎？ #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:不喜歡就算了。\n反正還有一大堆勇士可以賣。";
+"local_talkeventmerchantaccpet"="@merchant:對這一次的戰鬥會有很大的幫助！\n那麼下次再見嘍。#monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:邪惡卑鄙的傢伙！\n總有一天，預言中的勇士會來審判你的！！{以眾神之名，\n退下吧！惡魔！！#hero levels up";
+"local_talkeventwitchesenter"="@witches:魔王♥原來在這裡呀！！{幸虧追著勇士來，不然見不到你了！\n呵呵呵{我給勇士們餵了毒藥~\n但願你這次的戰鬥能凱旋而歸♥#hero hp down";
+"local_talkeventfairiesenter"="@warrior:在這裡...應該隨便混一混就能升級吧？\n反正不是什麼主要任務區嘛。@fairy:聽說有幾個地下城已經成了魔王的地盤。{還是小心為妙。@warrior:嘿嘿，不在任務內的魔王...\n我才是主角呢！！";
+"local_talkeventwarriorlose"="@warrior:呵...怎麼會這樣..我不能在這種地方白白送死啊...@fairy:...我不是先警告過你嗎！{求他饒命吧{大魔王，千萬要手下留情。\n(兩個中的其中一個是獎勵，另一個是金幣)#deal gem";
+"local_talkeventwarriordie"="@fairy:果然是..\n和魔王是談不攏的...@warrior:啊啊啊啊，我不想死啊！！@fairy:...沒關係，回到村子再復活就好#get gold3";
+"local_talkeventwarrioralive"="@fairy:啊，謝謝你！！\n(快點離開這裡啦！)@warrior:哼...雖然可惜...\n(我一定要變強一些再回來)#get gem";
+"local_talkeventwarriorwin"="@warrior:啊哈！\n這也沒什麼嘛。{虧我不停地強化武器！{那麼我們下次再見了，魔王！@fairy:來，以後可是要專注在主要任務上哦！";
+"local_talkeventwarriorafter"="@warrior:這也是魔王的地下城嗎？不知魔王最近有沒有進步一些@fairy:別太任性哦！慎重再慎重！@warrior:咻，我不過是想砍光眼前所有的怪獸！";
+
+// ** 순서 꼭 지켜야함 ** //
+// 에피소드
+"local_episodetalk01"="@blank:插曲 1. 發現地下城的某個勇士@hero:原來那個傳言是真的，真有魔界的怪獸要復活了！{我得趕快回到村子裡，轉達這驚人的事實。@eye:呼哈！{主公的人氣度是愈來愈高了！@hero:喂，開始緊張了吧？";
+"local_episodetalk02"="@blank:插曲 2. 勇士的資質@hero:勇士也分好多種。{我雖然是剛入門的初學勇士，一但成為熟練勇士或王國勇士 {這種地下城就可以輕易過關了。@eye:喂？是 119 嗎？ {我想預約一台救護車。@hero:不要提前預約！！";
+"local_episodetalk03"="@blank:插曲 3. 貓咪劍俠@sword_cat:你好嗎？{我是戴帽子的貓。@hero:你不是一般的劍士呀？@sword_cat:聽說魔王的地下城愈來愈難闖了。{我想來看看傳言是不是真的，順便試試自己的實力。@hero:是嗎？不管你來做什麼，記得把便便埋深一點就好@eye:咦？？{便便要埋在哪裡呀？！！";
+"local_episodetalk04"="@blank:插曲 4. 勇士的界面@eye:歡迎你來到地下城。@hero:真糟糕。{連個首領也沒見到，就這樣空手回到村子，多沒面子啊。@eye:與其回家做個無業遊民，不如作個俘擄給怪獸當材料如何？@hero:喂，你要重返存檔呀。@eye:這...不太好吧？";
+"local_episodetalk05"="@blank:插曲 5. 關係形成@hero:喂，眼球怪物！{今天也在觀察勇士嗎？@eye:別來討好我。{我可不想和即將死亡的勇士搞什麼社交活動，形成任何的關係。@hero:是嗎？{我可是每次都是大難不死呢。{你也放鬆點，別每天過的緊張兮兮的。@eye:這樣吧，勇士。我出個謎語給你。{'勇士和北歐海盜和精靈三人一起闖進地下城，後來只有精靈死了，你猜為什麼？'@hero:...精靈的等級太低了？@eye:嘿嘿..答案是 '精靈最先闖入'。{地下城的運作就是這樣。{被選作第一排的肯定最先送死的。{想好要站哪一排啦。@hero:竟然會聽到怪獸的忠告，\n讓我有點毛骨悚然。@eye:哼..話雖這樣，但也不代表每次都給你排第 3 排。{我看還是回到原來的關係去好了。";
+"local_episodetalk06"="@blank:插曲 6. 首領怪獸的秘密@hero:好險！好不容易活著(？)回來了。@sword_cat:嘻嘻嘻嘻~連我也能抱回一包金幣哦。@eye:好傢伙！！算你走運。{是不是在邊緣混一下下就回來的？@hero:才不是呢，被首領怪獸逮個正著，{還好過去存的積點多，他是收了我的積點才放我多活一天的。@eye:首領這傢伙，竟做這種交易...";
+"local_episodetalk07"="@blank:插曲 7. 主要任務@hero:沒想到主要任務裡藏有玄機！@eye:別賣關子，幹嘛這麼嚴肅..@hero:當時我正在進行 '收集古老遺物的碎片' 這個任務，當我把碎片拼在一起時，竟發現圖上的眾神是和魔王處在一起的。@hero:你是指魔王和眾神同時出現在古老聖物的圖案上。{你有沒有發現一些其他的資料？@eye:這個嘛...當魔族遭到滅亡時，我可是好不容易救回自己的，{而魔王醒來時已經失去了記憶..{對過去的一切，就算是魔王本身也是一無所知了。@hero:還是先去把碎片找齊再說。@eye:哈~還真有點開始攻城的感覺嘍！";
+"local_episodetalk08"="@blank:插曲 8. 解開任務之謎的鑰匙@sword_cat:有關勇士正在進行的 '收集古老遺物的碎片' 這個任務。@eye:聽說這個主要任務正有不少人在找它呢。@sword_cat:聽勇士說，這是尋找魔王歷史的線索，{最後的那一片，剛好就在我手上。@eye:什麼，你想和我交易呀？！想嚐嚐我的口水味嗎？{快把它拿出來！@sword_cat:天哪！這麼潑辣又好戰的怪獸。{就算我沒提過好了！這筆交易只好去找勇士談啦。";
+"local_episodetalk09"="@blank:插曲 9. 對彼此的理解@hero:地下城的數量已經太多，不曉得要先去攻哪一個。@eye:怪獸的配置方式或強化等級各有不同，難易度差距也大。{站在勇士的立場來看，還是去強悍勇士比較愛去的地下城，你存活的機率才會高一些吧。@hero:相對來說，魔王可是忙壞了，因為不但怪獸的種類要多，還得要進行強化@eye:連走廊的長短也會影響到等待人員的行動。{這可是個很複雜的系統哦。";
+"local_episodetalk10"="@blank:插曲 10. 公主的冒險@princess:這裡就是魔王的地下城嗎？@eye:沒錯？！咦？{你是人間界的公主？@princess:人間界目前正處於混沌狀態。{限制魔族的法令也多，還強迫所有人參戰。{甚至連有魔族出現的漫畫書也全被燒毀，遊戲也受限制。{但我個人認為，沒有惡勢力存在的地方，哪能稱得上是冒險。@eye:就是因為玩不到遊戲，所以親自來到魔王的地下城？@princess:我已飽嚐人間界的痛苦，也該嚐嚐地下世界的喜樂了。{我的冒險心超強。{好想馬上見到魔王哦！@eye:好奇特的公主哦。{那麼，先試試妳的運氣吧。{只要能成功衝到首領屋之底，也許能見到魔王吧。嘿嘿";
+"local_episodetalk11"="@blank:插曲 11. 平凡的任務@hero:聽說公主曾來過地下城，是真的嗎？{因為有一個任務是要救出公主來。{我想用任務獎勵來購買最好的劍 ...@eye:嗯，有來過。她還說自己已成為性感女性怪獸還是什麼的。@hero:啊，天哪！性感女性怪獸..{！哈{我想馬上見見她！@eye:...{拯救公主？醉翁之意不在酒啦！";
+"local_episodetalk12"="@blank:插曲 12. 魔王的過去@hero:終於完成了 '收集古老遺物的碎片' 這個任務，但好像有點蹊蹺。@eye:為何？@hero:內容好像記錄曾經有一群魔王的追隨者。@eye:追隨魔王的群眾...會不會是魔族呢？@hero:這麼說，魔族過去曾經是和人類一起生活的，這有可能嗎？{不管怎樣，這次主要任務中獲得的就是這個事實和經驗值而已啦。@eye:魔王的過去...{魔王和眾神到底曾是什麼關係呢？";
+"local_episodetalk13"="@blank:插曲 13. 勇士的強勁對手@warrior:啊！那眼球是什麼？！！@fairy:別激動！\n這裡是魔王的地下城。{通常只有野獸和其他魔族生活在這裡。@eye:哈~你就是那個常和精靈走動的勇士...{還真有主角的架式呢？@warrior:那當然，我本來就是主角啊！{精靈只是協助我而已！@fairy:(這傢伙{又開始興奮了..)@sword_cat:並不是因為力氣大或等級強就能當主角的呀。{要像我一樣，不停的自我開發，延續主要劇情才能稱得上是主角。@warrior:自我開發能有什麼用。{要交過手才能知道你的真本事。{唯有消滅你才能解救一切，得到自由。{只有失去一切才能得到真正的自由。@sword_cat:好像曾在哪裡聽過...@eye:嘿嘿，快點進來啦。{我不管誰是主角誰是助角，{總言之要把你撕個稀爛。";
+"local_episodetalk14"="@blank:插曲 14. 魔王的追隨者@hero:'唯有懂得放棄自己的珍愛，才能成為支配者'@eye:嗯？@hero:'唯有懂得放棄自己的珍愛，才能成為支配者'@eye:這是謎語嗎？@hero:這是記在神殿上的句子。{但為什麼一定要懂得放棄珍愛，才能成為支配者呢？@eye:反正是寫在神殿上的，要怎麼譬喻也好，解釋也好，隨他們自己啦。@hero:眾神也好魔王也好，真難了解。@king:咻~好不容易走到了@hero:啊！是王啊！@eye:咦..他怎麼會在這兒？？@king:近來好嗎？@hero:我可過得不太好啊。{這時局太亂了。@king:因為公主全都不見了，謠言四處亂飛，說國家要亡了。{沒關係。反正能傳代的人又不少。光是敗戰國的公主就有3千多名。呵呵。{你剛才不是說 '唯有懂得放棄自己的珍愛，才能成為支配者' 嗎？@eye:你在說什麼呀？(真是個怪異的王。)@king:呼呵呵..{其實..我是站在魔族這一邊。@hero:？！胡說什麼？！{站在魔族這一邊？@king:像你這樣能完成 '收集古老遺物的碎片' 這種任務的勇士應該會知道。{魔王曾經也位居受到人類和魔族尊敬與崇拜的地位，而我就是那群人類崇拜者的子孫。@hero:魔王和眾神同時受到崇拜？@eye:是呵~魔王過去之謎終於有點要破繭而出了。{但魔王為何會被封印，又是如何喪失記憶的？@king:這點我們也搞不清。{我也只是聽傳言說魔族和魔王是同一時間銷聲匿跡的。{之後的歷史全是被編造，讓人誤以為一切的不幸都是源自於魔王。@hero:假若這一切是真的，就應該讓歷史找回真相才對！@eye:呵~難得勇士的鬥志被熊熊燃起。@king:但靠他的級別行嗎..";
+"local_episodetalk15"="@blank:插曲 15. 勇士的滑稽精靈@hero:下一個任務是...'收集龍的麟片'？？{喂，你們地下城裡有龍？@eye:龍？龍可算是怪獸之最..{主公會抽中牠嗎？就算是抽到也是個難養的怪獸。@sword_cat:呵~~這些龍好恐怖唷@hero:我看這次的任務還是要放棄了。@warrior:嘿嘿，我早就成功了。{其實是向商人買來的。@eye:那個商人沒啥不賣的。@sword_cat:哈，還是黑勇士的動作快。@warrior:既然沒錢何不親自抓龍去@hero:至少要見過龍才能去抓也好，打也好吧...{喂~魔王，抽隻龍來啦！@eye:就得靠大魔王的運氣啦。";
+"local_episodetalk16"="@blank:插曲 16. 傳說中的道具@hero:上次從首領怪獸那兒撿到的劍，原來就是那個傳說中的道具 '永恆之半'。@eye:...恭喜恭喜@hero:就像那劍的名稱一樣，它曾是套劍。{本來還有一個配套的盾牌。@eye:這麼珍貴的道具，肯定很難找的嘛？@merchant:那個成對的盾牌在我手中呢。@hero:呵呵呵！！@eye:真是個可怕的商人{可以聞到別人的需求。@merchant:這個時代只要有金幣，就沒有得不到手的。{只收 5 萬金幣就好。@eye:真是個天文數字哦。{一介勇士怎會有這一大筆錢呢..@hero:在這裡。@eye:?!!@merchant:好好用吧~@eye:這麼多的錢是從哪裡來的？@hero:我剛把那支傳說的劍賣了呀。{我認為防勝於攻嘛。@eye:…";
+"local_episodetalk17"="@blank:插曲 17. 消逝的元素屬性@hero:上次買到的那把傳說的盾牌，有點很怪異。@eye:咦？怪異？@hero:傳說的寶劍該是光元素的屬性，但盾牌卻沒有屬性。{難道是商人耍詐？@eye:真奇怪，假如沒有屬性，附加效果也會低，損失就大了..@warrior:啊！沒有屬性的武器我也好像看過。{聽魔女說它不是沒有，只是失去了元素原來的屬性而已。@hero:竟有消失的元素？{除了火、水、樹、光以外，還會有什麼屬性呢？@warrior:去問魔女啊。{她偶爾會拿著助陣的牌子來到地下城，為魔王加油助陣呢。";
+"local_episodetalk18"="@blank:插曲 18. 魔女是站魔王邊@witches:魔王今天的表現也好帥唷。{怪獸還是要像他一樣十八班武藝樣樣精通才好。哈哈@hero:咻~好不容易才找到。{你就是那個認識黑勇士的魔女嗎？@witches:是又怎樣？哈哈哈。{勇士來找我有事嗎？@hero:我想打聽一個元素的屬性，就是那個已消失的古老元素。@witches:嗯~竟有勇士會對這個感興趣...好神奇。{這可不是隨隨便便就能說的。{萬一被神殿知道了，我就會遭橫禍的。@hero:買了個超昂貴的道具，卻發現它裡面是空的！！{我可不想握著一把沒有屬性的劍，傻傻的闖進地下城被人笑話...@witches:那就讓我先試試你好了。{勇士應該常常搞任務的嘛。@hero:你的任務是...什麼？(吞口水)@witches:你，要讓你來幫魔王一把。哈哈哈。{獻上 5 顆寶石來，好讓魔王去召喚新的怪獸。{哈哈哈哈@hero:勇士要去幫魔王？？怎麼可能。@eye:就算是付打獵用的場地費好了，幫幫忙啦。@hero:...好吧。{5 顆寶石很快就能到手！";
+"local_episodetalk19"="@blank:插曲 19. 魔王的過去 (2)@hero:收集 5 顆寶石還真花時間。@witches:拿來啦？就快點獻給魔王吧。@hero:知道啦。知道啦。@witches:我就說給你聽。也許你早就料到，那消失的元素就是光的相反屬性，也就是 '黑暗'。@hero:黑暗？！@witches:在過去魔王也曾和眾神一樣受到崇拜。{魔王和眾神一起創造出各種屬性的生命體，其中的一個就是黑暗屬性。@hero:魔王原來也是創造之神？@witches:對，直到有一天魔王和黑暗屬性的魔族遭到眾神的遺棄。{屬性本身也消失了。@hero:魔王遭到眾神的遺棄。@senior_priest:就到此為止。這可惡的魔女 (臭魔女)。{那張嘴亂說什麼。@witches:嚇！！嚇我一跳。@senior_priest:竟然隨便說出光之神殿所禁止的古老知識，妳是免不了眾神的審判的！@witches:哼！魔王的惡名是愈來愈高了！{沒多久黑暗的屬性也會復活的！@senior_priest:是眾神遺棄了魔王。{像我們這種被造物，即使不能了解他的意圖也得要服從。這就是被造物的命運。@hero:被高級使徒發現以前，還是快逃為妙。";
+"local_episodetalk20"="@blank:插曲 20. 砍不透的怪獸@hero:這個傳說的盾牌，它的屬性果然是黑暗。{竟花那麼多錢去買來一個廢物...@eye:當魔王開啟所有的地下城，說不定那一天將是黑暗屬性復活的日子。@hero:總不能為了使用一個傳說道具去給魔王加油吧...@succubus:喂，勇士，{你的盾牌真性感呢？@hero:啊！竟在地下城外也能碰到怪獸！@succubus:我只是想呼吸一下新鮮的空氣。@eye:打招呼吧，這是卸位的公主。@hero:她是公主？{公主竟成了女妖...@succubus:住進地下城後，反而變得更無聊。@hero:是你自願當怪獸的，誰會管妳無不無聊！@succubus:勇士！我已經變成怪獸了，你真不要砍我啊？@hero:嗚..是我 (暗) 戀的公主...(身份上升的機會消失...！)@succubus:也別太失望。{變成怪獸的我，可以比以前看到更多的事物。{怪獸是很可憐的，就和人類一樣，內心總是有那麼一點的空虛。{總有人要站在他們這一邊。@hero:竟放棄人類跑來做怪獸的人...@succubus:也要嚐嚐人生黑暗的一面！";
+"local_episodetalk21"="@blank:插曲 21. 眾神逼近的威脅@hero:假若魔王就這樣佔據 4 個大陸的地下城，眾神要如何反擊呢？@warrior:別擔心。{我會闖關通過所有主要任務來消滅魔王。@sword_cat:不管結局如何，只要手上有錢就好，先要存好錢才重要！@hero:聽說隔海的大陸上，有不少的精英勇士，甚至還有 99 級的呢。@warrior:99 級？哼..就算他是萬級勇士，想一次消滅首領級怪獸也沒那麼容易。@eye:笨蛋！不管再升多少級，衝進再多的人，魔王的怪獸是永無止境的。{因為在這次元之外，有某個勢力正在幫助重新召喚魔族的復還。@warrior:哼！是嗎，是那個次元外的某個勢力也好，是魔王也好最好小心點。{因為在光之國度裡，眾多天使也在顯身呢！@eye:天使？怪獸中也有不少長翅膀的。{才不會怕這些呢！";
+"local_episodetalk22"="@blank:插曲 22. 信徒的目的@senior_priest:勇士啊！抑制魔王的惡名{把榮耀歸給眾神哪！！@eye:地下城不是隨隨便便可以進的！{排隊領號啦！@senior_priest:…@hero:大祭司，我想問，眾神和魔王是什麼關係呀？{為何過去相處融恰的雙方，現在卻變成這種敵對的關係呢？@senior_priest:這個嘛...不關我的事。{眾神只承諾追隨自己的崇拜者，答應他們富庶的生活。@hero:竟是錢財換來的忠誠度...@senior_priest:不想接受的事實嗎？\n但所有人不都也是為了錢而活嗎？{身為大祭司的我，就是協助這個系統正常運作的人。{對一般人來說，事情的真相並沒什麼重要。關係到自身利益的事情才是重要的。@hero:但我想知道的就是真相啦！{我一定要查出魔王和黑暗元素的屬性是如何消失的。@senior_priest:既然如此，就讓我講給你聽吧。{不過要在你消滅這個地下城的首領之後！@eye:真是彆扭的選擇。想知道內情，首領就得要輸給勇士才行。";
+"local_episodetalk23"="@blank:插曲 23. 魔王與眾神@hero:亂打誤闖總也把首領擺平了。@eye:託你之力惡名度也降了下來。{我帶你去引見高等祭司，有關魔王的過去一切，你就去問他吧。@senior_priest:歡迎你，勇士。你真的擊敗了首領？@hero:所以快告訴我有關魔王過去的一切真相。@senior_priest:長話短說好了。一開始，魔王和眾神一起統治著這個大地。{後來，魔王背叛了眾神，而眾神就消滅了魔王和魔族以及黑暗的元素。{而且銷毀了魔王的記憶並把他封印在地下城深處。@hero:原來如此。{換句話說，魔族在之前也是和人類一起生活的囉？@senior_priest:起初的魔族和人類，只是按屬性來區分的不同族群而已。{我猜現在差不多都已融為一體了。@hero:也就是說本來是一個，後來被分離變成兩個囉。@senior_priest:坦白說，上面老大做的事，我們管不著啦。{而那些選擇光之屬性的人類，只要按照他們內心的屬性，去追尋一切正面、美好的事情就可以啦。@eye:不過這些人類也該注視黑暗的一面！{人要有危機意識嘛，因為要懂得看出黑暗的一面，才能克服危難的！{不然會有誰肯為弱者站出來，為了維護這些人的權益來丟雞蛋呢？@senior_priest:真會胡說八道！";
+"local_episodetalk24"="@blank:插曲 24. 眾神重降@eye:在魔王遭到封印以前的人類，可以說是一個完美的完整體。{被分離之後，就按屬性來分成天使和人類，還有像精靈一樣的半人類以及魔族等。@hero:不管怎樣，既然眾神已經知道魔王被釋放，很快就會試著把魔王再度封印起來。@eye:你有何打算？@hero:還.. 沒想過...{我到底該為什拼命呢...？@eye:啊！！@eye_white:…@hero:怎麼會？眼球便白啦！@eye_white:...我是...眾神。@hero:神？眼球是眾神？@eye_white:眾神暫藉眼球之身來顯現。雖很醜，但要相信我。{我要對那在次元以外，協助魔王復活的勢力講話。{只要肯放棄你對魔族的所有權，離開這裡，我就會饒你一命。@hero:說謊！對次元以外的勢力你能做什麼？@eye_white:折價優惠！提供寶石！{你會被列在特別感謝名單中！@hero:除了這些誰會稀罕！{魔王！！你絕對不能輸！絕對不能放棄哦！@eye_white:我已經警告你了。{從現在起，我會派更多的軍隊來攻擊地下城。{看你還能升多少的惡名度，我會拭目以待。@eye:(啪！){嗯...終於回來了。@hero:喂！你還好嗎？眾神進到你身體裡了！@eye:呼...時間雖短，但我也讀取了眾神的想法。@hero:什麼？難到心靈受到控制時，能和控制者的精神合一？{好像在電影中看過...@eye:差不多就是這樣。在光之國度裡，藏有 '眾神的自傳'。{在那本書裡，記載著有關魔王的一切。@hero:我去找好了！@merchant:不用這麼麻煩。這不就是那本書嘛。@eye:嘩！！@merchant:給我 5 萬金幣就好。";
+"local_episodetalk25"="@blank:插曲 25. 眾神的自傳{太初只有眾神存在。{眾神的內心具有說不出的高貴與真實的情感。{因此眾神創造出和自己個性相反的人格。就是魔王的誕生。{兩者一起創造出其他生命體，過著幸福的生活。{但在被造物中，有一些黑暗屬性強盛的個體漸漸成為魔王的崇拜者。{眾神開始忌妒。因此對魔王及魔族的憎惡開始萌芽。{魔王沒有同意要消滅包括魔族在內的部分黑暗勢力。{從此眾神就毀了魔王的記憶，並分離被造物的不同屬性後銷毀了黑暗元素。{當時被分離出來的就是現今被稱為魔族的這一群。";
+"local_episodetalk26"="@blank:插曲 26. 審判的開始@eye:秘密已揭曉。\n魔王曾試著阻止魔族的滅亡...{眾神當然不會坐視。\n眾神消滅魔族的意志，甚至到現在這一刻也從未停止過。@hero:看來是難免一戰了。@angel:魔王的走狗！\n絕對不會輕饒你們！{接受我光的攻擊吧！@hero:那些可惡天使終於展開行動了！@senior_priest:大部分的天使都是強大能力的擁有者。{魔王，你可要做好心理準備。@eye:想在光之國度的地下城內取勝的機率可是要大為降低了。{加足馬力前進囉！@hero:喂，眼球。我也要站在魔族這一邊作戰！@eye:咦？\n勇士要戰在我們這一邊？@hero:沒錯！\n使用我的寶石來召喚魔族吧！@eye:那往後你要怎麼辦？@hero:我自幼失去父母，從小就習慣過一個人生活。現實中對我這種身分的評價是一定的。當然我是不在意啦。{不管生為惡魔也好，無名村落的勇士也好，找到自己該走的路，就應該奮勇走到底，這不就是人生嗎？！{我終於領悟了這個道理。\n以勇士身分...就算死了也不後悔。@angel:大膽...\n竟想以人類身分來靠魔族邊站...{真是放肆。殺！@hero:嗚啊！！死...翹翹(仆倒)@eye:咦！勇士死了。編劇雖然有點草率{竟也能為魔族...難以相信...";
+"local_episodetalk27"="@blank:插曲 27. 完整體@warrior:果然不出所料，擊敗魔王就是最後一項任務。{那些勇士傢伙，連任務都不再出場了。{不管怎樣我的競爭者就少了一個。嘿嘿。@angel:你過去立下不少功績，就以眾神的祝福作為獎勵好了。@warrior:神的祝福？@angel:沒錯。\n你也可以休息了。{和精靈道別吧。@angel:讓我把你做成一個完整體。\n就是人類和魔族還沒分離以前的存在體。{那就是魔劍士\n就以魔劍士之名重生吧！@warrior:魔...魔劍士！！噗哈哈哈！！！@eye:又多了一個煩人的傢伙了。@knight:...嗯？也沒什麼兩樣啊...？？@angel:...等級應該有點上調了吧。@knight:...好像有被騙的感覺...@angel:不管怎樣！！向地下城進攻！！！";
+"local_episodetalk28"="@blank:後記@eye:主公，辛苦你了！{蜂湧而上的敵人也被你擊退，就算眾神也難能冒犯你目前的惡名度。@king:恭喜你！\n這一段時間讓你唸了這麼長的故事，辛苦你了。@senior_priest:呵！！沒想到擊退黑暗竟會是如此艱辛的過程。@hero:喂~眼球！久違啦。@eye:什麼！！我還以為勇士都死光光了呢？！@hero:呼呼..有件事情聽了一定會嚇一跳。@hero:我是不同次元的勇士。\n勇士和魔王並不是只有一個。@eye:?@hero:當黑暗的元素分解為其他屬性時，魔王和魔族的人格也被分成各支派。{換句話說，不管勇士或魔族還有魔王的人格也被分成多種。@eye:你是指主公有好幾名？@hero:當源自於各個次元的魔王之戰匯聚在一個聚點時，就變得可以彼此移動。{而且聽說各個魔王還可以透過領袖榜來比較惡名等級。{我只是來告訴你這一點。@eye:天哪...公平競爭的時代！@hero:要記得魔王的挑戰是從現在才開始的！{我也不會放棄升級的！@eye:對...聽說是這樣...\n這個次元裡竟然有和我相同的人存在，感覺有點怪怪的。{那也沒辦法。主公只要像現在一樣持續提高惡名度，相信絕對可以成為世界第一的魔王。@blank:劇終";
+"local_episodetalk29"="@blank:插曲 29. 魔族戰爭的開始@sword_cat:黑暗時間已到來。{更令人恐怖的是...魔王之間竟然彼此競爭。@eye:這是什麼意思？@sword_cat:可能會有其他次元的魔王，偶爾會派怪獸來唷。{也就是說很有可能會有怪獸衝進地下城來。@eye:就是魔族之間的戰爭嘍。@sword_cat:要知道隨時會有隨機派出的怪獸衝進來。@succubus:要保護我，性感凱蒂貓劍俠！@sword_cat:哈！我就告辭了！！";
+
+
+
+// ** 순서 상관 없음 ** //
+// 던전 미니 대사
+"local_minitalkenter01"="咳咳！好多灰塵";
+"local_minitalkenter02"="考驗一下魔王的實力吧";
+"local_minitalkenter03"="到底能不能找到藏寶箱";
+"local_minitalkenter04"="光明之神，幫幫我吧！";
+"local_minitalkenter05"="嚐嚐我劍的厲害！";
+"local_minitalkenter06"="今天的晚餐就陪你在地獄吃！";
+"local_minitalkenter07"="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻";
+"local_minitalkenter08"="擊滅首領向公主求婚去！";
+"local_minitalkenter09"="傳說中的劍到手，我就是天下無敵！";
+"local_minitalkenter10"="喂，魔王！看清我的級別再開口！";
+"local_minitalkenter11"="我的劍可以穿破天空！";
+"local_minitalkenter12"="地下城又深又長...好漂亮！";
+"local_minitalkenter13"="這簡直是瘋人瘋事，我可要離開這裡";
+"local_minitalkenter14"="早安，充滿活力的早上！";
+"local_minitalkenter15"="就算粉身碎骨，滿地爬著走也願意！";
+
+"local_minitalkcrossroad01"="在這緊要關頭不是左就是右";
+"local_minitalkcrossroad02"="不祥的預感...";
+"local_minitalkcrossroad03"="OK！這裡能感應到好的能量";
+"local_minitalkcrossroad04"="嗯...這裡充滿了血腥味";
+"local_minitalkcrossroad05"="我要往這裡去！";
+"local_minitalkcrossroad06"="大家跟我來！";
+"local_minitalkcrossroad07"="不管從哪個方向來，今天被我碰到的怪獸全都死定了！";
+"local_minitalkcrossroad08"="喂！別推我啦！";
+"local_minitalkcrossroad09"="哼！哪管那麼多！";
+"local_minitalkcrossroad10"="跟著大夥走最安全";
+"local_minitalkcrossroad11"="我能感應到惡魔的邪氣！";
+"local_minitalkcrossroad12"="任何的選擇都會伴隨結局";
+"local_minitalkcrossroad13"="船到橋頭自然直！";
+"local_minitalkcrossroad14"="別往右邊去！那是對左邊的不敬！";
+"local_minitalkcrossroad15"="哪有什麼理由啊？只是隨著風帶領的地方去而已。";
+
+"local_minitalkwaitting01"="快點解決啦！";
+"local_minitalkwaitting02"="你呆站在那裡幹嘛？";
+"local_minitalkwaitting03"="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻";
+"local_minitalkwaitting04"="呵！好痛！";
+"local_minitalkwaitting05"="留下我的一份！";
+"local_minitalkwaitting06"="嘩，這劍很貴吧？";
+"local_minitalkwaitting07"="洗手間在哪裡？";
+"local_minitalkwaitting08"="愚昧的傢夥！";
+"local_minitalkwaitting09"="動作快一點！";
+"local_minitalkwaitting10"="挺著點！想想留在家鄉的老母啊！";
+"local_minitalkwaitting11"="時間就是金錢！";
+"local_minitalkwaitting12"="你已經是死命一條！";
+"local_minitalkwaitting13"="地下城真好玩！";
+"local_minitalkwaitting14"="那把劍，有沒有投保";
+"local_minitalkwaitting15"="想逃已經來不及了";
+
+"local_minitalkbattle01"="這些畜牲！";
+"local_minitalkbattle02"="去死吧這些怪獸！";
+"local_minitalkbattle03"="去死吧！我父母親的仇人！";
+"local_minitalkbattle04"="啊！會痛了啦！";
+"local_minitalkbattle05"="天啊！劍變得鈍了...";
+"local_minitalkbattle06"="我們是贏家！絕不會輸！";
+"local_minitalkbattle07"="升級就在眼前！！加油！";
+"local_minitalkbattle08"="咻！也沒什麼嘛？";
+"local_minitalkbattle09"="這個怪獸的實力殺了有點可惜。";
+"local_minitalkbattle10"="嗚！嗚！好像要死了..";
+"local_minitalkbattle11"="團結就是力量，團結才能活下去！";
+"local_minitalkbattle12"="藍藍的天！白白的雲！";
+"local_minitalkbattle13"="剛剛暖身結束！";
+"local_minitalkbattle14"="我的劍法在於...呵！！砍殺殺！";
+"local_minitalkbattle15"="閣下的死亡時間是...現在！";
+
+"local_minitalkwin01"="贏了！垃圾般的怪獸！嘻嘻";
+"local_minitalkwin02"="永遠記得今天的勝利！";
+"local_minitalkwin03"="哇嗚！哇嗚！哇嗚！";
+"local_minitalkwin04"="晚餐可以回家吃了";
+"local_minitalkwin05"="有人賺到嗎？";
+"local_minitalkwin06"="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻";
+"local_minitalkwin07"="這個地下城太容易攻破";
+"local_minitalkwin08"="真是好險哪";
+"local_minitalkwin09"="還是要以量取勝";
+"local_minitalkwin10"="我會再回來！";
+"local_minitalkwin11"="我們也可以期待明天了";
+"local_minitalkwin12"="不是勝就是死路一條。沒有中間的選擇";
+"local_minitalkwin13"="我要回家看老婆去";
+"local_minitalkwin14"="我會回來！";
+"local_minitalkwin15"="哼！我才不要金幣！重要的是訊息。";
+
+"local_minitalkdie01"="我要...死了嗎？";
+"local_minitalkdie02"="真可惜，升級就在眼前";
+"local_minitalkdie03"="忘記多帶一劑聖藥！！";
+"local_minitalkdie04"="好痛...";
+"local_minitalkdie05"="難度太高了！";
+"local_minitalkdie06"="一切...就交託給你";
+"local_minitalkdie07"="...傷口太深了";
+"local_minitalkdie08"="人類...總有一天會勝利";
+"local_minitalkdie09"="啊！太痛了！";
+"local_minitalkdie10"="這時就會想起父母親的臉來";
+"local_minitalkdie11"="凡人皆有一死！";
+"local_minitalkdie12"="漆黑夜晚充滿了恐怖";
+"local_minitalkdie13"="家族的血債一定要償還";
+"local_minitalkdie14"="冬天漸漸逼進";
+"local_minitalkdie15"="只是還債而已";
+
+
+"local_minitalklost01"="不可以貪心";
+"local_minitalklost02"="是首領太大意了嗎？";
+"local_minitalklost03"="你應該更投入在這個地下城的攻城上";
+"local_minitalklost04"="雖然輸了但別氣餒。下次一定會贏";
+"local_minitalklost05"="我要三倍的還給你";
+"local_minitalklost06"="可惡的勇士傢伙！！";
+"local_minitalklost07"="請保持魔族的尊嚴！";
+"local_minitalklost08"="勇士蜂湧到處猖獗";
+"local_minitalklost09"="嗚哇！你就罰我吧";
+"local_minitalklost10"="今天的運氣較差";
+"local_minitalklost11"="但願幸運之神眷顧魔王！";
+"local_minitalklost12"="看看我，我內心的怪物已經長大很多";
+"local_minitalklost13"="戰輸是復仇之母";
+"local_minitalklost14"="性急的惡魔是要被罰的。";
+"local_minitalklost15"="裡面有個難纏的傢夥";
+
+
+"local_minitalksummonlow01"="雖然微不足道，但也會助你一臂之力";
+"local_minitalksummonlow02"="我的命，就交給你了";
+"local_minitalksummonlow03"="人類...壞壞唷";
+"local_minitalksummonlow04"="勇士的肉肉好香";
+"local_minitalksummonlow05"="別讓這次的戰鬥白廢";
+"local_minitalksummonlow06"="血...我要血！";
+"local_minitalksummonlow07"="精靈不好吃";
+"local_minitalksummonlow08"="我聽到召喚前往";
+"local_minitalksummonlow09"="賜黑暗給人類！";
+"local_minitalksummonlow10"="好久沒呼吸到外面的空氣";
+"local_minitalksummonlow11"="好久沒來這個地下城了";
+"local_minitalksummonlow12"="處決三名勇士是目標！";
+"local_minitalksummonlow13"="就算戰死也得死的壯烈！";
+"local_minitalksummonlow14"="哼！有把握贏嗎？";
+"local_minitalksummonlow15"="你覺得我能行嗎？";
+
+
+
+"local_minitalksummonhigh01"="你需要我的力量嗎，魔王";
+"local_minitalksummonhigh02"="幫你一下下再走好了";
+"local_minitalksummonhigh03"="人家正要去洗手間，真失禮！";
+"local_minitalksummonhigh04"="你竟抽到我，算你好運";
+"local_minitalksummonhigh05"="一次性怪獸的級別會和你的級別相同";
+"local_minitalksummonhigh06"="人類...壞壞...我...要來幫你...";
+"local_minitalksummonhigh07"="竟能召喚出我來，真厲害";
+"local_minitalksummonhigh08"="日久會生情啦";
+"local_minitalksummonhigh09"="今天的勇士會是什麼味道？";
+"local_minitalksummonhigh10"="讓你嚐嚐傭兵的厲害！";
+"local_minitalksummonhigh11"="惡名度愈高，我也就愈強";
+"local_minitalksummonhigh12"="我一定能勝任的";
+"local_minitalksummonhigh13"="我正好閒著，就來幫你吧";
+"local_minitalksummonhigh14"="給人類賜下死亡...";
+"local_minitalksummonhigh15"="級別有些不足，無所謂嗎？";
+
+// ** 순서 상관 없음 ** //
+// 팝업
+
+"local_popupalreadyclear"="這裡是教學地下城。";
+"local_popupneedlevel"="目前的地下城要從 %d 級才可以入場。";
+"local_popuphealallmonster"="恢復地下城內所有怪獸的 HP 值。";
+"local_popupemptypotion"="聖藥不足。你要購買嗎？";
+"local_popupbought"="已購買。";
+"local_popupcannotbuy"="寶石不足。";
+"local_popupnhnpriceerror"="價格情報的讀取有誤。";
+"local_popupslotcountiszero"="轉盤不足。你要儲值嗎？";
+"local_popupnomoreenhance"="無法追加進行任何強化。";
+"local_popupnotenoughmoney"="金幣不足。";
+"local_popupnotenoughpotion"="聖藥不足。";
+"local_popupnotenoughgem"="寶石不足。\n要前往商店嗎？";
+"local_popupnotenoughspin"="轉盤不足。";
+"local_popupcannotsummon"="要等戰鬥結束才能配置。";
+"local_popupcostover"="已超出可以召喚的小組值。\n提升惡名度來增加小組值！";
+"local_popupcostzero"="卡牌中沒有安置怪獸就無法進行戰鬥。\n請先配置怪獸。";
+"local_popupasksell"="要使用金幣來交換嗎？\n(價格：%d)";
+"local_popupbossroomisempty"="首領屋沒有安置怪獸就無法進行戰鬥。\n請先配置怪獸。";
+"local_popupstageexitnotice"="戰鬥中若離開地圖就被視為淘汰";
+"local_popupinvenisfull"="倉庫沒有存放空間。";
+"local_popupusingmonster"="使用中的怪獸。";
+"local_popupgetreward"="已領取了獎勵。";
+"local_popupcompletebonus"="完成了魔法，成功獲得了寶石。";
+
+
+"local_episodetitle00"="開場白";
+"local_episodetitle01"="無意間發現地下城的勇士";
+"local_episodetitle02"="勇士的資質";
+"local_episodetitle03"="喵咪劍俠";
+"local_episodetitle04"="勇士的界面";
+"local_episodetitle05"="關係形成";
+"local_episodetitle06"="首領怪獸的秘密";
+"local_episodetitle07"="主要任務";
+"local_episodetitle08"="解開任務之謎的鑰匙";
+"local_episodetitle09"="對彼此的理解";
+"local_episodetitle10"="公主的冒險";
+"local_episodetitle11"="平凡的任務";
+"local_episodetitle12"="魔王的過去";
+"local_episodetitle13"="勇士的強勁競爭者";
+"local_episodetitle14"="魔王的追隨者";
+"local_episodetitle15"="勇士的滑稽精靈";
+"local_episodetitle16"="傳說中的道具";
+"local_episodetitle17"="消逝的元素屬性";
+"local_episodetitle18"="魔女是站魔王邊";
+"local_episodetitle19"="魔王的過去";
+"local_episodetitle20"="砍不透的怪獸";
+"local_episodetitle21"="眾神逼近的威脅";
+"local_episodetitle22"="信徒的目的";
+"local_episodetitle23"="魔王與眾神";
+"local_episodetitle24"="眾神重降";
+"local_episodetitle25"="眾神的自傳";
+"local_episodetitle26"="審判的開始";
+"local_episodetitle27"="完整體";
+"local_episodetitle28"="後記";
+
+
+"local_uigemtitle"="矮鬼的寶石市場";
+"local_uislottitle"="黑暗的轉盤儲值";
+"local_uislotdes"="以黑暗之力來增加地下城轉盤機的使用次數。";
+"local_uipotiontitle"="女妖的陷阱卡牌";
+"local_uiPotiondes"="購買陷阱卡牌";
+
+"local_uibattleresultgetmoney"="獲得戰利品！";
+"local_uibattleresultgetmobexp"="獲得怪獸經驗值！";
+"local_uibattleresultgetlevelbonus"="獲得級別獎勵！";
+"local_uibattleresultgetexplose"="防禦失敗，未能提升惡名度。\n\n請收集金幣來召喚新的怪獸或是強化怪獸。";
+"local_uibattleresultgetexplose2"="覺得這個地下城難攻嗎？要不要重返已過關的地下城去收集金幣？";
+"local_uibattleresultgetexpwin"="惡名度增加了！";
+
+"local_uienhancedes"="請選擇材料怪獸";
+"local_uienhancelvdes"="強化後等級";
+"local_uienhancepricedes"="消耗金幣";
+"local_uienhanceselectdes"="選擇";
+
+"local_levelupeventlevel"="惡名度升級獎勵！";
+"local_levelupeventdungeon"="辛苦了！\n這個地區的人類\n已經降伏於黑暗勢力。";
+
+"local_gotchatitle"="怪獸召喚";
+"local_inventitle"="惡魔保管箱";
+"local_equipmonster"="安置怪獸";
+
+"local_summonmonsterdes"="請選擇怪獸";
+"local_summonmonstercarddes"="請選擇配置怪獸的插槽";
+
+
+
+"local_readytalk01"="咳咳！好多灰塵";
+"local_readytalk02"="考驗一下魔王的實力吧";
+"local_readytalk03"="到底能不能找到藏寶箱";
+"local_readytalk04"="光明之神，幫幫我吧！";
+"local_readytalk05"="嚐嚐我劍的厲害！";
+"local_readytalk06"="今天的晚餐就陪你在地獄吃！";
+"local_readytalk07"="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻";
+"local_readytalk08"="擊滅首領向公主求婚去！";
+"local_readytalk09"="傳說中的劍到手，我就是天下無敵！";
+"local_readytalk10"="喂，魔王！看清我的級別再開口！";
+"local_readytalk11"="我的劍可以穿破天空！";
+"local_readytalk12"="地下城又深又長...好漂亮！";
+"local_readytalk13"="早安，充滿活力的早上！";
+"local_readytalk14"="就算粉身碎骨，滿地爬著走也願意！";
+"local_readytalk15"="不祥的預感..";
+"local_readytalk16"="！這裡能感應到好的能量";
+"local_readytalk17"="嗯...這裡充滿了血腥味";
+"local_readytalk18"="我要往這裡去！";
+"local_readytalk19"="大家跟我來！";
+"local_readytalk20"="不管從哪個方向來，今天被我碰到的怪獸全都死定了！";
+"local_readytalk21"="喂！別推我啦！";
+"local_readytalk22"="哼！哪管那麼多！";
+"local_readytalk23"="跟著大夥走最安全";
+"local_readytalk24"="我能感應到惡魔的邪氣！";
+"local_readytalk25"="任何的選擇都會伴隨結局";
+"local_readytalk26"="船到橋頭自然直！";
+"local_readytalk27"="別往右邊去！那是對左邊的不敬！";
+"local_readytalk28"="哪有什麼理由啊？只是隨著風帶領的地方去而已。";
+"local_readytalk29"="你呆站在那裡幹嘛？";
+"local_readytalk30"="嘻嘻嘻嘻嘻嘻嘻";
+"local_readytalk31"="嘩，這劍很貴吧？";
+"local_readytalk32"="洗手間在哪裡？";
+"local_readytalk33"="時間就是金錢！";
+"local_readytalk34"="眼球！你死定了！";
+"local_readytalk35"="地下城真好玩！";
+"local_readytalk36"="那把劍，有沒有投保";
+"local_readytalk37"="想逃已經來不及了";
+"local_readytalk38"="這些畜牲！";
+"local_readytalk39"="天啊！劍變得鈍了...";
+"local_readytalk40"="我們是贏家！絕不會輸！";
+"local_readytalk41"="升級就在眼前！！加油！";
+"local_readytalk42"="團結就是力量，團結才能活下去！";
+"local_readytalk43"="藍藍的天！白白的雲！";
+"local_readytalk44"="剛剛暖身結束！";
+"local_readytalk45"="我的劍法在於...呵！！砍殺殺！";
+"local_readytalk46"="閣下的死亡時間是...現在！";
+"local_readytalk47"="哇嗚！哇嗚！哇嗚！";
+"local_readytalk48"="有人賺到嗎？";
+"local_readytalk49"="嗯啊嘻";
+"local_readytalk50"="這個地下城太容易攻破";
+"local_readytalk51"="真是好險哪";
+"local_readytalk52"="還是要以量取勝";
+"local_readytalk53"="我會再回來！";
+"local_readytalk54"="我們也可以期待明天了";
+"local_readytalk55"="不是勝就是死路一條。沒有中間的選擇";
+"local_readytalk56"="我要回家看老婆去";
+"local_readytalk57"="我會回來！";
+"local_readytalk58"="哼！我才不要金幣！重要的是訊息。";
+"local_readytalk59"="真可惜，升級就在眼前";
+"local_readytalk60"="忘記多帶一劑聖藥！！";
+"local_readytalk61"="難度太高了！";
+"local_readytalk62"="人類...總有一天會勝利";
+"local_readytalk63"="凡人皆有一死！";
+"local_readytalk64"="漆黑夜晚充滿了恐怖";
+"local_readytalk65"="家族的血債一定要償還";
+"local_readytalk66"="冬天漸漸逼進";
+"local_readytalk67"="只是還債而已";
+
+
+"local_yes"="是";
+"local_no"="否";
+"local_ok"="確認";
+"local_cancel"="取消";
+
+"local_networkdisconnected"="網絡連線中斷";
+"local_networkdisconnecteddes"="網路沒有連線";
+"local_waitaminute"="請稍候";
+"local_networkretry"="網絡連接狀態不穩。\n你要重試嗎？";
+"local_couldnotgoshop"="要等戰鬥結束才能購買。";
+
+
+"local_tips01"="當心。有時也會有已強化的勇士衝進來。";
+"local_tips02"="你配置的怪獸屬性要強過勇士，才能發恢防禦效果！";
+"local_tips03"="誰也無法預料轉蛋的結果會是哪個怪獸。\n這個過程緊張卻也有趣。";
+"local_tips04"="反正金幣也不少，就試一個吧。";
+"local_tips05"="抽中的怪獸卡會放進保管箱內。按下保管箱鈕查看。";
+"local_tips06"="不可以貪心";
+"local_tips07"="你應該更投入在這個地下城的攻城上";
+"local_tips08"="可惡的勇士傢伙！！";
+"local_tips09"="勇士蜂湧到處猖獗";
+"local_tips10"="看看我，我內心的怪物已經長大很多";
+"local_tips11"="打造顯赫的戰績，召喚強悍的怪獸提升惡名度！\n這是主公在這世上的使命。";
+"local_tips12"="在轉蛋召喚出的勇士戰鬥中，儘可能戰勝這些勇士";
+"local_tips13"="收集金幣來召喚新的強悍怪獸或是強化怪獸";
+"local_tips14"="利用戰鬥來提升惡名度級別";
+"local_tips15"="放心地拉吧\n右下角的把手就是可以召喚勇士的裝置，有需要時僅管使用。";
+"local_tips16"="歡迎來地下城探險！躍身成為遊戲專家！";
+"local_tips17"="主公！在這片大地上，惡魔消失太久了！";
+"local_tips18"="尋找火、水、樹、光...還有消逝的屬性秘密。";
+"local_tips19"="請旋轉惡魔轉盤，讓黑暗重返這片光明大地。";
+"local_tips20"="利用勇士屍體上收集金幣和寶石來召喚並強化怪獸！";
+"local_tips21"="記得注視那些可惡的勇士，注視他們身上流出的血！";
+"local_tips22"="旋轉轉盤，把那群人間勇士召進地下城來。";
+"local_tips23"="請留下評語！主公！多給幾顆星！";
+"local_tips24"="這場永無止境的明暗之鬥！就由你來終結！";
+"local_tips25"="你配置的怪獸屬性要強過勇士，才能發恢防禦效果！";
+"local_tips26"="光能贏過剩下的所有屬性";
+
+"local_pleaselevelup"="請進行強化。";
+
+"local_exitgametitle"="遊戲結束";
+"local_exitgamedes"="你要退出遊戲嗎？";
+
+
+"local_localnoticeday1"="這場永無止境的明暗之鬥！就由主公來終結！";
+"local_localnoticeday3"="主公！該起身了吧？！";
+"local_localnoticeday7"="主公！在這片大地上，惡魔消失太久了！";
+
+
+"local_skilldescritical"="致命擊攻擊！！";
+"local_skilldesheal"="怪獸的 HP 值可恢復 %d。";
+"local_skilldespoison"="勇士每動一次就會持續消耗 %d 的 HP 值";
+"local_skilldesleech"="奪取勇士 %d 的 HP 值";
+"local_skilldesinsight"="抵銷勇士的元素屬性";
+"local_skilldesterror"="減少勇士 %.1f%% 攻擊力";
+"local_skilldeshorror"="減少勇士 %.1f%% 防禦力";
+"local_skilldescurse"="降低勇士等級到 %d 級以下";
+
+
+
+"local_popupmvmpopup"="為了爭奪魔界之主的寶座，全世界的競爭者正在激烈奮戰。\n記得查看你今天的榜上名次。";
+
+
+"local_dailyquestdes01"="取勝 5 次";
+"local_dailyquestdes02"="取勝 10 次";
+"local_dailyquestdes03"="消滅火屬性勇士 5 名";
+"local_dailyquestdes04"="消滅水屬性勇士 5 名";
+"local_dailyquestdes05"="消滅樹屬性勇士 5 名";
+"local_dailyquestdes06"="轉蛋抽取 3 隻新的怪獸";
+"local_dailyquestdes07"="轉蛋抽取 2 隻新的怪獸";
+"local_dailyquestdes08"="轉蛋抽取 1 隻新的怪獸";
+"local_dailyquestdes09"="請抽出 3 星怪獸";
+"local_dailyquestdes10"="請抽出 2 星怪獸";
+"local_dailyquestdes11"="強化怪獸來提升等級";
+"local_dailyquestdes12"="進行怪獸對戰 1 次";
+
+
+"local_dberrorexit"="資料庫錯誤";
+"local_dbdeviceerrorexit"="資料庫 ID 有誤";
+"local_dbchangeerrorexit"="發現資料庫變更";
+"local_iapnotice"="請注意，付費過程中強制中止系統可能會造成系統錯誤";
+"local_noticenewversion"="請下載最新版本";
+
+"local_serverfileerror"="重複的數據已被用於其他設備。";
+"local_servernetworkretry"="網絡連線不穩。\n要稍後再試嗎？";
+"local_levelupcounterror"="系統感應到非正規的運作。正在結束中。";
+"local_serverfirstconnet"="初次的運作必須在網絡連線狀態下進行。";
+
+"local_popupuiaskbuy"="確定召喚嗎？";
+
+"local_adventuredaybonus01"="求求你饒了我";
+ "local_adventuredaybonus02"="家裡有個剛出生的嬰兒";
+ "local_adventuredaybonus03"="求求你！人家才剛結婚！";
+ "local_adventuredaybonus04"="你想要殺我？";
+ "local_adventuredaybonus05"="我才不怕你";
+ "local_adventuredaybonus06"="呃！呸！臭惡魔！";
+ "local_adventuredaybonus07"="你能放過我，就會有好運跟著來！";
+ "local_adventuredaybonus08"="下次再也不敢來了！";
+ "local_adventuredaybonus09"="說說看，你為什麼如此對我？";
+ "local_adventuredaybonus10"="選錯派對了！真衰！";
+ "local_adventuredaybonus11"="沒臉回村子去了";
+ "local_adventuredaybonus12"="絕對不會降伏於黑暗的勢力！";
+
+ "local_adventuredaybonustitle"="請選擇要重生的勇士";
+ "local_adventureinfo00"="每殺一名勇士就會有寶珠出現，有足夠的寶珠，就能派出怪獸前往冒險大陸去旅遊了";
+ "local_adventureinfo01"="請期待意外的故事和獎勵";
+ "local_adventuretip"="請按照勇士的屬性來安排怪獸的佈陣";
+
+ "local_adventureeventeye01"="喂~好久不見哪";
+ "local_adventureeventeye02"="我的同族過得還好嗎？";
+ "local_adventureeventeye03"="你在等我嗎？";
+ "local_adventureeventeye04"="你罵我是豬也沒關係，反正能和你在一起就好...";
+ "local_adventureeventmeetmagicianfailed"="這該怎麼辦...這是指落空的意思嘛。";
+
+ "local_adventureeventmeetmagician"="啊！是魔族！終於等到你了。{就是大魔王要復活的時候！{凡事都是在因果的循環中。{這個世界馬上會被黑暗竉罩。";
+ "local_adventureeventmeetmagician01"="可是這個組成有點那個？{既然是魔王的怪獸，我還以為至少是 3 星、4 星的嘛...";
+ "local_adventureeventmeetmagician02"="對其他世界的好奇心，到底要到何時才能了啊？{聽說就算死了，他還是停不了這個想法。{但願你們也能有一段愉快的旅程...";
+ "local_adventureeventmeetmagician03"="女妖得不到滿足就會到處作亂。{幸虧你能見到和他成對的怪獸。";
+ "local_adventureeventmeetmagician04"="好可愛唷！小小的怪獸竟能跑到這裡來...{不得不佩服他堅毅的生命力。";
+ "local_adventureeventmeetmagician05"="就算是再小再軟弱的野獸，他們的生命也是屬於大自然的一部分。{我很佩服動物，因為牠們為了防禦人類的攻擊，不斷的提升自己的鬥志。";
+ "local_adventureeventmeetmagician06"="是邪惡的掠奪者！衝啊！去摧毀人類的貪心和占有慾！";
+ "local_adventureeventmeetmagician07"="對其他世界的好奇心，到底要到何時才能了啊？{聽說就算死了，他還是停不了這個想法。{但願你們也能有一段愉快的旅程...";
+ "local_adventureeventmeetmagician08"="好可愛唷！小小的怪獸竟能跑到這裡來...{不得不佩服他堅毅的生命力。";
+ "local_adventureeventmeetmagician09"="是洛夫克拉夫特的走狗！{克蘇魯再臨...世界就要毀了。";
+ "local_adventureeventmeetmagician10"="是萬聖節嗎？怎麼到處都是熟悉的怪獸。{只能給這些來代替糖果了。";
+ "local_adventureeventmeetmagician11"="你走這一趟，該不是想去當勇士的經驗值材料吧？{要不斷的升級，不可鬆懈。";
+ "local_adventureeventmeetmagician12"="對其他世界的好奇心，到底要到何時才能了啊？{聽說就算死了，他還是停不了這個想法。{但願你們也能有一段愉快的旅程...";
+ "local_adventureeventmeetmagician13"="我的劍術是不輸人類勇士的！{砍掉他們的勇氣和自尊！";
+ "local_adventureeventmeetmagician14"="最後存活者，就能到吃到為黑暗破壞神復活所準備的肉丸義大利麵，這個預言，今天終於成真了。";
+ "local_adventureeventmeetmagician15"="我是隨著震天動地的聲音找來的，原來就是你們。{這個送你，你能安靜一點嗎？";
+ "local_adventureeventmeetmagician16"="代表魔界的美貌者，該不會就是你們吧？{今天終於領教到壞女孩的魄力了。";
+ "local_adventureeventmeetmagician17"="天哪...最難纏的兩條龍，竟然一起展開冒險..{這次的魔王真是了不起啊";
+ "local_adventureeventmeetmagician18"="又會是什麼呢？{稀有魔神竟能齊聚一堂...真是少有的新鮮事。";
+ "local_adventureeventmeetmagician19"="竟能親眼見到巨大魔神掃蕩世界的光景，真是三生有幸啊！";
+ "local_adventureeventmeetmagician20"="竟能親眼見到巨大魔神掃蕩世界的光景，真是三生有幸啊！";
+ "local_adventureeventmeetmagician21"="竟能親眼見到巨大魔神掃蕩世界的光景，真是三生有幸啊！";
+ "local_adventureeventmeetmagician22"="竟能親眼見到巨大魔神掃蕩世界的光景，真是三生有幸啊！";
+ "local_adventureeventmeetmagician23"="又會是什麼呢？{稀有魔神竟能齊聚一堂...真是少有的新鮮事。";
+ "local_adventureeventmeetmagician24"="傳說中的動物竟能齊聚一堂...今天中六合彩啦";
+ "local_adventureeventmeetmagician25"="是一群神秘的怪獸。";
+ "local_adventureeventmeetmagician26"="是一群神秘的怪獸。";
+"local_adventureeventmeetmagician27"="是一群神秘的怪獸。";
+"local_adventureeventmeetmagician28"="是一群神秘的怪獸。";
+ "local_adventureeventmeetmagicianend"="竟會是這種理由來算命...。就少收你一點吧。{從寶石到特別的怪獸...沒人會知道獎勵是什麼。";
+ "local_adventureeventmeetmagicianselect"="要用 %d 金幣來算命嗎？";
+ "local_adventureeventmeetmagicianno"="竟失去如此的良機...能見到你也是緣份，就把這個送給你吧。#get gold";
+ "local_adventureeventmeetmagicianok"="來，在 12 張卡裡任選一張出來#show magician";
+
+ "local_teameffectdes01"="1 星怪獸的攻擊力會增加 50%";
+ "local_teameffectdes02"="黑暗屬性怪獸的攻擊力會增加 10%";
+ "local_teameffectdes03"="3 星怪獸的攻擊力會增加 10%";
+ "local_teameffectdes04"="金幣獲取量會增加 10%";
+ "local_teameffectdes05"="3 星怪獸的 HP 值會以 1000 單位增加";
+ "local_teameffectdes06"="水屬性怪獸的攻擊力會增加 13%";
+ "local_teameffectdes07"="火焰屬性怪獸的攻擊力會增加 10%";
+ "local_teameffectdes08"="2 星怪獸的攻擊力會增加 30%";
+ "local_teameffectdes09"="所有怪獸的 HP 值會以 1000 單位增加";
+ "local_teameffectdes10"="樹屬性怪獸的攻擊力會增加 12%";
+ "local_teameffectdes11"="所有怪獸的攻擊力會增加 15%";
+ "local_teameffectdes12"="黑暗屬性怪獸的攻擊力會增加 15%";
+ "local_teameffectdes13"="5 星怪獸的攻擊力會增加 15%";
+ "local_teameffectdes14"="4 星怪獸的攻擊力會增加 20%";
+ "local_teameffectdes15"="4 星怪獸的防禦力會增加 30%";
+ "local_teameffectdes16"="4 星怪獸的 HP 值會以 2000 單位增加";
+ "local_teameffectdes17"="黑暗屬性怪獸的 HP 值會以 5000 單位增加";
+ "local_teameffectdes18"="所有怪獸的攻擊力會增加 20%";
+ "local_teameffectdes19"="所有怪獸的防禦力會增加 50%";
+ "local_teameffectdes20"="6 星怪獸的 HP 值會以 4000 單位增加";
+ "local_teameffectdes21"="5 星怪獸的 HP 值會以 3000 單位增加";
+ "local_teameffectdes22"="火焰屬性怪獸的 HP 值會以 3000 單位增加";
+ "local_teameffectdes23"="水屬性怪獸的 HP 值會以 3000 單位增加";
+ "local_teameffectdes24"="樹屬性怪獸的 HP 值會以 3500 單位增加";
+ "local_teameffectdes25"="50 級以下怪獸的 HP 值會以 3000 單位增加";
+ "local_teameffectdes26"="50 級以下怪獸的攻擊力會增加 20%";
+"local_teameffectdes27"="5 星怪獸的攻擊力會增加 30%";
+"local_teameffectdes28"="5 星怪獸的防禦力會增加 30%";
+
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+ "local_teamtripinfotitle"="冒險";
+
+ "local_coupon_error_01"="此優惠券不能使用。";
+ "local_coupon_error_02"="此優惠券已被使用。";
+ "local_coupon_error_03"="這種類型的優惠券已被使用。";
+ "local_coupon_error_04"="此優惠券已過期。";
+ "local_coupon_success"="優惠券已成功應用。";
+ "local_purchase_error_01"="完成交易失敗。";
+ "local_purchase_error_02"="錯誤的交易信息。"; 
+
+ "local_popupnotenoughorb"="灵球不足。";
+
+ 
+
+
+
+
+

@@ -1,0 +1,48 @@
+.class Lcom/igaworks/adbrix/core/ADBrixHttpManager$2$1;
+.super Lcom/igaworks/util/image/ImageDownloadAsyncCallback;
+.source "ADBrixHttpManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/igaworks/adbrix/core/ADBrixHttpManager$2;->callback(Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/igaworks/adbrix/core/ADBrixHttpManager$2;
+
+
+# direct methods
+.method constructor <init>(Lcom/igaworks/adbrix/core/ADBrixHttpManager$2;Ljava/lang/String;Landroid/widget/ImageView;Lcom/igaworks/util/image/ImageCache;Landroid/widget/FrameLayout;)V
+    .locals 0
+    .param p2, "$anonymous0"    # Ljava/lang/String;
+    .param p3, "$anonymous1"    # Landroid/widget/ImageView;
+    .param p4, "$anonymous2"    # Lcom/igaworks/util/image/ImageCache;
+    .param p5, "$anonymous3"    # Landroid/widget/FrameLayout;
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/igaworks/adbrix/core/ADBrixHttpManager$2$1;->this$1:Lcom/igaworks/adbrix/core/ADBrixHttpManager$2;
+
+    .line 326
+    invoke-direct {p0, p2, p3, p4, p5}, Lcom/igaworks/util/image/ImageDownloadAsyncCallback;-><init>(Ljava/lang/String;Landroid/widget/ImageView;Lcom/igaworks/util/image/ImageCache;Landroid/widget/FrameLayout;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onResultCustom(Landroid/graphics/Bitmap;)V
+    .locals 0
+    .param p1, "bitmap"    # Landroid/graphics/Bitmap;
+
+    .prologue
+    .line 330
+    return-void
+.end method

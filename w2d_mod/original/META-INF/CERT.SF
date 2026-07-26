@@ -1,0 +1,2785 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 8t4opp2FDoyKhpyrIFFV9HepCAM=
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: +TYy8goS/s7APtthqzt9aXBYLEI=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: hj1AY+H6pE2McUPzsFA1Wwu3nIQ=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: GHZ0WF7sh5tzOuMH0rU9UpoEeJg=
+
+Name: assets/Texturepacker/CD_UI_result.plist
+SHA1-Digest: mfrFo3xKMAPLmiUHjvCdOO2SYUU=
+
+Name: assets/ccb/CD_UI_slot_effect.ccbi
+SHA1-Digest: 7yQvGQI//xpxMw47sxo5wu/DqjY=
+
+Name: assets/Texturepacker/CD_UI_Code_Image.plist
+SHA1-Digest: vaaIyBx4X7+IeXpC05QjESuN0Zc=
+
+Name: assets/ccb/monster_succubus_HD.ccbi
+SHA1-Digest: NJ2BRrfS0gg/V0DexhsSDIW/t5U=
+
+Name: assets/ccb/monster_pirate_HD.ccbi
+SHA1-Digest: KpTD/kD8gw5Bd80arIxUyEBoeNc=
+
+Name: assets/Texturepacker/knight_HD.plist
+SHA1-Digest: YnPX5AHPQJFErhaj2zM5YoJ5Z28=
+
+Name: res/drawable/common_signin_btn_icon_light.xml
+SHA1-Digest: ktr8MBNUEm5dVFTpIrg0HCypcLQ=
+
+Name: res/drawable-xhdpi-v4/ic_plusone_medium_off_client.png
+SHA1-Digest: AR9HXy3gX5kwRQ6URVZTPWpsvwA=
+
+Name: assets/ccb/BOSS_adrammelech.ccbi
+SHA1-Digest: OLHi5cOTDrrLlxvIPzONN/EkaPE=
+
+Name: assets/Texturepacker/BOSS_new_pluton.plist
+SHA1-Digest: iPdvlu4A/M7qkwZwBiH2wxGP2ic=
+
+Name: assets/Texturepacker/giantchick.plist
+SHA1-Digest: 9bvyUmlD2hWZyjOsM6ryjctO304=
+
+Name: assets/Texturepacker/CD_UI_talk_event.plist
+SHA1-Digest: w+7DOBp07n5HA4bZul5YQX+VVAk=
+
+Name: assets/Texturepacker/04_light_map.pvr.ccz
+SHA1-Digest: 36NncqRtnCRyOhLvb+7zlNfzSVU=
+
+Name: assets/Texturepacker/BOSS_lilith.pvr.ccz
+SHA1-Digest: CXhVBccv1FSWxKdf8TNI4LImi9Q=
+
+Name: assets/Base.lproj/en.lproj/InfoPlist.strings
+SHA1-Digest: 5uqhj/MwUqj69CkiU79fAqxZqLw=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_lig
+ ht.9.png
+SHA1-Digest: yxa0UeGLYNHkuR3OEDiNjcUTK20=
+
+Name: assets/ccb/location_cursor.ccbi
+SHA1-Digest: 1m7XDR/246+Db2UNmn9xIjF/DRA=
+
+Name: assets/Texturepacker/CD_UI_card_image.pvr.ccz
+SHA1-Digest: MHk3qsRGPPy0Mhn5CMxEZDPsMsM=
+
+Name: assets/Texturepacker/NPC_senior_priest.pvr.ccz
+SHA1-Digest: n/P4j5OQD0ODuylNoIhurwzwZAo=
+
+Name: assets/Texturepacker/salamander.plist
+SHA1-Digest: mLCZMYx7GIVos9aJjUQKmqkQJ0U=
+
+Name: assets/Texturepacker/BOSS_leviathan.plist
+SHA1-Digest: AYcfdWjZP7KZEAuBocZbFVewMII=
+
+Name: assets/ccb/stage_controller.ccbi
+SHA1-Digest: 2Pkp7ZJHFwSvS/kEZYKc/C1SKcw=
+
+Name: assets/Texturepacker/local_es.plist
+SHA1-Digest: uzYVPk3aDTmhpcXeplV9p16ivxw=
+
+Name: assets/mon_summon.mp3
+SHA1-Digest: nPslK+uLqn05OVUY1IXmbpA3hK8=
+
+Name: assets/gotcha_cardshuffle.mp3
+SHA1-Digest: vNDrOL6lpASOK9mUsqTODbJWlnk=
+
+Name: assets/ccb/NPC_princess_HD_02.ccbi
+SHA1-Digest: /F0suCmuwzi5vyEMyz8y7wfKxE8=
+
+Name: assets/Texturepacker/monster_moss_ball_HD.plist
+SHA1-Digest: YW6wnTyddw3oVcXOqk3XVwzlpIY=
+
+Name: assets/ccb/skilled_hero_HD.ccbi
+SHA1-Digest: XPWRHPOxafcsvpcwQfQc6g8f0Jw=
+
+Name: assets/Texturepacker/CD_card_effect.plist
+SHA1-Digest: Izz1rP2ld4Fz5jOUl9jsVWWVFRY=
+
+Name: assets/ccb/valkyrie.ccbi
+SHA1-Digest: 2gRsJ0T/hXBVYFxzHn9kmSf80Hs=
+
+Name: assets/ccb/stage_ui_gotcha_HD.ccbi
+SHA1-Digest: bPBJwaY02fcib/dW+JJTbvviX9o=
+
+Name: assets/Texturepacker/nyarlathotep.plist
+SHA1-Digest: 6u1Z4UjA6ZXjwhLSH9CS155gi2w=
+
+Name: assets/ccb/CD_UI_levelup_event.ccbi
+SHA1-Digest: tmh+PMto6kDg5tVk6L4awbjXqgQ=
+
+Name: assets/Texturepacker/viking.plist
+SHA1-Digest: KXxpDIweYdkL6pXvUIIM39rY0iM=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: EnithPaNXwOv/zCX3978PlhGGW0=
+
+Name: assets/Texturepacker/gold_monster_HD.plist
+SHA1-Digest: eB6XgR9M/Lr3I+6bwDJ8uwQw3JE=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: ZEEsXmeNi1geqYcaE8zpEqIuRiw=
+
+Name: assets/vg_mute_off.png
+SHA1-Digest: u+yTA/0R1LKZ5nN3PwSjhPJWgXM=
+
+Name: assets/Texturepacker/title_effect.png
+SHA1-Digest: P/o23IT1Xg9J7VeopJG8vpIMx0s=
+
+Name: assets/Texturepacker/mad_santa.plist
+SHA1-Digest: saAF0eTO/v15gS9CisoCuG90MUc=
+
+Name: assets/Base.lproj/ko.lproj/InfoPlist.strings
+SHA1-Digest: UAIpw0xQmhu3DpTRSDEQvOsgh+U=
+
+Name: assets/Texturepacker/snowman.pvr.ccz
+SHA1-Digest: sQjTSd/1lgg1TnTry+W8r2ft6o8=
+
+Name: assets/spin_pull_3.mp3
+SHA1-Digest: HkQYiL27hZC8nJL5wsg+8WoWcGE=
+
+Name: assets/ccb/hero_HD.ccbi
+SHA1-Digest: /xbt6vAishXMNJcmYzY/q7ABImg=
+
+Name: assets/Texturepacker/swedishvamp.pvr.ccz
+SHA1-Digest: Ok6cJEEmZaHsS+889PWKFfj2A1g=
+
+Name: assets/background_fire_adventure_00.png
+SHA1-Digest: 70Mv8dyJJ3fXXQynNn2qelpiKKg=
+
+Name: assets/Texturepacker/BOSS_amon.pvr.ccz
+SHA1-Digest: NFP64mmVOgyI8Tj5IGolLxO76jw=
+
+Name: assets/ccb/NPC_king.ccbi
+SHA1-Digest: b6FuHNOheEp5uevziQekoZAuxPg=
+
+Name: assets/ccb/demon_sword_hero_HD.ccbi
+SHA1-Digest: MEC5rxnFpQbcvO748PpLLY2VwQU=
+
+Name: assets/ccb/card_info.ccbi
+SHA1-Digest: CZVNxYQNhB9RQeRmFk/X9vtqJjQ=
+
+Name: assets/ccb/CD_UI_slot_effect_fire.ccbi
+SHA1-Digest: beAchmDIX6c853ekODn1bWQe5jk=
+
+Name: assets/ccb/monster_ogre_HD.ccbi
+SHA1-Digest: mUrlrJbFRvoIx2pmtM/0q0wDyFQ=
+
+Name: assets/credits_01.png
+SHA1-Digest: AiE1hQR9TlvLri2gBCWZgX3ov/Y=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: QwiM3Q2FP7ZYDaB04oy3gDzhBto=
+
+Name: assets/Texturepacker/NPC_warriors_fairies.pvr.ccz
+SHA1-Digest: MsENS21KWA4quYm7zzRZ0sv4sAk=
+
+Name: assets/OpeningSound.mp3
+SHA1-Digest: ez+jFi2vFYKMdw9tNEiP91n1+W4=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: 8+niuO9OhNqCIJJHSXmAIepAde4=
+
+Name: com/tapjoy/res/tj_close_button.png
+SHA1-Digest: 3qZ0xOt/QnkWtyfNbV2wyKyE/aw=
+
+Name: assets/Texturepacker/CD_UI_result.pvr.ccz
+SHA1-Digest: gKQeDKCsYHl7C0KCrDIbBDVKZb0=
+
+Name: res/drawable/common_signin_btn_text_dark.xml
+SHA1-Digest: 9/NkNFAoQ9J+Xc8BJdrV30L3GKA=
+
+Name: assets/Texturepacker/witch_green.plist
+SHA1-Digest: EoL7W7XKilFuyzwcqpN9n0i/5lQ=
+
+Name: assets/ccb/CD_UI_battle_result_lose.ccbi
+SHA1-Digest: rm/kv/WCJRTuyuUl9+t69m/s4A4=
+
+Name: assets/Texturepacker/monster_thief_HD.pvr.ccz
+SHA1-Digest: HFupDQh0wxmKUns7O/SFPouXuz8=
+
+Name: assets/Texturepacker/local_cc.plist
+SHA1-Digest: 46eY2z/idBGxZfPfQjZxKR830ww=
+
+Name: assets/ccb/monster_undine_man_HD.ccbi
+SHA1-Digest: 4p58jb+azK0oEPxZW0+Zj9N1KoI=
+
+Name: assets/ccb/comming_character.ccbi
+SHA1-Digest: lP5YY3sTa3J9P/YedmmgYrpU/ro=
+
+Name: assets/renewal/daily_es.png
+SHA1-Digest: eYggfzKvPn4DV0ei3mFDbD2vBVg=
+
+Name: assets/Texturepacker/CD_UI_orb.pvr.ccz
+SHA1-Digest: 3Zkv2q2AVlB8J4VNe42b1E7/HwY=
+
+Name: assets/Texturepacker/00_dungeon_10.tmx
+SHA1-Digest: WZ0cBKov7oVp7kxW86jelqbx3Xo=
+
+Name: assets/Texturepacker/grinch.pvr.ccz
+SHA1-Digest: z9m42ZzuJTwZX3C8cCPiYZkaRH8=
+
+Name: assets/background_water_adventure_01.png
+SHA1-Digest: uMmuR5w9GEmnxLXgHx0V/qDbXKY=
+
+Name: assets/ccb/monster_sylphid_HD.ccbi
+SHA1-Digest: u2WKDZqMh9j3XrVNSJq/LsIvRaA=
+
+Name: assets/Texturepacker/BOSS_haetae.plist
+SHA1-Digest: S2kVw+RHt2kjdMaasSh3toQYHUQ=
+
+Name: assets/ccb/main_ui_leftdown_HD.ccbi
+SHA1-Digest: 7/KSSRdvSyhvqahUd9UAv0L7nKg=
+
+Name: assets/mon_attack2.mp3
+SHA1-Digest: Z4qn3K3+xvNGws/uvV7C6k0/h7I=
+
+Name: assets/text/Localizable_fr.strings
+SHA1-Digest: se8n91LORdqLKDdneAePCtcXXpE=
+
+Name: assets/ccb/paladin.ccbi
+SHA1-Digest: GdlBjhsvR8omLxnEdQHEROiv2R4=
+
+Name: assets/Texturepacker/CD_UI_enchant_window.png
+SHA1-Digest: KhRdLkFiHnutzXaWwY/CRFzwiUY=
+
+Name: assets/Texturepacker/demon_knight.pvr.ccz
+SHA1-Digest: Svknqpm25E6qs+4FFRS0KCv7chk=
+
+Name: assets/ccb/BOSS_moloch.ccbi
+SHA1-Digest: Pyn/a06gd5PMoxY9YhId8aHgR2I=
+
+Name: assets/Texturepacker/BOSS_lucifer.plist
+SHA1-Digest: KCf0DfNww6aLVPynZzzU24saPwI=
+
+Name: assets/Texturepacker/CD_UI_episode.pvr.ccz
+SHA1-Digest: 5LnHZ2TBfuD26ZTXxK3aeajK6V4=
+
+Name: assets/ccb/babarian.ccbi
+SHA1-Digest: 45ij1MjvPOyPELLHudylzirKAAo=
+
+Name: assets/Texturepacker/CD_UI_shop.pvr.ccz
+SHA1-Digest: 7jkWzOGZTRnPp5u7o45zRvuCSN4=
+
+Name: assets/Base.lproj/de.lproj/InfoPlist.strings
+SHA1-Digest: Mz1j+eknXa4FeqZFG+kix6PWABw=
+
+Name: assets/ccb/popup_ui_build_HD.ccbi
+SHA1-Digest: Uhx6RxbkAWRLsZgjSDiQ4TlekJQ=
+
+Name: assets/Texturepacker/CD_UI_worldmap.plist
+SHA1-Digest: oGpUjYEk32WWN/W4IRIposgvjzU=
+
+Name: res/drawable-mdpi-v4/ic_plusone_small_off_client.png
+SHA1-Digest: DX5NPul5za8/XPsPaTiyuRHhiw4=
+
+Name: assets/ccb/BOSS_mad_santa.ccbi
+SHA1-Digest: 9lvikhifOBB9NpeNB7SQcoVaO4o=
+
+Name: assets/ccb/monster_necromancer_HD.ccbi
+SHA1-Digest: eE7Ubw2zOGorXTuN3/naqekdX88=
+
+Name: assets/Texturepacker/BOSS_moloch.pvr.ccz
+SHA1-Digest: xpmq3pxM9C3iTVtDuYlzTNgSq1g=
+
+Name: assets/ccb/prologue_es.ccbi
+SHA1-Digest: PT673F9xw4RJ8dN5XUaJ88hXqPY=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: am6e9g4ZxkzrNl0kYCI9SErpqwY=
+
+Name: assets/ccb/CD_UI_talk_npc_mystery_woman.ccbi
+SHA1-Digest: ANfcNdU0NfQE/LQOVV0NCgcKAQI=
+
+Name: assets/ccb/summon_character.ccbi
+SHA1-Digest: xA3KyVqQo+FI2ZOtSlP58G53NHo=
+
+Name: assets/ccb/prologue_fr.ccbi
+SHA1-Digest: 5HYs4fxpKwSzQeN+PL225XCq5O0=
+
+Name: assets/ccb/CD_UI_slot_machine.ccbi
+SHA1-Digest: KTcZpJ5LpyFox8XDW6Lx+gCflRE=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: vaBFRXPzebcTp2nl0UTmAq6JgFM=
+
+Name: assets/Texturepacker/BOSS_astaroth.pvr.ccz
+SHA1-Digest: zTXf6nMd6vKQqhBaZ1cl3kJJfNU=
+
+Name: assets/ccb/NPC_box.ccbi
+SHA1-Digest: YTvHkuyWiWz4jHI93flAnFUbErk=
+
+Name: assets/Texturepacker/local_es.pvr.ccz
+SHA1-Digest: 9Z2ixCcG7Dn+UiDeeteX4Ex6mBg=
+
+Name: assets/Texturepacker/BOSS_moloch.plist
+SHA1-Digest: cLky+3zOldVji7b5VbPtpgEEtJQ=
+
+Name: assets/background_fire_adventure_01.png
+SHA1-Digest: QCAm/EcsegG2Whao+8Cy+qA1upw=
+
+Name: com/igaworks/adpopcorn/res/ic_bottom_mail.png
+SHA1-Digest: hLb+DolIckWQBZoQ4CEuue7rdtc=
+
+Name: assets/Texturepacker/npc_magicians.plist
+SHA1-Digest: 0tao9JZqJ5F1ty6cFRjkFFKD3Ic=
+
+Name: assets/Texturepacker/selene.pvr.ccz
+SHA1-Digest: KFQcGaLn5SQJMreKzwRelRLKWHM=
+
+Name: assets/Texturepacker/00_dungeon_03.tmx
+SHA1-Digest: 18ZjhWQCf8aDP/TlC5Wmte64OtI=
+
+Name: assets/Texturepacker/monster_reddevil_HD.plist
+SHA1-Digest: brCB1hVHClCscYh47f4uy4WuyBg=
+
+Name: assets/Texturepacker/CD_UI_window_00.png
+SHA1-Digest: omcbBo3qjkIZ3wvs/Mn1rLmXF6k=
+
+Name: assets/ccb/BOSS_payimon.ccbi
+SHA1-Digest: Vk4duF5IUQGiKSQ/MhTo8OCLuzo=
+
+Name: assets/ccb/CCBShopUI.ccbi
+SHA1-Digest: ddJuwzMh11H/z9GtpqFzcZ52Kyw=
+
+Name: assets/Texturepacker/prologue_sky_background.pvr.ccz
+SHA1-Digest: f3QGeu8sqEHj6aiu6o1i1xe9gzQ=
+
+Name: assets/ccb/BOSS_leonard.ccbi
+SHA1-Digest: mrZXjOBQBddRubIwD5oNEb2k5Fk=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_dar
+ k.9.png
+SHA1-Digest: HnX1iCzxlGqHfnF3q+JwLt/NWfw=
+
+Name: assets/text/Localizable_en.strings
+SHA1-Digest: ZaT5iLXw8Avs4jap5Dyi8T2WPWU=
+
+Name: assets/Texturepacker/monster_zombie.plist
+SHA1-Digest: nl+4ihEJbu0hBZAxn6gDUvJ9IZs=
+
+Name: assets/ccb/monster_nine_tailed_fox_HD.ccbi
+SHA1-Digest: zcGFVSgKqdTeDmqbFnPWoQ1egKM=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: oCmT+PkD6Q6fj4015q1g9/We2iA=
+
+Name: assets/ccb/monster_hyunmoo_HD.ccbi
+SHA1-Digest: GGwkoRUMw4hBatjLn6AEefCnXyY=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: x1SaIflLE5ETIZBY9NPET+yiGu8=
+
+Name: assets/renewal/CD_menu_button_01.png
+SHA1-Digest: p+wHlKvtJQYQQWH25LcnTJ4MuIU=
+
+Name: res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png
+SHA1-Digest: LZx0xqgXyBfiojDopo6cg6H51jY=
+
+Name: assets/Texturepacker/mad_santa.pvr.ccz
+SHA1-Digest: ELluYTGAqb6WmsLy0zmOXGwtmEI=
+
+Name: assets/Texturepacker/necromancer.plist
+SHA1-Digest: tGu2lSHQKmblddrFbV8Q734sQGo=
+
+Name: assets/Texturepacker/01_fire_map_01.pvr.ccz
+SHA1-Digest: Ho0GB6QPuyrRgjI80YlfMFx8n68=
+
+Name: assets/Texturepacker/BOSS_buer.pvr.ccz
+SHA1-Digest: dZAoF10inu2eRTN3LKJFkQOLQV8=
+
+Name: assets/Texturepacker/fsm.pvr.ccz
+SHA1-Digest: 2A3namNQpMDYhrtCJbrNNTug1EM=
+
+Name: assets/ccb/popup_ui_monster_status.ccbi
+SHA1-Digest: zMQ3NchI++9FpybpaJwGnEsouNY=
+
+Name: assets/ccb/CD_UI_result_cyclops.ccbi
+SHA1-Digest: OJ7HcDJnZmUYp8vdBw52AsKyZgc=
+
+Name: assets/Texturepacker/BOSS_reddragon.plist
+SHA1-Digest: dYQYelI2QgPNj+ooXwM1ZKkv2Z0=
+
+Name: assets/ccb/monster_jellies_HD.ccbi
+SHA1-Digest: JXFnyDJzjpUhzJL/YJCM/ab0PJ4=
+
+Name: assets/Texturepacker/CD_UI_code_effect.pvr.ccz
+SHA1-Digest: q/X+uvP6+IyP9eSc+u8c/ioUEoU=
+
+Name: assets/Texturepacker/mad_king.plist
+SHA1-Digest: R1tgkZm4539KC1Jth4x0ovAa8vg=
+
+Name: assets/Texturepacker/undine.plist
+SHA1-Digest: Y6ouzvSS/5y7AzufFlUQpr9G52Q=
+
+Name: assets/Texturepacker/paladin.pvr.ccz
+SHA1-Digest: Z7y8c39memsNRvbGRPhhNgEkhNc=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: WPTWH7XeNc+LWr/cyp92Pruzwh0=
+
+Name: assets/Texturepacker/CD_UI_shop_title_01.png
+SHA1-Digest: SG3HhPLf5aUPvDqHy2kgZ7BbjJU=
+
+Name: assets/Texturepacker/pink_eyeball.plist
+SHA1-Digest: EHc8HjTaiM4E8sUtqOt8U7Igsg8=
+
+Name: assets/ccb/BOSS_golddragon.ccbi
+SHA1-Digest: HjX7J+wmT/7QPZOlNrN/AE43S48=
+
+Name: assets/popup_notice.mp3
+SHA1-Digest: hwhBjPFAO850jpcqKuNBSaiVKns=
+
+Name: assets/Texturepacker/angel.plist
+SHA1-Digest: 1bigIXu++AADiw8vTnLjd53jGMs=
+
+Name: assets/ccb/BOSS_belial.ccbi
+SHA1-Digest: LdfSBONEhjJ1Fi9Q+bplGY2fnT8=
+
+Name: assets/Texturepacker/night_elf.pvr.ccz
+SHA1-Digest: eOePYvAi3Jx9l62GvF1Ebi0UNXw=
+
+Name: assets/ccb/CD_UI_talk_npc_knight.ccbi
+SHA1-Digest: AH59Kxr0isMTiU4rclvwmM3O+U4=
+
+Name: assets/ccb/monster_mossball_HD.ccbi
+SHA1-Digest: AKu5HEiB7B3iWpUmtQECz+04aK4=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dar
+ k.9.png
+SHA1-Digest: b7p49PePpoiSa638M7tjwGcWek8=
+
+Name: assets/Texturepacker/CD_UI_enchant.pvr.ccz
+SHA1-Digest: NhShbv7bmY15yZRl3vTp8xsOV7U=
+
+Name: assets/BGM_Dungeon.mp3
+SHA1-Digest: /lsgnVZeHpjBlOl7s58HSFzh8Jc=
+
+Name: assets/Texturepacker/BOSS_forneus.plist
+SHA1-Digest: 0P6N2UNjJiDPzMVaj3l68DEkH+I=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: FF9x9wlSkPYra0pZDSr03ISir98=
+
+Name: assets/Texturepacker/skilled_hero.plist
+SHA1-Digest: tRpMhBVGJzLX2WwR8XKKHLhUacI=
+
+Name: assets/font/PixelMplus12-Regular.ttf
+SHA1-Digest: j96hXWsa06nMftmGYOtSsFfmslI=
+
+Name: assets/Texturepacker/fungus.pvr.ccz
+SHA1-Digest: /JTYwEDCte9+nEuP9cYjjkqmSow=
+
+Name: assets/Texturepacker/00_dungeon_00.tmx
+SHA1-Digest: q5FbdwPV3j8LkL23hMXRgw1Njoo=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: XW516Uvxq8PEuDKhUHNJJxA4A4A=
+
+Name: assets/ccb/CD_UI_hand_cursor.ccbi
+SHA1-Digest: Mot7ehXfq5zdxAnVIgXhp4FIeeU=
+
+Name: assets/Texturepacker/sylphid.plist
+SHA1-Digest: A4cMwfIY15sOCZxDD4sSeP9e3AE=
+
+Name: assets/Texturepacker/background_fire__effect.png
+SHA1-Digest: 0kJj1lNh157ctfNVGEQmO416YbQ=
+
+Name: assets/ccb/NPC_mystery_woman.ccbi
+SHA1-Digest: S/c8quanF9D42CsXSxvvFOsLiww=
+
+Name: assets/Texturepacker/NPC_mystery_woman.plist
+SHA1-Digest: 59wpAtnz4gA4oyGNmDNw2CSxFh0=
+
+Name: assets/ccb/monster_chipetopec_HD.ccbi
+SHA1-Digest: bDCrUQAU9D0q9l9z/j7snpFP+rQ=
+
+Name: assets/Texturepacker/00_dungeon_02.tmx
+SHA1-Digest: lf61YTNUr1bnZ9lsrc8hscgJEOQ=
+
+Name: res/drawable-xxhdpi-v4/powered_by_google_dark.png
+SHA1-Digest: Y65PfhNu1WnoE42R26MDsV/hl24=
+
+Name: res/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png
+SHA1-Digest: fbn419FUypwrdpUi2m4EF6Huags=
+
+Name: assets/ccb/monster_skeleton_HD.ccbi
+SHA1-Digest: fxMgfON302umADZaWHizdg6s4wc=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: walV1ZTNBAlTKYzs5tcTprhdBYw=
+
+Name: assets/ccb/monster_giantspider_HD.ccbi
+SHA1-Digest: 29/HCRVfSxgryDwVaQiGPidkDJY=
+
+Name: assets/renewal/CD_menu_button_00.png
+SHA1-Digest: dQmnTfS5qYtg3LRFXbq6ssBAWk8=
+
+Name: assets/enchant_level_up.mp3
+SHA1-Digest: NnwwZvVdgVOO7bqJhugGFRgionU=
+
+Name: assets/ccb/monster_mummy_HD.ccbi
+SHA1-Digest: j862FYKbkT3f0dY/6wB1Zzs6KUE=
+
+Name: assets/font/PixelMplus12-Bold.ttf
+SHA1-Digest: UMb5vyLRdBt3dTxDBMdeaTpNscs=
+
+Name: assets/ccb/fileLookup.plist
+SHA1-Digest: X2CdGm8nCskrcgcs2E3qnzmfgMY=
+
+Name: assets/Texturepacker/witch_green.pvr.ccz
+SHA1-Digest: xYkS4WB06vS3erf/i+EErbqkm8c=
+
+Name: assets/ccb/monster_lava_spider_effect.ccbi
+SHA1-Digest: FUwd+HTp/3AyQQPk9hjVyYukM4k=
+
+Name: assets/Texturepacker/BOSS_leonard.pvr.ccz
+SHA1-Digest: iRy3k4HiPuW4MXuz3RK4x0hI7Mo=
+
+Name: assets/Texturepacker/vampire.pvr.ccz
+SHA1-Digest: VhtEoPyp70SzhV+K1ENmQcxdZjc=
+
+Name: assets/Texturepacker/white_elf.pvr.ccz
+SHA1-Digest: 4Jvz43vY/mECB8+hOiFl14OTlhk=
+
+Name: assets/ccb/monster_lava_spider_HD.ccbi
+SHA1-Digest: CHyGpddTl/TJ3+SJW80CrfDMQlw=
+
+Name: assets/vg_cta_disabled.png
+SHA1-Digest: 9BuwyjxkDPUbExCk02iNL4zTHdU=
+
+Name: assets/Texturepacker/BOSS_phoenix.plist
+SHA1-Digest: Pu0uKY23DFud5Y/xmjDy2DHH3Ko=
+
+Name: assets/Texturepacker/title_bg.png
+SHA1-Digest: t4F8fHE/4zhRGdcnguMTtERNADo=
+
+Name: assets/Icon-Small-50.png
+SHA1-Digest: +FY0YVwXCdwsiwH0VeIpqVJN4nk=
+
+Name: assets/Texturepacker/CD_UI_shop_title_00.png
+SHA1-Digest: I6pn6NZqp0HOb9AXjzVrNi3651A=
+
+Name: assets/Texturepacker/innsmouth_man.pvr.ccz
+SHA1-Digest: 9Mny6QVj0v/83y8yLNXG6ntxt2w=
+
+Name: assets/Texturepacker/incubus.plist
+SHA1-Digest: enV3v/5NvNrVMizfYOnT7srCK38=
+
+Name: assets/Texturepacker/CD_UI_info.plist
+SHA1-Digest: X4/pi9BW9/ljjkZBF8VzwqxPR/8=
+
+Name: assets/ccb/BOSS_lucifer.ccbi
+SHA1-Digest: W5WGq8AH5pyfxwJ2TZQC0mQ+YLY=
+
+Name: assets/ccb/NPC_football.ccbi
+SHA1-Digest: uzquWg9kijUPyvIF7aOI4+XwKC0=
+
+Name: assets/Texturepacker/fsm.plist
+SHA1-Digest: rk9tokpQCApIhZIeD2vbTzCWDw4=
+
+Name: assets/Texturepacker/local_gm.pvr.ccz
+SHA1-Digest: XrzqYTDEoBDjVjRhcOlz1XDQMcM=
+
+Name: assets/Texturepacker/NPC_witch.pvr.ccz
+SHA1-Digest: ku5R2Bucm2IaJyrwdNvUT7r6Qe8=
+
+Name: assets/ccb/monster_portrait_of_a_beauty_HD.ccbi
+SHA1-Digest: pUrq8eSASQpGW2TT36jgdH4IBYc=
+
+Name: assets/ccb/magician_HD.ccbi
+SHA1-Digest: QBPMaB4H7Rv2kZdySQjjcimoUBg=
+
+Name: assets/text/Localizable_gm.strings
+SHA1-Digest: ACRCKXWo2+s8guDvr7zolcT79BE=
+
+Name: assets/ccb/CD_UI_talk_npc_king.ccbi
+SHA1-Digest: hTInKdTiTKzFkpq8o1VRj1zyo2s=
+
+Name: assets/Texturepacker/BOSS_payimon.pvr.ccz
+SHA1-Digest: StqfvAnzG0RkZiGySqOmqDxLSSA=
+
+Name: assets/Base.lproj/InfoPlist.strings
+SHA1-Digest: 6i8Y3FXYTeX/fY3lnGmRp9Mg8m4=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: h8OXyDRCk3boAFYIQfDqBpNpcKo=
+
+Name: assets/Texturepacker/00_dungeon_01.tmx
+SHA1-Digest: 2Z2RXMHyuFBgu0B21ObRXoDyyUo=
+
+Name: manifest
+SHA1-Digest: eQsFnhaj9q1bTPlSAvlsa+lJS9M=
+
+Name: assets/ccb/CD_UI_mvmSelect.ccbi
+SHA1-Digest: cdmY+vV5k9t66C929oiUTi4pPcA=
+
+Name: assets/Texturepacker/background_fire.png
+SHA1-Digest: Og+aDp4I2kPxkCUT0HOkeCfxCeM=
+
+Name: assets/Texturepacker/character_UI.plist
+SHA1-Digest: jYPRlV2uB7119JrDSlUlXw+qA+g=
+
+Name: assets/Texturepacker/CD_UI_mvsm_backgroud.png
+SHA1-Digest: qXeMpX7onXZzlM9mVyLCiJTf7ME=
+
+Name: assets/ccb/CCBShopUI_.ccbi
+SHA1-Digest: 4aTRnsECETZYNSyQYJ+AW+yPywY=
+
+Name: assets/result_won.mp3
+SHA1-Digest: JhLqvAEyL3DIak5AC1rJDURqd44=
+
+Name: res/color/common_signin_btn_text_dark.xml
+SHA1-Digest: +1K7L4nKnlWaFWQMbO+b5sHLt4w=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: 4Tm2PenDNchFZkDLYXx0Umi2LH0=
+
+Name: assets/Texturepacker/leader_of_limbo.pvr.ccz
+SHA1-Digest: lAiewPfQBKbnlU4lRsACHrWi400=
+
+Name: res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png
+SHA1-Digest: O+m0D9P2iKLnyjHKRgLp4wihjgQ=
+
+Name: assets/ccb/monster_fsm_HD.ccbi
+SHA1-Digest: 1+CQCfr08DWdBeLk5sy3O08skSg=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: sQHE6IQziNSTxVMBL3yAa2hXDXk=
+
+Name: assets/Texturepacker/necronomicon.pvr.ccz
+SHA1-Digest: 9Gr0DL/U0qTAIE0DXL3BK2ueCO8=
+
+Name: assets/renewal/gacha_01.png
+SHA1-Digest: xj9wevIiM3oRYhyrhjIwWUQOXGk=
+
+Name: assets/Texturepacker/CD_UI_slot_m.pvr.ccz
+SHA1-Digest: YFDvSjNLDmxCNgsjPbDA9RshFRg=
+
+Name: assets/ccb/magician_effect_fireball_HD.ccbi
+SHA1-Digest: h4oO19m+DpmUeNicUY4amhiMO+M=
+
+Name: assets/ccb/monster_dark_elf_HD.ccbi
+SHA1-Digest: z3rp2p1PuWGpwmemvx3896rWIc8=
+
+Name: assets/ccb/BOSS_leviathan.ccbi
+SHA1-Digest: 1mDCy6mtn1Eljq5UIEVPZNniuM0=
+
+Name: js/mraid.js
+SHA1-Digest: XNptZM2BY264COtTYviewxAmyL8=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: U5TdMp2zphtmlpWCdW1Z+FJ2o4A=
+
+Name: assets/renewal/CD_UI_button_change_01.png
+SHA1-Digest: D+OVq50QGnWQWhrUzWeIRjgpXLw=
+
+Name: assets/ccb/CCBEntertainUI.ccbi
+SHA1-Digest: jWremqxZSGwS+1Bus/+X0JlVXMo=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_disabled_focus_light
+ .9.png
+SHA1-Digest: uJ2DS4EIaeC1oq2u0cMJassraFM=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_disabled_focus_dark.
+ 9.png
+SHA1-Digest: ofakGPbpsipAkNSIwW0MLvnk/O8=
+
+Name: assets/ccb/monster_hellhead_HD.ccbi
+SHA1-Digest: RwY0j/itXB33vxA49pAgIuK5DKs=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_disabled_light.9.pn
+ g
+SHA1-Digest: k5MOcAliy5dGNVM2ei1u0A/sKl8=
+
+Name: assets/Texturepacker/monster_pirate_HD.pvr.ccz
+SHA1-Digest: McCbnntmxEGeLUDbiEPzCz30i+k=
+
+Name: assets/Texturepacker/mummy.pvr.ccz
+SHA1-Digest: AF1vgZdnoi+cNInEbu6pT76cBPg=
+
+Name: assets/ccb/NPC_princess_HD_00.ccbi
+SHA1-Digest: fFLFwhO/d8G2oVKLs+HAqH2wAvM=
+
+Name: assets/Info.plist
+SHA1-Digest: z13mvpVCiShBGzhPZHhaQIe3x9U=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: PQ6x6mCN08MwSmkzSToxQmWLcIc=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: 52wNZqRHAPnDD55A0qr2nildLKo=
+
+Name: assets/renewal/CD_UI_shop_button_07.png
+SHA1-Digest: 1GXz4WA+O+oeLE24s6ILwpos8i0=
+
+Name: assets/Texturepacker/02_water_map.pvr.ccz
+SHA1-Digest: ivNl4lTpdoN0mW6Pz6IoXuxTN6Y=
+
+Name: assets/Texturepacker/title.plist
+SHA1-Digest: MemAgQF6sIMHzYuiwOJSU3ISw7w=
+
+Name: assets/Texturepacker/BOSS_adrammelech.plist
+SHA1-Digest: yVcJVw4DKhAv6D+1r2PF6NS1s4s=
+
+Name: assets/font/NotoSans-Bold.ttf
+SHA1-Digest: NlLazaE1S/hRyeTlirqekj2PJI8=
+
+Name: assets/Texturepacker/goblin.plist
+SHA1-Digest: XvHtPjArUJcydYnj+FBZ2ry8NE0=
+
+Name: assets/Texturepacker/BOSS_pan.plist
+SHA1-Digest: IHqgiJ90JVALxmDFcL0y7noGz8E=
+
+Name: assets/Texturepacker/elf.plist
+SHA1-Digest: shqr1DhkedO67CZK6M5WHoJzv1o=
+
+Name: assets/Texturepacker/local_cs.plist
+SHA1-Digest: Gsh0IDeAcGv0Cfp1RCs3FJoWG2Y=
+
+Name: assets/Texturepacker/CD_UI_goal_npc.plist
+SHA1-Digest: BXAVuQEAKua6eY+1dBB07nxMKro=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: BTeLuLdg5icJMgMtSDAKBZt9ygk=
+
+Name: assets/ccb/monster_nyarlathotep_HD.ccbi
+SHA1-Digest: UXgdtrowavosAoFvN2zp5LUz7xY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: rEVmyyqoBmJ294Fnp3KQ4gerRP4=
+
+Name: assets/Texturepacker/hero_HD.pvr.ccz
+SHA1-Digest: oKYksCoRgbjgkkld9UoC911g7GA=
+
+Name: assets/Texturepacker/tree_giant.plist
+SHA1-Digest: y16eRZXWYhiafe/NH6/8R8yqPKI=
+
+Name: assets/ccb/monster_reddevil_HD.ccbi
+SHA1-Digest: mLjcMvy6VQEP4rjGyUPhXEu5spk=
+
+Name: res/drawable-mdpi-v4/ic_plusone_standard_off_client.png
+SHA1-Digest: kCo8oWl8qEdfXTocxzzMYw/cv6Y=
+
+Name: assets/Texturepacker/knight_HD.pvr.ccz
+SHA1-Digest: MB6OgevsZQsbGgMKXdOnVF4/uA4=
+
+Name: assets/Default@2x.png
+SHA1-Digest: x4m0sGwQA4/q5j1mKhOk2/Uyet0=
+
+Name: assets/result_levelup.mp3
+SHA1-Digest: LcHRnG7b5Ro4h+/4GU0rvWfEb74=
+
+Name: assets/renewal/ainfo_00.png
+SHA1-Digest: pUEyxP0WYGDntOA6i+iDs8EclaQ=
+
+Name: assets/Texturepacker/background_tree_effect.png
+SHA1-Digest: 19pz8BiliKQadWKfHSzk6Xj0yLo=
+
+Name: assets/Texturepacker/NPC_merchant.plist
+SHA1-Digest: tOL3stm06H4FY7I3xjUZYu0C9sc=
+
+Name: assets/Texturepacker/CD_UI_code_effect.plist
+SHA1-Digest: M7G/jDzTgDGMDPtaR3oc08JiNks=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: Eg+tT/t4WpGjfmTKq9KG0JTWonw=
+
+Name: assets/Texturepacker/BOSS_haetae.pvr.ccz
+SHA1-Digest: /TXjiDq+TWfV+/QiWlrWBIveE6U=
+
+Name: assets/ccb/popup_ui_human_hunting_result_HD.ccbi
+SHA1-Digest: WaxW/g/092T/Dcl/C2LJc8umd4w=
+
+Name: assets/Texturepacker/NPC_sword_cat.plist
+SHA1-Digest: DXHFTR0UWidpBovfKJ33oB9jSc0=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: 8WSUJI4V8zSfLbKSu/Jez3l7A70=
+
+Name: assets/Texturepacker/CD_UI_levelup_event.plist
+SHA1-Digest: UCt6LimV3jUi3xWRddfd53cXFy0=
+
+Name: assets/googleplay_splashlogo.png
+SHA1-Digest: 7/dLu/JBZD/wwz0MJTo+MG7xago=
+
+Name: com/tapjoy/res/countdown_image.png
+SHA1-Digest: bZ8r/UKzndAPLyW6cNAN+kxR4K8=
+
+Name: assets/Texturepacker/NPC_princess_02.plist
+SHA1-Digest: xvFbevw62s1C1RYIQ2FlD1Kp8Uo=
+
+Name: assets/Texturepacker/monster_snake_HD.pvr.ccz
+SHA1-Digest: Mry+VR1eFD0dDBO+Xm3TcCJ2rAY=
+
+Name: assets/Texturepacker/kobold.pvr.ccz
+SHA1-Digest: JJc7vjU6sgX8Qd50EmjICFw4F9w=
+
+Name: assets/renewal/CD_summon_button_01.png
+SHA1-Digest: h26jmco7KDC566fSwCeuv67k5Us=
+
+Name: assets/Texturepacker/NPC_king.pvr.ccz
+SHA1-Digest: Qnv3IOULN13F51THUXDVD6ndfO0=
+
+Name: assets/renewal/gacha_02.png
+SHA1-Digest: kXpKY7Q1unnv1ZOIWeu7zKkuvZA=
+
+Name: assets/renewal/gacha_09.png
+SHA1-Digest: BdIFNZt1C9WMvaElTQ73zzIdvUQ=
+
+Name: assets/Texturepacker/00_dungeon_13.tmx
+SHA1-Digest: VAYhlxrDomBSVdPmRkSdmPE33BU=
+
+Name: assets/Texturepacker/monster_pinhead_HD.plist
+SHA1-Digest: 4f/6fDxrp1ilh7tqUOeDbShX4mc=
+
+Name: assets/Texturepacker/CD_UI_trapcard.plist
+SHA1-Digest: +Cy6tM1SMikBosFqTPXoK/UPC54=
+
+Name: assets/ccb/monster_pirate_captain_HD.ccbi
+SHA1-Digest: Yu8WpByzkWTOluJJ75N8yKgL4BY=
+
+Name: res/drawable-hdpi-v4/powered_by_google_dark.png
+SHA1-Digest: HnIli+phfx7PQzInjBjcOE6SJGA=
+
+Name: assets/ccb/BOSS_nergal.ccbi
+SHA1-Digest: 3vIPplpq16pJk2nDUhxUCY736iM=
+
+Name: assets/ccb/NPC_sword_cat.ccbi
+SHA1-Digest: 7u1iSpzyLewY5CYK1/RfDGSKuI4=
+
+Name: assets/renewal/num_01.png
+SHA1-Digest: nXQydiUqPu6fEJedHUaxKWM15l0=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: w4ndgg6BiKguBZFQdX9FnzMb1sA=
+
+Name: assets/Texturepacker/door_basic.plist
+SHA1-Digest: q6mEDiytQ1kk203Ze3eoZrTRd6Y=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_disabled_dark.9.pn
+ g
+SHA1-Digest: y+oQr4Zrl8S8RxwV1qWl3a24J2g=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: z2jLKNjKsqeE9hE9ZTnNlsplmEg=
+
+Name: assets/ccb/CD_UI_talk_npc_eye_white.ccbi
+SHA1-Digest: R6IXwWsq9EygORS6AM4JJXSrnCc=
+
+Name: assets/Texturepacker/nine_tailed_fox.plist
+SHA1-Digest: iHsvTYmV/0oPb3DS4IWEXk3JU+w=
+
+Name: assets/man_enter.mp3
+SHA1-Digest: xUSQbyPz8L7sgzfs6+Wg60/XGzc=
+
+Name: res/drawable-hdpi-v4/ic_plusone_tall_off_client.png
+SHA1-Digest: pV7vAOa5obdvUl2zdExXOE/dMxs=
+
+Name: assets/ccb/BOSS_buer.ccbi
+SHA1-Digest: FgGlQ90NREkc0fnvrr4Bzor2uOA=
+
+Name: assets/Texturepacker/incubus.pvr.ccz
+SHA1-Digest: 0CNpriagM8Z/qwk4oQPxCdlunQ0=
+
+Name: com/igaworks/adpopcorn/res/btn_close.png
+SHA1-Digest: 4vmU7vLtr2Xj8YRG7gKXZCpem4A=
+
+Name: assets/Texturepacker/CD_UI_summon.plist
+SHA1-Digest: mBn5M0tN9lIYX8g7qJiPRJMyj1M=
+
+Name: assets/Texturepacker/magic.pvr.ccz
+SHA1-Digest: ZXlDOPVCO06L7KPGFAtfC0yH7gE=
+
+Name: assets/Texturepacker/valkyrie.plist
+SHA1-Digest: dFQHZECXKUDuYIFNmBobN2g7ROE=
+
+Name: assets/Texturepacker/01_fire_map.plist
+SHA1-Digest: c1pb3+oRshM10zzFVXeHZY0Mw5k=
+
+Name: assets/Texturepacker/monster_succubus_HD.plist
+SHA1-Digest: 3CUP44L2HkL6mj9HNHpH40IvSZ0=
+
+Name: assets/ccb/CD_UI_slot_effect_water.ccbi
+SHA1-Digest: NYpo2SuM4stBSTvJisrtchSrrDQ=
+
+Name: assets/ccb/monster_alien_child_HD.ccbi
+SHA1-Digest: nt6LNgj1gj8YRdwN2psORHrn8m4=
+
+Name: assets/Texturepacker/BOSS_beelzebub.plist
+SHA1-Digest: 8io29iCMwueQS41vUVASSdxdpP8=
+
+Name: assets/Texturepacker/gotpa.plist
+SHA1-Digest: cDONT5UEI/J4eRh5v5Zn0HnpbjQ=
+
+Name: assets/gotcha_cardshining.mp3
+SHA1-Digest: hElDBEzePBpGgnuBkjhMjZ92+qs=
+
+Name: assets/Texturepacker/NPC_mystery_woman.pvr.ccz
+SHA1-Digest: ePsJ82xx7h1/EYzVHcyMeRyBCjA=
+
+Name: assets/Texturepacker/hell_map.plist
+SHA1-Digest: qCm8P6BhMydpijQI9Bgoa7dFo9Q=
+
+Name: assets/ccb/prologue_jp.ccbi
+SHA1-Digest: xi4WNEQnsR2aFstqNsS66Iyh1lE=
+
+Name: assets/Texturepacker/BOSS_amon.plist
+SHA1-Digest: aFHbGSFw6aJejX4I2O7GNMH4Pgg=
+
+Name: assets/Texturepacker/ogre.pvr.ccz
+SHA1-Digest: 3ZVHsFsJ5AcV7nGWSrD39vxk7Vg=
+
+Name: lib/armeabi/libgame.so
+SHA1-Digest: JQcATmBpfrmyTQTZ7e5VYKQxeFE=
+
+Name: assets/Texturepacker/monster_pirate_HD.plist
+SHA1-Digest: eNOEOzlviNYTj50YmyE9/c72grE=
+
+Name: assets/Texturepacker/BOSS_pluton.pvr.ccz
+SHA1-Digest: d64Rtm0Ms2lyp15Cv2Xl6Ctu6E8=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: MfFtt0QW7Zq6IpKmoDVrPPYHtnc=
+
+Name: assets/Texturepacker/local_th.plist
+SHA1-Digest: Ns3m2ZRvI28KjdcVh/4B4kBjvp4=
+
+Name: assets/mon_attack1.mp3
+SHA1-Digest: oYamURAK9E5h0wsq7cUNofwFkXg=
+
+Name: assets/Texturepacker/mad_king.pvr.ccz
+SHA1-Digest: aJwO8FvppQOZ+C9dd7sr3be63ME=
+
+Name: assets/Texturepacker/demon_monster.plist
+SHA1-Digest: XFpTvHj1Lc6/xEGqcQCmRpeOd1w=
+
+Name: assets/ccb/white_elf.ccbi
+SHA1-Digest: xwh4o2sZrNmJIHFYykzRvpQrgrg=
+
+Name: assets/Texturepacker/dragonpas.plist
+SHA1-Digest: pHriZoyrpJ5NppEh58pIQYtBios=
+
+Name: assets/logo.png
+SHA1-Digest: xFrpCPg5D/Da+/jGLgrD5XCzaB0=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: 5rOhEh6WsGHInHTU1g32qEk1P/0=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: vJY1lboKceEi5AXBkFVM8xoysRs=
+
+Name: assets/Texturepacker/local_fr.pvr.ccz
+SHA1-Digest: bxoIkw50AOBfsaikRp9DibzJkAQ=
+
+Name: assets/Texturepacker/CD_UI_shop.plist
+SHA1-Digest: uiwcWKKn2BjIUo3vTxDRWXHU3RI=
+
+Name: assets/renewal/gacha_08.png
+SHA1-Digest: xjIzGYokXABQSXuT75HvVcqeqZ0=
+
+Name: assets/Texturepacker/monster_fireball_HD.plist
+SHA1-Digest: c9dmBvfniQx3Q1dClY3yzT4x7yI=
+
+Name: assets/renewal/gacha_03.png
+SHA1-Digest: NF+KNjegkw11SWhvMXafabSR3ME=
+
+Name: assets/Texturepacker/BOSS_nergal.plist
+SHA1-Digest: og0SatR/J1lwVzHmpaBCnb5qJ/4=
+
+Name: assets/Texturepacker/00_dungeon_14.tmx
+SHA1-Digest: tj44ZkRwxz42HqbIo/bJoBdfiP4=
+
+Name: assets/Texturepacker/giantchick.pvr.ccz
+SHA1-Digest: XbXCWaoZQhL0W76JDYPb+jHqarQ=
+
+Name: assets/Texturepacker/CD_UI_encyclopedia_window.png
+SHA1-Digest: fOm87gMv50e7mblGGoK5h78aXRg=
+
+Name: assets/ccb/BOSS_phoenix.ccbi
+SHA1-Digest: j+hXRvXEKNGvZbTZRlgVBwZoFAA=
+
+Name: assets/background_water_adventure_00.png
+SHA1-Digest: P6VhsGWh2kTw1Kxkuk4m4I0bGY4=
+
+Name: assets/Texturepacker/bad_girl.pvr.ccz
+SHA1-Digest: iZ8h//5nn5GutIAyvoaNfkdmFJw=
+
+Name: assets/Texturepacker/white_elf.plist
+SHA1-Digest: XHsq3tQDMDvoOXuMdYiO36hA01Q=
+
+Name: com/igaworks/adpopcorn/res/ic_list.png
+SHA1-Digest: z7WT0wPrP39qmvk7517ebE5iEnY=
+
+Name: assets/Texturepacker/CD_UI_Code_Image.pvr.ccz
+SHA1-Digest: m0WKGOMJqbI+DgxcQkQoWeihQzM=
+
+Name: assets/Texturepacker/NPC_sword_cat.pvr.ccz
+SHA1-Digest: K6RtVUHbddpv1nMkuFH4eMnteOA=
+
+Name: assets/ccb/viking.ccbi
+SHA1-Digest: SAdtzsT56w3xntxJmwSQOQBaOdQ=
+
+Name: assets/renewal/daily_kr.png
+SHA1-Digest: Wk6yWa4wdR0G2F8RCI54mZHcohw=
+
+Name: res/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png
+SHA1-Digest: 0UNgOBttz8xMtT/1KocqRMqDxUc=
+
+Name: assets/Texturepacker/franken.plist
+SHA1-Digest: d8VOD9ZdVedcxWBDBQiiec5uATs=
+
+Name: assets/ccb/CD_UI_levelup_event_episode.ccbi
+SHA1-Digest: IiykcAKGwWq1U7QGTrHDDsAy9jc=
+
+Name: assets/Texturepacker/BOSS_belial.pvr.ccz
+SHA1-Digest: ZsGgak19lTWbY1Z7UZaNGlpwciw=
+
+Name: res/drawable-mdpi-v4/powered_by_google_dark.png
+SHA1-Digest: YlgL6SxMvt1VunqNedL08Rhc0Ps=
+
+Name: assets/Texturepacker/BOSS_nergal.pvr.ccz
+SHA1-Digest: o0AsH0Q3Nj7W2oI2rELWE1JMMS0=
+
+Name: assets/Texturepacker/monster_lava_spider_HD.pvr.ccz
+SHA1-Digest: jouSNkGC8keLYmIZwqf9yDeqmyA=
+
+Name: assets/Texturepacker/CD_UI_mvsm_backgroud_01.png
+SHA1-Digest: K1LnOIApyylEZKWrOETPMMgrJCg=
+
+Name: assets/ccb/prologue_th.ccbi
+SHA1-Digest: INTWQTCSFwQh3RjJhWwRzmW2PLM=
+
+Name: assets/ccb/BOSS_giantchick.ccbi
+SHA1-Digest: xixb3GtVw0qf5aROkLE6IrEGc+Y=
+
+Name: assets/ccb/monster_virgin_ghost_HD.ccbi
+SHA1-Digest: kL61V4hs7c4lKz+eb7V+Cf8dlFU=
+
+Name: assets/ccb/angel.ccbi
+SHA1-Digest: 2BAe0jBK3hUhCvIMVJee7ya0/Vg=
+
+Name: assets/ccb/NPC_senior_priest.ccbi
+SHA1-Digest: 2udURUn0HrJOlodwWAIH+w6zsJA=
+
+Name: assets/Texturepacker/00_dungeon_11.tmx
+SHA1-Digest: RCu/quLgRAYqkbUJq6Vfg/NVWyI=
+
+Name: assets/background_light_adventure_00.png
+SHA1-Digest: 6GpiePsKCEWyfvCMkNAzauwitJw=
+
+Name: assets/ccb/CD_UI_talk_npc_merchant.ccbi
+SHA1-Digest: RzUF7J4cAQQrzqlGA18C55gBCmc=
+
+Name: assets/renewal/gacha_04.png
+SHA1-Digest: 2R8kBN1P2nWjeBxPVoJluWxL2+4=
+
+Name: assets/text/Localizable_th.strings
+SHA1-Digest: 2F8X4ozcJdUOJwcl9UoLico73o8=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: xcTN0BptV8zhNDPGrIosM/qYW1o=
+
+Name: assets/Texturepacker/CD_UI_worldmap_bg_01.png
+SHA1-Digest: Q2lXB7KP7sMe5gX2TnA9wnq2gzg=
+
+Name: assets/renewal/ainfo_01.png
+SHA1-Digest: GGeKXUFICh1xOvAJ9PHEfrBKJuU=
+
+Name: com/igaworks/adpopcorn/res/ic_bottom_lock.png
+SHA1-Digest: +NbVEUD3WEdY6IFKFBOSl6m7V1k=
+
+Name: assets/Texturepacker/green_eyeball.plist
+SHA1-Digest: Tto0uW0nCfR/vjIjbP8O60qxNCE=
+
+Name: assets/Texturepacker/pink_eyeball.pvr.ccz
+SHA1-Digest: lwt07AzHJRtRFtprFKT4fFSpRdw=
+
+Name: assets/ccb/NPC_pin.ccbi
+SHA1-Digest: UjcqxqdugP2Jhj89tkVYlgMR7mo=
+
+Name: assets/ccb/BOSS_nidhogg.ccbi
+SHA1-Digest: Qxf7J6Hpt8x8Vr929pF2CWGr920=
+
+Name: assets/spin_multiply.mp3
+SHA1-Digest: lyJ5LDv1K6uHzmr8HEi35cq3vfM=
+
+Name: assets/Texturepacker/salamander.pvr.ccz
+SHA1-Digest: khlBy5m+4ZUSv0Ca8NHxeIXxz1A=
+
+Name: assets/Texturepacker/BOSS_cthulhu.pvr.ccz
+SHA1-Digest: zCq41OssjH/JCPPlwmGUdxn2V6Q=
+
+Name: assets/ccb/deco_torch_00_HD.ccbi
+SHA1-Digest: dV85e/SRAhPFGjTDFSkcZcYyAPY=
+
+Name: assets/Texturepacker/sylphid.pvr.ccz
+SHA1-Digest: EIIe6Xe1W+kcAE87V5O97M+v3So=
+
+Name: assets/Texturepacker/CD_UI_gotcha_characters.plist
+SHA1-Digest: nPpR4NlcNe5gbPSN+3tLlg/OWqA=
+
+Name: assets/ccb/BOSS_reddragon.ccbi
+SHA1-Digest: qxWeYV6qTO4//ws/IQVP8AMzKw4=
+
+Name: assets/ccb/NPC_warrior.ccbi
+SHA1-Digest: Ixqx0mNAhJmc0GQiTWiRLjOXDxc=
+
+Name: assets/renewal/daily_th.png
+SHA1-Digest: Im8FGSzpp+9FBvS+MtYAfj5+gZ4=
+
+Name: res/drawable-hdpi-v4/powered_by_google_light.png
+SHA1-Digest: lHN1goaGXlJOYpbSAO6DV9cbSUU=
+
+Name: assets/ccb/monster_snow_man_HD.ccbi
+SHA1-Digest: 9VHLgF9EhdqAuP72SGJ03UqV6a4=
+
+Name: assets/renewal/mainlv_00.png
+SHA1-Digest: 54Ya95sRTNq8rO/jdR78veq2/Hs=
+
+Name: com/igaworks/adpopcorn/res/defalt_img.png
+SHA1-Digest: JjdUlVzLV9lqOYekkU70MY7KxVk=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: f7JyZZ2vrANe5lI7V6yhxHozjrQ=
+
+Name: assets/font/NotoSansThai-Bold.ttf
+SHA1-Digest: bK0sAjHjlUQMCa/uEeY1jk3ZPqE=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: QanEICwk4+RwG05Ug5mOvoF8ZV8=
+
+Name: assets/background_tree_adventure_00.png
+SHA1-Digest: UO+i/8nvIVDRdj3gKcaJ3gIlwms=
+
+Name: assets/ccb/NPC_princess_HD_01.ccbi
+SHA1-Digest: sBdl75gWdSimLV2MMbE55psNtZg=
+
+Name: assets/ccb/monster_salamander_HD.ccbi
+SHA1-Digest: Qosd3a9gi8H+yljFK0fH5Aed5Ks=
+
+Name: res/drawable-hdpi-v4/ic_plusone_small_off_client.png
+SHA1-Digest: rI0gdiJvh2WYP/GAD/oShQyW48k=
+
+Name: assets/Default-Portrait@2x~ipad.png
+SHA1-Digest: UlrNkOaq6MItPnLzUqla414bnoo=
+
+Name: com/igaworks/adpopcorn/res/ic_n.png
+SHA1-Digest: 2LaGHJHYk7Be9SYKxbsjIKbfLLI=
+
+Name: res/drawable-hdpi-v4/common_full_open_on_phone.png
+SHA1-Digest: ncHmt9f4IWmwVsGlTgDgKwiNgn4=
+
+Name: assets/ccb/CD_UI_devillevel.ccbi
+SHA1-Digest: dS/xG2tX8z1Fy1PrknZP9+3v0xg=
+
+Name: assets/Texturepacker/00_dungeon_12.tmx
+SHA1-Digest: CV36DIs+mA326EeuDB6xq4XFYVQ=
+
+Name: assets/ccb/BOSS_beelzebub.ccbi
+SHA1-Digest: H99fe+KRvxwALNg85xgzGLrDKG4=
+
+Name: assets/background_light_adventure_01.png
+SHA1-Digest: Qfi4taNNICNYUCuYvUcEEgTYhrk=
+
+Name: assets/ccb/monster_summon_HD.ccbi
+SHA1-Digest: qwOVmymkaCS0f29UfHkeB3JQ30I=
+
+Name: assets/Texturepacker/monster_lava_spider_HD.plist
+SHA1-Digest: fkuCSQfOjPp10gEhGvHwNgYyzmQ=
+
+Name: assets/ccb/monster_stone_golem_HD.ccbi
+SHA1-Digest: Rtu6pfaXChcF9i4BAiAdLmS1G+0=
+
+Name: assets/Texturepacker/BOSS_payimon.plist
+SHA1-Digest: uXDwvLpsyekIOexYVUZwkIouzjE=
+
+Name: assets/spin_stop.mp3
+SHA1-Digest: m6rtDV7/fw9zuHq0yg5Xaw6RZGc=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_disabled_light.9.p
+ ng
+SHA1-Digest: 3J0lPq0PiYktI7XoqyTkLPmgUZ0=
+
+Name: assets/Texturepacker/BOSS_leviathan.pvr.ccz
+SHA1-Digest: OtLN1AT8/b3b8mvFL5/vDDR5MpA=
+
+Name: assets/Texturepacker/NPC_witch.plist
+SHA1-Digest: BWfPHalzQfjp7Y1hJHh12VmO5DE=
+
+Name: assets/Texturepacker/CD_UI_mvsm_backgroud_02.png
+SHA1-Digest: GOFBU6JDyeKyBb5d3l+0/xUkeN0=
+
+Name: assets/Texturepacker/monster_moss_ball_HD.pvr.ccz
+SHA1-Digest: nrd+zW3tVkxh2PFnyhQyQNIttZo=
+
+Name: assets/Texturepacker/leader_of_limbo.plist
+SHA1-Digest: KnyIopUNFcp9qkZu+wIRpQrd1uI=
+
+Name: com/igaworks/adpopcorn/res/ic_bottom_logo.png
+SHA1-Digest: K7qFra/cBN3ZCoag8VWpUc9MIy8=
+
+Name: assets/Texturepacker/tree_giant.pvr.ccz
+SHA1-Digest: b91sq1VYAAFX0ixq4y1Rdja9nIo=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: 5j4FnyT0/g1tezHuFRZKdzRnorc=
+
+Name: assets/Texturepacker/the_infected.pvr.ccz
+SHA1-Digest: 6LhaRqspDmbnIjV9QS1715UOBig=
+
+Name: assets/Texturepacker/BOSS_behemoth.pvr.ccz
+SHA1-Digest: 2seaMpGb+7k7j8vpJ4UW3o134Co=
+
+Name: assets/Default.png
+SHA1-Digest: lwcf3F2k8m3gs9seM9KCWdXuEC8=
+
+Name: assets/Texturepacker/local_cc.pvr.ccz
+SHA1-Digest: 6IvcpN+jngkkPLgCIv5+x3HoQS4=
+
+Name: assets/Texturepacker/priests.plist
+SHA1-Digest: uEKXtlPBjeCLtJaCyNU8d5YtMPk=
+
+Name: assets/Texturepacker/BOSS_wyvern.plist
+SHA1-Digest: /LLx7ahrMWO2BJVpfnNEU+jZJYY=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: VVcFa/aosM3nzX+HNn6iJ+KmmZw=
+
+Name: assets/Texturepacker/CD_UI_worldmap_bg_02.png
+SHA1-Digest: 3ghc8407aGNTqNCHGJGK9hWIJFw=
+
+Name: assets/ccb/monster_lady_zombie_HD.ccbi
+SHA1-Digest: osvOCAlHGldKdS2tSgptofIEHNE=
+
+Name: assets/renewal/gacha_05.png
+SHA1-Digest: GmUZvQotTD2HTj3PW0LvO0rkZX8=
+
+Name: assets/ccb/BOSS_bad_girl.ccbi
+SHA1-Digest: ine74gZFtWo7jFoKdL2Yri37o9A=
+
+Name: res/drawable-hdpi-v4/common_ic_googleplayservices.png
+SHA1-Digest: UqSluOdV17H1oaatvoTeX6R2/9A=
+
+Name: assets/Texturepacker/NPC_princess_02.pvr.ccz
+SHA1-Digest: 2cIRXzwADuQoA4QRAxFnFoM0vKU=
+
+Name: assets/Texturepacker/undine.pvr.ccz
+SHA1-Digest: u6HFCrvyqFCKxjPi6XAyLzXL4Mo=
+
+Name: assets/spin_pull_1.mp3
+SHA1-Digest: /xjc6soNc9rJshHrslzPZVthWbw=
+
+Name: assets/Texturepacker/BOSS_buer.plist
+SHA1-Digest: yK1RaEu8ab+W/X3Y+puzgxXTl8Q=
+
+Name: assets/ccb/CD_UI_talk_npc_princess.ccbi
+SHA1-Digest: 342mqDNMz5Ojm+76EvIYZGX/lLM=
+
+Name: assets/ccb/monster_zombie_HD.ccbi
+SHA1-Digest: /338PdfADYJvnRmP38rWMrtNMhE=
+
+Name: assets/Texturepacker/CD_UI_slot_m.plist
+SHA1-Digest: f/Uxf2t/zXudsi1Ode5gaJZEmPs=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: g5S6R1opYY+HU/2yYAXdZfPeC3k=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_disabled_light.9.pn
+ g
+SHA1-Digest: at/fquKFtB3/7Ony84wbrIbGm8E=
+
+Name: res/drawable-xhdpi-v4/powered_by_google_light.png
+SHA1-Digest: pVJtjA3oeGHWb9rCVhJpEU8so0c=
+
+Name: assets/Texturepacker/demon_monster.pvr.ccz
+SHA1-Digest: nz2Fsv7rFfhJZCbGsuar4Arj5S4=
+
+Name: assets/ccb/monster_mimic_HD.ccbi
+SHA1-Digest: tHx+7uhyCzoEudpNacloR42vsAg=
+
+Name: assets/Default~ipad.png
+SHA1-Digest: vhYjsK2ZrQiZPy6mC1tD6kHibTo=
+
+Name: assets/spin_pull_2.mp3
+SHA1-Digest: bFeekZRSM6DJxvHtfB7MTfD80sQ=
+
+Name: assets/Texturepacker/necronomicon.plist
+SHA1-Digest: bhcP0jBJXmjW86eFPOTCs9aoV2o=
+
+Name: assets/ccb/monster_bogle_HD.ccbi
+SHA1-Digest: ToatdeFG4o6EwFf1JWsqWvq6bjc=
+
+Name: assets/ccb/monster_goblin_HD.ccbi
+SHA1-Digest: frDn6TaCgJRfEInaq/A+KDt/lAg=
+
+Name: assets/renewal/daily_gm.png
+SHA1-Digest: NBw95k1EKKHmdZ9e86T+SSFGT8k=
+
+Name: assets/text/Localizable_kr.strings
+SHA1-Digest: ddY505Cd3R36IgqR9WbxLNLAxt4=
+
+Name: assets/man_critical.mp3
+SHA1-Digest: aOciWGTMtBK8Ohc8bnKhKiIxfEo=
+
+Name: assets/ccb/CD_card_effect.ccbi
+SHA1-Digest: 3FsI0FKUQb5lihJCvdErLBkWBwo=
+
+Name: assets/Texturepacker/basic_map_a.plist
+SHA1-Digest: PWvOkM+J+zzKq+SxNO+6+EmoXfw=
+
+Name: assets/Texturepacker/local_fr.plist
+SHA1-Digest: 6fOBejXpFUYs13yZInfETuxMGrM=
+
+Name: assets/ccb/stage_summon_ui.ccbi
+SHA1-Digest: dy0Z74X0XTubKXtmT9qkQgAh0BA=
+
+Name: assets/text/Localizable_cs.strings
+SHA1-Digest: QFRdUHUBzRQuKjDIx9gxLsbWnvo=
+
+Name: com/igaworks/adpopcorn/res/item_bg.png
+SHA1-Digest: W8uLjQqWLzr/kn2HubCr1y178VM=
+
+Name: assets/Texturepacker/magician_HD.pvr.ccz
+SHA1-Digest: Dpr481KIntxyN+vHZj9u8t4183Y=
+
+Name: assets/Texturepacker/BOSS_nidhogg.plist
+SHA1-Digest: K4y2etJtKRg12ZmderGZGlvrXWQ=
+
+Name: assets/Texturepacker/pumpkin_head.pvr.ccz
+SHA1-Digest: URPyVzfM80nF1d22qxME5xd3PS0=
+
+Name: assets/Texturepacker/pumpkin_head.plist
+SHA1-Digest: rZY+ff37isqyyjWtocp2OR6ap+M=
+
+Name: assets/Texturepacker/monster_succubus_HD.pvr.ccz
+SHA1-Digest: WlFLDWb/THI2klQO2SJuWg7LD8s=
+
+Name: assets/Texturepacker/CD_UI_gotcha.pvr.ccz
+SHA1-Digest: bHSpFfgQ/2iCUwv990CdKvAaoqQ=
+
+Name: assets/renewal/CD_summon_button_00.png
+SHA1-Digest: MULcSFwDHQevsPjjL4NLFF8WhV4=
+
+Name: assets/ccb/monster_tree_giant_HD.ccbi
+SHA1-Digest: LJJ8XqDPpq031CkDV4dovsWvJ4w=
+
+Name: assets/ccb/viking_warrior.ccbi
+SHA1-Digest: VLnmth798xkkdYm4mRHU42aW9Gg=
+
+Name: assets/ccb/BOSS_pan.ccbi
+SHA1-Digest: WnElp5h07kcDARAbBuxfgIxouN8=
+
+Name: assets/Base.lproj/th.lproj/InfoPlist.strings
+SHA1-Digest: B2RBd9ONPkzwqvOmtNC7/us+vV4=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: gwDdmi37+XfPMHpBwwEGHRLYh2I=
+
+Name: assets/Texturepacker/monster_HD.plist
+SHA1-Digest: wYfvMecCRcCHCnYvOvJNACwlfX8=
+
+Name: assets/background_tree_adventure_01.png
+SHA1-Digest: hW6cRJlNCZ0OoARDl3nXVs5vrbY=
+
+Name: classes.dex
+SHA1-Digest: biI6hvUOUWZisGMBU6ho2e4j/5w=
+
+Name: assets/Texturepacker/monster_reddevil_HD.pvr.ccz
+SHA1-Digest: 05tGxdJt9FxH0UVqegBrBg186HA=
+
+Name: assets/Texturepacker/monster_fireball_HD.pvr.ccz
+SHA1-Digest: fl9H6vdf2RRR7VkPvSIdoQsBGkY=
+
+Name: assets/renewal/gacha_06.png
+SHA1-Digest: 6ZpZsMaUDPBZ0YW8cQ6oDEjVzfM=
+
+Name: assets/Base.lproj/es.lproj/InfoPlist.strings
+SHA1-Digest: cUJmq5PdUACyZjRVIJclo2kJ43I=
+
+Name: assets/ccb/monster_chinese_vampire_HD.ccbi
+SHA1-Digest: 274/WsOccGOr59X8CB0KmQGgDD4=
+
+Name: assets/ccb/CD_UI_talk_npc_witches.ccbi
+SHA1-Digest: qwXcKQ5HXzdEXzjgKXc/xo3A0hw=
+
+Name: assets/Texturepacker/elf.pvr.ccz
+SHA1-Digest: PTav4AIxw9kFypUaiIBVCooXp3A=
+
+Name: assets/ccb/BOSS_haetae.ccbi
+SHA1-Digest: f9ufy9lIjwJ1P6eaSwM+eCWDFa4=
+
+Name: assets/Texturepacker/local_gm.plist
+SHA1-Digest: Ii7PBjz8b8HPab1R3VsZHZAyQKA=
+
+Name: assets/Texturepacker/01_fire_map.pvr.ccz
+SHA1-Digest: 59p/sBFLNL4A5aJ3a5Za5aZNZlY=
+
+Name: assets/ccb/BOSS_cthulhu.ccbi
+SHA1-Digest: z2vKnBEUPGjLFXK5bCUvULstw+g=
+
+Name: res/drawable-xhdpi-v4/powered_by_google_dark.png
+SHA1-Digest: dwvU98IIJ7E9X+BkRCIffEjYgno=
+
+Name: assets/Texturepacker/CD_UI_balloon_04.png
+SHA1-Digest: tH7XEQHLFe4OqgR4HzBC16sVyJ0=
+
+Name: assets/Texturepacker/BOSS_lilith.plist
+SHA1-Digest: Td4WPtRvcKrjEowyToF2UuZYtm8=
+
+Name: assets/Texturepacker/BOSS_lucifer.pvr.ccz
+SHA1-Digest: Y5WdWMMfTijxLx/IDnAPUlg7NyI=
+
+Name: assets/Texturepacker/wraith.pvr.ccz
+SHA1-Digest: VV1gn8SDboWI24OhCMw8X+P19GY=
+
+Name: assets/Texturepacker/CD_UI_mvsm_backgroud_03.png
+SHA1-Digest: KApU55nA7YWZtwyAcyU+j8aue+g=
+
+Name: com/igaworks/adpopcorn/res/logo_adpopcorn.png
+SHA1-Digest: isK6x+7g2J6HGu/Eg5sRx0G+CZI=
+
+Name: res/drawable-mdpi-v4/powered_by_google_light.png
+SHA1-Digest: mw6xD9a5M2PIVHoI3rA6mluXCEg=
+
+Name: assets/Texturepacker/monster_mimic_HD.plist
+SHA1-Digest: H/gv6UL6QMFE+isehYWBdnLAX7g=
+
+Name: assets/ccb/BOSS_amon.ccbi
+SHA1-Digest: eKNutfH88Rrv3fk+X0geEefn6T8=
+
+Name: assets/ccb/BOSS_behemoth.ccbi
+SHA1-Digest: OK9McgxEOAHMk4Ve0Zrjrnqnnjc=
+
+Name: assets/Texturepacker/CD_UI_encyclopedia.plist
+SHA1-Digest: TqXiiKHMYwI3E6wH1VPhG22s9S4=
+
+Name: assets/Texturepacker/NPC_princess.plist
+SHA1-Digest: 6kj1YJzpUihoj1/PXqd9K7v5bWo=
+
+Name: assets/Texturepacker/dark_elf.plist
+SHA1-Digest: nbC2Ocitz5w+J/Oq1D5pU7OMTqI=
+
+Name: assets/Texturepacker/priests.pvr.ccz
+SHA1-Digest: jShxTCS3iu44t5TiaiKtRfB7dMs=
+
+Name: assets/ccb/CD_UI_enhance.ccbi
+SHA1-Digest: ZrGZMhE7MD04gBSqKSIfxM3fegs=
+
+Name: assets/ccb/fanatic.ccbi
+SHA1-Digest: CixN5AfrQgo0vUELGVj+ynJCZEM=
+
+Name: assets/Texturepacker/viking_warrior.pvr.ccz
+SHA1-Digest: aqW9AXacDpoy0M1b93qnlJV//nU=
+
+Name: assets/Texturepacker/NPC_princess_01.plist
+SHA1-Digest: 0wCshObYecol64UVO1HLeZYsUW4=
+
+Name: resources.arsc
+SHA1-Digest: HF0Bcjx55SgmrptNGQaO6JTfy+Q=
+
+Name: assets/ccb/CD_UI_slot_effect_01.ccbi
+SHA1-Digest: wY/SyR0hc93ftgxtgCM8mfARARo=
+
+Name: assets/Texturepacker/dark_elf.pvr.ccz
+SHA1-Digest: 4JXM2aIvUlQo7DoxaDzW13K+s/w=
+
+Name: assets/ccb/title.ccbi
+SHA1-Digest: JQ67+FNKG2Zqzdn3COakWXaj8Tg=
+
+Name: assets/ccb/CD_UI_result_starlight.ccbi
+SHA1-Digest: TJ4NXYTyi6w4O0wAhCJfssmlzSU=
+
+Name: res/color/common_signin_btn_text_light.xml
+SHA1-Digest: M0WXzeV63QTF4UkRG0/IPIoB4H0=
+
+Name: assets/ccb/monster_green_eyeball_HD.ccbi
+SHA1-Digest: E6yiLOOINj3jVR1vDeZo/+xKoOA=
+
+Name: assets/renewal/daily_jp.png
+SHA1-Digest: +XQ4mDzGjcFpepfnn+mMIpPnMwM=
+
+Name: assets/Texturepacker/BOSS_cthulhu.plist
+SHA1-Digest: Ts7b3zR4Oc0Z83KEbrLLwb2voGo=
+
+Name: assets/ccb/monster_leader_of_limbo_HD.ccbi
+SHA1-Digest: 70xXGYpjyuCyyXrG83Lf5J0KOTs=
+
+Name: assets/ccb/BOSS_lilith.ccbi
+SHA1-Digest: GRPZaJ7fQp+noufrhIbrUqPsjww=
+
+Name: assets/ccb/monster_the_infected_HD.ccbi
+SHA1-Digest: MCW5ct+q8J4oU+CXWqzYqmq1IX8=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_light.9.pn
+ g
+SHA1-Digest: Nr4OZTMs+CD3CJ66ijihMYlQ/CM=
+
+Name: assets/Texturepacker/00_dungeon_09.tmx
+SHA1-Digest: rzTZUvk6WvPDt1wHMBSXvREHvAE=
+
+Name: assets/vg_close.png
+SHA1-Digest: dEFj7Pcdbalud2xDLTS7sS6BwvE=
+
+Name: assets/Texturepacker/mummy.plist
+SHA1-Digest: TJi5NIIuQMMcHg+t0JrRv4SXDGU=
+
+Name: assets/ccb/BOSS_eurynome.ccbi
+SHA1-Digest: YeJjMUCGF2PZHJfhRljKTrzTkAc=
+
+Name: assets/ccb/monster_vampire_HD.ccbi
+SHA1-Digest: cIp3fus/QWUVtYHXHjQOxjFfh2U=
+
+Name: assets/ccb/monster_giant_HD.ccbi
+SHA1-Digest: miY0JaA/0a/W7cTxvVeZaPqAcXY=
+
+Name: assets/Texturepacker/hyunmoo.plist
+SHA1-Digest: C2FQN80pxmU11kuS2k+GNcU6l/w=
+
+Name: assets/Texturepacker/BOSS_beelzebub.pvr.ccz
+SHA1-Digest: 1f73DTUdIjl7e+CZjk1H6FlTKo0=
+
+Name: assets/gotcha_dark.mp3
+SHA1-Digest: bNH+MUIuAf4DB0HZa+vk4vbn8sg=
+
+Name: assets/Texturepacker/CD_UI_mvsm.pvr.ccz
+SHA1-Digest: LSTqQL7DcxwfuDSXkzftIeR/FjQ=
+
+Name: assets/renewal/daily_03.png
+SHA1-Digest: sfrVurjWZ0FT+Qqq6WOPkdhSFu0=
+
+Name: assets/ccb/prologue_cc.ccbi
+SHA1-Digest: 5SJYZ4uB/IJF+TD3FTqQwRTDinA=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_disabled_focus_dark.
+ 9.png
+SHA1-Digest: MUmLX81uNe70nYdmMFkejZPmCjE=
+
+Name: assets/Texturepacker/selene.plist
+SHA1-Digest: rUUuxxkuEQKAEUlWhT1viNpwliM=
+
+Name: assets/ccb/high_elf.ccbi
+SHA1-Digest: BRi6/m6N2z7ZwyvO3LG+0clihlU=
+
+Name: assets/Texturepacker/gold_monster_HD.pvr.ccz
+SHA1-Digest: 1XeAAMT8VUEUuOlGbbb8HVTcrjI=
+
+Name: assets/ccb/CD_UI_talk_npc_succubus.ccbi
+SHA1-Digest: gBtt+O9aJOyb+/kdQlqGHJj2gAY=
+
+Name: assets/Texturepacker/portrait_of_a_beauty.pvr.ccz
+SHA1-Digest: 1SNHzA0/mjv8Z10MwOlzRoGnsEY=
+
+Name: assets/Texturepacker/kobold.plist
+SHA1-Digest: 2pKmWCy02BZsBBqRp2DaM9BKr+o=
+
+Name: assets/renewal/shop_a.png
+SHA1-Digest: vGTlyvDBm9A3UFShAtu8lVRoCjA=
+
+Name: assets/ccb/CD_UI_inventory.ccbi
+SHA1-Digest: Yg8I0urAOOEBMXrNUs6zF8JhG4c=
+
+Name: assets/man_dead.mp3
+SHA1-Digest: YlLI2z7ENfiCtupU87Pqmb29oDo=
+
+Name: assets/ccb/NPC_witch.ccbi
+SHA1-Digest: UubBjIQ+FjFFBTmt4Hm+FIqPMoM=
+
+Name: assets/ccb/CD_UI_gotcha.ccbi
+SHA1-Digest: +CDY+4/jf1qgO74FZva4rnN6YpI=
+
+Name: assets/ccb/monster_knight_skeleton_HD.ccbi
+SHA1-Digest: MQwD3AWTAaZO/6fFXD9k4c2+6Ts=
+
+Name: assets/ccb/popup_battle_result_exterminated_HD.ccbi
+SHA1-Digest: D/AanRFrjV1PmJWv+PjxxBwBSbo=
+
+Name: com/igaworks/adpopcorn/res/ic_back.png
+SHA1-Digest: t+WRryfbMS7HCc9bVvprnBiZl48=
+
+Name: assets/ccb/challenge_loading.ccbi
+SHA1-Digest: zUI1PzfEz4QfnVl1A2YgX6mjypk=
+
+Name: assets/renewal/gacha_13.png
+SHA1-Digest: NUKT3aQuimcd5IfL96SzktfC/ds=
+
+Name: assets/Texturepacker/BOSS_pan.pvr.ccz
+SHA1-Digest: iF7AvExzgS9G6+nb0f6YUyVKfaY=
+
+Name: assets/ccb/monster_lizard_knight_HD.ccbi
+SHA1-Digest: bwlUw0ykxWcza/rNO/DhHuLK8SY=
+
+Name: assets/renewal/CD_inventory_button_00.png
+SHA1-Digest: GjGWvl2IkfwRWPnOTji2+2/Hils=
+
+Name: assets/ccb/monster_mad_king_HD.ccbi
+SHA1-Digest: E8pST36nH5ojBZfz8HbHHRBVQgo=
+
+Name: assets/renewal/gacha_07.png
+SHA1-Digest: OWLINGAO0/7rHtHF+rSUE6kyoiw=
+
+Name: assets/Texturepacker/werewolf.plist
+SHA1-Digest: wwl1R0jFzPlRD0/NX/sdOyJD868=
+
+Name: assets/Texturepacker/CD_UI_worldmap_bg_00.png
+SHA1-Digest: ykFg7JO4n75iXGnArHTOERMHWpg=
+
+Name: assets/ccb/monster_dragonpas_HD.ccbi
+SHA1-Digest: K7qA/YToSrYuQfVTx8PRBluthpI=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_light.9.p
+ ng
+SHA1-Digest: 2Wz4MP+WvtH3G6GWOk7aA3RsMCQ=
+
+Name: assets/Texturepacker/CD_UI_enchant_background.png
+SHA1-Digest: kSd7dLUJffFa4lU1vSoZ7q3S2ZA=
+
+Name: assets/Texturepacker/gorgon.plist
+SHA1-Digest: IRc7SyFhng0TiFrosiFxjms/a+E=
+
+Name: assets/ccb/stage_deck_ui.ccbi
+SHA1-Digest: cJYPwriW5ZsTGeE2oEEtq7F6SeY=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_disabled_focus_light
+ .9.png
+SHA1-Digest: iCG6BXrh1Ff2qUGMGBMeCg4qjsU=
+
+Name: assets/Texturepacker/BOSS_golddragon.pvr.ccz
+SHA1-Digest: 3UuePC9LQhGW93ZfGNfcp4AHeos=
+
+Name: assets/Texturepacker/monster_plunder_knight_HD.plist
+SHA1-Digest: m/GGVeTbNRiPbJMSeZ1R+IgFxNo=
+
+Name: assets/vg_cta.png
+SHA1-Digest: RKjemiSTnYN2aovdZERW42PZn4Q=
+
+Name: assets/Texturepacker/CD_UI_talk_event.pvr.ccz
+SHA1-Digest: nTZvkR2G9F5mERtLXiTfMV7hVM8=
+
+Name: assets/ccb/CD_UI_cardline_light.ccbi
+SHA1-Digest: G8m5/uEnc6CuG5EPMy2plRYTM3Q=
+
+Name: assets/Texturepacker/monster_piratecaptain_HD.plist
+SHA1-Digest: caxJrNF0m0rSVOAMFqZwM7jenZI=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: PvS65iz0+hMrZVvNdPcYGYBkAvs=
+
+Name: assets/ccb/main_ui_rightdown_HD.ccbi
+SHA1-Digest: aR0w4Us9F6xNhjdsQJmhO5m6nzM=
+
+Name: assets/renewal/mainlv_01.png
+SHA1-Digest: B7TXFuyhu1498mnAfs5itxV9H4w=
+
+Name: assets/ccb/BOSS_astaroth.ccbi
+SHA1-Digest: 4eyVXAj3KnjUQ6RXu+Q7E302wkA=
+
+Name: assets/ccb/monster_gotpa_HD.ccbi
+SHA1-Digest: 7N4UADMtjDgRWRks9N/hy+tYWaY=
+
+Name: assets/Texturepacker/stone_golem.plist
+SHA1-Digest: /h8huxbPVSR8uxG/mS9oaPQjmls=
+
+Name: assets/Texturepacker/effect.pvr.ccz
+SHA1-Digest: VYtrpuATsdiDrsdNjNf7oNFb0N0=
+
+Name: assets/ccb/CD_UI_talk_npc_sword_cat.ccbi
+SHA1-Digest: Pq9zeLws4L82h64BmoRfu6UGQy4=
+
+Name: assets/Texturepacker/lizard_knight.plist
+SHA1-Digest: xdEsS3x2GyKrZndeAnzfItHJFQM=
+
+Name: assets/Texturepacker/hero_HD.plist
+SHA1-Digest: SIlavUrjePzwRXO5I/X0ocWRzAA=
+
+Name: assets/ccb/monster_wraith_HD.ccbi
+SHA1-Digest: VNWfwAuF9nofkhOE9nvmwAQqYSQ=
+
+Name: com/igaworks/adpopcorn/res/ic_message.png
+SHA1-Digest: 6kIsqORNArJgVDk5NmxPfYKetuA=
+
+Name: assets/Texturepacker/paladin.plist
+SHA1-Digest: TYCY8kBwjcznr+Xv1qu24pFPbXw=
+
+Name: assets/Texturepacker/monster_snake_HD.plist
+SHA1-Digest: mheF1P8VHy/RR0+Nesxff7A2fTc=
+
+Name: assets/BGM_Worldmap.mp3
+SHA1-Digest: TKr3Y3+SEqF/2Jn7ieGLnSTlMT0=
+
+Name: assets/ccb/CD_UI_talk_npc_angel.ccbi
+SHA1-Digest: BGytdIV0KgqqLBGpwdG3wcA1ibw=
+
+Name: assets/Texturepacker/high_elf.pvr.ccz
+SHA1-Digest: Qso0j+4hz1KC4fBPWMMtRy5bdVA=
+
+Name: assets/Texturepacker/orc.plist
+SHA1-Digest: BMM+P9mls/bwMqaHQReFIlXM1yg=
+
+Name: assets/Texturepacker/stone_golem.pvr.ccz
+SHA1-Digest: kLV57XXYoGPmvg4FG99dTUJWN8Q=
+
+Name: assets/ccb/monster_demon_knight_HD.ccbi
+SHA1-Digest: rL6t6ujTPaD7RfpE52ZlCADc7o0=
+
+Name: assets/Texturepacker/hyunmoo.pvr.ccz
+SHA1-Digest: LdDqeb9rf5qgGKdY3vNxX5TyE+c=
+
+Name: assets/Texturepacker/00_dungeon_08.tmx
+SHA1-Digest: rmLO3QamVPPStb+Kn8Qz7nQLW+k=
+
+Name: assets/Texturepacker/CD_UI_mvsm.plist
+SHA1-Digest: Iq+GNQVtXviVD1uziGJ2b14dSbY=
+
+Name: assets/Texturepacker/BOSS_astaroth.plist
+SHA1-Digest: RxDzKh2bHM2STvBsNcF+izMNAdg=
+
+Name: assets/ccb/CD_UI_enchant.ccbi
+SHA1-Digest: xs49p1njPK5q0sM3XGeAMM48qps=
+
+Name: assets/ccb/popup_battle_result_victory_HD.ccbi
+SHA1-Digest: HYcGa/67WdnJd6JL5nNgaLcfLBk=
+
+Name: assets/Texturepacker/BOSS_quetzalcohuatl.plist
+SHA1-Digest: hQBMJxWJk9P9I4XtpD1RnmYw540=
+
+Name: assets/Texturepacker/magic.plist
+SHA1-Digest: 5P8a/AKhWIbKM/g0jzfCcsfO7sc=
+
+Name: assets/font/BMHANNA.ttf
+SHA1-Digest: jhqCYjjcG4qeRGtb4iU/MZoToQk=
+
+Name: assets/Texturepacker/giant.plist
+SHA1-Digest: z0pHzeuBNJUsZv560GqLRGRLixk=
+
+Name: assets/ccb/CD_UI_battle_result_win.ccbi
+SHA1-Digest: 26Gns5iAEX8oaRJctqAqA6S2vCM=
+
+Name: assets/ccb/prologue_cs.ccbi
+SHA1-Digest: XCE+Bfcflx+anOB72sbqVXIw5eo=
+
+Name: assets/ccb/mon_dead.mp3
+SHA1-Digest: sHUHow+IEaLCLHzjFlPqYqM4M0w=
+
+Name: assets/renewal/wheel_01.png
+SHA1-Digest: e5USK0YGvtXH8DTHUy/eeMxw88c=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: QY63hHQDgqUN6ajGwNrdPzBdXi0=
+
+Name: assets/Texturepacker/night_elf.plist
+SHA1-Digest: N5yiRVOKMBspt2rktW9+HRQbRcg=
+
+Name: assets/Texturepacker/nine_tailed_fox.pvr.ccz
+SHA1-Digest: evsrlteSFI7VB/ZYZngcYGHzFgA=
+
+Name: assets/ccb/monster_plunder_knight_HD.ccbi
+SHA1-Digest: snrIeIxl/ZtZ0sEV4tcjKMsUgcs=
+
+Name: assets/Texturepacker/CD_UI_gotcha.plist
+SHA1-Digest: Rr5YzRsE77/xm2GF8Mn6ieQwuow=
+
+Name: assets/renewal/daily_02.png
+SHA1-Digest: cYvSrVGTANG3vGn//8WOOU1m5Rs=
+
+Name: assets/Texturepacker/splash_960_640.png
+SHA1-Digest: lOfpwkhwW38zsQEy7QrHA+Ir6ww=
+
+Name: res/drawable-xxhdpi-v4/powered_by_google_light.png
+SHA1-Digest: rwIrj9vZ389KZ6u8mKp4fZXjoRQ=
+
+Name: assets/Texturepacker/monster_plunder_knight_HD.pvr.ccz
+SHA1-Digest: 4RcjQbfg08mXiAM7ShiLP5u++Ho=
+
+Name: assets/Texturepacker/CD_UI_summon.pvr.ccz
+SHA1-Digest: vbxq9mbyhtp3QrqXHvycmSf/+b4=
+
+Name: assets/Texturepacker/CD_UI_info.pvr.ccz
+SHA1-Digest: yHYGx9RaljsA0Zd7VsIGFMAy3fg=
+
+Name: assets/Texturepacker/effect_01.pvr.ccz
+SHA1-Digest: Q/vstPkT9HdFrDTUKsd2ZmTEHp8=
+
+Name: assets/Texturepacker/CD_UI_goal_npc.pvr.ccz
+SHA1-Digest: LcP45zQd/PIxbznCNsjdMS7huV8=
+
+Name: js/closebutton.html
+SHA1-Digest: t5nJ6zvHmW2dBHvQlxpMC3f+cPQ=
+
+Name: assets/Texturepacker/BOSS_pluton.plist
+SHA1-Digest: DIumUDBH7AY5rNTCMP1DjgI8u6Q=
+
+Name: res/color/wallet_secondary_text_holo_dark.xml
+SHA1-Digest: QcYr72bfjwxS93Jtim4Ss7xD/Sw=
+
+Name: assets/ccb/CD_UI_adventure_result.ccbi
+SHA1-Digest: zA9CNehWSyxj93LATY6bn3DH6Ys=
+
+Name: assets/ccb/knight_HD.ccbi
+SHA1-Digest: CILxXh64mZNiR4zEYIqZHLZEms4=
+
+Name: assets/Texturepacker/etc.plist
+SHA1-Digest: HouqsbgRkCbOfF3JG1HTMUp/zvQ=
+
+Name: assets/ccb/portal_eyes.ccbi
+SHA1-Digest: yth8KYerPdK2iYb25Pvb0b3z6hU=
+
+Name: assets/Texturepacker/CD_UI_trapcard.pvr.ccz
+SHA1-Digest: 6GFqlOfckGV/m+w2SDI+5Ry1ReQ=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: MKZrWw9zH8dn9/6Dy2wTfm/rT/w=
+
+Name: assets/ccb/stage_bonus_ui_HD.ccbi
+SHA1-Digest: 63VzUNK1LeS6Ec7u1wQNd1eU/EU=
+
+Name: assets/Texturepacker/CD_UI_enchant.plist
+SHA1-Digest: sHUMoFEnAaQX18bQoFvg0il3ju4=
+
+Name: assets/Texturepacker/bogle.pvr.ccz
+SHA1-Digest: 0x5O36nts7f4tNEyA5Fp0LsyHg8=
+
+Name: assets/Texturepacker/00_dungeon_15.tmx
+SHA1-Digest: JempkF7w2RutlDTZTMj6DURK5Lc=
+
+Name: assets/Texturepacker/CD_UI_worldmap.pvr.ccz
+SHA1-Digest: yCBlb2to64fO1oX76C4wg2tma4w=
+
+Name: assets/ccb/portal.ccbi
+SHA1-Digest: wqTneQ/vKbFj2dcxR08EGtePXNM=
+
+Name: assets/Texturepacker/high_elf.plist
+SHA1-Digest: QJf8si9mgddRmmuWWU65Km6gXQo=
+
+Name: res/drawable-xhdpi-v4/ic_plusone_small_off_client.png
+SHA1-Digest: UN5AcIpQ1azWWkLQtJd5yTgMGB0=
+
+Name: assets/Texturepacker/skilled_hero.pvr.ccz
+SHA1-Digest: pHSdbEWIYUdAXkBtG3gcCbVWjtY=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: a8iNR3D9xvqUZmDYCWUiN6Xfxpw=
+
+Name: assets/Texturepacker/gorgon.pvr.ccz
+SHA1-Digest: bpp0/m5JfYkZmKsUgn2zrr2hMkk=
+
+Name: com/igaworks/adpopcorn/res/ic_info.png
+SHA1-Digest: Jh8ePVuPJSCq+txxMLvIGdAgRTY=
+
+Name: assets/Texturepacker/demon_sword_hero.pvr.ccz
+SHA1-Digest: 01KRvp/4yOtP7s5iGjEaF+REw4g=
+
+Name: assets/ccb/CD_UI_talk_npc_eye_pink.ccbi
+SHA1-Digest: zmLcCxhKJh4IvP2mWCr+lckTD+E=
+
+Name: assets/Texturepacker/vampire.plist
+SHA1-Digest: tria7rsD7f6gSMF3L8chV9y1UE0=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: ClT9ohpd+XCoBAr8cxSvgMKPNWE=
+
+Name: assets/ccb/prologue_gm.ccbi
+SHA1-Digest: cox111Fgv+kmReeH18NMugRzgQ0=
+
+Name: assets/ccb/main_ui_rightup_HD.ccbi
+SHA1-Digest: X62CD2x1CCV+P+//ZQC95SS7aWM=
+
+Name: assets/ccb/beelzebub_skill_effect_00.ccbi
+SHA1-Digest: 0N8mu9Vxgu8IVgdHCUzT9VBRIig=
+
+Name: assets/Texturepacker/monster_thief_HD.plist
+SHA1-Digest: h7QxP7K9ZKa01nI7K0Wc9XKzi7M=
+
+Name: com/igaworks/adpopcorn/res/ic_close.png
+SHA1-Digest: 8Bohd9GF8x9eMsDsbMDEg7Rg9K4=
+
+Name: com/igaworks/adpopcorn/res/ic_hot.png
+SHA1-Digest: Iz3bfwcuunD0250Ff+Y8P4m2yfI=
+
+Name: res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png
+SHA1-Digest: SloxbQGS9xwX08Gx7wL0qAgKuE0=
+
+Name: assets/Texturepacker/prologue_sky_background.plist
+SHA1-Digest: LhPtjmbLFrdkAhn1diei39kG1JQ=
+
+Name: assets/Texturepacker/CD_UI_episode.plist
+SHA1-Digest: inxQWYPn//AwsNUCr4twAll6uwY=
+
+Name: assets/ccb/elf.ccbi
+SHA1-Digest: 6BBTtbq34Ffo0yu2/Y90Fu4lz/w=
+
+Name: assets/Texturepacker/fungus.plist
+SHA1-Digest: jyRxQDTcOA0W81myMq8BvYb3vcI=
+
+Name: assets/renewal/daily_01.png
+SHA1-Digest: pVUval7N8c+soVQeXD9U2KT4zEQ=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: jeu5ig2PAsCT43VEEAkZS2PnKG8=
+
+Name: assets/Texturepacker/01_fire_map_01.plist
+SHA1-Digest: hGU2A/UTkobTVBNNSuWUNttEuLs=
+
+Name: assets/ccb/CD_UI_slot_fire.ccbi
+SHA1-Digest: AbgrZqXn943QM+ViXF0TkgUCYf8=
+
+Name: assets/Base.lproj/fr.lproj/InfoPlist.strings
+SHA1-Digest: 9iZh/SnJwfBqUqNJuppYhiqxZyU=
+
+Name: assets/Texturepacker/04_light_map.plist
+SHA1-Digest: U6v5umxZZI/WF/r/7H5vyUzPcxk=
+
+Name: assets/Texturepacker/alien_child.pvr.ccz
+SHA1-Digest: ykQOckEUbIDv/CVc+b/huehGN9I=
+
+Name: assets/ccb/challenge_ui.ccbi
+SHA1-Digest: X8O0jXWJQtML5iCC7/yhlXt9Jr4=
+
+Name: assets/ccb/CardDeck.ccbi
+SHA1-Digest: y4Ur+Ed4zz6p/ZMmoRS9uotdRaw=
+
+Name: assets/ccb/door_basic.ccbi
+SHA1-Digest: p/laJ5UcBcr3nzIVNGZNrhgiy0Q=
+
+Name: assets/Texturepacker/chipetopec.pvr.ccz
+SHA1-Digest: sxRLsZC91gQAQ89C/cww9d5+BkI=
+
+Name: assets/Texturepacker/BOSS_reddragon.pvr.ccz
+SHA1-Digest: iEjfuGewHwHra8LLBu4G0VFy8eI=
+
+Name: assets/ccb/monster_necronomicon_HD.ccbi
+SHA1-Digest: r7lBTWg20VkGKQfKtllw1qKyF34=
+
+Name: com/igaworks/adpopcorn/res/ic_share.png
+SHA1-Digest: aXiI+7AaQNLR/aZAp8RQGYYm9mU=
+
+Name: assets/ccb/monster_incubus_HD.ccbi
+SHA1-Digest: Dwp7Skb57SLpcc6LiHoxYilwmWA=
+
+Name: assets/Texturepacker/green_eyeball.pvr.ccz
+SHA1-Digest: YU08/5XIJK+GtSZsVMyAjijDpSk=
+
+Name: assets/ccb/BOSS_selene.ccbi
+SHA1-Digest: QP83mlTuGzlPQz75pBSjfsIcaCY=
+
+Name: assets/Texturepacker/bad_girl.plist
+SHA1-Digest: p6XzfMEl7kKgYyLyakY+NKcG12o=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: k8q85+NIlD/wTw9wGbsm5WCAir4=
+
+Name: assets/ccb/stage_ui_lever_HD.ccbi
+SHA1-Digest: sGgQ0MWkunnM2Yr7HbrpObnGirg=
+
+Name: assets/Texturepacker/00_dungeon_16.tmx
+SHA1-Digest: 8PRAldSOlQabETxcuAbkEN6gyXY=
+
+Name: assets/Texturepacker/BOSS_quetzalcohuatl.pvr.ccz
+SHA1-Digest: d649YCBtLEoZNlmq8hoPDQZhsyQ=
+
+Name: assets/renewal/CD_UI_shop_button_06.png
+SHA1-Digest: y/rIjCYBQ3PljgTJkdR+yORtWpU=
+
+Name: assets/renewal/wheel_00.png
+SHA1-Digest: OwnWN3t7ZHlwvWmwIJjl7bxDGXU=
+
+Name: assets/Texturepacker/character_UI.pvr.ccz
+SHA1-Digest: u+Il6axOk7t+gks/xQmOku9IGiw=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_disabled_focus_light
+ .9.png
+SHA1-Digest: hxPASbF5x5tvNzqB2Sbskdk6Aik=
+
+Name: res/drawable-tvdpi-v4/ic_plusone_small_off_client.png
+SHA1-Digest: XAWxw7YLCYXvpUtfFWNJaesS6xQ=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: XsFIA9bMUv6nXdTkBxwiILeWx44=
+
+Name: assets/CD_UI_popup_textbox.png
+SHA1-Digest: mt6ES43gDIcSPAUaJ0+DmaCWTvs=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: j0aG6+UG2uOca2C4AVd8ag7DPbs=
+
+Name: assets/Texturepacker/monster_zombie.pvr.ccz
+SHA1-Digest: yck+y+WxHcvJ4RKwD55hgrte28k=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: DfBRJWNOpJP1gSeHEKS7qA68w1k=
+
+Name: assets/Icon.png
+SHA1-Digest: 3MHzEgNT337WWwbpv7JjcipR7As=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_pressed_light.9.pn
+ g
+SHA1-Digest: mcOJ3cBZioIRCXaDtOmeYU8Xjr4=
+
+Name: assets/Icon-Small@2x.png
+SHA1-Digest: S1pktKrO+wVFLQCiW+ppvjiNuzw=
+
+Name: assets/Texturepacker/giant.pvr.ccz
+SHA1-Digest: NNoy1LdDuMFLHs4ZDuenezV2huo=
+
+Name: assets/Base.lproj/ja.lproj/InfoPlist.strings
+SHA1-Digest: aT5pf2DtcdKG7xLlMlHealjVYKs=
+
+Name: assets/gotcha_cardstop.mp3
+SHA1-Digest: Wbsr90az0dQJA0fWlZmIxIFXOnc=
+
+Name: assets/Texturepacker/background_light.png
+SHA1-Digest: TtQx2kK3bJBoP79DWAHE82mdmlY=
+
+Name: assets/ccb/BOSS_quetzalcohuatl.ccbi
+SHA1-Digest: KKzZBPFJUyIyHBuriy0H98uibho=
+
+Name: assets/ccb/card_stage_info.ccbi
+SHA1-Digest: QT18PBu5BMguLTPB7XDFRdYH2Ec=
+
+Name: com/igaworks/adpopcorn/res/ic_new.png
+SHA1-Digest: 3qwWf6n8qOIQqjSNSup2O2k3Vn8=
+
+Name: assets/ccb/night_elf.ccbi
+SHA1-Digest: ZQDgE9jsFjvr+gHjzjCl+PVXogU=
+
+Name: assets/renewal/CD_UI_button_change_00.png
+SHA1-Digest: B8pMYVJpEf2GMzLnsmWLtyK8XII=
+
+Name: assets/Texturepacker/fanatic.pvr.ccz
+SHA1-Digest: yii6Fft8LuI+5I+75Af6cf9zZaE=
+
+Name: assets/Icon-152.png
+SHA1-Digest: FwZMek6fYnWUwPJ7JENcORb+69o=
+
+Name: assets/Texturepacker/CD_UI_card_image.plist
+SHA1-Digest: vuXzwPXcdKiGhKCLpCJ8LQuh2bA=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: IQn6ReCnu8JpwPcPoxVca5pqF/c=
+
+Name: assets/Texturepacker/NPC_king.plist
+SHA1-Digest: 37CAhxmlqx9m7o2yf0uM8nDg5rg=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_disabled_focus_light
+ .9.png
+SHA1-Digest: I9qbcSSf/KTYWorvWQ2fffF+RNU=
+
+Name: assets/ccb/CD_UI_talk_npc_magicians.ccbi
+SHA1-Digest: J45SYxOsmQu1ahhIyIQGRZuAboU=
+
+Name: assets/Icon@2x.png
+SHA1-Digest: t3dVxngq1B+ob65oYsQi80p1wNY=
+
+Name: assets/Texturepacker/BOSS_new_pluton.pvr.ccz
+SHA1-Digest: u9Ko28c77H+Pys2Mfz2/eir+dmg=
+
+Name: assets/Icon-Small-40@2x.png
+SHA1-Digest: f/QO0+uYOBByNOQKRrOIOrngRLY=
+
+Name: assets/Texturepacker/monster_HD.pvr.ccz
+SHA1-Digest: l3vapzKvvMS0fmjNBvcZOq8/m1w=
+
+Name: assets/Texturepacker/BOSS_satan.plist
+SHA1-Digest: YthWjtpSKe3ngnCtuPU/H51UJZw=
+
+Name: assets/ccb/popup_ui_human_hunting_HD.ccbi
+SHA1-Digest: HN2Hd5FM0BF8EDl6KScm6Q0NRtI=
+
+Name: assets/Texturepacker/necromancer.pvr.ccz
+SHA1-Digest: 4IaGPHc1fIk+2iXtSHziMDi+Iww=
+
+Name: res/drawable-mdpi-v4/ic_plusone_medium_off_client.png
+SHA1-Digest: w/fcwmT9uzinl1rSemiGsl3AxBQ=
+
+Name: assets/Texturepacker/nyarlathotep.pvr.ccz
+SHA1-Digest: 0zd9fuPIXYAgi+xisgj3qMHOuA0=
+
+Name: assets/Texturepacker/portrait_of_a_beauty.plist
+SHA1-Digest: t/QmfUT88/8dyw87MkKdiwRt0w4=
+
+Name: assets/Texturepacker/00_dungeon_05.tmx
+SHA1-Digest: g2wCVffLGLGmhNFIPVqPpQ+kgEQ=
+
+Name: assets/Texturepacker/ogre.plist
+SHA1-Digest: abIWAx+TTG5yF9UD5Huh8e+bm4g=
+
+Name: res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png
+SHA1-Digest: MystNx1ZKTpMn+y9CI3Frb+KGo4=
+
+Name: assets/BGM_Title.mp3
+SHA1-Digest: 5BmP6hs76mZH/vmwxYPM0dYplY4=
+
+Name: assets/ccb/CD_UI_talk_npc_warrior.ccbi
+SHA1-Digest: SrxCtIDe68Pjrm7iI6J350BR9gI=
+
+Name: assets/ccb/CD_UI_Sponsor.ccbi
+SHA1-Digest: K7MlkljruxICQTjAEjewOLCZou0=
+
+Name: assets/Texturepacker/wraith.plist
+SHA1-Digest: qa3BXNvW6c/5u/roFmzmwlL3aSU=
+
+Name: assets/Texturepacker/CD_Main_UI.pvr.ccz
+SHA1-Digest: aC6mr1RL8GH1YaGeGUmn6lBz3+c=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: WQ4D80mKWq/wfgMQ6utw1gMrxig=
+
+Name: assets/ccb/CardTrap.ccbi
+SHA1-Digest: LS+uXP9fi0YADzqvQDDEe0njm9o=
+
+Name: res/drawable-xhdpi-v4/ic_plusone_standard_off_client.png
+SHA1-Digest: HeMKWSGLbQ3lkR6UcVPXXS4uFr4=
+
+Name: assets/Texturepacker/monster_piratecaptain_HD.pvr.ccz
+SHA1-Digest: /wocVC35x1Iis3etJDXY0eqy118=
+
+Name: assets/font/Press Start 2P.ttf
+SHA1-Digest: Crdog108T0jHQrphWgiCpSw2htk=
+
+Name: assets/ccb/CD_UI_talk_npc_senior_priest.ccbi
+SHA1-Digest: UubDZFzl4uJDJ9Ol1PF1yunj8Ww=
+
+Name: assets/renewal/gacha_10.png
+SHA1-Digest: gxZKBefcbDUjS9GhO3nkTMjHkF4=
+
+Name: assets/Icon-Small.png
+SHA1-Digest: yd0SeZvKDcPw+y/pKoJMgG9Rzis=
+
+Name: assets/ccb/popup_battle_result_HD.ccbi
+SHA1-Digest: v+sZFGmQbjA8CPSLTsa6cYVia24=
+
+Name: assets/ccb/card_confirm.ccbi
+SHA1-Digest: DoWdOeyhZwy7Uh7bb23xhY8qJWA=
+
+Name: assets/Base.lproj/zh-Hans.lproj/InfoPlist.strings
+SHA1-Digest: F0Z/R6wGHCzNp9s0ZveSjYtS5Bo=
+
+Name: assets/Texturepacker/BOSS_belial.plist
+SHA1-Digest: 9E2neVSTdSNacnH7kjaIdBhKhgU=
+
+Name: assets/Texturepacker/chinese_vampire.plist
+SHA1-Digest: jMqkwQvtlFzgNGW7CqaK4KEVu4k=
+
+Name: assets/ccb/BOSS_wyvern.ccbi
+SHA1-Digest: bOdGi17saRlGFncocgb2gEVwNdo=
+
+Name: assets/ccb/monster_innsmouth_man_HD.ccbi
+SHA1-Digest: LPXLqe7sgFsqY+XLGouw4WZnkL0=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_ligh
+ t.9.png
+SHA1-Digest: dmMebl/IZfmzRjJSrqewPF7ZptM=
+
+Name: assets/Texturepacker/BOSS_forneus.pvr.ccz
+SHA1-Digest: 2RaxnA3UlWbL2etmPowir8WFOhA=
+
+Name: assets/ccb/monster_gorgon_HD.ccbi
+SHA1-Digest: QQxmqLjTbBc5v4eUI5NUMdFFcF4=
+
+Name: assets/ccb/stage_menu_ui_HD.ccbi
+SHA1-Digest: UQR5uYmLTwDbt4qkk7LAfOu0VgY=
+
+Name: assets/Texturepacker/viking_warrior.plist
+SHA1-Digest: XMOUp+1Asi0WcMsiE/56+Fx0rEU=
+
+Name: assets/Texturepacker/franken.pvr.ccz
+SHA1-Digest: CKAw6FYSU8tgT4OUm2usgVZT1ws=
+
+Name: assets/Icon-Small-40.png
+SHA1-Digest: dr5+f9IO537+U1DryZi1yFOE3NY=
+
+Name: assets/Texturepacker/BOSS_adrammelech.pvr.ccz
+SHA1-Digest: A6meo8tyi0Zltzn5wxhh+dvg08g=
+
+Name: assets/Texturepacker/gotpa.pvr.ccz
+SHA1-Digest: SqyR3pKcnvI3DQottSIJvm+XfCc=
+
+Name: assets/ccb/monster_pinhead_effect.ccbi
+SHA1-Digest: lZkMfMh11HmZ61AfKyOC1s8wS3I=
+
+Name: assets/spin_roll.mp3
+SHA1-Digest: GvkxmkzUFAkYt+4oMKoUhnCi3T8=
+
+Name: assets/Texturepacker/chinese_vampire.pvr.ccz
+SHA1-Digest: v1DlgkRDUdyjDRyQ3kayqZhZiNE=
+
+Name: assets/ccb/monster_piratecaptain_HD.ccbi
+SHA1-Digest: zAltc3+8noNetELRut2OKQO3nhw=
+
+Name: assets/Icon-72.png
+SHA1-Digest: CsiexLOJVdAl6G6RLj6AWMwZjlE=
+
+Name: assets/Texturepacker/CD_UI_enhance_window.png
+SHA1-Digest: NXTmeQLM1gqGnDoqcxaZyULanhI=
+
+Name: assets/Texturepacker/NPC_princess_01.pvr.ccz
+SHA1-Digest: jWLZrKew3WL4OTOC6xsnIOMrB5U=
+
+Name: assets/Texturepacker/effect_01.plist
+SHA1-Digest: tB84R1z1Nk9xudDI/1CMDofDN9s=
+
+Name: assets/Texturepacker/bogle.plist
+SHA1-Digest: QVv5F1BpBQpXFrQ+NoeWZGct71E=
+
+Name: assets/ccb/monster_fungus_HD.ccbi
+SHA1-Digest: qDW7Fs/ge9/YfoFnhka4pKK/D3c=
+
+Name: assets/Texturepacker/monster_pinhead_HD.pvr.ccz
+SHA1-Digest: qSlqrcHWujajk5VVCkJ8BK4VdgM=
+
+Name: assets/Texturepacker/dragonpas.pvr.ccz
+SHA1-Digest: 3re5do+lNowkejyHnmVKW5FoB5o=
+
+Name: assets/ccb/card_select.ccbi
+SHA1-Digest: Ds595cIPUY9B0MSHCgKcERyNy5o=
+
+Name: assets/Icon-72@2x.png
+SHA1-Digest: tQay61W1rt1oNkGhVoWpCGENNt4=
+
+Name: assets/Texturepacker/03_leaf_map.plist
+SHA1-Digest: HfPesXzBmE1U2XkfcPZnpky2xwE=
+
+Name: assets/Texturepacker/babarian.plist
+SHA1-Digest: 6+cQYqII8BDVavFoWdAITjxZN00=
+
+Name: assets/Texturepacker/werewolf.pvr.ccz
+SHA1-Digest: mesRmRfN8iC59MPJmiFfVxINaFw=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_dark.9.pn
+ g
+SHA1-Digest: 1ySqFlFUFUZSrpFiPfTuz3yUqfo=
+
+Name: assets/Texturepacker/etc.pvr.ccz
+SHA1-Digest: I1PL/IGgklHiTiKlFkEfKh2/KiY=
+
+Name: assets/Texturepacker/CD_UI_levelup_event.pvr.ccz
+SHA1-Digest: oA1jLQfg8V2q9EXFdS/cHsa9sKw=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: mEcRASjoRNZkiLfzyCIMUzQ9DPU=
+
+Name: assets/ccb/monster_zombie_granpa_HD.ccbi
+SHA1-Digest: q8ICDBBZbyAN93ZKGXB/jIIqT6c=
+
+Name: assets/Texturepacker/jellies.pvr.ccz
+SHA1-Digest: lH02EoCKSOhhwDPjmSDj+SfueHk=
+
+Name: assets/ccb/BOSS_satan.ccbi
+SHA1-Digest: 8cL5OHKPY2aXDZjeJUsEf+VCyUQ=
+
+Name: assets/renewal/wheel_02.png
+SHA1-Digest: nrZ0nsBeMhtu2COwrWUvuNkCLds=
+
+Name: res/drawable-hdpi-v4/ic_plusone_standard_off_client.png
+SHA1-Digest: lKInJuW4EMK4qQVUHm2iKLd5RuM=
+
+Name: assets/Texturepacker/goblin.pvr.ccz
+SHA1-Digest: EsDpHZQ9v7QPFIsS9DCIUMBHvRM=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: iIEXDHTYfBZsmWxNMdLzb6ywMDg=
+
+Name: assets/result_dungeonopen.mp3
+SHA1-Digest: xvYlh2tJqhwmQ+/IzkXqkuBGFZw=
+
+Name: assets/ccb/stage_ready_fire.ccbi
+SHA1-Digest: mURwfFU8b9qAyCAQRxrOqOEPvE0=
+
+Name: assets/Texturepacker/prologue_HD.pvr.ccz
+SHA1-Digest: w2nYSvgUhOSfUqUpCqQoFS1d3h0=
+
+Name: assets/vg_timer.png
+SHA1-Digest: t9l61qhO82aUDw34Lb2ZpEpkvmQ=
+
+Name: assets/renewal/daily_en.png
+SHA1-Digest: a5M3O1lCEfapS2JOUzgMp9+bX5Y=
+
+Name: assets/text/Localizable_es.strings
+SHA1-Digest: pngSj4HHaV6IAD7RzQE0SUi8ofY=
+
+Name: assets/ccb/CD_UI_talk_npc_witch3.ccbi
+SHA1-Digest: QvOjdv4sVGChY5DBbtquBE79kGY=
+
+Name: assets/Texturepacker/00_dungeon_04.tmx
+SHA1-Digest: xI0XTvxTJAfN9w86rZ4kb96+Zr0=
+
+Name: assets/ccb/CD_UI_slot_effect_light.ccbi
+SHA1-Digest: doCWgkzVB54d+hCAfFkX2MRMRyc=
+
+Name: assets/Texturepacker/the_infected.plist
+SHA1-Digest: cQyXqTtr60ga5NmTrjbmCldsV4Y=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: TnTUX6LREg+EPdgP4BMTP/XSDWM=
+
+Name: assets/Texturepacker/basic_map.plist
+SHA1-Digest: eBBGDoKRaL1VU8zFlgYgkjQ5oGg=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_dark
+ .9.png
+SHA1-Digest: qqTJ4qjC9XYJ9/jUd+ZQk2kZYS8=
+
+Name: assets/Texturepacker/BOSS_wyvern.pvr.ccz
+SHA1-Digest: 20f5HjvOBMe/Ao2a23nmAAJoi/0=
+
+Name: assets/Texturepacker/BOSS_eurynome.plist
+SHA1-Digest: Vix3BccYQjj9JU63VVs+HOhN0/Y=
+
+Name: assets/Texturepacker/innsmouth_man.plist
+SHA1-Digest: aMRGRK/ZJSZQk8gM2uOsrVLwIvI=
+
+Name: assets/ccb/BOSS_grinch.ccbi
+SHA1-Digest: ul6p0yk059zH1uoHYcpJFAvWXWk=
+
+Name: assets/ccb/CD_UI_talk_npc_eye.ccbi
+SHA1-Digest: tTUpQGph83rq0bWKJGr+0pwO6Tk=
+
+Name: assets/Texturepacker/snowman.plist
+SHA1-Digest: wFMYV9E8jWEF3DUzRFW/IIHKjOM=
+
+Name: assets/Texturepacker/npc_magicians.pvr.ccz
+SHA1-Digest: wol1Sdnjw8+YaAVgbRJvDCf8cLA=
+
+Name: assets/ccb/BOSS_forneus.ccbi
+SHA1-Digest: KPodtnxJ6Kl3X0xr4HO/pNFYOAA=
+
+Name: assets/Texturepacker/effect.plist
+SHA1-Digest: JN8IIJ3135osRUG0uiUuSXl30aM=
+
+Name: assets/ccb/CD_UI_levelup_event_dungeon.ccbi
+SHA1-Digest: rRiaHxUNpPLb25XcaMmA1PMGyas=
+
+Name: assets/ccb/CD_UI_worldmap.ccbi
+SHA1-Digest: 6jszbEUFsIPG5DnnLEjcasGJaPk=
+
+Name: assets/Texturepacker/lady_zombie.pvr.ccz
+SHA1-Digest: ovc8omzcyEs94a1hd+xkv1lSCS4=
+
+Name: assets/ccb/monster_witch_green_HD.ccbi
+SHA1-Digest: Rp59L56FVi5pVVuFZ0M6SLsaqdE=
+
+Name: assets/renewal/result_01.png
+SHA1-Digest: q3YC0pxZ4n4ef7QBi7PwM2SlX+A=
+
+Name: assets/renewal/CD_inventory_button_01.png
+SHA1-Digest: toFs81+I8B3kZ/RjmcjjVZ259sc=
+
+Name: assets/Texturepacker/CD_Main_UI.plist
+SHA1-Digest: KoRwpEUghIWuAC2Hcya1vo5yJro=
+
+Name: assets/Texturepacker/NPC_warriors_fairies.plist
+SHA1-Digest: ZmZYDT6S3wSm9B7CFV9aINIEppU=
+
+Name: assets/enchant_select.mp3
+SHA1-Digest: x49MgrMTajY3jsJiu1exk7k99bM=
+
+Name: assets/renewal/CD_coin_00.png
+SHA1-Digest: DZFUmhp+rfpraWu5pfIc/CroWPo=
+
+Name: assets/Texturepacker/02_water_map.plist
+SHA1-Digest: t8/B501c8yG8htAwxG8Inv3NMfw=
+
+Name: assets/renewal/wheel_03.png
+SHA1-Digest: t1R2V9OXz3OZxEY8MJ/KgXliMcI=
+
+Name: assets/ccb/prologue.ccbi
+SHA1-Digest: LkwROA+80nzhGmbFO408onnPiCo=
+
+Name: assets/enchant_execute.mp3
+SHA1-Digest: no3aMywyRAxpgrIBRlYWngCaw7k=
+
+Name: assets/Texturepacker/chipetopec.plist
+SHA1-Digest: bJ0RWMunzkHVQiI6yDKD2rOpPdY=
+
+Name: assets/gotcha_monstercameout.mp3
+SHA1-Digest: Yds8zk+4exFbaRwkm/c58VwvDj4=
+
+Name: assets/Texturepacker/BOSS_behemoth.plist
+SHA1-Digest: LpWon4lik0K111C+4KAXMlnbbsg=
+
+Name: assets/Texturepacker/CD_UI_orb.plist
+SHA1-Digest: q3KsoF7OAKjw89y3IonY0HCDNtw=
+
+Name: res/color/wallet_primary_text_holo_light.xml
+SHA1-Digest: GO2vCcWRfOGh7+tPAsO+36aVP/Y=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_disabled_focus_dark.
+ 9.png
+SHA1-Digest: yT6sfaTIb8IYSujsqfuSSRMQz90=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: VuHWq27PyWkd47nI6G0Qt94zrmk=
+
+Name: assets/renewal/daily_cc.png
+SHA1-Digest: jx3evzB+wg+Apxst+VbHbRsL9bw=
+
+Name: assets/credits_02.png
+SHA1-Digest: 7rp+mQr1yt4p6Cqs74AIge3TaTE=
+
+Name: assets/ccb/BOSS_pluton.ccbi
+SHA1-Digest: p7kjcUyNcA4OISB2jnrVYfxIHbI=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_ligh
+ t.9.png
+SHA1-Digest: WXE9Fo9f8jTxZ9ixisfOf2jGeRw=
+
+Name: assets/Texturepacker/BOSS_satan.pvr.ccz
+SHA1-Digest: xqifGs2F251LakrvCNqnT74Zu20=
+
+Name: assets/ccb/monster_kobold_HD.ccbi
+SHA1-Digest: psfmpKKzEG+C/beYktNr/IuoHgk=
+
+Name: res/drawable-mdpi-v4/ic_plusone_tall_off_client.png
+SHA1-Digest: 1gfnRPtyyVOsIHofv8X7kWsMlEs=
+
+Name: com/igaworks/adpopcorn/res/ic_point.png
+SHA1-Digest: u9OJpea/2HNDKw4qDi7ar8KN3Fg=
+
+Name: assets/renewal/daily_fr.png
+SHA1-Digest: VLMZ0L+9lO2OEye7QOafAbskhDw=
+
+Name: assets/trap_bomb.mp3
+SHA1-Digest: WrS/TFWXN4ZRJFooEEUxqB+FhOs=
+
+Name: assets/renewal/gacha_12.png
+SHA1-Digest: aqHQwu1dO50da0wqZSSoAk9cp+Y=
+
+Name: assets/Texturepacker/virgin_ghost.pvr.ccz
+SHA1-Digest: VKVCm+fxmQeGS23KHuI07dH+lfo=
+
+Name: assets/ccb/CD_UI_talk_npc_hero.ccbi
+SHA1-Digest: bvAzHehp9sxNQxEywjkseRwj5Ro=
+
+Name: assets/ccb/monster_snake_HD.ccbi
+SHA1-Digest: YpRezqLtAwvtMe+U0VrLEZATg/c=
+
+Name: assets/Texturepacker/angel.pvr.ccz
+SHA1-Digest: 2TA4GWuDWcBIivjXC2WidaUQjJU=
+
+Name: assets/ccb/CD_UI_talk_balloon.ccbi
+SHA1-Digest: T63tipjKBxe6+owW2ztrWmEexK8=
+
+Name: assets/ccb/m_hpbar_HD.ccbi
+SHA1-Digest: YMMpCar8qlq/2r3wgfJYsDaROPo=
+
+Name: assets/ccb/m_hpbar_boss_HD.ccbi
+SHA1-Digest: xA/x8fR7yMZdSO+7xycqeGfbBUY=
+
+Name: assets/ccb/stage_summon_select_ui.ccbi
+SHA1-Digest: xWXzEnEQhFg934WZFTeZDOCp9u0=
+
+Name: res/drawable-xhdpi-v4/ic_plusone_tall_off_client.png
+SHA1-Digest: 4gyDaUrbhDxi6ha/bJnu54NtnaQ=
+
+Name: assets/ccb/monster_undine_HD.ccbi
+SHA1-Digest: PHd+UsPJRCrfNTOeYQL2gFaZuoM=
+
+Name: assets/Texturepacker/jellies.plist
+SHA1-Digest: r4yznTw76iElXh12idNyudazbZ8=
+
+Name: assets/Texturepacker/CD_UI_popup.plist
+SHA1-Digest: GPx6pnHeufdECr7/ceIeWsj2Wd0=
+
+Name: assets/Texturepacker/fanatic.plist
+SHA1-Digest: x7AH1MYF5hIQc4vuWY+pWehFGWI=
+
+Name: assets/ccb/effect_firestorm.ccbi
+SHA1-Digest: uxVjlWLcj0uQGQnvTbJ2RVY95aE=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: 1ZGPnFQYex6yv416YvcOb67P5l8=
+
+Name: assets/Texturepacker/grinch.plist
+SHA1-Digest: dSk/+wztUAys4MXfd4AEZGoe9c8=
+
+Name: assets/ccb/CD_UI_talk_npc_fairy.ccbi
+SHA1-Digest: PK0SGeW2Ve0kbnv1YjsxqcUDs4E=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_lig
+ ht.9.png
+SHA1-Digest: 8KwAgeweT8yIIKMb+5lX0KAHePk=
+
+Name: assets/ccb/monster_orc_HD.ccbi
+SHA1-Digest: yXDwaoJC2s2+aEFsyuXhe2J6szI=
+
+Name: assets/Texturepacker/demon_knight.plist
+SHA1-Digest: Bbb735M/kxsE4vXVZ92X5NyMLjA=
+
+Name: res/drawable-xxhdpi-v4/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: gqWhLpoL32cQAWuhI+HWorR8liQ=
+
+Name: com/igaworks/adpopcorn/res/adpopcorn_loading.png
+SHA1-Digest: zkczyTOptP5mcTyhHH1SFJ4TDHE=
+
+Name: assets/Texturepacker/lizard_knight.pvr.ccz
+SHA1-Digest: YyDpl06akzr2949UqUh+jWn+CNU=
+
+Name: assets/Texturepacker/title.pvr.ccz
+SHA1-Digest: zZ3X8u5ravk0rM0X889k2Q3Yu2k=
+
+Name: assets/dungeon_adventure.mp3
+SHA1-Digest: 0/plO4gyFyL949YbU2AbpzfVwTE=
+
+Name: assets/renewal/result_02.png
+SHA1-Digest: 5qQOjDL3QsEsWt6vv7Bics7xK2g=
+
+Name: assets/Texturepacker/CD_UI_encyclopedia.pvr.ccz
+SHA1-Digest: U3QKghaiLaT/VR7RC9TseV6FSYA=
+
+Name: assets/enchant_selectcancel.mp3
+SHA1-Digest: 25ojkU1dJXeE1Y4kEZ9E8GCtXi4=
+
+Name: assets/Texturepacker/swedishvamp.plist
+SHA1-Digest: R7x7djlISSyThIIn57qf66u+G18=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: QO1roDghjeIqS8g0UX3N2i2Rq40=
+
+Name: assets/Texturepacker/virgin_ghost.plist
+SHA1-Digest: AcLLWAWcwXeZrFP300f5xOXxZdE=
+
+Name: assets/ccb/prologue_en.ccbi
+SHA1-Digest: B9kkAyQ49BWGpCguLSiTeiF+VPs=
+
+Name: assets/Texturepacker/babarian.pvr.ccz
+SHA1-Digest: YHZSrMsuIae3SDgAUgVeZIWwU8Y=
+
+Name: assets/text/Localizable_cc.strings
+SHA1-Digest: Xw3El4ml9g1JMoiXeHR54ikY2gA=
+
+Name: assets/ccb/monster_pink_eyeball_HD.ccbi
+SHA1-Digest: 1hvfvRBbcaHYvrYY+Al4xde1LU8=
+
+Name: assets/Texturepacker/00_dungeon_07.tmx
+SHA1-Digest: FkIqCh1emBqOohsYUjnImbfp0NA=
+
+Name: assets/Texturepacker/background_tree.png
+SHA1-Digest: lh6amGkqYPDzQ3lj7qMphnW3uvo=
+
+Name: assets/ccb/CD_UI_popup_2.ccbi
+SHA1-Digest: CbGk1gaT86bGf0QNr0wK2WcHmLk=
+
+Name: assets/ccb/monster_thief_HD.ccbi
+SHA1-Digest: MROKmgeG0wC58R9Q9waO4KhZst0=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: WkHTJXRyWdHGbuBmj37cLr2Wcak=
+
+Name: assets/result_lose.mp3
+SHA1-Digest: RF4ntIQGoe38kyepXfTnqelRifw=
+
+Name: assets/Texturepacker/demon_sword_hero.plist
+SHA1-Digest: QN3KjoiLWUE/BG4LeVEMwAEcS+8=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: PNXulXQTonk6XVhRPpycQtNbaYQ=
+
+Name: assets/Default-568h@2x.png
+SHA1-Digest: ndWA/9OmH25n9OqcgYZh7sar9BU=
+
+Name: assets/ccb/CD_UI_talk_npc_demon_sword_hero.ccbi
+SHA1-Digest: cLZRJJi2kfBRTu8gTFvOltwbuX8=
+
+Name: assets/Texturepacker/BOSS_eurynome.pvr.ccz
+SHA1-Digest: NU5mA+wn0tmjtluR0wV9/7vJJOs=
+
+Name: assets/renewal/CD_coin_01.png
+SHA1-Digest: oqbGkuQKRFMkYUPJykVt7J6gp9E=
+
+Name: assets/ccb/CD_UI_hand_cursor_mini.ccbi
+SHA1-Digest: H3dJSTdt0pi1ouoIoSYN7JQ2lzE=
+
+Name: assets/ccb/monster_pumpkin_head_HD.ccbi
+SHA1-Digest: wCP9SmH59Hr3LjqQriSMf71G4Ow=
+
+Name: assets/Texturepacker/BOSS_nidhogg.pvr.ccz
+SHA1-Digest: MC/+md0YO9oIkAMUx+cGRIe3cYg=
+
+Name: assets/Texturepacker/CD_card_effect.pvr.ccz
+SHA1-Digest: IZpYEPu+vbEzUIkZPN14v/7cM7Q=
+
+Name: assets/ccb/NPC_princess_HD.ccbi
+SHA1-Digest: Lw5k2SD0hthBKa2nA+16KlabY4I=
+
+Name: assets/Texturepacker/NPC_senior_priest.plist
+SHA1-Digest: eIeI5X54tRxpef6RYHkSKqDVFe0=
+
+Name: res/drawable/common_signin_btn_text_light.xml
+SHA1-Digest: 2ZYX3xvl4D5jCEoBs0t4WPeiC8g=
+
+Name: assets/Texturepacker/CD_UI_gotcha_characters.pvr.ccz
+SHA1-Digest: ipJ85KC+5x19kf8XEGiiOjniD7Y=
+
+Name: assets/Texturepacker/orc.pvr.ccz
+SHA1-Digest: q3cDMAMSAp3mWYHpEff+5Rdqzdw=
+
+Name: assets/text/Localizable_jp.strings
+SHA1-Digest: cYa5Xrvic+wHmAaTEb4VQhn2D+U=
+
+Name: assets/Texturepacker/BOSS_leonard.plist
+SHA1-Digest: wgTv2yWqnC/lzg+L7ygLlV0Zg6c=
+
+Name: assets/Texturepacker/NPC_merchant.pvr.ccz
+SHA1-Digest: NQIxbfyhBAedSMGG6cfpcYPFJwc=
+
+Name: assets/Dungeon_WoldmapBGM_Loop.mp3
+SHA1-Digest: qpYi37vr5hgweYe8+s7Va3tkX6k=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: 0ES2/vkCI06f+20uSMpSJ8vhfQI=
+
+Name: assets/credits_03.png
+SHA1-Digest: ukpkIazyw+aD2QQM+Bw0nlI+pAI=
+
+Name: assets/Texturepacker/valkyrie.pvr.ccz
+SHA1-Digest: 9NtRnmH9QriC6IH51RY2+FJvLOY=
+
+Name: assets/Texturepacker/viking.pvr.ccz
+SHA1-Digest: eq0fqWVNsWJuiezaYhPpSYdUeqw=
+
+Name: assets/ccb/BOSS_swedishvamp.ccbi
+SHA1-Digest: xelDvXZTPO+sfu2SgHLQUa5S3P8=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: s4QTzl3FN8vCu33vo96hrnJ16Aw=
+
+Name: assets/Texturepacker/local_th.pvr.ccz
+SHA1-Digest: HKMJgO+xGEPZWU2H4wuGHZrm2kg=
+
+Name: assets/ccb/CD_UI_talk_npc_witch.ccbi
+SHA1-Digest: TN69lo9vbLw1s+JLKFNgE2zvZMs=
+
+Name: assets/Texturepacker/lady_zombie.plist
+SHA1-Digest: NteSOIU5ZwqDieIAvDMy3Nob+7I=
+
+Name: assets/Texturepacker/03_leaf_map.pvr.ccz
+SHA1-Digest: gxEZIdRmTZvB3Q3M57aQv0DoGN0=
+
+Name: assets/Texturepacker/local_cs.pvr.ccz
+SHA1-Digest: hE9IdZkv9C40tQY3Z/Yz7GVxmJ4=
+
+Name: assets/renewal/gacha_11.png
+SHA1-Digest: lv9t/Rn+tnbeATuSC4GGCUtTsPo=
+
+Name: assets/ccb/monster_franken_HD.ccbi
+SHA1-Digest: WojxV7wm76wVNac14aGG2fGCb3k=
+
+Name: assets/Base.lproj/zh-Hant.lproj/InfoPlist.strings
+SHA1-Digest: +s4F3QA1r2XWFNTRLDj4LnMGtBg=
+
+Name: assets/Texturepacker/BOSS_golddragon.plist
+SHA1-Digest: vGFpid+Ue+Psc5cYbmoHS1Ua7pY=
+
+Name: assets/ccb/CD_UI_popup.ccbi
+SHA1-Digest: W3lILPBMOPIancRxjnJko2HJF5o=
+
+Name: res/drawable-hdpi-v4/ic_plusone_medium_off_client.png
+SHA1-Digest: P7XjqtLSVWuZ/RCCqMUyh4j3wGw=
+
+Name: assets/ccb/monster_werewolf_HD.ccbi
+SHA1-Digest: vM9h6DfwA7CHXg5UJJg/9j0tKws=
+
+Name: assets/ccb/CD_UI_slot_effect_leaf.ccbi
+SHA1-Digest: /KjN8fJQXy8PxeIzT9KlOzgTNMI=
+
+Name: res/drawable/common_signin_btn_icon_dark.xml
+SHA1-Digest: pc/EfNiDz26r2JW/n5Enn4/97/Q=
+
+Name: assets/Texturepacker/BOSS_phoenix.pvr.ccz
+SHA1-Digest: 7Y5uxKrwxMG3ioEb56G8dpKq044=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: VuaZJTj5+et64w2G22v/p56XepA=
+
+Name: assets/renewal/result_03.png
+SHA1-Digest: WD1qw9AIv+dktbzYNT0BFV18LBk=
+
+Name: assets/Texturepacker/monster_mimic_HD.pvr.ccz
+SHA1-Digest: qBRShKC3sxWEZQLQbNSfmWwKEyA=
+
+Name: assets/ccb/MVMBattle.ccbi
+SHA1-Digest: ZavGnLJK14Qe8ANzJBrnn3y1I5k=
+
+Name: assets/ccb/NPC_merchant.ccbi
+SHA1-Digest: hYAEo9s4GQf1NBGvkU4QNKwStVA=
+
+Name: assets/Texturepacker/CD_UI_inventory.plist
+SHA1-Digest: Sk+c/xG76L/0Ahc+KxdrnhzDzw0=
+
+Name: assets/Texturepacker/prologue_HD.plist
+SHA1-Digest: PN3gO2QRQiV99ZUerJf4aR1hBgw=
+
+Name: assets/renewal/daily_cs.png
+SHA1-Digest: eIgjBVwyZ0WZQtiQSocg5uGLYDI=
+
+Name: assets/Icon-76.png
+SHA1-Digest: BQvB7s4zsTx/7sK5XO/2gSCwGmM=
+
+Name: assets/Texturepacker/NPC_princess.pvr.ccz
+SHA1-Digest: iDBpa1krPmobNe7TF8ERwW08Lwk=
+
+Name: assets/vg_mute_on.png
+SHA1-Digest: GwChhvGSSPbkR1VIsH6YCsJHm5k=
+
+Name: assets/ccb/hpbar_HD.ccbi
+SHA1-Digest: s8fyFI90XuwEaksgmrG7GhsRH+c=
+
+Name: assets/iTunesArtwork
+SHA1-Digest: Y0MdxoPblBSOWJ96r/sbq+Puyoo=
+
+Name: assets/Texturepacker/background_water.png
+SHA1-Digest: xcWMYzhQvjF3YRfbRsSpAqBaFIo=
+
+Name: assets/ccb/priests.ccbi
+SHA1-Digest: dj0bw5HmCUQPr/CWyYOvb6QXF+4=
+
+Name: assets/ccb/monster_fireball_HD.ccbi
+SHA1-Digest: z+nGhgvHhE1bDCBnUqbyBfRtKNs=
+
+Name: res/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_dark
+ .9.png
+SHA1-Digest: dRkuYXj05w5nmXKGQHikqdJRV/8=
+
+Name: assets/Icon-120.png
+SHA1-Digest: AoC/Bpdtdddva5sOslApYyM0BG8=
+
+Name: assets/ccb/stage_ready_menu_ui.ccbi
+SHA1-Digest: jgSnYZ4UNWeFwxdgfh51fLjmMDE=
+
+Name: res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png
+SHA1-Digest: 8SjhfVMvuCrdt9RmhXnZtsozaHg=
+
+Name: assets/Texturepacker/alien_child.plist
+SHA1-Digest: 3EFL9aWI2E8vOiQ1CRfOZP5CymM=
+
+Name: assets/Texturepacker/00_dungeon_06.tmx
+SHA1-Digest: 7KkyOa7tMvzZcBHR8cRxTsImhdM=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: iBZi/wy4SHbuNFDBRj+IH59ZgE8=
+
+Name: assets/Texturepacker/CD_UI_popup.pvr.ccz
+SHA1-Digest: ms504EPNGQAuAy33vc3IfB0+SX4=
+
+Name: assets/Texturepacker/magician_HD.plist
+SHA1-Digest: 8hIrF5T4VanPiNNzd5Klo4auvi4=
+
+Name: res/drawable-mdpi-v4/common_signin_btn_text_disabled_focus_dark.
+ 9.png
+SHA1-Digest: g/EA9y87XivuPGfsEBhycw99ihE=
+
+Name: assets/Texturepacker/loading_circle_2.png
+SHA1-Digest: gLi2mY+rqFV5FORHQqnW8uLpGtg=
+
+Name: assets/Texturepacker/CD_UI_inventory.pvr.ccz
+SHA1-Digest: /btXqwWNg2a6fTyRggbaeJ8DpxE=
+
+Name: assets/ccb/CD_UI_result_effect.ccbi
+SHA1-Digest: noPgE5eIM/3UFPXT2NyiiATH8Tc=
+
+Name: res/drawable-hdpi-v4/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: dvQZkTBlOMeaeqLbf9+kDfZaZcM=
+

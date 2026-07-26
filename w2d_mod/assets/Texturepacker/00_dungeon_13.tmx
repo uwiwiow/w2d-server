@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="145" height="11" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="trap" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="CD_UI_trap.pvr.ccz" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="BOMB"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="type" value="HEAL"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="type" value="COIN"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="type" value="BONUS"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="04_light_map" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="04_light_map.pvr.ccz" width="512" height="1024"/>
+  <tile id="11">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKEL9f2zLcdAwVVTVVVVVVV9+gCzxEQM
+  </data>
+ </layer>
+ <layer name="Tile" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAIA6AXs38tC7yAEzYSAACa8X0AAABuWBI6Hr4=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztVu1qwzAM1EtlKWMGPU8h/7e3XwY1aOrpK6m3tOTgKHVOX47kmGgsppXLjdPgOJqWjoLnFqv5jEImt77egGZrTX8FXduiOOq9MGAVk+GnM+pL/R+tP6I/M2BAKyeU439A9r3kT9/MNy6OXcZ/nymEpjTN8SN/JZh+77XMTT4jpWlArzVobySR3kOkQ/uROXuZts0fwpfyHZEBKzNX8b8nvheTyY+nfaKYCFFeci2zJwiZ/fCAcnwPbDy8rfxceS3wxOvhstN+LpIBK3NU8b9HY8WUORPdz6+cba9mK4bUoDMD5ddz8WpAtWRzk7ZI+2HoR6Hnju5DkpZdxn8LtFkNAY3uI+vbMCsbGVP71trMfSizH9FsEN3f0Zqw1b6kT6bH3Ye2AtXX+ydTe+R7pMaa307PLruWOR+1dgsYMON7T8yRsM6gI6Lyno+MZ89f45l66MQxcfbQa+MbbQpzGg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztl2sKwyAQhD1VzJ9ArtDHKQK5/9+mEGGZjusjJtHiB0PaVNxVR9cacy7DpmXXeHKsWCZTTy5n4ua+5bG6MTjOHM9CxPKZhTAX6feY/jTWxPalkTnjHl6FaoOtwZdx/+3LBIr1FPrR10Y+GXaPa5X+LZFR4uN73xpp/kzdW5gbYyTPlYjleDXSOxKcF2t+zwInbQ7l+mrjC7XRzqEBPuM+YL5ke52tEc4N86fLxZdfDjgfLDfpozu8EyKnFsTUkdg6k1uLfPGwT+Sx6bnpBXoXyusIvty0HK/EVzvYPso9h0rgO4ewf/xuyTuN0H0j5RyaE+KGiKlld4PzzM6LI/ehUrC4rn92J5LvY9HWxndnlMxCuWCfLdypGXLta/+PKX10R70pTcinrdCShzp10j3UOUr30P/zAeo6XPk=
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztllsKxCAMRV2V+lPoetz/Amb6UZA7N7bx0dZpDgQxShJDojr3LvxX0t1BGI/DC/pIdAnGEYys0832SoSd9V9JIFpYrjys4cj29gLt5fWTCvta/C2g2+bsrAHGGQnuN36c19QS5qvnPSTlG/WST7R7dDa0c9Rfb7+HSrmpvZe0/pnP3PddfyV2fozvihw9jSBIK2feqNq+lGLMdZH4k+KQdJq1CLqVCO7R0Pt9H01rH5Vqg+Vc2lPr48w7qq0jiT1X2n7YfWn7drZampFZ/hxWC4ZhGIah4wO2fSOY
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzt1m0KgCAMBuBOtTxT9z9A9CMYY75z+QHV+0AIqStNtraNiFYpk8e3OpxLEzBXzLxZ7/hWu2kRtHe2T0Df0/u97rjeeRHQ2vOmz1HLOinm7V0J+kc844Lyh1XLQSiON1bH0niG/gfVNlorykPZ+Zl4Nn+01OSMWn7qXTPFWmrMyO+QqWnZeDb26v84IiIioi86Ab09Emw=
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztlg0KgCAMhbtW5f3PVYGCjLfcylDzfSBSraftz5blO9Y4ElschGishesLmUOz5BTyRW/Iem+xtuancI5debaJ+Q01tWpTO4eCY81SfKR9DZKWNRba2un9PIdKtjOQx1+rrdbMFA/SJ97a0OxRv70777z6XptWyL2hPoTO+yBmpIU0R2QXswfkJ6Rf0rbYtMK6N4sfn+TQCP/zCfR9+T30ndb6+Vsvktz1mtF7DCGEENI7B9UXEaE=
+  </data>
+ </layer>
+ <layer name="Tile Layer 8" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztlkkOwCAIRb2W1vufq6smhn4oWsfkvw2NRQZFNITzicp4AnqarmWnFel/FlHIVEiZ46oYVyDXY4T9PzWE4krKuHd+b1CONTGeTJm7lbM8f5adL3+1OlpMo/fnMv4lRWp6O5LBmJWzxtd+1dxlHh9IT/bBET2rF73vZEJOBp2tlj40E9Q7a95Kcj6y5+05u68V8eOpnyzk841qaBY7v3PIG1QrK+uHEEIIIX5uETkQhA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 9" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzt1tEOgCAIBVB/y+L/v6uXfGEXR2g63D1bs8ysJUGl0Gw16dy0h17TCvooj1u16Hw7d70bIsa8CIqhqMi1vWtEtbSGFBxDvTgaUY19z3gi2seTm9EYby7R40T16ePIPZpeXpmdc6z3hvpPrn+o1njHeGsSiiE9t/Xv9Wfd+8r7rZ0cL0g0BzUj62v9K828x2pfchONy/5esz8/EZHlAYj5D60=
+  </data>
+ </layer>
+ <layer name="Tile Layer 10" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzt1g0KgCAMBlDPld3/XBEUjaXTjX7m/B6EIIZThy6lOS3Hp/3HK8+xwcWSdzCWlbWtsT3jdn/ljTRvT0yZtfC80jm0+r7MJ81cuB8BxnS+ZfSu91TzWOOovV3afpDReiinex5FQuuiUr6gbrLh9XRtf6OR1jjD+t8WZQ+jrAMAoNcGOxYKkA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 11" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztkjsOwkAMBXM1IKEItAFCQbj/KXgUlqyV7LUENGhGmu7t8/6GAQAAADw7uZeHJLPIi/Na6LU1UdbmmtH8Xk/bl50D+rTvEunveZYneU56H3JzPgt7sTVR1uaa0fxeT9uXnQN+wygneUwyN7k674Xeytv7P/RJzxv+0H+yFjLTl3oAAAAAAKq8AGalGCw=
+  </data>
+ </layer>
+ <layer name="Tile Layer 12" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztl9sKwjAMhvtM+gQeL9RbdXqh3s9rhenDG2GDUtokXbt6SD74KdmyJqx/R2fMf3HNMMeYiH+BezvWTiwdzlrWdIppiPsjIs5Bitc5Hr8RsVSwtXR9QfkkJ88ez3C8HqKEx6Xg7uVH4foT0NTSDMndgnagPWNeypOcujG9fTv2ulLvxucBzBecvdzV9M3j6ydUr7tu11yB1pY2SB8n0Bl0QXLecLzGqRvTmzIMjTP6mIMWlpZIbgU6gI5tHDoPuXm++py6Mb1JouQZZ2hivqEp5PhPVfqTYw0/TcrZXVEURVGk8ALooiR5
+  </data>
+ </layer>
+ <layer name="Tile Layer 13" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztloEKxCAIhnvWWu//Cse4C8TLPzO3NfCD2Mo/MxeulK4n/9ou7BRLMCYL794cSl1mT2TPaaxfjceCxjfSXBmbBzn953/GjvDKSxHGUTwF2PnaZ78qdFa4n95+DmYrZLwXW+PJf4Z1be280d696hDV8dj4t2pr8rikOKVx6tdSY9B5rcKTQveKcmyB1wzUZuZrtN70/PbWRDraP/HKdxXeNfoVDSLujDLSf4yP93QajXbuig3pRxrN3J2YqUN3gvI7umtr/c18e1QzrPUE3Znedo7eRjtHu537WTR3piAIgiAIvnwAGbU5iQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 14" width="145" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztmIEKgCAMRP3Wyv//hQgSZGx6U1sr9iCSXG1017JSep7DIIcGb/UEbS69skGe7d7oWFvPKn9J+Vddm25SDB3T8z1CNaj12g3y72SvYdTvVIutcZzT1lJLqdbCmz265EY0GNFX0oXG5GrP0fLJIYxb+Xp+0PoEjUfi6D3z2ncKmucXiaW9OjNzSZjnroHkzsKYOzajB/ce6vmv5xkkxjua3jLSh5BzLN6Vf8XTvUNqGV1jv+mjld8GyNo/deaewpOXarzWpcHi23I1X1kHIcT/mGCW8FAwS3jo35x8uDLw
+  </data>
+ </layer>
+ <objectgroup name="Object" width="145" height="11">
+  <object name="Start" x="384" y="256" width="64" height="64"/>
+  <object name="Next_1" x="1024" y="256" width="64" height="64"/>
+  <object name="Next_2" x="1728" y="256" width="64" height="64"/>
+  <object name="Next_3" x="2432" y="256" width="64" height="64"/>
+  <object name="Slot_1" x="1344" y="256" width="64" height="64"/>
+  <object name="Slot_2" x="2048" y="256" width="64" height="64"/>
+  <object name="Slot_3" x="2752" y="256" width="64" height="64"/>
+  <object name="Goal" x="8512" y="256" width="64" height="64"/>
+  <object name="Slot_4" x="3328" y="256" width="64" height="64"/>
+  <object name="Next_4" x="3008" y="256" width="64" height="64"/>
+  <object name="Next_5" x="3584" y="256" width="64" height="64"/>
+  <object name="Slot_5" x="3904" y="256" width="64" height="64"/>
+  <object name="Next_6" x="4224" y="256" width="64" height="64"/>
+  <object name="Slot_6" x="4544" y="256" width="64" height="64"/>
+  <object name="Next_7" x="4864" y="256" width="64" height="64"/>
+  <object name="Slot_7" x="5184" y="256" width="64" height="64"/>
+  <object name="Next_8" x="5504" y="256" width="64" height="64"/>
+  <object name="Slot_8" x="5824" y="256" width="64" height="64"/>
+  <object name="Next_9" x="6144" y="256" width="64" height="64"/>
+  <object name="Slot_9" x="6464" y="256" width="64" height="64"/>
+  <object name="Next_10" x="6784" y="256" width="64" height="64"/>
+  <object name="Slot_10" x="7104" y="256" width="64" height="64"/>
+  <object name="Next_11" x="7424" y="256" width="64" height="64"/>
+  <object name="Slot_11" type="Trap" x="7744" y="256" width="64" height="64"/>
+  <object name="Next_12" x="8064" y="256" width="64" height="64"/>
+  <object name="Slot_12" x="8384" y="256" width="64" height="64"/>
+ </objectgroup>
+</map>

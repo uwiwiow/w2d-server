@@ -1,0 +1,680 @@
+/*
+ Localizable.strings
+ WelcomeD
+ 
+ Created by Administrator on 2014. 3. 26..
+ 
+ */
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/NotoSans-Bold.ttf";
+"local_fontBold"="font/NotoSans-Bold.ttf";
+// Tutorial, right after prologue
+"local_tutorialtalk01"="@eye:Este es el mundo humano.{Existen mazmorras que los mágicos demonios aún no pueden alcanzar.{Captura cada mazmorra, una por una, para expandir tu poder.{Tu evaluación se muestra a través de estos niveles de infamia.";
+"local_tutorialtalk02"="@eye:Vamos a la primera mazmorra.";
+"local_tutorialtalk03"="@eye:Cómodo, ¿cierto?{Los guerreros humanos no pueden perderse las mazmorras de mala fama, pero visitarlas llevará tiempo…{Mejor usemos magia oscura.{Esta estrategia nos permite reclutar caballeros cuando queramos.";
+"local_tutorialtalk04"="@eye:Con el tiempo puedes usar tu magia para activar estas estrategias y los caballeros elegidos ingresarán a la mazmorra. {Saca esa magia.";
+"local_tutorialtalk05"="@eye:Los humanos no suelen pensar sobre sus elecciones y solo ven los resultados.@hero:¡Siento el aura del mal!@eye:Je, je... ¡Veamos qué trae la elección de este caballero!";
+"local_tutorialtalk06"="@eye:¡Excelente! Sí que estás del lado de la oscuridad, maestro.";
+"local_tutorialtalk07"="@eye:Felicitaciones. Haz conquistado la mazmorra.{Debido a su alta infamia, nadie se atreverá a volver aquí.{Vamos a una mazmorra más grande.";
+"local_tutorialtalk08"="@eye:¿Te gusta tu nueva mazmorra?{Ahora ubica a tus monstruos. Los monstruos de la primera mazmorra fueron como muestras.{Como tu Caja de Monstruos está vacía, escojamos un monstruo.{Selecciona INVOCAR Monstruo en el menú.";
+"local_tutorialtalk09"="@eye:No sabes lo que obtendrás, pero todo es parte de la diversión.{Es una regla de magia que aquello que obtienes fácilmente te costará más tarde.{Ya que tienes suficiente oro, escoge un monstruo.";
+"local_tutorialtalk10"="@eye:Este es el que obtuviste. Fortalecerlo puede resultar muy útil.{Seguro ya lo notaste, pero cuantas más estrellas tenga el monstruo, más exótico será y más capacidades tendrá.";
+"local_tutorialtalk11"="@eye:Las cartas de monstruos elegidas están en la Caja de Monstruos.";
+"local_tutorialtalk12"="@eye:La cantidad de estrellas en la esquina superior izquierda es el COSTO de ubicar al monstruo en la mazmorra.{Cuando tu infamia aumenta, también aumenta el costo.";
+"local_tutorialtalk13"="@eye:¡Vence en la batalla, acumula monstruos y aumenta tu infamia!\nEso es lo que debes hacer en este mundo.{Te veré la próxima vez que necesites ayuda.{Te dejaré 10 000 monedas para que puedas convocar y ubicar a más monstruos.";
+
+"local_tutorialtalkbattle01"="@eye:La primera ola de guerreros tiene poderes de fuego, por eso los monstruos con poderes de agua serán útiles para la primera batalla.{Por tratarse de un combate manual, puedes decidir el orden.{ Los guerreros tienen poderes de fuego, así que escoge a un monstruo con poderes de agua (color azul).";
+"local_tutorialtalkbattle02"="@eye:Los monstruos que atacados por muchos guerreros suelen usar un 'golpe mortal' contra los guerreros.{Presiona rápidamente el botón de habilidad y verás.";
+"local_tutorialtalkbattle03"="@eye:Todas las mazmorras tienen una habitación con trampa.\nFíjate qué sucede cuando tienes una carta de trampa.";
+
+
+"local_tutorialtalkskip00"="@eye:¡Espera, maestro! ¡Escúchame hasta el final!\n¡Te daré más oro! Tomará solo un momento.";
+"local_tutorialtalkskip01"="@eye:En pocas palabras, estas son las reglas:{1) Gana tantas batallas como puedas con los guerreros convocados.\n2) Acumula oro y convoca monstruos o fortalécelos.\n3) Aumenta tu infamia a través de las victorias.\nEsto es lo que debes hacer en este mundo.{Volveré la próxima vez que necesites ayuda.";
+
+
+// character event results
+"local_talkeventsystemgetgold"="Ganaste %d en oro.";
+"local_talkeventsystemlosegold"="Perdiste %d en oro.";
+"local_talkeventsystemlosegold2"="Ganaste %d en oro.";
+"local_talkeventsystemgetsuccubuscard"="¡Tienes la carta 'Súcubo'!";
+"local_talkeventsystemmonsterlevelsup"="La habilidad del monstruo se fortaleció temporalmente.";
+"local_talkeventsystemmonsterlevelup"="Los monstruos se fortalecieron temporalmente.";
+"local_talkeventsystemherolevelsup"="Los caballeros en la mazmorra son un poco más fuertes.";
+"local_talkeventsystemherohpdown"="Los puntos de salud de los caballeros en la mazmorra disminuyeron.";
+"local_talkeventsystemdealmonsterlevelup"="¿Te gustaría fortalecer temporalmente a los monstruos usando el oro?";
+"local_talkeventsystemdealgem"="¿Te gustaría aceptar el trato?";
+"local_talkeventsystemgetgem"="Ganaste %d gemas.";
+"local_talkeventsystemgetexp"="Ganaste %d en oro.";
+
+
+// Character events dialogue
+"local_talkeventswordcatenter"="@sword_cat:¡Hola! Miau. {¿Esta es la mazmorra infame de Underlord? Me llamo Toby y soy un felino con espada. {Mis hechizos y mi inteligencia especiales complacieron a mi maestro, quien me enseñó mi habilidad. {Escuché que muchos guerreros abandonaron la aldea para venir a este lugar, por eso vine. {Solo juntaré el cambio que cayó, si me dejas. {¡No me prestes atención!";
+"local_talkeventswordcatlose"="@sword_cat:¡Por favor, suéltame! {¡Te daré todo el dinero que tengo si {me perdonas la vida! {(¡Rayos, volveré con mejores habilidades!) #get gold";
+"local_talkeventswordcatwin"="@sword_cat:Todo lo que quería era juntar algunas monedas… {Tus monstruos no están a la altura de las circunstancias. {Nyah, nyah, nyah, nyah, nyah) #lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(Miau) ¡Volví! {Lamento lo que sucedió la última vez. {Tengo gatitos hambrientos en casa… {Solo juntaré el cambio que cayó y me iré. {(¡Es seguro esta vez!)";
+"local_talkeventswordcatenterwin"="@sword_cat:(Miau) ¿Me recuerdas, Underlord? Je, je {traeré algo más de oro. {(¿Seguro que esta mazmorra es la misma operación endeble?)";
+"local_talkeventmysterywoman"="@mystery_woman:… {Mi esposo se encuentra en una tierra lejana… {Espero que esté haciendo todas las comidas… {Mejor ayudo tanto como pueda. #monsters level up";
+"local_talkeventprincessenter"="@princess:… ¡Este es el lugar! {¡Estoy decidida a conocer a Underlord hoy!";
+"local_talkeventprincessexit"="@princess:¡¡Ah!!";
+"local_talkeventprincesssuccess"="@princess:¡Por fin {nos conocemos, Underlord! {Soy la princesa de un reino derrotado {y mi único deseo es vengarlo. {¡Por favor! {¡Déjame servirte! #get succubus card";
+"local_talkeventkingenter"="@king:¡No fue sencillo llegar sin que me vieran! {Esperaba defenderme sola {antes de que los demonios gobiernen el mundo otra vez. {Aquí hay algo de oro para eso. {¡Que la infamia aumente en ti! #get gold2";
+"local_talkeventkingafter"="@king:He vuelto, gran Underlord. {A tus órdenes, je, je…#get gold2";
+"local_talkeventmerchantenter"="@merchant:¿Cómo estás, Underlord? {Soy un vendedor de magia, estoy ofreciendo mi mercancía tanto en el mundo humano como en el inhumano, en cualquier lugar que sea rentable. {Puedo aumentar los niveles de tus monstruos en esta batalla, ¿te gustaría? (3000 en oro) #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:Bien, no importa. {¿Quizás los caballeros la compren?";
+"local_talkeventmerchantaccpet"="@merchant:¡Será de gran ayuda para la batalla! {Volveré pronto. #monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:¡Cosa diabólica! {¡¡Los guerreros de leyenda te destrozarán!! {¡¡En el nombre de Dios, {que se vayan los demonios!! #hero levels up";
+"local_talkeventwitchesenter"="@witches:Querido Underlord♥ ¡¡¡Estas aquí!!!{¡Estoy feliz de haber seguido a esos caballeros! {Carcajadas {Hemos envenenado a los guerreros~ {¡Con suerte ganaremos esta batalla!♥ #hero hp down";
+"local_talkeventfairiesenter"="@warrior: Vaya… parece un buen lugar para aumentar mis niveles. {No es la misión principal ni nada. @fairy: Hay un rumor de que Underlord está llegando a otras mazmorras. {¡Ten cuidado! @warrior: Je, je, no me preocupan los Underlord… {¡Soy el héroe de la historia!";
+"local_talkeventwarriorlose"="@warrior: Uf… no lo puedo creer… No puedo morir aquí sin ver el final… @fairy: … ¡Te dije que tuvieras cuidado! {Intenta negociar por tu vida.{Underlord, te daremos algo si nos liberas.#deal gem";
+"local_talkeventwarriordie"="@fairy: ¡Oh, no! Lo sabía… {Un demonio nunca entra en razón… @warrior: ¡Ahhh, no quiero morir! @fairy:… Está bien. Resucitarás en la aldea.#get gold3";
+"local_talkeventwarrioralive"="@fairy: ¡Oh, gracias! {(¡Vamos, salgamos de aquí!) @warrior: Maldición… Qué desperdicio… {(Volveré cuando sea más fuerte)#get gem";
+"local_talkeventwarriorwin"="@warrior: Sabía que no era nada. {¡Qué bueno que seguí fortaleciendo mi arma! {Y bien, Underlord, ¿te veré más tarde? @fairy: ¡Salgamos de aquí y regresemos a la misión principal!";
+"local_talkeventwarriorafter"="@warrior: ¿Esta también es la mazmorra de Underlord? Me pregunto si no tiene nada mejor. @fairy: No seas tan arrogante. ¡Concéntrate! @warrior: ¡Puedo matar a cualquier monstruo que se me cruce!";
+
+
+
+"local_episodetalk01"="@blank: Episodio 1. Un caballero descubre la mazmorra@hero: ¡Las historias sobre monstruos que corren poseídos son ciertas! {¡Mejor vuelvo a la aldea y cuento la noticia!@eye: ¡Oh! ¡La infamia del Maestro crece!@hero: ¿No deberías estar nervioso?";
+"local_episodetalk02"="@blank: Episodio 2. Lo que hace a un caballero@hero: Existen muchos tipos de guerreros. {Solo soy un principiante, pero alguna vez me convertiré en un mejor caballero {¡Conquistaré esta mazmorra deplorable! @eye: ¿Hola? ¿9-1-1? ¿Puedo hacer una reserva para una persona?@hero: ¡Haz una reserva para ti mismo!";
+"local_episodetalk03"="@blank: Episodio 3. El gato espadachín@sword_cat: ¡Hola! ¡Soy el Gato! ¡Con sombrero!@hero: ¿No eres un poco diferente de los otros?@sword_cat: Escuché que la mazmorra de Underlord resulta todo un desafío. {Me encantan los desafíos.@hero: Seguro. Pero, ¿vamos a patear algo de arena sobre tu excremento antes de irnos? @eye: ¿Patear algo de arena sobre qué?";
+"local_episodetalk04"="@blank: Episodio 4. La interacción de un caballero@eye: ¡Bienvenido a la Mazmorra!@hero: ¡Ay, no! {No puedo volver sin matar al jefe de los monstruos. ¡Sería tan vergonzoso!@eye: ¿No preferirías ser comida para los monstruos en vez de volver a la vagancia?@hero: No, me voy a recargar desde mi última posición guardada. @eye: ¿Puedes… puedes hacer eso?";
+"local_episodetalk05"="@blank: Episodio 5. Construyendo una relación@hero: ¡Hola, Globo Ocular! {¿Estás vigilando a nuestros caballeros hoy?@eye: No seas tan amigable conmigo. {No fraternizo con los caballeros que se encuentran camino a la trituradora de carne.@hero: ¿En serio? {Me resucitarán en la aldea. {¡Así que relájate! @eye: Bien, caballero. Este es el acertijo. {Un caballero, un vikingo y un elfo ingresaron en una mazmorra, pero solo el elfo murió. Adivina por qué. @hero: Hm... ¿El elfo tenía de nivel de poder más bajo? @eye: ¡Ja! Porque el elfo entró primero. {Así es como funciona la mazmorra. {El primero que ingresa es el primero que muere. {Así que presta atención al lugar que te toca en la fila. @hero: Un monstruo me dio un consejo. {¡Qué conmovedor! @eye: No estoy diciendo que te pondré siempre tercero. {Ahora volvamos a nuestros límites profesionales. ";
+"local_episodetalk06"="@blank: Episodio 6. El secreto del Monstruo Jefe@hero: ¡Estoy volviendo a la vida! Al fin.@sword_cat: ¡Genial! Estoy volviendo con una pila de oro.@eye: ¡Tontos! Solo tuvieron suerte. ¡Todo lo que obtuvieron fueron los monstruos más pequeños!@hero: Au contraire. El Monstruo Jefe nos ha derrotado, pero dijo que había usado todos los puntos de ese día para liberarnos. @eye: Así jamás le ganará a la inflación. ";
+"local_episodetalk07"="@blank: Episodio 7. Misión principal@hero: ¡Descubrí algo importante!@eye: Hablas en serio, al fin.@hero: Estoy en la misión de Recopilación de los Fragmentos Antiguos y entre ellos hay una imagen de Underlord y de Dios.@hero: Que los antiguos representaban a Underlord y a Dios uno al lado del otro. ¿Qué te parece? @eye: Bien… apenas sobreviví a la última extinción de demonios {y Underlord fue resucitado sin memoria. {Ni siquiera sabe demasiado del pasado. @hero: Terminaré de juntar estos fragmentos. @eye: ¡Oh... un plan, se debe estar complicando!";
+"local_episodetalk08"="@blank: Episodio 8. Clave para resolver la misión@sword_cat: ¿Recuerdas la misión de Recopilación de los Fragmentos Antiguos?@eye: Ah, ese rumor. Ese rumor de la misión principal.@sword_cat: El caballero dijo que es clave para el pasado de Underlord {y ocurre que tengo la última pieza. @eye: ¿Qué? ¿Quieres hacer un trato por la pieza? ¿Quieres probar mi saliva? {¡Entrégala aquí! @sword_cat: ¡Puaj! No seas asqueroso. O asesino. {¡Olvídalo! ¡Negociaré con el caballero!";
+"local_episodetalk09"="@blank: Episodio 9. Entendimiento mutuo@hero: Ahora que existen varias mazmorras, no se a cuál apuntar.@eye: La dificultad varía según la ubicación del monstruo y los niveles de poder. {Pero es una ventaja intentar apuntar a una mazmorra que tiene muchos caballeros fuertes. @hero: Por otro lado, los monstruos son más variados y uno los tiene que accionar. @eye: El largo del corredor también influye sobre cómo esperan los caballeros. {El sistema no es sencillo.";
+"local_episodetalk10"="@blank: Episodio 10. La aventura de la princesa@princess: ¿Esta es la mazmorra de Underlord?@eye: ¡Sí, es esta! ¡Vaya! {¡Una princesa humana!@princess: El mundo humano es un caos. {A los demonios los están usando como chivos expiatorios y los están enviando a todos a la guerra. {Los libros de historietas y juegos sobre demonios se están quemando. {Pero no imagino una aventura sin el mal. @eye: ¿Entonces estás aquí por la norma en contra de los juegos? @princess: Conozco lo suficiente acerca del mundo de arriba y ahora quiero conocer el mundo de abajo. {En verdad me gusta la aventura. {¡Quiero conocer a Underlord! @eye: ¡Qué extraño! {Bien, prueba tu suerte entonces. {¡Si puedes llegar hasta el Monstruo Jefe, podrás conocer a Underlord! ";
+"local_episodetalk11"="@blank: Episodio 11. Misión común@hero: ¿Una princesa? ¿Aquí, en la mazmorra? {Hubo una misión secundaria para rescatar a la princesa {Estaba a punto de comprar una buena espada con mis ahorros de la misión.@eye: Sí, ella estaba aquí. Se ha convertido en un monstruo femenino muy atractivo o algo así .@hero: ¡Por Dios! Un monstruo femenino atractivo. {¡Tengo que conocerla! @eye: ¿Seguro que tienes un rescate en mente?";
+"local_episodetalk12"="@blank: Episodio 12. El pasado de Underlord@hero: He completado la misión de Recopilación de Fragmentos Antiguos, pero encontré algo extraño.@eye: ¿Qué es esto?@hero: Creo que las personas solían venerar a Underlord.@eye: Venerar a Underlord... ¿Te refieres a los demonios?@hero: Eso implicaría que los demonios y los humanos vivan juntos. {Lo único que aprendí de esta misión fue eso y los niveles de experiencia. @eye: El pasado de Underlord… {¿Qué tipo de relación tenían Underlord y Dios?";
+"local_episodetalk13"="@blank: Episodio 13. El poderoso competidor del caballero@warrior: ¡Ajá! ¿Qué es Globo Ocular Yon?@fairy: Cálmate. {Es la mazmorra de Underlord. {Está llena de demonios, no de animales comunes.@eye: Un guerrero con la compañía de un hada. {¡Un héroe con los accesorios adecuados! @warrior: ¡Claro que soy el héroe! {¡El hada es solo una compañía! @fairy: (Este idiota… {se está entusiasmando de nuevo…) @sword_cat: Ser fuerte o tener niveles altos no te hace héroe. {Los catalizadores de historias de esfuerzos como yo son los verdaderos héroes. @warrior: ¡Confía en tu historia de esfuerzos, gato, ¡o lo que seas! {Solo sabrás de qué estás hecho al entrar en combate. {Destruirte me liberará de todo. {Uno debe perderlo todo si quiere ganarse la libertad verdadera. @sword_cat: Había escuchado eso antes... @eye: Adelante. {No se quién es el héroe o el hada, {pero los trituraré a ambos por igual.";
+"local_episodetalk14"="@blank: Episodio 14. Los seguidores de Underlord@hero: El que renuncia a lo más preciado lo gobierna todo.@eye: ¿Hm?@hero: El que renuncia a lo más preciado lo gobierna todo.@eye: ¿Es un acertijo?@hero: Está escrito en el templo. {Pero, ¿por qué uno debe abandonar lo más preciado para gobernar? @eye: Estos templos tienen que conservar sus profecías vagas si quieren seguir en el negocio. @hero: Dios es tan desconcertante como Underlord. @king: Por fin llegamos. @hero: ¡El Rey! @eye: ¡Caramba! ¿Qué está haciendo este tipo acá? @king: ¿Cómo va todo? @hero: Las cosas no andan bien. {¡El reino es un caos! @king: Las princesas están perdidas, por eso. Dicen que es una mala señal. {No es para preocuparse, hay muchas que pueden mantener la monarquía en funcionamiento. Hay más de 3000 princesas pertenecientes a los reinos derrotados, jeje. {¿Dicen que uno debe perder lo más preciado para gobernar? @eye: ¿De qué estás hablando? (Bicho raro). @king: Jeje... {Estoy del lado de los demonios. @hero: !? ¡¿Está bromeando?! {¿El Rey está del lado de los demonios? @king: Lo sabes, dado que has completado la misión de Recopilación de Fragmentos Antiguos. {Los demonios y los humanos alguna vez veneraron a Underlord. Soy descendiente de los humanos que lo veneraban. @hero: ¿Dios y Underlord eran venerados juntos? @eye: Entiendo, comenzamos a entender más acerca del pasado de Underlord. {Pero, ¿sabemos por qué se alejó? @king: No lo sabemos. {Lo único que sabemos es que Underlord y los demonios desaparecieron juntos. {La historia se reescribió para que Underlord apareciera como el responsable de todas las desgracias. @hero: Si eso es cierto, ¡encontraré la verdad detrás de la historia! @eye: ¡Esa motivación! @king: Nunca descubrirá la verdad con esos niveles...";
+"local_episodetalk15"="@blank: Episodio 15. El pedido del guerrero@hero: Próxima misión… ¿Juntar las escamas del dragón? {¿Hay un dragón en la mazmorra?@eye: ¿Dragón? Es muy raro… {No estoy seguro de si el amo escogió uno. Son difíciles de limpiar.@sword_cat: Ufff. Dragones, ¡dan miedo! @hero: Quizás deberíamos evitarlo. @warrior: Jeje, ya tuve éxito. {Compré algo en una tienda. @eye: Esa tienda en verdad lo tiene todo. @sword_cat: El Caballero Negro es rápido. @warrior: Si no tienes dinero, ve a atrapar un dragón. @hero: Primero tengo que ver uno si quiero atraparlo... {¡Eh, Underlord! ¡Escoge un dragón! @eye: Confía en la suerte de Underlord.";
+"local_episodetalk16"="@blank: Episodio 16. Elemento legendario@hero: Esa espada del último monstruo jefe es un elemento legendario llamado Mitad de Eternidad.@eye: ... Es tu turno.@hero: Y como su nombre lo indica, se trataba de un conjunto de elementos. {Había un escudo que venía con la espada.@eye: Si es tan extraño, no va a ser sencillo de encontrar. @merchant: ¡Sucede que tengo un escudo que va con esto! @hero: ¡Oh! @eye: Vendedor misterioso… {¡Puede oler la demanda! @merchant: El oro puede comprarlo todo. {50.000 en oro, por favor. @eye: Costoso. {Un caballero no podría adquirirlo... @hero: Aquí tienes. @eye: ¡? @merchant: ¡Que disfrutes la compra! @eye: ¿Dónde conseguiste tanto dinero? @hero: Vendí la espada legendaria. {Necesito una defensa más que un ataque. @eye: ...";
+"local_episodetalk17"="@blank: Episodio 17. El poder desaparecido@hero: El escudo legendario que obtuve aquella vez es extraño.@eye: ¿Qué? ¿Ahora qué?@hero: La espada tenía poderes de luz, pero el escudo no. {¿El vendedor me estafó?@eye: Es raro. Sin poderes, no tendrás efecto agregado y será una pérdida… @warrior: ¡Espera! Creo que he visto armas sin poderes. {Las brujas dicen que eran de un elemento que ha desaparecido. @hero: ¿Dices que había otro elemento? {¿Además del fuego, el agua, la madera y la luz? @warrior: Pregúntales a las brujas. {A menudo vuelven a la mazmorra con carteles alentando a Underlord.";
+"local_episodetalk18"="@blank: Episodio 18. Las brujas están del lado de Underlord@witches: Underlord fue malvado hoy. {Debía tener monstruos con diferentes fuerzas para ganar. (Carcajadas).@hero: Lo tenemos. { ¿Ustedes son las brujas que conocen al Caballero Negro?@witches: ¿Y? Carcajadas. {¿Qué piensas que es esto? @hero: Quería preguntarles acerca del poder que desapareció en los tiempos antiguos. @witches: ¡Un caballero interesado en semejante asunto… increíble! {Es peligroso hablar, por eso no podemos decirlo. {Si el Templo de Luz se entera de que hablamos, habrá una caza de brujas. @hero: ¡Compré un elemento súper caro y no tiene poderes! {No quiero ser el idiota que ingresa a la mazmorra sin poderes... @witches: Entonces, ¿por qué no haces una prueba? {Eres un caballero, así que deberías estar acostumbrado a las misiones. @hero: ¿Y cuál es su... misión? (Traga saliva). @witches: Ayudar a nuestro Underlord. ¡Carcajadas! {Sacrifica 5 gemas para que Underlord pueda invocar a un monstruo nuevo. {¡Carcajadas! @hero: ¡Un caballero que ayude a Underlord! Absurdo. @eye: ¡Piénsalo como una entrada a las tierras de caza! @hero: Hm, de acuerdo. {Obtener 5 gemas no es nada. ¡Ya regreso!";
+"local_episodetalk19"="@blank: Episodio 19. El pasado de Underlord (2)@hero: Llevó más de lo que pensaba conseguir 5 gemas.@witches: ¿Las tienes? Ahora dáselas a Underlord.@hero: Está bien, está bien.@witches: Ahora estamos hablando. Como habrás adivinado, el elemento desparecido es el opuesto a la luz: la oscuridad. @hero: ¡¿La oscuridad?! @witches: Alguna vez Underlord fue venerado con Dios, uno al lado del otro. {Dios y Underlord hicieron formas de vida con varios poderes y uno de esos poderes fue la oscuridad. @hero: ¿Underlord era un dios creativo? @witches: Sí. Y un día, Dios desterró a Underlord y a las criaturas hechas de oscuridad, los demonios. {Entonces la oscuridad en sí misma desapareció. @hero: ¿Underlord fue desterrado? @senior_priest: ¡Suficiente! ¡Pero qué brujas malvadas! (Brujas*). {¡Cómo pueden hablar así! @witches: ¿De dónde saliste?  @senior_priest: ¡Cualquiera que hable acerca del antiguo conocimiento del Templo de Luz enfrentará una maldición! @witches: ¡Eh! ¡La infamia de Underlord aumenta por día! {Solo es cuestión de tiempo: ¡los poderes de la oscuridad regresarán! @senior_priest: Dios ha abandonado a Underlord. {Los simples mortales como nosotros jamás podremos comprenderlo, solo debemos seguir la voluntad de Dios. Ese es nuestro lugar. @hero: Salgamos de aquí antes de que el sumo sacerdote nos vea.";
+"local_episodetalk20"="@blank: Episodio 20. El monstruo que no se puede matar@hero: Este escudo legendario era de la oscuridad. {No puedo creer que haya gastado tanto dinero en algo tan inútil…@eye: ¡El día que Underlord abra todas las mazmorras la oscuridad puede volver de nuevo!@hero: Ponerse del lado de Underlord solo para poder usar un elemento parece un poco… @succubus: ¡Hola, Caballero! {¡Qué escudo atractivo llevas! @hero: ¡Un monstruo fuera de la mazmorra! @succubus: Necesitaba tomar un toco de aire fresco. @eye: Saluda, solía ser una princesa. @hero: ¿Princesa? {¿La princesa es una súcubo ahora?  @succubus: Sí. Ahora que estoy aquí es bastante aburrido. @hero: ¡Eres un monstruo, no me interesa saber lo aburrida que estás! @succubus: Y bien, caballero, ¿no tienes ganas de matarme o algo por el estilo? @hero: Uf... la princesa de la cual estuve enamorado... (¡y mi posibilidad de lograr un ascenso social!) @succubus: No te sientas mal por mí. {Ser un monstruo me abrió los ojos para muchas cosas. {Los monstruos son como los humanos, a todos nos falta algo. {Alguien tiene que estar de su lado. @hero: No puedo creer que hayas privilegiado estar de su lado en lugar de estar con nosotros... @succubus: ¡Es que hay que comprender el lado oscuro de la vida!";
+"local_episodetalk21"="@blank: Episodio 21. La amenaza de Dios@hero: ¿Cómo contraatacará Dios cuando Underlord reine en las mazmorras de las cuatro tierras?@warrior: No te preocupes. {Ganaré todas las misiones y destruiré a Underlord. @sword_cat: ¡Sin importar el lado que gane, es mejor tener suficiente dinero ahorrado por las dudas! @hero: En otras tierras dicen que hay guerreros en 99 niveles. @warrior: ¿99 niveles? Incluso un guerrero con 10 000 niveles no puede matar al Monstruo Jefe de un golpe. @eye: ¡Idiotas! No importa cuántos niveles obtengan y cuantos guerreros envíen, ¡Underlord tiene poderes infinitos! {Alguien de una dimensión diferente lo está ayudando. @warrior: ¡Eh! ¡Bien, que ese alguien fuera de nuestra dimensión Y Underlord se preparen! {¡Los ángeles están preparando la Tierra de Luz! @eye: ¿Los ángeles? También hemos arrojado demonios. {¡Tráelos!";
+"local_episodetalk22"="@blank: Episodio 22. El objetivo de los sacerdotes@senior_priest: ¡Guerreros! Disminuyan la infamia de Underlord, {¡devuélvanle toda la gloria a Dios!@eye: ¡No pueden ingresar a la mazmorra así! {¡Piensen en algo!@senior_priest: …@hero: Entonces, Sacerdote, ¿cuál es el trato entre Dios y Underlord? {¿Por qué eran amigos en un momento y después se volvieron enemigos? @senior_priest: Ese… no es asunto nuestro. {Dios prometió riqueza solo a aquellos que lo veneran. @hero: ¿La veneración es un requisito para la riqueza...? @senior_priest: ¿Eso te hace sentir incómodo? {¿No vivimos para la riqueza? {Un sacerdote es alguien que colabora con ese sistema. {Nadie necesita conocer la verdad. Así, todos ganamos. @hero: ¡Quiero saber la verdad! {¿Cómo desaparecieron Underlord y el poder de la oscuridad? @senior_priest: Si te pones tan curiosos, te contaré. {¡Después de que te encargues del jefe en la mazmorra! @eye: Ahora ESO SÍ es incómodo. Si quiero ayudar, tendré que dejar que el jefe pierda con el héroe. ";
+"local_episodetalk23"="@blank: Episodio 23. Underlord y Dios@hero: Bien, pude acabar con el monstruo jefe.@eye: Gracias a eso, los niveles de infamia disminuyeron. {Ahora, ve con el sumo sacerdote y pregúntale sobre el pasado de Underlord.@senior_priest: Bienvenido, Héroe. Realmente eliminaste la Monstruo Jefe. @hero: Cuéntame acerca del pasado de Underlord. @senior_priest: En pocas palabras, Dios y Underlord gobernaban juntos. {Pero Underlord se opuso a la voluntad de Dios entonces Dios de deshizo de los demonios y de la oscuridad.  {Eliminó la memoria de Underlord y lo encerró en una mazmorra. @hero: Entiendo. {¿Entonces los demonios y los humanos solían vivir juntos? @senior_priest: Los demonios y los humanos se aferraron mutuamente de acuerdo a sus poderes. {No eran cuerpos separados. @hero: Entonces todos los poderes solían estar en un solo cuerpo pero fueron separados. @senior_priest: Estas cosas están fuera de nuestro alcance. {Todo lo que podemos hacer como humanos es guiarnos a través de la bondad y querer y disfrutar de las cosas buenas. @eye: ¡Los humanos también necesitan enfrentar la oscuridad! {Alguien tiene que ver el lado oscuro para que exista el progreso. {¿Si no quién le arrojará huevos a las personas que usan pieles, quién ayudará a los pobres? @senior_priest: ¡Ya basta de idioteces!";
+"local_episodetalk24"="@blank: Episodio 24. Las manifestaciones de Dios@eye: Antes de que encerraran a Underlord, los humanos eran todo. {Según sus poderes se dividían en ángeles, mortales, hadas, elfos y demonios. @hero: Y ahora que Dios se enteró de que Underlord ha escapado está tratando de encerrarlo nuevamente. @eye: ¿Qué vas a hacer? @hero: No sé… {¿Con quién se supone que voy a pelear…? @eye: ¡Ah! @eye_white: … @hero: ¡El Globo Ocular se ha vuelto blanco!  @eye_white: ...Soy... Dios... @hero: ¿Dios? El Globo Ocular es Dios. @eye_white: Dios, en pocas palabras, se ha manifestado como este Globo Ocular. Es amenazante, pero confía en mí. {Le estoy hablando al ser de una dimensión diferente que está ayudando a Underlord. {Si abandonas a los demonios que has reunido hasta aquí y te marchas, salvaré tu vida. @hero: ¡Mentiroso! ¿Qué es lo que le puedes hacer a un ser más allá de nuestra dimensión? @eye_white: ¡Descuentos en las aplicaciones! ¡Gemas! {¡Tu nombre en los créditos de Agradecimientos especiales. @hero: ¡Pero todas esas son cosas buenas! {¡Underlord! ¡No pierdas! ¡No puedes perder esta vez! @eye_white: En fin, te lo advertí. {¡Mi más poderoso ejército bajará a la mazmorra! {¡Allí veremos cuánto puede aumentar tu infamia! @eye: (¡Pat!) {Grrr... Estoy regresando... @hero: ¡Eh! ¡Estás bien! ¡Dios estuvo en tu cuerpo! @eye: Uf... Pude leer algunos pensamientos de Dios. @hero: ¿Qué? ¿Sus pensamientos estaban conectados mientras estaba controlando tu mente? {Creo que vi esto en una película... @eye: En cierto modo. En el Templo de Luz hay una Autobiografía de Dios. {El pasado de Underlord está en ese libro. @hero: ¡Yo lo conseguiré! @merchant: No tienes que hacerlo. Lo tengo disponible. @eye: ¡Sí! @merchant: Son 50 000 en oro.";
+"local_episodetalk25"="@blank: Episodio 25. Autobiografía de Dios{Al principio, estaba solo.{Quería una emoción que fuera preciosa y verdadera.{ Por eso inventé un personalidad distinta a la mía. Así fue como nació Underlord.{Nos pasamos eras enteras creando juntos, creando y divirtiéndonos. {Las creaciones que tenían poderes de oscuridad solo veneraban a Underlord. {Sentí celos. Comencé a odiar a Underlord y a sus subordinados. {Underlord se negó a destruir las creaciones que se habían vuelto oscuras. {Entonces borré la memoria de Underlord, dividí los poderes entre sus creaciones y eliminé la oscuridad. {Y los divididos se llaman demonios, hasta el día de hoy.";
+"local_episodetalk26"="@blank: Episodio 26. El juicio comienza@eye: El secreto se ha develado. {Underlord intentó evitar nuestra extinción… {Dios no lo dejó. {Y Dios aún está tratando de matar a los demonios.@hero: La confrontación es inevitable.@angel: ¡Títeres de Underlord! {¡Nunca te perdonarán! ¡Aquí vienen las fuerzas de la luz! @hero: ¡Los ángeles están atacando! @senior_priest: Los ángeles tienen niveles de fortalecimiento astronómicos. {Prepárate para conocer tu destrucción, Underlord. @eye: ¡Una victoria en la mazmorra de la Tierra de Luz será difícil de conseguir! {¡Haremos nuestro mejor esfuerzo! @hero: Globo Ocular, quiero pelear de tu lado. @eye: ¿Qué? {¿Un caballero de nuestro lado? @hero: ¡Sí! {¡Convoca a más demonios con mis gemas! @eye: Pero, ¿qué va a suceder contigo? @hero: No me importa mi misión. @angel: Un humano del lado de los demonios... {¡Imperdonable! ¡Muere! @hero: ¡Auch! Estoy... muriendo... (Plaf). @eye: ¡Oh! El caballero murió. Parece una mala actuación pero es real. {Murió en nombre de los demonios...";
+"local_episodetalk27"="@blank: Episodio 27. El fin@warrior: Matar a Underlord es la misión final. {No creo que ese caballero siga con su misión. {¡Menos competencia para mí, je, je! @angel: Por tu trabajo noble, Dios te concede una bendición.@warrior: ¿Una bendición de Dios?@angel: Eso es cierto. {Para ti es un final. {Pero es un adiós a tu cuento de hadas. @angel: Te podré convertir en todo un ser. {La clase de ser que existía antes de que los humanos y los demonios fueran separados. {Un espadachín demonio. {¡Aparece como un espadachín demonio! @warrior: ¡Espadachín demo... demonio! ¡Oh! @eye: Va a ser aún más insoportable. Caballero: ... Uy... Entonces, ¿qué pasará conmigo? @angel: ... Tus niveles aumentarán un poco. Caballero: Creo que tengo el palo más corto aquí. @angel: ¡En fin! ¡Fuera de la mazmorra!";
+"local_episodetalk28"="@blank: Epílogo@eye: ¡Maestro, buen trabajo! {Haz abatido a muchos de tus enemigos y en este nivel de infamia, Dios te verá como una fuerza a la cual hay que tener en cuenta.@king: ¡Felicitaciones! {Buen trabajo al leer todas estas palabras en la historia.@senior_priest: ¡Puf! Quién hubiese dicho que gobernar el mundo de la oscuridad sería tan difícil. @hero: ¡Hola, Globo Ocular! ¿Cómo estás? @eye: ¡¡Hola!! ¡Pensé que estabas muerto, caballero! @hero: Jeje… Descubrí algo sorprenderte. @hero: Soy un caballero de otra dimensión. {Existe más de un Dios y de un Underlord. @eye: ¿Cómo? @hero: Cuando se dividió la oscuridad de los otros poderes, Underlord y sus demonios fueron destruidos en diferentes fragmentos. {Entonces los guerreros, los demonios y los Underlord tienen diferentes manifestaciones. @eye: ¡¿Existen varios maestros!? @hero: Las guerras de Underlord que comenzaron en diversas dimensiones se aceleraron cuando se reunieron en un lugar. {Cada Underlord puede comparar con otros Underlords su avance en las tablas donde figuran los líderes. @eye: ¡Qué... competencia sin límites! @hero: ¡El desafío de Underlord comienza ahora! {¡Nunca dejaré de aumentar mis propios niveles! @eye: Entonces, allá vas. {Parece extraño que existan diferentes versiones de mí mismo. {Pero qué podemos hacer. ¡Espero que el maestro continúe haciendo un buen trabajo en esta dimensión para convertirse en el Underlord número uno! @blank: FIN.";
+"local_episodetalk29"="@blank: El comienzo de las guerras de los demonios@sword_cat: La Era de la Oscuridad ha llegado. {Lo aterrador es que… los Underlord mantienen a cada uno bajo control.@eye: ¿Qué significa eso?@sword_cat: Los Underlord de otras dimensiones enviarán monstruos de vez en cuando. {Los monstruos pueden inundar la mazmorra. @eye: Una guerra entre demonios. @sword_cat: los monstruos pueden ingresar aleatoriamente, para tu información. @succubus: ¡Sálvame, gato espadachín sexy! @sword_cat: ¡Allá voy!";
+
+
+
+
+// Heroes, when they enter the dungeon
+"local_minitalkenter01"="Geez, ¿mucho polvo?";
+"local_minitalkenter02"="¡Aquí vamos!";
+"local_minitalkenter03"="¿Alguien vio el cofre del tesoro?";
+"local_minitalkenter04"="¡Dios de la Luz, ayúdame!";
+"local_minitalkenter05"="¡Traga mi espada!";
+"local_minitalkenter06"="¡Esta noche, cena en el Infierno!";
+"local_minitalkenter07"="¿Alguien convocó a esta hermosura?";
+"local_minitalkenter08"="¡Mata al jefe, cásate con la princesa!";
+"local_minitalkenter09"="¡Mi espada legendaria no tiene igual!";
+"local_minitalkenter10"="¡Eh, Underlord! ¡Traga mis niveles!";
+"local_minitalkenter11"="¡Mi espada perfora el cielo!";
+"local_minitalkenter12"="¡La mazmorra es profunda...y tan hermosa!";
+"local_minitalkenter13"="Este lugar es una trampa, yo me salgo";
+"local_minitalkenter14"="Hola, criatura fuerte y grande";
+"local_minitalkenter15"="¿Huesos, quién los necesita?";
+// Heroes, when they walk the dungeon
+"local_minitalkcrossroad01"="A la izquierda, a la izquierda.... o no";
+"local_minitalkcrossroad02"="Tengo un mal presentimiento...";
+"local_minitalkcrossroad03"="Las buenas vibraciones provienen de allí";
+"local_minitalkcrossroad04"="Huele a sangre...";
+"local_minitalkcrossroad05"="¡Elijo este lado!";
+"local_minitalkcrossroad06"="¡Síganme todos!";
+"local_minitalkcrossroad07"="¡Dondequiera que vaya, los monstruos morirán!";
+"local_minitalkcrossroad08"="¡Eh! ¡Dejen de empujar!";
+"local_minitalkcrossroad09"="¡No importa, no hay problema!";
+"local_minitalkcrossroad10"="Cuando estaba en Roma...";
+"local_minitalkcrossroad11"="¡Siento las vibraciones de los demonios...!";
+"local_minitalkcrossroad12"="Cada elección tiene una consecuencia";
+"local_minitalkcrossroad13"="¡Siempre hay un modo!";
+"local_minitalkcrossroad14"="¡A la derecha no! ¡La izquierda es la respuesta!";
+"local_minitalkcrossroad15"="¿Hace falta un motivo?";
+// Heroes, when they are waiting battle
+"local_minitalkwaitting01"="¡Vamos por ello!";
+"local_minitalkwaitting02"="¿Qué estamos esperando?";
+"local_minitalkwaitting03"="¡Justo en la boca!";
+"local_minitalkwaitting04"="Eso dejará una marca";
+"local_minitalkwaitting05"="¡Deja algo para mí!";
+"local_minitalkwaitting06"="Vaya, sí que tienes una espada costosa";
+"local_minitalkwaitting07"="¿Dónde queda el baño?";
+"local_minitalkwaitting08"="¡Idiotas!";
+"local_minitalkwaitting09"="¡Sigue avanzando!";
+"local_minitalkwaitting10"="¡No te mueras! ¡Piensa en tu madre!";
+"local_minitalkwaitting11"="¡El tiempo es oro, amigo!";
+"local_minitalkwaitting12"="Ya estás muerto.";
+"local_minitalkwaitting13"="Las mazmorras son entretenidas.";
+"local_minitalkwaitting14"="¡Deja la muerte para mí!";
+"local_minitalkwaitting15"="¿Será demasiado tarde para correr?";
+// heroes, when they fight with monster
+"local_minitalkbattle01"="¡Demonio!";
+"local_minitalkbattle02"="¡Muere, monstruo!";
+"local_minitalkbattle03"="¡Esta es por mami!";
+"local_minitalkbattle04"="¡Ay! ¡Eso duele!";
+"local_minitalkbattle05"="¡Oh, no! Mi espada está sin brillo...";
+"local_minitalkbattle06"="¡Nosotros-no-perdemos!";
+"local_minitalkbattle07"="¡Mi nivel subirá pronto!";
+"local_minitalkbattle08"="¿No estuvo mal, eh?";
+"local_minitalkbattle09"="Era un monstruo poderoso. Qué desperdicio.";
+"local_minitalkbattle10"="¡No! Creo que podría morir...";
+"local_minitalkbattle11"="¡Manada que caza junta, sobrevive junta!";
+"local_minitalkbattle12"="¿Alimenté al gato antes de irme?";
+"local_minitalkbattle13"="¡Apenas empecé a pelear!";
+"local_minitalkbattle14"="El problema de pelear con mi espada es que... ¡ah! ¡Ahhh!";
+"local_minitalkbattle15"="¡La hora de tu muerte es... ahora!";
+// heroes, when they won
+"local_minitalkwin01"="¡Gané! ¡Estúpidos monstruos!";
+"local_minitalkwin02"="¡Que este día de victoria viva en la historia!";
+"local_minitalkwin03"="¡Ay! ¡Ay! ¡Ay!";
+"local_minitalkwin04"="Cena en casa, entonces.";
+"local_minitalkwin05"="¿Alguien tiene elementos nuevos?";
+"local_minitalkwin06"="Vaya... Sobreviví.";
+"local_minitalkwin07"="Esta mazmorra es algo estúpida.";
+"local_minitalkwin08"="Eso estuvo cerca";
+"local_minitalkwin09"="La cantidad importa...";
+"local_minitalkwin10"="¡Volveré!";
+"local_minitalkwin11"="¡Ahora tenemos un mañana!";
+"local_minitalkwin12"="¡O la victoria o la muerte!";
+"local_minitalkwin13"="Regreso con mi esposa que me espera en casa";
+"local_minitalkwin14"="¡Nos vemos!";
+"local_minitalkwin15"="¿A quién le importa el oro? El mensaje es lo que importa.";
+// heroes, when they lost the battle
+"local_minitalkdie01"="Estoy... muriendo...";
+"local_minitalkdie02"="Rayos, tan cerca del próximo nivel...";
+"local_minitalkdie03"="¡Si tan solo hubiera recordado mi poción!";
+"local_minitalkdie04"="Esto duele...";
+"local_minitalkdie05"="¡El nivel de dificultad era demasiado alto!";
+"local_minitalkdie06"="Entonces... pelea con chicos...";
+"local_minitalkdie07"="La herido es demasiado profunda...";
+"local_minitalkdie08"="Los humanos... triunfarán...";
+"local_minitalkdie09"="¡Ay! ¡Eso quema!";
+"local_minitalkdie10"="¡Extraño a mi mami!";
+"local_minitalkdie11"="¡Todos los hombres deben morir!";
+"local_minitalkdie12"="La noche es oscura y está llena de miedos";
+"local_minitalkdie13"="¡Nuestra familia paga sus deudas...!";
+"local_minitalkdie14"="Ya viene el invierno";
+"local_minitalkdie15"="Todas las deudas están pagas...";
+
+// Eyeball, when monster lost the battle (at the result popup)
+"local_minitalklost01"="La avaricia no vale la pena";
+"local_minitalklost02"="¿El jefe perdió su concentración?";
+"local_minitalklost03"="Concéntrate en esta mazmorra";
+"local_minitalklost04"="Está bien. Ganarás la próxima vez";
+"local_minitalklost05"="Volveremos por ellos tres veces...";
+"local_minitalklost06"="¡Malditos guerreros!";
+"local_minitalklost07"="¡Por el honor del mundo de los demonios!";
+"local_minitalklost08"="Los guerreros deliran";
+"local_minitalklost09"="¡Castígame, maestro!";
+"local_minitalklost10"="No tuviste suerte";
+"local_minitalklost11"="¡Que la suerte te acompañe, maestro!";
+"local_minitalklost12"="¡Mírame, mi monstruo interno ha crecido!";
+"local_minitalklost13"="La derrota es la madre de la venganza";
+"local_minitalklost14"="Hay que castigar a los demonios insolentes";
+"local_minitalklost15"="Estaba ese muchacho irritante";
+
+// Normal monster, when they are summoned.
+"local_minitalksummonlow01"="No soy de mucha ayuda, pero lo haré";
+"local_minitalksummonlow02"="Con gusto daría mi única vida";
+"local_minitalksummonlow03"="Los humanos...apestan";
+"local_minitalksummonlow04"="La carne de guerrero es deliciosa";
+"local_minitalksummonlow05"="¡Esta batalla no será en vano!";
+"local_minitalksummonlow06"="¡Sangre... dame sangre!";
+"local_minitalksummonlow07"="Bleurgh, Elfo.";
+"local_minitalksummonlow08"="Acudo a tu llamado.";
+"local_minitalksummonlow09"="¡Oscuridad para la humanidad!";
+"local_minitalksummonlow10"="¡Ha pasado mucho tiempo, aire fresco!";
+"local_minitalksummonlow11"="No había estado en esta mazmorra por un tiempo";
+"local_minitalksummonlow12"="¡Voy a matar, al menos, tres guerreros!";
+"local_minitalksummonlow13"="¡Si muero, quiero morir luchando!";
+"local_minitalksummonlow14"="¡Ah! ¿Me pregunto si podría ganar?";
+"local_minitalksummonlow15"="¿Podré hacerlo?";
+
+
+// Superior monster, when they are summoned.
+"local_minitalksummonhigh01"="¿Necesita ayuda, mi señor?";
+"local_minitalksummonhigh02"="Lo ayudaré un poco y me iré";
+"local_minitalksummonhigh03"="¡Casi lo lograba!";
+"local_minitalksummonhigh04"="Qué suerte que me hayas escogido";
+"local_minitalksummonhigh05"="Tu nivel es el mismo que tiene el monstruo descartable";
+"local_minitalksummonhigh06"="Humanos... malos... tú... ayudo...";
+"local_minitalksummonhigh07"="¡Tienes las agallas para invocarme!";
+"local_minitalksummonhigh08"="Si nos acostumbramos más el uno al otro, seremos amigos";
+"local_minitalksummonhigh09"="¿Qué sabor tendrán los guerreros de hoy?";
+"local_minitalksummonhigh10"="¿Podemos hablar sobre mi contrato más tarde? Gracias";
+"local_minitalksummonhigh11"="Cuanta más mala fama, más fuerte me hago";
+"local_minitalksummonhigh12"="Bastará conmigo";
+"local_minitalksummonhigh13"="No tengo otros planes para hoy";
+"local_minitalksummonhigh14"="Muerte a los humanos...";
+"local_minitalksummonhigh15"="¿Estás seguro? Tus niveles están bajos";
+
+
+// system texts please, Don't delete codes. %d means numbers. \n means enter key.
+
+"local_popupalreadyclear"="Esta es una mazmorra de guía.";
+"local_popupneedlevel"="Solo puedes ingresar a esta mazmorra a partir del nivel %dde infamia.";
+"local_popuphealallmonster"="Se recuperarán todos los puntos de salud de los monstruos en el mazmorra.";
+"local_popupemptypotion"="La poción no es suficiente. ¿Te gustaría comprar más?";
+"local_popupbought"="Comprada.";
+"local_popupcannotbuy"="Las gemas no son suficientes.";
+"local_popupnhnpriceerror"=";
+"local_popupslotcountiszero"="Los giros no son suficientes. \n¿Te gustaría comprar más?";
+"local_popupnomoreenhance"="No puedo fortalecer más.";
+"local_popupnotenoughmoney"="El oro no es suficiente.";
+"local_popupnotenoughpotion"="La poción no es suficiente.";
+"local_popupnotenoughgem"="Las gemas no son suficientes. \n¿Te gustaría comprar más?";
+"local_popupnotenoughspin"="Los giros no son suficientes.";
+"local_popupcannotsummon"="Solo puedes ubicar cuando finalice la batalla.";
+"local_popupcostover"="Demasiados monstruos buenos: el costo del equipo no es suficiente.";
+"local_popupcostzero"="La batalla no puede comenzar sin un monstruo en la plataforma.\nColoca a tus monstruos.";
+"local_popupasksell"="¿Te gustaría cambiarlo por oro?\n(%d)";
+"local_popupbossroomisempty"="La batalla no puede comenzar sin un monstruo en la habitación del jefe.\nColoca a tus monstruos.";
+"local_popupstageexitnotice"="Ve por el mundo con los estándares de la batalla para ganar.";
+"local_popupinvenisfull"="Tu Caja de Monstruos está llena.";
+"local_popupusingmonster"="Este monstruo está en uso.";
+"local_popupgetreward"="Recibiste una recompensa.";
+"local_popupcompletebonus"="¡Acumulaste magia! Haz ganado gemas.";
+
+// episode names
+"local_episodetitle00"="Prólogo";
+"local_episodetitle01"="Un caballero descubre la mazmorra";
+"local_episodetitle02"="Lo que hace a un caballero";
+"local_episodetitle03"="El gato espadachín";
+"local_episodetitle04"="La interacción de un caballero";
+"local_episodetitle05"="Construyendo una relación";
+"local_episodetitle06"="El secreto del Monstruo Jefe";
+"local_episodetitle07"="Misión principal";
+"local_episodetitle08"="Clave para resolver la misión";
+"local_episodetitle09"="Entendimiento mutuo";
+"local_episodetitle10"="La aventura de la princesa";
+"local_episodetitle11"="Misión común";
+"local_episodetitle12"="El pasado de Underlord";
+"local_episodetitle13"="El poderoso competidor del caballero";
+"local_episodetitle14"="Los seguidores de Underlord";
+"local_episodetitle15"="El pedido del guerrero";
+"local_episodetitle16"="Elemento legendario";
+"local_episodetitle17"="El poder desaparecido";
+"local_episodetitle18"="Las brujas están del lado de Underlord";
+"local_episodetitle19"="El pasado de Underlord (2)";
+"local_episodetitle20"="El monstruo que no se puede matar";
+"local_episodetitle21"="La amenaza de Dios";
+"local_episodetitle22"="El objetivo de los sacerdotes";
+"local_episodetitle23"="Underlord y Dios";
+"local_episodetitle24"="Las manifestaciones de Dios";
+"local_episodetitle25"="Autobiografía de Dios";
+"local_episodetitle26"="El juicio comienza";
+"local_episodetitle27"="El fin";
+"local_episodetitle28"="Epílogo";
+
+// store menu
+"local_uigemtitle"="El cofre del duende";
+"local_uislottitle"="Cargador de giros";
+"local_uislotdes"="Los giros con el poder de la oscuridad están llenos.";
+"local_uipotiontitle"="Carta de trampa";
+"local_uiPotiondes"="Fíjate qué sucede cuando tienes una carta de trampa.";
+// result UI
+"local_uibattleresultgetmoney"="¡Trofeo adquirido!";
+"local_uibattleresultgetmobexp"="¡Experiencia de la batalla aumentada!";
+"local_uibattleresultgetlevelbonus"="¡Beneficio por nivel adquirido!";
+"local_uibattleresultgetexplose"="La infamia queda en le mismo nivel porque la defensa de los monstruos fracasó.";
+"local_uibattleresultgetexplose2"="Si esta mazmorra es demasiado difícil, intenta recoger oro en la mazmorra que ya hayas terminado.";
+"local_uibattleresultgetexpwin"="¡Infamia aumentada!";
+// strengthen UI
+"local_uienhancedes"="Elige a los monstruos de material";
+"local_uienhancelvdes"="Luego del nivel";
+"local_uienhancepricedes"="Oro";
+"local_uienhanceselectdes"="Seleccionado";
+
+"local_levelupeventlevel"="Beneficio por subir el nivel de infamia";
+"local_levelupeventdungeon"="¡Bien hecho!\nLas personas de este territorio \n han sucumbido ante la oscuridad.";
+// menu title
+"local_gotchatitle"="Invocar monstruo";
+"local_inventitle"="Caja de Monstruos";
+"local_equipmonster"="Monstruo\nadjunto";
+
+"local_summonmonsterdes"="Selecciona un monstruo.";
+"local_summonmonstercarddes"="Selecciona una habitación para ubicar un monstruo.";
+
+
+// heroes, when they are walking around dungeon.
+"local_readytalk01"="Geez, ¿mucho polvo?";
+"local_readytalk02"="¡Aquí vamos!";
+"local_readytalk03"="¿Alguien vio el cofre del tesoro?";
+"local_readytalk04"="¡Dios de la Luz, ayúdame!";
+"local_readytalk05"="¡Traga mi espada!";
+"local_readytalk06"="¡Esta noche, cena en el Infierno!";
+"local_readytalk07"="¿Alguien convocó a esta hermosura?";
+"local_readytalk08"="¡Mata al jefe, cásate con la princesa!";
+"local_readytalk09"="¡Mi espada legendaria no tiene igual!";
+"local_readytalk10"="¡Eh, Underlord! ¡Traga mis niveles!";
+"local_readytalk11"="¡Mi espada perfora el cielo!";
+"local_readytalk12"="¡La mazmorra es profunda...y tan hermosa!";
+"local_readytalk13"="Hola, criatura fuerte y grande";
+"local_readytalk14"="¿Huesos, quién los necesita?";
+"local_readytalk15"="Tengo un mal presentimiento...";
+"local_readytalk16"="Las buenas vibraciones provienen de allí";
+"local_readytalk17"="Huele a sangre...";
+"local_readytalk18"="¡Elijo este lado!";
+"local_readytalk19"="¡Síganme todos!";
+"local_readytalk20"="¡Dondequiera que vaya, los monstruos morirán!";
+"local_readytalk21"="¡Eh! ¡Dejen de empujar!";
+"local_readytalk22"="¡No importa, no hay problema!";
+"local_readytalk23"="El que sigue es mi reino";
+"local_readytalk24"="¡Siento las vibraciones de los demonios...!";
+"local_readytalk25"="Cada elección tiene una consecuencia";
+"local_readytalk26"="¡Siempre hay un modo!";
+"local_readytalk27"="¡A la derecha no! ¡La izquierda es la respuesta!";
+"local_readytalk28"="¿Hace falta un motivo?";
+"local_readytalk29"="¿Qué estamos esperando?";
+"local_readytalk30"="¡Justo en la boca!";
+"local_readytalk31"="Vaya, sí que tienes una espada costosa";
+"local_readytalk32"="¿Dónde queda el baño?";
+"local_readytalk33"="¡El tiempo es oro, amigo!";
+"local_readytalk34"="Ya estás muerto.";
+"local_readytalk35"="Las mazmorras son entretenidas.";
+"local_readytalk36"="¡Deja la muerte para mí!";
+"local_readytalk37"="¿Será demasiado tarde para correr?";
+"local_readytalk38"="¡Demonio!";
+"local_readytalk39"="¡Oh, no! Mi espada está sin brillo...";
+"local_readytalk40"="¡Nosotros-no-perdemos!";
+"local_readytalk41"="¡Mi nivel subirá pronto!";
+"local_readytalk42"="¡Manada que caza junta, sobrevive junta!";
+"local_readytalk43"="¿Alimenté al gato antes de irme?";
+"local_readytalk44"="¡Apenas empecé a pelear!";
+"local_readytalk45"="El problema de pelear con mi espada es que... ¡ah! ¡Ahhh!";
+"local_readytalk46"="¡La hora de tu muerte es... ahora!";
+"local_readytalk47"="¡Ay! ¡Ay! ¡Ay!";
+"local_readytalk48"="¿Alguien tiene elementos nuevos?";
+"local_readytalk49"="Vaya... Sobreviví.";
+"local_readytalk50"="Esta mazmorra es algo estúpida.";
+"local_readytalk51"="Eso estuvo cerca";
+"local_readytalk52"="La cantidad importa...";
+"local_readytalk53"="¡Volveré!";
+"local_readytalk54"="¡Ahora tenemos un mañana!";
+"local_readytalk55"="¡O la victoria o la muerte!";
+"local_readytalk56"="Regreso con mi esposa que me espera en casa";
+"local_readytalk57"="¡Nos vemos!";
+"local_readytalk58"="¿A quién le importa el oro? El mensaje es lo que importa.";
+"local_readytalk59"="Rayos, tan cerca del próximo nivel...";
+"local_readytalk60"="¡Si tan solo hubiera recordado mi poción!";
+"local_readytalk61"="¡El nivel de dificultad era demasiado alto!";
+"local_readytalk62"="Los humanos... triunfarán...";
+"local_readytalk63"="¡Todos los hombres deben morir!";
+"local_readytalk64"="La noche es oscura y está llena de miedos";
+"local_readytalk65"="¡Nuestra familia paga sus deudas...!";
+"local_readytalk66"="Ya viene el invierno";
+"local_readytalk67"="Todas las deudas están pagas...";
+
+
+"local_yes"="Sí";
+"local_no"="No";
+"local_ok"="Bien";
+"local_cancel"="Cancelar";
+
+"local_networkdisconnected"="Red desconectada";
+"local_networkdisconnecteddes"="El dispositivo no está conectado a la red";
+"local_waitaminute"="Espera un minuto...";
+"local_networkretry"="La red es inestable.\n¿Intentar nuevamente?";
+"local_couldnotgoshop"="Solo puedes comprar cuando finalice la batalla.";
+
+// Eyeball monster, when he's idle. He talks very much.
+"local_tips01"="Cuidado, hay más guerreros poderosos.";
+"local_tips02"="¡Coloca monstruos con poderes más fuertes que los de los héroes si buscas una defensa eficaz!";
+"local_tips03"="No sabes lo que obtendrás, pero todo es parte de la diversión.";
+"local_tips04"="Ya que tiene suficiente oro, escoge un monstruo.";
+"local_tips05"="Las cartas de monstruos elegidas están en la Caja de Monstruos.";
+"local_tips06"="La avaricia no vale la pena";
+"local_tips07"="Creo que deberías concentrarte en esta mazmorra";
+"local_tips08"="¡Malditos guerreros!";
+"local_tips09"="Los guerreros deliran";
+"local_tips10"="¡Mírame, mi monstruo interno ha crecido!";
+"local_tips11"="¡Vence en la batalla, acumula monstruos y aumenta tu infamia!";
+"local_tips12"="Gana tantas batallas como puedas con los guerreros convocados.";
+"local_tips13"="Acumula oro y convoca monstruos o fortalécelos.";
+"local_tips14"="Aumenta tu infamia a través de las victorias.";
+"local_tips15"="Es donde se ocultan mis demonios.";
+"local_tips16"="¡Bienvenido a la mazmorra extrema! ¡A ser diabólico!";
+"local_tips17"="¡Oh, Maestro! ¡Los demonios abandonaron esta tierra demasiado tiempo!";
+"local_tips18"="Busca el secreto de los poderes desaparecidos.";
+"local_tips19"="Cambia el giro del demonio para que vuelva la oscuridad a la Tierra de Luz.";
+"local_tips20"="¡Invoca y fortalece a los monstruos con oro y gemas!";
+"local_tips21"="¡Mira a los irritantes caballeros sangrar hasta morir!";
+"local_tips22"="Cambia el giro del demonio para atraer a los caballeros a la mazmorra.";
+"local_tips23"="Tu infamia aumentará solo si el monstruo de la habitación del jefe gana.";
+"local_tips24"="¡La guerra infinita entre la luz y la oscuridad! ¡Solo tú puedes terminarla!";
+"local_tips25"="¡Coloca monstruos con poderes más fuertes que los de los héroes si buscas una defensa eficaz!";
+"local_tips26"="La luz les gana a todos los demás poderes.";
+
+"local_pleaselevelup"="¡Fortaléceme!";
+
+"local_exitgametitle"="SALIR";
+"local_exitgamedes"="¿Seguro que quieres abandonar el juego?";
+
+// push message, when user doesn't play the game for a while.
+"local_localnoticeday1"="¡Maestro! ¡La guerra infinita entre la luz y la oscuridad! ¡Solo tú puedes terminarla!";
+"local_localnoticeday3"="¡Maestro! ¡Levántate!";
+"local_localnoticeday7"="¡Maestro! ¡Los demonios abandonaron esta tierra demasiado tiempo!";
+
+// Skill description
+"local_skilldescritical"="¡¡Ataque crítico!!";
+"local_skilldesheal"="Recupera los puntos de salud del monstruo por %d";
+"local_skilldespoison"="El guerrero pierde los %d puntos de salud cada vez que se mueve";
+"local_skilldesleech"="Absorbe %d puntos de salud de un guerrero";
+"local_skilldesinsight"="Destrucción de las cualidades del héroe";
+"local_skilldesterror"="Disminuye el ataque de un guerrero por %.1f%%";
+"local_skilldeshorror"="Disminuye la defensa de un guerrero por %.1f%%";
+"local_skilldescurse"="Hace que el guerrero baje %d niveles";
+
+
+
+"local_popupmvmpopup"="Las batallas del mundo por el título de Soberano de todo lo mágico.\n Verifica tu clasificación hoy.";
+
+// Daily quest list
+"local_dailyquestdes01"="Gana 5 juegos";
+"local_dailyquestdes02"="Gana 10 juegos";
+"local_dailyquestdes03"="Mata 5 héroes con cualidades de FUEGO";
+"local_dailyquestdes04"="Mata 5 héroes con cualidades de AGUA";
+"local_dailyquestdes05"="Mata 5 héroes con cualidades de ÁRBOL";
+"local_dailyquestdes06"="Invoca 3 monstruos";
+"local_dailyquestdes07"="Invoca 2 monstruos";
+"local_dailyquestdes08"="Invoca un monstruo";
+"local_dailyquestdes09"="Invoca un monstruo con 3 estrellas";
+"local_dailyquestdes10"="Invoca un monstruo con 2 estrellas";
+"local_dailyquestdes11"="Fortalece y eleva el nivel del monstruo";
+"local_dailyquestdes12"="Desafío Monstruos vs. Monstruos";
+
+// error messages
+"local_dberrorexit"="Error en la base de datos";
+"local_dbdeviceerrorexit"="Error de identificación del dispositivo";
+"local_dbchangeerrorexit"="Cambio de la base de datos detectado.";
+"local_iapnotice"="Forzar el cierre durante la operación puede provocar errores";
+"local_noticenewversion"="Actualiza a la versión más reciente.";
+
+"local_serverfileerror"="Los datos duplicados se ha utilizado en otros dispositivos.";
+"local_servernetworkretry"="Conexión de red débil. ¿Intentar nuevamente?";
+"local_levelupcounterror"="Error Exp";
+"local_serverfirstconnet"="El primer juego requiere de una conexión de red.";
+
+"local_popupuiaskbuy"="¿Estás seguro de invocar?";
+
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+
+"local_adventuredaybonus01"="Por favor, no me mates.";
+ "local_adventuredaybonus02"="Tengo un recién nacido en casa.";
+ "local_adventuredaybonus03"="¡Por favor! ¡Estoy recién casado!";
+ "local_adventuredaybonus04"="¿Vas a matarme?";
+ "local_adventuredaybonus05"="No tengo miedo.";
+ "local_adventuredaybonus06"="¡Ah! ¡Asqueroso demonio!";
+ "local_adventuredaybonus07"="¡Suéltame y karma podría recompensarte!";
+ "local_adventuredaybonus08"="¡Jamás regresaré!";
+ "local_adventuredaybonus09"="Dime, ¿por qué me hiciste eso?";
+ "local_adventuredaybonus10"="¡Escogí a la persona incorrecta! ¡Rayos!";
+ "local_adventuredaybonus11"="Así no puedo regresar a la aldea.";
+ "local_adventuredaybonus12"="¡No perderé con la oscuridad!";
+
+ "local_adventuredaybonustitle"="Selecciona a un guerrero para sacrificar.";
+ "local_adventureinfo00"="Acumula orbes matando a los guerreros y envía los monstruos a la tierra de la aventura.";
+ "local_adventureinfo01"="¡Atento a las historias y recompensas inesperadas!";
+ "local_adventuretip"="Elije a los monstruos que pelearán mejor contra los guerreros que se aproximan.";
+
+ "local_adventureeventeye01"="¡Hola! Un placer conocerte.";
+ "local_adventureeventeye02"="¿Mis muchachos están haciendo un buen trabajo?";
+ "local_adventureeventeye03"="¿Me estaban esperando?";
+ "local_adventureeventeye04"="Incluso pueden decirme cerdo gordo si eso quieren, siempre y cuando pueda estar con ustedes...";
+ "local_adventureeventmeetmagicianfailed"="Oh, no... Escogiste el boleto perdedor.";
+
+ "local_adventureeventmeetmagician"="¡Oh! ¡Demonios! He estado esperando desde hace mucho tiempo.{¡Para cuando el Diablo resucite!{Todo lo abarca la famosa ley de causa y efecto.{La oscuridad lo consumirá todo.";
+ "local_adventureeventmeetmagician01"="Pero, ¿qué es esta creación?{Pensé que los monstruos del Rey de los Demonios valdrían al menos 3 o 4 estrellas...";
+ "local_adventureeventmeetmagician02"="¿Cuándo dejaremos de tener curiosidad por el otro mundo?{Escuché que ni siquiera los muertos pueden dejar de pensar en ese mundo.{Espero que haya sido un viaje agradable para ustedes también....";
+ "local_adventureeventmeetmagician03"="Súcubo genera problemas cuando no se cumple su deseo.{Es bueno que haya encontrado otro monstruo para que sea su pareja.";
+ "local_adventureeventmeetmagician04"="¡Qué lindo! Hasta los monstruitos están llegando hasta aquí...{Admiro la resistencia de larga duración.";
+ "local_adventureeventmeetmagician05"="Sus vidas son parte de la naturaleza, sean cortas o frágiles.{Me inspiró el deseo de los animales de volverse más fuertes para protegerse contra los ataques de los humanos.";
+ "local_adventureeventmeetmagician06"="¡Ladrones! ¡Destrocen la codicia y los deseos de los humanos!";
+ "local_adventureeventmeetmagician07"="¿Cuándo dejaremos de tener curiosidad por el otro mundo?{Escuché que ni siquiera los muertos pueden dejar de pensar en ese mundo.{Espero que haya sido un viaje agradable para ustedes también....";
+ "local_adventureeventmeetmagician08"="¡Qué lindo! Hasta los monstruitos están llegando hasta aquí...{Admiro la resistencia de larga duración.";
+ "local_adventureeventmeetmagician09"="¡Criaturas del arte del amor!{Cthulhu regresa a esta tierra... Este es el fin del mundo.";
+ "local_adventureeventmeetmagician10"="¿Es Halloween? Estos monstruos me resultan muy conocidos...{Solo puedo darte esto en lugar de dulces.";
+ "local_adventureeventmeetmagician11"="¿Emprendiste este viaje solo para convertirte en un EXPERTO para los guerreros?{No te olvides de subir de nivel.";
+ "local_adventureeventmeetmagician12"="¿Cuándo dejaremos de tener curiosidad por el otro mundo?{Escuché que ni siquiera los muertos pueden dejar de pensar en ese mundo.{Espero que haya sido un viaje agradable para ustedes también....";
+ "local_adventureeventmeetmagician13"="Las habilidades de tu espada son tan buenas como las de los guerreros humanos.{¡Acaba con su coraje y su orgullo!";
+ "local_adventureeventmeetmagician14"="La profecía de que el último de nosotros comería albóndigas con espagueti para resucitar al demonio Diablo hoy se ha cumplido.";
+ "local_adventureeventmeetmagician15"="Vine corriendo cuando sentí el temblor de la tierra y los encontré aquí.{Les daré esto, ¿pueden quedarse quietos?";
+ "local_adventureeventmeetmagician16"="¿Son las reinas de la belleza del Infierno?{Creo que ahora sé lo que es el poder de una chica mala.";
+ "local_adventureeventmeetmagician17"="No puede ser... Los dos dragones más difíciles de controlar están juntos en una aventura...{Esta vez el Rey de los Demonios está tramando algo.";
+ "local_adventureeventmeetmagician18"="¿De qué se trata esta vez?{Ver todos estos espíritus malignos y extraños de una sola vez... Justo cuando crees que ya lo has visto todo en la vida....";
+ "local_adventureeventmeetmagician19"="¡Estoy profundamente conmovido por poder presenciar cómo los espíritus gigantes del mal provocan estragos como este!";
+ "local_adventureeventmeetmagician20"="¡Estoy profundamente conmovido por poder presenciar cómo los espíritus gigantes del mal provocan estragos como este!";
+ "local_adventureeventmeetmagician21"="¡Estoy profundamente conmovido por poder presenciar cómo los espíritus gigantes del mal provocan estragos como este!";
+ "local_adventureeventmeetmagician22"="¡Estoy profundamente conmovido por poder presenciar cómo los espíritus gigantes del mal provocan estragos como este!";
+ "local_adventureeventmeetmagician23"="¿De qué se trata esta vez?{Ver todos estos espíritus malignos y extraños de una sola vez... Justo cuando crees que ya lo has visto todo en la vida....";
+ "local_adventureeventmeetmagician24"="Todos los animales legendarios en un solo lugar... Hoy debe ser mi día de suerte.";
+ "local_adventureeventmeetmagician25"="Estos son monstruos misteriosos.";
+ "local_adventureeventmeetmagician26"="Estos son monstruos misteriosos.";
+"local_adventureeventmeetmagician27"="Estos son monstruos misteriosos.";
+"local_adventureeventmeetmagician28"="Estos son monstruos misteriosos.";
+"local_adventureeventmeetmagicianend"="Por eso... Te contaré acerca de tu buena suerte por muy poco dinero.{Desde las gemas hasta los monstruos especiales... No sabes la recompensa que obtendrás.";
+ "local_adventureeventmeetmagicianselect"="¿Quieres que te lean la buena suerte por %d de oro?";
+ "local_adventureeventmeetmagicianno"="Perder una oportunidad como esa... aunque encontrarla también es parte del destino, por eso te daré esto.#get gold";
+ "local_adventureeventmeetmagicianok"="Toma, escoge una de estas 12 cartas.#show magician";
+
+ "local_teameffectdes01"="El ataque de los monstruos de 1 estrella aumenta un 50%.";
+ "local_teameffectdes02"="El ataque de los monstruos de tipo oscuro aumenta un 10%.";
+ "local_teameffectdes03"="El ataque de los monstruos de 3 estrellas aumenta un 10%.";
+ "local_teameffectdes04"="La adquisición de oro aumenta un 10%.";
+ "local_teameffectdes05"="Los puntos de salud de los monstruos de 3 estrellas aumentan en 1000 para cada uno.";
+ "local_teameffectdes06"="El ataque de los monstruos de tipo agua aumenta un 13%.";
+ "local_teameffectdes07"="El ataque de los monstruos de tipo fuego aumenta un 10%.";
+ "local_teameffectdes08"="El ataque de los monstruos de 2 estrellas aumenta un 30%.";
+ "local_teameffectdes09"="Los puntos de salud de todos los monstruos aumentan en 1000 para cada uno.";
+ "local_teameffectdes10"="El ataque de los monstruos de tipo madera aumenta un 12%.";
+ "local_teameffectdes11"="El ataque de todos los monstruos aumenta un 15%.";
+ "local_teameffectdes12"="El ataque de los monstruos de tipo oscuro aumenta un 15%.";
+ "local_teameffectdes13"="El ataque de los monstruos de 5 estrellas aumenta un 15%.";
+ "local_teameffectdes14"="El ataque de los monstruos de 4 estrellas aumenta un 20%.";
+ "local_teameffectdes15"="El ataque de los monstruos de 4 estrellas aumenta un 30%.";
+ "local_teameffectdes16"="Los puntos de salud de los monstruos de 4 estrellas aumentan en 2000 para cada uno.";
+ "local_teameffectdes17"="Los puntos de salud de los monstruos de tipo oscuro aumentan en 5000 para cada uno.";
+ "local_teameffectdes18"="El ataque de todos los monstruos aumenta un 20%.";
+ "local_teameffectdes19"="La defensa de todos los monstruos aumenta un 50%.";
+ "local_teameffectdes20"="Los puntos de salud de los monstruos de 6 estrellas aumentan en 4000 para cada uno.";
+ "local_teameffectdes21"="Los puntos de salud de los monstruos de 5 estrellas aumentan en 3000 para cada uno.";
+ "local_teameffectdes22"="Los puntos de salud de los monstruos de fuego aumentan en 3000 para cada uno.";
+ "local_teameffectdes23"="Los puntos de salud de los monstruos de tipo agua aumentan en 3000 para cada uno.";
+ "local_teameffectdes24"="Los puntos de salud de los monstruos de tipo madera aumentan en 3500 para cada uno.";
+ "local_teameffectdes25"="Los poderes de salud aumentan en 3000 para los monstruos que se encuentran debajo del nivel 50.";
+ "local_teameffectdes26"="El ataque aumenta un 20 % para los monstruos debajo del nivel 50.";
+"local_teameffectdes27"="El ataque de los monstruos de 5 estrellas aumenta un 30 %.";
+"local_teameffectdes28"="El ataque de los monstruos de 5 estrellas aumenta un 30 %.";
+
+ "local_teamtripinfotitle"="Aventura";
+
+  "local_coupon_error_01"="Este cupón no se puede utilizar."; 
+ "local_coupon_error_02"="Este cupón ya utiliza.";
+ "local_coupon_error_03"="Este tipo de cupones que ya utiliza.";
+ "local_coupon_error_04"="Este cupón ha caducado.";
+ "local_coupon_success"="Cupón ha sido aplicado con éxito.";
+ "local_purchase_error_01"="No se pudo completar la transacción."; 
+ "local_purchase_error_02"="Información de la transacción incorrecto.";
+
+ "local_popupnotenoughorb"="La orbes no es suficiente.";
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 

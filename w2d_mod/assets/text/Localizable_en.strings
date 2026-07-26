@@ -1,0 +1,661 @@
+/* 
+Localizable.strings
+WelcomeD
+
+Created by Administrator on 2014. 3. 26..
+
+*/
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/Press Start 2P.ttf";
+"local_fontBold"="font/Press Start 2P.ttf";
+// 튜토리얼
+"local_tutorialtalk01 "="@eye:This is the human world.{There are dungeons that demon magic cannot reach yet.{Take each dungeon one by one to expand your power.{Your evaluation is shown through these infamy levels.";
+"local_tutorialtalk02 "="@eye:Let's go to the first dungeon.";
+"local_tutorialtalk03 "="@eye:Cozy, isn't it?{Human warriors are bound to visit notorious dungeons, but that will take time…{Let's use dark magic instead.{It's a device that enables us to call up knights whenever we want.";
+"local_tutorialtalk04 "="@eye:With time you can use your magic to activate these devices and selected knights will enter the dungeon. {Please pull it.";
+"local_tutorialtalk05 "="@eye:Humans have a tendency to not think about their choices and simply check their results.@hero:I feel the aura of evil!@eye:Hehe… let's see what this knight's choice will bring!";
+"local_tutorialtalk06 "="@eye:Excellent! You are, master, truly of the side of darkness.";
+"local_tutorialtalk07 "="@eye:Congratulations. You have conquered the dungeon.{Because of its high infamy, no one will dare come here again.{Let's go to a bigger dungeon.";
+"local_tutorialtalk08 "="@eye:Do you like your new dungeon?{Now position your monsters. The first dungeon's monsters were like samples.{Because your Monster Box is empty, let's pick a monster.{Select SUMMON Monster on the menu.";
+"local_tutorialtalk09 "="@eye:You won't know what you'll get, but that's part of the fun.{It's a rule of magic that what comes to you easily will cost you later.{Since you have enough gold, pick a monster.";
+"local_tutorialtalk10 "="@eye:You got this one. Strengthening it may be useful for you.{You may have noticed it already, but the more stars the monster has, the rarer and more capable it is.";
+"local_tutorialtalk11 "="@eye:Picked monster cards are in the Monster Box.";
+"local_tutorialtalk12 "="@eye:The number of stars on the top-left corner is the COST of placing the monster in the dungeon.{When your infamy rises, so does the cost.";
+"local_tutorialtalk13 "="@eye:Be victorious in battle, collect monsters, and raise your infamy!\nThat is what you must do in this world.{Then I'll see you the next time you need help.{I'll leave you with 10,000 coins so you can call forth and position more monsters.";
+"local_tutorialtalk14 "="@eye:전투에서 많은 승리를 거둬서 강력한 몬스터들을 모으고 악명 레벨을 높이는 것!\n그것이 주인님이 이 세계에서 할 일입니다.{그럼 저는 다음 도움이 필요할 때 다시 오도록 하겠습니다.\n10000골드를 드릴테니 몬스터를 더 뽑아서 배치시킨다음 전투를 시작하세요";
+
+"local_tutorialtalkbattle01"="@eye:The first line of warriors have fire powers, so monsters with water powers shall be useful in the first battle.{Since it's manual combat in this case, you can decide their order.{ The warriors have fire powers, so pick a monster with water powers (marked blue).";
+"local_tutorialtalkbattle02"="@eye:Monsters that have been attacked by many warriors get to use one 'lethal blow' on warriors.{Quickly press the skill button and see.";
+"local_tutorialtalkbattle03"="@eye:All dungeons have a trap room.\nWatch what happens when you have a trap card.";
+
+//스킵 시도
+"local_tutorialtalkskip00"="@eye:Wait, master! Hear me out until the end!\nI'll give you more gold! It'll only take a moment.";
+"local_tutorialtalkskip01"="@eye:Here are the rules in a nutshell:{1) Win as many battles as possible with the warriors called forth.\n2) Collect gold and call forth monsters or strengthen them.\n3) Raise your infamy through victory.\nThese are the things you must do in this world.{Then I shall return the next time you need help.";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트 시스템
+"local_talkeventsystemgetgold "="You have gained %d in gold.";
+"local_talkeventsystemlosegold "="You have lost %d in gold.";
+"local_talkeventsystemlosegold2 "="You have gained %d in gold.";
+"local_talkeventsystemgetsuccubuscard "="You got 'Succubus' card!";
+"local_talkeventsystemmonsterlevelsup "="The monster's ability has temporarily strengthened.";
+"local_talkeventsystemmonsterlevelup "="The monsters have temporarily strengthened.";
+"local_talkeventsystemherolevelsup "="The knights in the dungeon are a little stronger.";
+"local_talkeventsystemherohpdown "="The HP of the knights in the dungeon have decreased.";
+"local_talkeventsystemdealmonsterlevelup "="Would you like to temporarily strengthen the monsters using gold?";
+"local_talkeventsystemdealgem "="Would you like to accept the deal?";
+"local_talkeventsystemgetgem "="You have gained %d gems.";
+"local_talkeventsystemgetexp "="You have gained %d in gold.";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트
+"local_talkeventswordcatenter "="@sword_cat:Hello! Meow. {Is this the infamous dungeon of the Underlord? My name is Toby, and I am a swordsfeline. {My special charms and wit pleased my master, who then taught me my skill. {I heard a lot of warriors left the village to come here, so I came to visit. {I'm just here to pick up dropped coins, if you will. {Pay me no attention!";
+"local_talkeventswordcatlose "="@sword_cat:(Arg!!) Please, spare me!!! {I'll give you all the money I have {just spare my life! {(Darn it, I'll return with better skills!) #get gold";
+"local_talkeventswordcatwin "="@sword_cat:All I wanted was to pick up a few coins… {Your monsters don't live up to the hype. {Nyah nyah nyah nyah nyah) #lose gold";
+"local_talkeventswordcatenterlose "="@sword_cat:(Meow) I return! {Sorry for what happened last time. {I've got starving kittens at home… {I'll just pick up some dropped change and be off. {(For sure this time!)";
+"local_talkeventswordcatenterwin "="@sword_cat:(Meow) Remember me, Underlord? Hehe {I'll be taking some more gold. {(This dungeon is sure to be the same flimsy operation?)";
+"local_talkeventmysterywoman "="@mystery_woman:… {My husband is in a far off land… {I hope he's eating all his meals… {I better help out as much as I can. #monsters level up";
+"local_talkeventprincessenter "="@princess:… This is the place! {I'm determined to meet the Underlord today!";
+"local_talkeventprincessexit "="@princess:Ah!!!!";
+"local_talkeventprincesssuccess "="@princess:Ah, finally! {We meet, Underlord. {I am a princess of a fallen kingdom, {and my only wish is to avenge my home. {Please! {Let me serve you! #get succubus card";
+"local_talkeventkingenter "="@king:It wasn't easy coming here under cover! {I was hoping to put in a good word for myself {before the demons rule the world again. {Here is some gold for that. {May your infamy rise! #get gold2";
+"local_talkeventkingafter "="@king:I have returned, great Underlord. {I am at your command, hehe…#get gold2";
+"local_talkeventmerchantenter "="@merchant:How do you do, Underlord? {I'm a merchant of magic, peddling my wares in both the human and inhuman world, anywhere that's profitable. {I can raise the levels of your monsters in this battle, would you like that? (3000 gold) #deal monsters level up";
+"local_talkeventmerchantrefuse "="@merchant:Well, never mind then. {Maybe the knights will buy?";
+"local_talkeventmerchantaccpet "="@merchant:It will be a great help to you in battle! {I'll come again soon. #monsters level up";
+"local_talkeventseniorpriestenter "="@senior_priest:You fiendish thing! {The warriors of legend shall crush you!! {In the name of God, {demons be gone!! #hero levels up;
+"local_talkeventwitchesenter "="@witches:Dear Underlord♥ You are here!!!{I'm glad we followed those knights! {Cackles {We've poisoned the warriors~ {Hopefully you shall win this battle!♥ #hero hp down";
+"local_talkeventfairiesenter "="@warrior: Uh… this looks like a good place to up my levels. {It's not the main quest or anything. @fairy: Rumor has it the Underlord is growing other dungeons. {Be careful! @warrior: Hehe, I don't care about Underlords… {I'm the hero of my story!";
+"local_talkeventwarriorlose "="@warrior: Ugh… can't believe it… I can't die here without having seen the ending… @fairy: … Didn't I tell you to be careful! {Try bargaining for your life.{Underlord, we shall give you something if you spare us.#deal gem";
+"local_talkeventwarriordie "="@fairy: Oh no! I knew it… {A demon wouldn't listen to reason… @warrior: Aaaah, I don't want to die! @fairy:… It's OK. You'll be resurrected in the village.#get gold3";
+"local_talkeventwarrioralive "="@fairy: Oh thank you! {(Come on, let's get out of here!) @warrior: Darn… such a waste… {(I'll be back after I become stronger)#get gem";
+"local_talkeventwarriorwin "="@warrior: Aha! I knew it was nothing. {Glad I kept strengthening my weapon! {So Underlord, I'll see you later? @fairy: Let's get out of here and go back to the main quest!";
+"local_talkeventwarriorafter "="@warrior: Is this the Underlord's dungeon, too? Wonder if he got any better. @fairy: Don't be so arrogant. Concentrate! @warrior: Ha, I can slay any monster that comes my way!";
+
+// ** 순서 꼭 지켜야함 ** //
+// 에피소드
+"local_episodetalk01 "="@blank: Episode 1. A Knight Discovers the Dungeon@hero: The stories of monsters run amok are true! {Better go back to the village and spread the news!@eye: Ooh! Master's infamy grows by the day!@hero: Er, shouldn't you be nervous?";
+"local_episodetalk02 "="@blank: Episode 2. What Makes a Knight@hero: There are many kinds of warriors. {I'm just a beginner but once I become a better knight {I'll conquer this pitiful dungeon! @eye: Hello? 9-1-1? Can I make a reservation for someone?@hero: Make a reservation for yourself!!";
+"local_episodetalk03 "="@blank: Episode 3. Kitty Swordsman@sword_cat: Hello! I am Puss! In Hat!@hero: You're a little, uh, different? From the others?@sword_cat: I hear the Underlord's Dungeon is proving to be a challenge. {I love. Challenges.@hero: Sure. Anyway, kick some sand over your poo before leaving?@eye: Kick some sand over what now?";
+"local_episodetalk04 "="@blank: Episode 4. Knight's Interface@eye: Welcome to the Dungeon!@hero: Uh-oh. {I can't return without killing the boss monster. Too embarrassing!@eye: Wouldn't you rather be monster fodder than go back to being unemployed?@hero: No, I'm going to re-load from my last saved position.@eye: You… you can do that?";
+"local_episodetalk05 "="@blank: Episode 5. Building a Relationship@hero: Hey, eyeball! {Looking out (get it?) for our knights today?@eye: Don't get all friendly with me. {I don't fraternize with knights on their way to the meat grinder.@hero: Yeah? {They'll just resurrect me at my village. {So lighten up!@eye: Fine, knight. Here's a riddle. {A knight, a Viking, and an elf entered a dungeon, but only the elf died. Guess why.@hero: … The elf had the lowest power level?@eye: Ha. It's because the elf went in first. {That's how dungeons work. {First in, first dead. {So pay attention to where you get in line.@hero: A monster just gave me advice. {How moving.@eye: I'm not saying I'm always going to put you in as third. {Now back to our professional boundaries.";
+"local_episodetalk06 "="@blank: Episode 6. Boss Monster's Secret@hero: Yaysies! I'm returning alive! After a fashion.@sword_cat: Mwaha! I'm returning with a pile of gold.@eye: You fools! You were merely lucky. All you got were the minor monsters!@hero: Au contraire, we were defeated by the boss monster, but he said he'd use that day's mileage points to spare us.@eye: He'll never get ahead of inflation that way.";
+"local_episodetalk07 "="@blank: Episode 7. Main Quest@hero: I've discovered something important!@eye: You're being serious for a change.@hero: I'm on the Collecting Ancient Fragments quest, and in them was a picture of the Underlord and God.@hero: That the ancients depicted the Underlord and God as being side-by-side. {What do you make of it?@eye: Well… I barely survived the last demon extinction event, {and the Underlord was resurrected without memory. {Not even he knows much of the past.@hero: I'm going to finish collecting these fragments.@eye: Ooh… a plot, it be thickening!";
+"local_episodetalk08 "="@blank: Episode 8. Key to Solving the Quest@sword_cat: You know that Collecting Ancient Fragments quest thingie?@eye: Oh that thingie. That main quest thingie.@sword_cat: The knight says it's a key to the Underlord's past, {and I happen to have the last piece.@eye: What, you want to make a deal for it?! You want to taste my saliva? {Give it here!@sword_cat: Gah! Don't be yucky. Or murderous. {Forget it! I'll deal with the knight instead!";
+"local_episodetalk09 "="@blank: Episode 9. Mutual Understanding@hero: Now that there are several dungeons, I don't know which to target.@eye: Difficulty varies depending on monster positioning and power levels. {But it's advantageous to try a dungeon that has lots of strong knights.@hero: On the other hand, the monsters are more varied and one has to power up.@eye: The length of the corridor also influences how the knights wait. {The system isn't simple.";
+"local_episodetalk10 "="@blank: Episode 10. The Princess's Adventure@princess: Is this the Underlord's Dungeon?@eye: Yes it… crikey! {A human princess!@princess: The human world is a mess. {Demons are being scapegoated and everyone is being sent into war. {Comic books and games with demons in them are being burned. {But I can't imagine adventure without evil.@eye: So you're here because of regulation against games?@princess: I know enough of the world above, now I want to know the world below. {I'm like, really adventurous. {I want to meet the Underlord!@eye: Bizarre. {Well, test your luck then. {If you can reach the boss monster, you might even get to meet the Underlord!";
+"local_episodetalk11 "="@blank: Episode 11. Common Quest@hero: A princess is here in the dungeon? {There was a sub-quest on rescuing a princess. {I was about to buy a good sword with my quest earnings.@eye: Yeah, she was here. Already became a sexy female monster or some such.@hero: My God! A sexy female monster… {Gah! {I've got to meet her!@eye: … {You sure it's rescuing you have in mind?";
+"local_episodetalk12 "="@blank: Episode 12. The Underlord's Past@hero: I've completed the Collecting Ancient Fragments quest, but found something weird.@eye: What is it?@hero: I think people used to worship the Underlord.@eye: Worship the Underlord… you mean demons?@hero: That would mean demons and humans lived together. {Anyway, the only thing I got out of this quest was that and experience levels.@eye: The Underlord's past… {What kind of relationship did the Underlord and God have?";
+"local_episodetalk13 "="@blank: Episode 13. The Knight's Powerful Competitor@warrior: Aha! What is yon eyeball?@fairy: Calm down. {That's the Underlord's Dungeon. {It's filled with demons, not ordinary animals.@eye: Eh. A warrior with a fairy sidekick. {A hero with the proper accessories!@warrior: Of course I'm the hero! {The fairy is just a sidekick!@fairy: (This idiot… {Getting all excited again…)@sword_cat: Being strong or having high levels does not a hero make. {It is effortful story catalysts like me who are true heroes.@warrior: Fie on your effortful story cat-whatever! {You know what you're made of only in combat. {Destroying you will make me free from all. {One must lose everything if one wants true freedom.@sword_cat: I've heard that before…@eye: Ha, come in. {I don't know who's the hero or sidekick, {but I'll mince you all equally.";
+"local_episodetalk14 "="@blank: Episode 14. The Underlord's Followers@hero: He who gives up what is most precious rules all.@eye: Hmm?@hero: He who gives up what is most precious rules all.@eye: Is this a riddle?@hero: It's written in the temple. {But why must one give up what is precious to rule all?@eye: These temples have to keep prophecies vague if they want to stay in business.@hero: God is just as perplexing as the Underlord.@king: Whew. Finally got here.@hero: Gah! The King!@eye: Gee. What's this dude doing here?@king: How are things?@hero: Things are not well. {The kingdom is in chaos!@king: The princesses are missing, that's why. They say it's a bad sign. {Not to worry, there are many who can keep the monarchy running. There are over 3000 princesses from fallen kingdoms, hehe. {They do say that one must lose what is most precious to rule all?@eye: What are you talking about? (Weirdo.)@king: Hehe… {I'm actually on the demons' side.@hero: ?! Are you kidding me?! {The King is on the side of demons?@king: You'll know, since you've completed the Collecting Ancient Fragments quest. {The Underlord was once worshipped by both demons and humans. I'm a descendant of his human worshippers.@hero: God and the Underlord were worshipped together?@eye: I see… we begin to learn more of the Underlord's past. {But do you know why he was sealed away?@king: We don't know. {Only that the Underlord and demons both disappeared together. {Then history was rewritten so the Underlord would seem to be the cause of all misfortune.@hero: If that's true, I shall find the truth behind history!@eye: Such motivation!@king: He won't find the truth with those levels…";
+"local_episodetalk15 "="@blank: Episode 15. The Warrior's Request@hero: Next quest… Collect Dragon Scales? {There's a dragon in the dungeon?@eye: Dragon? It's very rare… {Not sure if the master has picked one. They're hard to clean up after.@sword_cat: Ugh. Dragons, they be scary.@hero: Maybe we should pass up this one.@warrior: Hehe, I've already succeeded. {I bought some at a shop.@eye: That shop really does have everything.@sword_cat: The Black Knight is swift.@warrior: If you haven't the money then go catch a dragon.@hero: Got to see one first if I want to catch one… {Hey, Underlord! Pick a dragon!@eye: Trust in the Underlord's luck.";
+"local_episodetalk16 "="@blank: Episode 16. Legendary Item@hero: That sword from the last boss monster, it's a legendary item called Half of Eternity.@eye: …You go boy.@hero: And like its name implies, it was a set item. {There's a shield that goes with it.@eye: If it's so rare, it won't be easy to find.@merchant: I happen to have the shield that goes with it!@hero: Ooh!@eye: Uncanny merchant… {He can smell demand!@merchant: Gold can buy anything. {50,000 in gold, please.@eye: Pricey. {A knight couldn't afford…@hero: Here you go.@eye: ?!!@merchant: Enjoy your purchase!@eye: Where did you get so much money?@hero: I sold the legendary sword. {I need defense more than offense.@eye: …";
+"local_episodetalk17 "="@blank: Episode 17. The Disappeared Power@hero: That legendary shield I got that time, it's weird.@eye: What? What now?@hero: The sword had light powers, but the shield doesn't. {Did the merchant rip me off?@eye: That's odd. Without powers, you'll have no added effect and be at a loss…@warrior: Wait! I think I've seen weapons with no powers. {The witches say they were of an element that has now disappeared.@hero: You mean there was another element? {Besides fire, water, wood, and light?@warrior: Ask the witches. {They often come around the dungeon with placards, cheering on the Underlord.";
+"local_episodetalk18 "="@blank: Episode 18. The Witches are on the Underlord's Side@witches: The Underlord was wicked today. {Got to have monsters of varied strengths to win, cackle.@hero: Whew~ found it. {You guys the witches who know the Black Knight?@witches: So? Cackles. {What's it to you?@hero: I wanted to ask you about the power that disappeared in the olden times.@witches: A knight interested in such things… amazing! {It's dangerous talk, so we can't say. {If the Temple of Light learns we spoke, we'll be witch-hunted.@hero: I bought a super-expensive item and it had no powers! {I don't want to be an idiot who enters the dungeon without powers…@witches: Then why don't you take a test? {You're a knight so you should be used to quests.@hero: What… is your quest? (Gulp)@witches: You shall help our Underlord. Cackles! {Sacrifice 5 gems so the Underlord can call forth a new monster. {Cackles!@hero: A knight helping the Underlord?! Absurd.@eye: Think of it as… an entrance fee for the hunting grounds!@hero: … Fine. {Getting 5 gems is nothing. Be right back!";
+"local_episodetalk19 "="@blank: Episode 19. The Underlord's Past (2)@hero: Took longer than I thought to get 5 gems.@witches: You got them? Now give them to the Underlord.@hero: Fine, fine.@witches: Now we talk. As you may have guessed, the disappeared element is the opposite of light: darkness.@hero: Darkness?!@witches: Once the Underlord was worshipped with God, side-by-side. {God and the Underlord made life forms of various powers and one of those powers was darkness.@hero: The Underlord was a creative god?@witches: Yes. And one day, God threw out the Underlord and the creatures made from darkness, the demons. {Then darkness itself disappeared.@hero: The Underlord was thrown out?@senior_priest: Enough! You wicked witch (B*witch) {Blabbering on like that!@witches: Gah!! Where'd you come from?@senior_priest: Any who talk of the ancient knowledge from the Temple of Light shall face doom!@witches: Humph! The Underlord's infamy rises by the day! {Only a matter of time until the powers of darkness return!@senior_priest: God has forsaken the Underlord. {Mere mortals such as we can never understand, only follow, God's will. That is our place.@hero: Let's get out of here before the High Priest sees us.";
+"local_episodetalk20 "="@blank: Episode 20. Unslayable Monster@hero: So this legendary shield was of darkness. {Can't believe I spent so much money on something so useless…@eye: The day the Underlord opens all of the dungeons, darkness may return again!@hero: Taking the Underlord's side just so I can use an item seems a little…@succubus: Hey, knight, {sexy shield you got there.@hero: Gah! A monster outside of the dungeon!@succubus: I felt like getting some fresh air.@eye: Say hi, she used to be a princess.@hero: Princess? {The princess is a succubus now?@succubus: Yeah. Now that I'm here, it's kinda boring.@hero: You're a monster, I don't care about how bored you are!@succubus: So knight, don't you feel like slaying me, or something?@hero: Ungh… the princess I had a crush on… (and my chance for social advancement…!)@succubus: Don't feel so bad for me. {Being a monster opened my eyes to lots of things. {Monsters are like humans, we're all missing something. {Someone has to be on their side.@hero: I can believe you would side with them over us…@succubus: We have to understand the dark side of life, too!";
+"local_episodetalk21 "="@blank: Episode 21. God's Threat@hero: How will God strike back when the Underlord takes over the dungeons of all four lands?@warrior: Don't worry. {I shall clear all quests and destroy the Underlord. @sword_cat: Whichever side wins, it's best to have enough money saved up just in case!@hero: In other lands they say, there are warriors at 99 levels.@warrior: 99 levels? Even a warrior with 10,000 levels can't slay a boss monster with one blow.@eye: Idiots! No matter how many levels you get and how many warriors you send, the Underlord has unlimited powers! {Someone in a different dimension is helping him out.@warrior: Humph! Well that someone outside our dimension AND the Underlord better be ready! {Angels are appearing on the Land of Light!@eye: Angels? We have winged demons, too. {Bring them on!";
+"local_episodetalk22 "="@blank: Episode 22. The Priests' Purpose@senior_priest: Warriors! Lower the Underlord's infamy, {turn all glory to God!@eye: Hey! You can't just walk into the dungeon! {Take a number!@senior_priest: …@hero: So priest, what's the deal with God and the Underlord? {Why were they friends one minute and enemies the next?@senior_priest: That's… none of our business. {God promises riches only to those who worship him.@hero: Worship is a condition for riches…?@senior_priest: Does that make you uncomfortable? {Aren't we all living for riches? {A priest is someone who aids that system. {No one needs to know the truth. This way, we all win.@hero: What I want to know is the truth! {How did the Underlord and the power of darkness disappear?@senior_priest: If you're so curious, I'll tell you. {After you take care of the boss in this dungeon!@eye: Now THAT'S uncomfortable. If I want to help I've got to let the boss lose to the hero.";
+"local_episodetalk23 "="@blank: Episode 23. The Underlord and God@hero: Well, I've managed to kill off the boss monster.@eye: Thanks to that, infamy levels dropped. {Now go to the high priest and ask him about the Underlord's past.@senior_priest: Welcome, hero. You've really cleared the boss monster.@hero: So tell me about the Underlord's past.@senior_priest: Long story short, God and the Underlord ruled together. {But the Underlord went against God's will so God got rid of the demons and darkness. {He erased the Underlord's memory and locked him in the dungeon.@hero: I see. {So demons and humans used to live together?@senior_priest: Demons and humans were cleaved off from each other according to their powers. {They were not separate bodies.@hero: So all the powers used to be in one body but were separated.@senior_priest: These are all things that are beyond us. {All we can do as humans is to lead ourselves through goodness and to want and enjoy good things.@eye: Humans need to confront darkness, too! {Someone has to see the dark side in order for there to be progress. {Else who's going to throw eggs at people wearing fur, who will help the poor?@senior_priest: Halt these idiocies!";
+"local_episodetalk24 "="@blank: Episode 24. God Manifests@eye: So before the Underlord was locked away, humans were whole. {Then according to their powers they were divided into angels, mortals, fairies, elves, and demons. @hero: And now that God knows the Underlord has escaped, God will try to lock him back in.@eye: What are you going to do?@hero: I don't… know. {Whom I'm supposed to fight for…?@eye: Gah!@eye_white: …@hero: Wha… the eyeball has turned white!@eye_white: … I am… God…@hero: God? The eyeball is God?@eye_white: God has briefly manifested as this eyeball. It's ugly, but trust me. {I now speak to the being of a different dimension who is helping the Underlord. {If you give up the demons you have amassed so far and leave, I shall spare your life.@hero: Liar! What can even you do to a being beyond our dimension?@eye_white: In-app discounts! Gems! {Your name in the Special Thanks credits!@hero: But those are all good things! {Underlord! Don't lose! You can't lose this!@eye_white: Anyway, I've warned you. {My most powerful armies will descend upon the dungeon. {We'll see how high your infamy can rise!@eye: (Pat!) {Urrrrgh… I'm coming back…@hero: Hey! You OK? God was in your body!@eye: Ugh… I could read some of God's thoughts.@hero: What? Your thoughts were linked while your mind was being controlled? {I think I saw that in a movie…@eye: In a sense. In the Temple of Light there's an Autobiography of God. {The Underlord's past is in that book.@hero: I'm going to go get it!@merchant: You don't have to. I've got it in stock.@eye: Gah!!@merchant: 50,000 in gold, please.";
+"local_episodetalk25 "="@blank: Episode 25. Autobiography of God{In the beginning, I was alone.{I wanted an emotion that was precious and true.{ So I made a personality that was different from my own. That was the birth of the Underlord.{We spent eons together creating things and having fun.{ The creations that had the powers of darkness worshipped only the Underlord.{I felt jealous. I began hating the Underlord and his minions.{The Underlord refused to destroy the creations that had darkness in them.{So I erased the Underlord's memory, separated the powers among the creations, and eliminated darkness.{And the separated ones are called demons to this day.";
+"local_episodetalk26 "="@blank: Episode 26. Judgment Begins@eye: The secret is out. {The Underlord tried to prevent our extinction… {God wouldn't let him. {And God is still trying to kill the demons.@hero: Confrontation is inevitable.@angel: Puppets of the Underlord! {You will never be forgiven! {Here comes the forces of light!@hero: The angels are attacking!@senior_priest: The angels have astronomical strength levels. {Prepare to meet your doom, Underlord.@eye: Victory at the Land of Light's dungeon will be hard-won. {Let's do our best!@hero: Hey eyeball, I want to fight on your side!@eye: Huh? {A knight fighting on our side?@hero: Yeah! {Call out more demons with my gems!@eye: But what's going to happen to you?@hero: I don't care about my quest anymore.@angel: A human on the side of demons… {Unforgivable! Die!@hero: Arg!! I… die… (plop)@eye: Gah! The knight has died. Looks like bad acting but it's for real. {He died for the demon race…";
+"local_episodetalk27 "="@blank: Episode 27. Completion@warrior: So killing the Underlord is the final quest. {I don't think that knight guy is on his quest anymore. {Less competition for me! Hehe. @angel: For your noble work God bestows a blessing.@warrior: A blessing from God?@angel: That is right. {To you it's an ending. {But it's goodbye to your fairy.@angel: I shall make you into a whole being. {The kind of being before humans and demons were separated. {A demon swordsman. {Come forth as a demon swordsman! @warrior: Demon… demon swordsman! Ooh!@eye: He's going to be even more insufferable.@knight: … Uh… so what's new about me?@angel: … Your levels shall have increased a bit.@knight: … I think I got the short end of the stick here.@angel: Anyway! Off to the dungeon!";
+"local_episodetalk28 "="@blank: Epilogue@eye: Master, good work! {You've taken down many of your enemies and at this level of infamy, God will see you as a force to be reckoned with.@king: Congratulations! {Good job reading all of these words in the story.@senior_priest: Ungh! Who knew ridding the world of darkness would be so difficult.@hero: Hey eyeball! How are ya?@eye: Gah!! I thought you were dead, knight!@hero: Hehe… I just discovered something amazing.@hero: I'm a knight from another dimension. {There is more than one God and one Underlord.@eye: ?@hero: When darkness was separated from the other powers, the Underlord and his demons were shattered into different fragments. {So warriors, demons, and Underlords all have several manifestations.@eye: There are several masters?!@hero: The Underlord wars that began in several dimensions picked up steam when they came to one place. {Each Underlord can compare on a leaderboard their progress with other Underlords.@eye: Wha… unlimited competition!@hero: The Underlord's challenge begins now! {I will never cease to raise my own levels!@eye: So, there you go. {It feels odd that there are several versions of me. {But what can you do. I hope master also continues to do well in his dimension to become the number one Underlord in existence!@blank: THE END";
+"local_episodetalk29 "="@blank: Beginning of the Demon Wars@sword_cat: The Age of Darkness has come. {The scary thing is… the Underlords are keeping each other in check.@eye: What does that mean?@sword_cat: Underlords from other dimensions will from time to time send monsters. {Monsters can flood into the dungeon.@eye: A war between demons.@sword_cat: Monsters can enter randomly, just so you know.@succubus: Save me, sexy kitty swordsman!@sword_cat: Gah! I'm off!";
+
+
+
+// ** 순서 상관 없음 ** //
+// 던전 미니 대사
+"local_minitalkenter01 "="Geez, dust much?";
+"local_minitalkenter02 "="Here we go!";
+"local_minitalkenter03 "="Anyone see a treasure chest?";
+"local_minitalkenter04 "="God of Light, help me!";
+"local_minitalkenter05 "="Eat my sword!";
+"local_minitalkenter06 "="Dinner in Hell, tonight!";
+"local_minitalkenter07 "="Anybody call forth some handsome?";
+"local_minitalkenter08 "="Kill the boss, marry the princess!";
+"local_minitalkenter09 "="My legendary sword has no peer!";
+"local_minitalkenter10 "="Hey Underlord! Eat my levels!";
+"local_minitalkenter11 "="My sword pierces the sky!";
+"local_minitalkenter12 "="The dungeon is deep… and so beautiful!";
+"local_minitalkenter13 "="This place is whack, I'm outie";
+"local_minitalkenter14 "="Well hello there, you big strong thing";
+"local_minitalkenter15 "="Meh, bones, who needs 'em?";
+
+"local_minitalkcrossroad01 "="To the left, to the left… or not";
+"local_minitalkcrossroad02 "="I have a bad feeling about this…";
+"local_minitalkcrossroad03 "="Good vibes coming from here";
+"local_minitalkcrossroad04 "="Smelling blood…";
+"local_minitalkcrossroad05 "="I choose this side!";
+"local_minitalkcrossroad06 "="Everyone follow me!";
+"local_minitalkcrossroad07 "="Whichever way I go, monsters be dead!";
+"local_minitalkcrossroad08 "="Hey! Stop pushing!";
+"local_minitalkcrossroad09 "="Whichever, no worries!";
+"local_minitalkcrossroad10 "="When in Rome…";
+"local_minitalkcrossroad11 "="Feeling demon vibes…!";
+"local_minitalkcrossroad12 "="Every choice has a consequence";
+"local_minitalkcrossroad13 "="There's always a way!";
+"local_minitalkcrossroad14 "="No to the right! The left is the answer!";
+"local_minitalkcrossroad15 "="Meh. Do I need a reason?";
+
+"local_minitalkwaitting01 "="Get on with it!";
+"local_minitalkwaitting02 "="What's the holdup?";
+"local_minitalkwaitting03 "="Yeah! Right in the kisser!";
+"local_minitalkwaitting04 "="That's going to leave a mark";
+"local_minitalkwaitting05 "="Leave some for me!";
+"local_minitalkwaitting06 "="Expensive sword you got there";
+"local_minitalkwaitting07 "="Where's the bathroom in here?";
+"local_minitalkwaitting08 "="Idiots!";
+"local_minitalkwaitting09 "="Keep moving!";
+"local_minitalkwaitting10 "="Don't die! Think of your mother!";
+"local_minitalkwaitting11 "="Time is gold, my friend!";
+"local_minitalkwaitting12 "="You're already dead.";
+"local_minitalkwaitting13 "="Dungeons are entertaining.";
+"local_minitalkwaitting14 "="Leave the kill for me!";
+"local_minitalkwaitting15 "="I wonder if it's too late to run";
+
+"local_minitalkbattle01 "="You fiend!";
+"local_minitalkbattle02 "="Die, monster!";
+"local_minitalkbattle03 "="This one's for mommy!";
+"local_minitalkbattle04 "="Arg! That hurt!";
+"local_minitalkbattle05 "="Oh no! My sword is dull…";
+"local_minitalkbattle06 "="We! Do! Not! Lose!";
+"local_minitalkbattle07 "="My level will go up soon!";
+"local_minitalkbattle08 "="Well that wasn't so bad?";
+"local_minitalkbattle09 "="It was a powerful monster. What a waste.";
+"local_minitalkbattle10 "="No! I think I might die…";
+"local_minitalkbattle11 "="A pack that hunts together survives together!";
+"local_minitalkbattle12 "="Did I feed the cat before I left?";
+"local_minitalkbattle13 "="I've only begun to fight!";
+"local_minitalkbattle14 "="The thing about my sword fighting is… gah! Gaaaah!!";
+"local_minitalkbattle15 "="Your time of death is… now!";
+
+"local_minitalkwin01 "="I won! Stupid monsters!";
+"local_minitalkwin02 "="Let this day of victory live on in history!";
+"local_minitalkwin03 "="Aow! Aow! Aow!";
+"local_minitalkwin04 "="Dinner at home, then.";
+"local_minitalkwin05 "="Anyone got new items?";
+"local_minitalkwin06 "="Whew… I've survived.";
+"local_minitalkwin07 "="This dungeon is kinda stupid.";
+"local_minitalkwin08 "="That was close";
+"local_minitalkwin09 "="Quantity counts…";
+"local_minitalkwin10 "="I'll be back!";
+"local_minitalkwin11 "="We have a tomorrow now!";
+"local_minitalkwin12 "="Victory or death!";
+"local_minitalkwin13 "="Back to my wife waiting at home";
+"local_minitalkwin14 "="See you soon!";
+"local_minitalkwin15 "="Who cares about gold? It's the message that counts.";
+
+"local_minitalkdie01 "="Am I… dying…";
+"local_minitalkdie02 "="Darn, so close to the next level…";
+"local_minitalkdie03 "="If only I'd remembered my potion!";
+"local_minitalkdie04 "="Well this hurts…";
+"local_minitalkdie05 "="The difficulty level was too high!";
+"local_minitalkdie06 "="So… fight on lads…";
+"local_minitalkdie07 "="The wound is too deep…";
+"local_minitalkdie08 "="Humans… shall triumph…";
+"local_minitalkdie09 "="Aah! It burns!";
+"local_minitalkdie10 "="I miss my mommy!";
+"local_minitalkdie11 "="Valar morghulis!";
+"local_minitalkdie12 "="The night is dark and full of terrors";
+"local_minitalkdie13 "="Our family pays its debts…!";
+"local_minitalkdie14 "="Winter is coming";
+"local_minitalkdie15 "="All debts are paid…";
+
+"local_minitalklost01"="Greed doesn't pay";
+"local_minitalklost02"="Did the boss lose his concentration?";
+"local_minitalklost03"="Concentrate on this dungeon";
+"local_minitalklost04"="It's OK. You'll win next time";
+"local_minitalklost05"="We'll get back at them threefold…";
+"local_minitalklost06"="Darn warriors!";
+"local_minitalklost07"="For the honor of the demon world!";
+"local_minitalklost08"="The warriors are in a frenzy";
+"local_minitalklost09"="Punish me, master!";
+"local_minitalklost10"="You were unlucky";
+"local_minitalklost11"="May luck be with you, master!";
+"local_minitalklost12"="Look at me, my inner monster has grown!";
+"local_minitalklost13"="Defeat is the mother of revenge";
+"local_minitalklost14"="Impudent demons need punishment";
+"local_minitalklost15"="There was that one annoying guy";
+
+"local_minitalksummonlow01"="I'm not much but I'll help";
+"local_minitalksummonlow02"="I'd gladly give my only life";
+"local_minitalksummonlow03"="Humans… suck";
+"local_minitalksummonlow04"="Warrior meat is tasty";
+"local_minitalksummonlow05"="This battle shall not be in vain!";
+"local_minitalksummonlow06"="Blood… give me blood!";
+"local_minitalksummonlow07"="Bleurgh, Elf.";
+"local_minitalksummonlow08"="I heed your call.";
+"local_minitalksummonlow09"="Darkness to humanity!";
+"local_minitalksummonlow10"="It's been a long time, outside air!";
+"local_minitalksummonlow11"="Haven't been to this dungeon in a while";
+"local_minitalksummonlow12"="I'm going to kill at least three warriors!";
+"local_minitalksummonlow13"="If I die, let me die fighting!";
+"local_minitalksummonlow14"="Gah! Wonder if I could win?";
+"local_minitalksummonlow15"="Will I do?";
+
+"local_minitalksummonhigh01"="Do you need my help, my lord.";
+"local_minitalksummonhigh02"="I'll help you out a bit and be off";
+"local_minitalksummonhigh03"="Dude, I was just on the can!";
+"local_minitalksummonhigh04"="How lucky of you to have picked me";
+"local_minitalksummonhigh05"="Your level is the same as that of a disposable monster";
+"local_minitalksummonhigh06"="Humans… bad… you… I help…";
+"local_minitalksummonhigh07"="You've got guts to call me forth!";
+"local_minitalksummonhigh08"="If we get anymore used to each other we'd be friends";
+"local_minitalksummonhigh09"="I wonder what today's warriors will taste like?";
+"local_minitalksummonhigh10"="Can we discuss my contract later? Thanks";
+"local_minitalksummonhigh11"="Higher the notoriety, the stronger I become";
+"local_minitalksummonhigh12"="I'll be enough";
+"local_minitalksummonhigh13"="Heck, I've got nothing else planned for today";
+"local_minitalksummonhigh14"="Death to humans…";
+"local_minitalksummonhigh15"="You sure about this? Your levels are low";
+
+
+
+// ** 순서 상관 없음 ** //
+// 팝업
+
+"local_popupalreadyclear "="You have already cleared this dungeon.";
+"local_popupneedlevel "="You can enter this dungeon only from infamy level %d.";
+"local_popuphealallmonster "="The HP of all monsters in the dungeon will be restored.";
+"local_popupemptypotion "="Not enough potion. Would you like to purchase?";
+"local_popupbought "="Purchased.";
+"local_popupcannotbuy "="Not enough gems.";
+"local_popupnhnpriceerror"="네이버 가격 정보를 가져오는데 실패했습니다.";
+"local_popupslotcountiszero "="Not enough spins. \nWould you like to purchase?";
+"local_popupnomoreenhance "="Cannot strengthen more.";
+"local_popupnotenoughmoney "="Not enough gold.";
+"local_popupnotenoughpotion "="Not enough potion.";
+"local_popupnotenoughgem "="Not enough gem. \nWould you like to purchase?";
+"local_popupnotenoughspin "="Not enough spins.";
+"local_popupcannotsummon "="You can position only after the battle ends.";
+"local_popupcostover "="Too many good monsters, not enough team cost.";
+"local_popupcostzero "="The battle cannot commence without a monster in the deck.\nPlace your monsters.";
+"local_popupasksell "="Would you like to exchange it to gold?\n(%d)";
+"local_popupbossroomisempty "="The battle cannot commence without a monster in the boss room.\nPlace your monsters.";
+"local_popupstageexitnotice "="Going to the world map during battle defaults to defeat.";
+"local_popupinvenisfull "="Your Monster Box is full.";
+"local_popupusingmonster "="This monster is in use.";
+"local_popupgetreward "="You have received a reward.";
+"local_popupcompletebonus "="You've gathered magic! You have gained gems.";
+
+"local_episodetitle00"="Prologue";
+"local_episodetitle01"="A Knight Discovers the Dungeon";
+"local_episodetitle02"="What Makes a Knight";
+"local_episodetitle03"="Kitty Swordsman";
+"local_episodetitle04"="Knight's Interface";
+"local_episodetitle05"="Building a Relationship";
+"local_episodetitle06"="Boss Monster's Secret";
+"local_episodetitle07"="Main Quest";
+"local_episodetitle08"="Key to Solving the Quest";
+"local_episodetitle09"="Mutual Understanding";
+"local_episodetitle10"="The Princess's Adventure";
+"local_episodetitle11"="Common Quest";
+"local_episodetitle12"="The Underlord's Past";
+"local_episodetitle13"="The Knight's Powerful Competitor";
+"local_episodetitle14"="The Underlord's Followers";
+"local_episodetitle15"="The Warrior's Request";
+"local_episodetitle16"="Legendary Item";
+"local_episodetitle17"="The Disappeared Power";
+"local_episodetitle18"="The Witches are on the Underlord's Side";
+"local_episodetitle19"="The Underlord's Past (2)";
+"local_episodetitle20"="Unslayable Monster";
+"local_episodetitle21"="God's Threat";
+"local_episodetitle22"="The Priests' Purpose";
+"local_episodetitle23"="The Underlord and God";
+"local_episodetitle24"="God Manifests";
+"local_episodetitle25"="Autobiography of God";
+"local_episodetitle26"="Judgment Begins";
+"local_episodetitle27"="Completion";
+"local_episodetitle28"="Epilogue";
+
+"local_uigemtitle"="Goblin's Chest";
+"local_uislottitle"="Spin Charger";
+"local_uislotdes"="Spins by the power of darkness are filled.";
+"local_uipotiontitle"="Succubus' Trap Card Store";
+"local_uiPotiondes"="Watch what happens when you have a trap card.";
+
+"local_uibattleresultgetmoney"="Trophy acquired!";
+"local_uibattleresultgetmobexp"="Battle EXP increased!";
+"local_uibattleresultgetlevelbonus"="LV bonus acquired!";
+"local_uibattleresultgetexplose"="Infamy remains the same because the monster's defense failed. ";
+"local_uibattleresultgetexplose2"="If this dungeon is too difficult, try gathering gold at a dungeon you've already cleared.";
+"local_uibattleresultgetexpwin"="Infamy risen!";
+
+"local_uienhancedes"="Choose Material monster(s)";
+"local_uienhancelvdes"="After LV";
+"local_uienhancepricedes"="Gold";
+"local_uienhanceselectdes"="Selected";
+
+"local_levelupeventlevel"="Infamy Level Up Bonus";
+"local_levelupeventdungeon"="Well Done!\nThe people of this region\nhave succumbed to darkness. ";
+
+"local_gotchatitle"="Summon Monster";
+"local_inventitle"="Monster Box";
+"local_equipmonster"="Attachment\nmonster";
+
+"local_summonmonsterdes"="Select a monster.";
+"local_summonmonstercarddes"="Select a room to place a monster.";
+
+"local_mvmselectdes"="Select Monster Order";
+
+
+"local_readytalk01"="Geez, dust much?";
+"local_readytalk02"="Here we go!";
+"local_readytalk03"="Anyone see a treasure chest?";
+"local_readytalk04"="God of Light, help me!";
+"local_readytalk05"="Eat my sword!";
+"local_readytalk06"="Dinner in Hell, tonight!";
+"local_readytalk07"="Anybody call forth some handsome?";
+"local_readytalk08"="Kill the boss, marry the princess!";
+"local_readytalk09"="My legendary sword has no peer!";
+"local_readytalk10"="Hey Underlord! Eat my levels!";
+"local_readytalk11"="My sword pierces the sky!";
+"local_readytalk12"="The dungeon is deep… and so beautiful!";
+"local_readytalk13"="Well hello there, you big strong thing";
+"local_readytalk14"="Meh, bones, who needs 'em?";
+"local_readytalk15"="I have a bad feeling about this…";
+"local_readytalk16"="Good vibes coming from here";
+"local_readytalk17"="Smelling blood…";
+"local_readytalk18"="I choose this side!";
+"local_readytalk19"="Everyone follow me!";
+"local_readytalk20"="Whichever way I go, monsters be dead!";
+"local_readytalk21"="Hey! Stop pushing!";
+"local_readytalk22"="Whichever, no worries!";
+"local_readytalk23"="This is my kingdom come";
+"local_readytalk24"="Feeling demon vibes…!";
+"local_readytalk25"="Every choice has a consequence";
+"local_readytalk26"="There's always a way!";
+"local_readytalk27"="No to the right! The left is the answer!";
+"local_readytalk28"="Meh. Do I need a reason?";
+"local_readytalk29"="What's the holdup?";
+"local_readytalk30"="Yeah! Right in the kisser!";
+"local_readytalk31"="Expensive sword you got there";
+"local_readytalk32"="Where's the bathroom in here?";
+"local_readytalk33"="Time is gold, my friend!";
+"local_readytalk34"="You're already dead.";
+"local_readytalk35"="Dungeons are entertaining.";
+"local_readytalk36"="Leave the kill for me!";
+"local_readytalk37"="I wonder if it's too late to run";
+"local_readytalk38"="You fiend!";
+"local_readytalk39"="Oh no! My sword is dull…";
+"local_readytalk40"="We! Do! Not! Lose!";
+"local_readytalk41"="My level will go up soon!";
+"local_readytalk42"="A pack that hunts together survives together!";
+"local_readytalk43"="Did I feed the cat before I left?";
+"local_readytalk44"="I've only begun to fight!";
+"local_readytalk45"="The thing about my sword fighting is… gah! Gaaaah!!";
+"local_readytalk46"="Your time of death is… now!";
+"local_readytalk47"="Aow! Aow! Aow!";
+"local_readytalk48"="Anyone got new items?";
+"local_readytalk49"="Whew… I've survived.";
+"local_readytalk50"="This dungeon is kinda stupid.";
+"local_readytalk51"="That was close";
+"local_readytalk52"="Quantity counts…";
+"local_readytalk53"="I'll be back!";
+"local_readytalk54"="We have a tomorrow now!";
+"local_readytalk55"="Victory or death!";
+"local_readytalk56"="Back to my wife waiting at home";
+"local_readytalk57"="See you soon!";
+"local_readytalk58"="Who cares about gold? It's the message that counts.";
+"local_readytalk59"="Darn, so close to the next level…";
+"local_readytalk60"="If only I'd remembered my potion!";
+"local_readytalk61"="The difficulty level was too high!";
+"local_readytalk62"="Humans… shall triumph…";
+"local_readytalk63"="Valar morghulis!";
+"local_readytalk64"="The night is dark and full of terrors";
+"local_readytalk65"="Our family pays its debts…!";
+"local_readytalk66"="Winter is coming";
+"local_readytalk67"="All debts are paid…";
+
+"local_yes"="Yes";
+"local_no"="No";
+"local_ok"="Ok";
+"local_cancel"="Cancel";
+
+"local_networkdisconnected"="Network disconnected";
+"local_networkdisconnecteddes"="The device is not connected to network";
+"local_waitaminute"="Wait a minute...";
+"local_networkretry"="The network is unstable.\nRetry?";
+"local_couldnotgoshop"="You can purchase only after the battle ends.";
+
+
+"local_tips01"="Be careful, because there are more powerful warriors.";
+"local_tips02"="Place monsters with stronger powers than the heroes' if you want effective defense!";
+"local_tips03"="You won't know what you'll get, but that's part of the fun.";
+"local_tips04"="Since you have enough gold, pick a monster.";
+"local_tips05"="Picked monster cards are in the Monster Box.";
+"local_tips06"="Greed doesn't pay";
+"local_tips07"="I think you should concentrate on this dungeon";
+"local_tips08"="Darn warriors!";
+"local_tips09"="The warriors are in a frenzy";
+"local_tips10"="Look at me, my inner monster has grown!";
+"local_tips11"="Be victorious in battle, collect monsters, and raise your infamy!";
+"local_tips12"="Win as many battles as possible with the warriors called forth.";
+"local_tips13"="Collect gold and call forth monsters or strengthen them.";
+"local_tips14"="Raise your infamy through victory.";
+"local_tips15"="It's where my demons hide.";
+"local_tips16"="Welcome to the extreme dungeon! Be diabolical!";
+"local_tips17"="O master! Demons have abandoned this land for too long!";
+"local_tips18"="Look for the secret of the vanished powers.";
+"local_tips19"="Turn the Demon's Spin so darkness can return to the Land of Light.";
+"local_tips20"="Summon and strengthen monsters with gold and gems!";
+"local_tips21"="Watch the annoying knights bleed to their deaths!";
+"local_tips22"="Turn the Demon's Spin to bring knights into the dungeon.";
+"local_tips23"="Your infamy will rise only if the Boss Room's monster wins.";
+"local_tips24"="The infinite war between light and dark! Only you can end it!";
+"local_tips25"="Place monsters with stronger powers than the heroes' if you want effective defense!";
+"local_tips26"="Light wins over all other powers.";
+
+"local_pleaselevelup"="Strengthen me!";
+
+"local_enhancehelp"="Strengthening requires as many stars as the monsters' stars. For example, a 6-stars monster needs six stars to make the next level.";
+
+"local_exitgametitle"="Game End";
+"local_exitgamedes"="Are you want to quit the game?";
+
+"local_localnoticeday1"="Master! The infinite war between light and dark! Only you can end it!";
+"local_localnoticeday3"="Master! Please rise!";
+"local_localnoticeday7"="Master! Demons have abandoned this land for too long!";
+
+
+"local_skilldescritical"="Critical Attack!!";
+"local_skilldesheal"="Restores monster's HP by %d";
+"local_skilldespoison"="Warrior loses %d HP whenever he moves";
+"local_skilldesleech"="Absorbs %d of a warrior's HP";
+"local_skilldesinsight"="Destruction of hero attributes";
+"local_skilldesterror"="Decreases a warrior's ATK by %.1f%%";
+"local_skilldeshorror"="Decreases a warrior's DEF by %.1f%%";
+"local_skilldescurse"="Lowers a warrior down %d levels";
+
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+"local_popupmvmpopup"="The world battles over the title of Ruler of All Magic.\nCheck your rankings today.";
+
+"local_dailyquestdes01"="Win 5 games";
+"local_dailyquestdes02"="Win 10 games";
+"local_dailyquestdes03"="Kill 5 FIRE-attribute heroes";
+"local_dailyquestdes04"="Kill 5 WATER-attribute heroes";
+"local_dailyquestdes05"="Kill 5 TREE-attribute heroes";
+"local_dailyquestdes06"="Summon 3 monsters";
+"local_dailyquestdes07"="Summon 2 monsters";
+"local_dailyquestdes08"="Summon a monster";
+"local_dailyquestdes09"="Summon a monster with 3-Stars";
+"local_dailyquestdes10"="Summon a monster with 2-Stars";
+"local_dailyquestdes11"="Strengthen and level up the monster";
+"local_dailyquestdes12"="Challenge Monsters vs. Monsters";
+
+"local_dberrorexit"="DB Error";
+"local_dbdeviceerrorexit"="Device Id Error";
+"local_dbchangeerrorexit"="DB Changed";
+"local_iapnotice"="Forced closing during transaction may cause errors";
+"local_noticenewversion"="new version released";
+
+"local_serverfileerror"="Duplicate data has been used in other devices.";
+"local_servernetworkretry"="Network state error\n Retry?";
+"local_levelupcounterror"="Error. Wrong levels detected.;
+"local_serverfirstconnet"="The first play requires network connection.";
+
+"local_popupuiaskbuy"="Are you sure to summon?";
+
+"local_adventuredaybonus01"="Please don't kill me.";
+ "local_adventuredaybonus02"="I have a newborn baby at home.";
+ "local_adventuredaybonus03"="Please! I'm newly married!";
+ "local_adventuredaybonus04"="You're going to kill me?";
+ "local_adventuredaybonus05"="I'm not scared at all.";
+ "local_adventuredaybonus06"="Ugh! Filthy demon!";
+ "local_adventuredaybonus07"="Spare me and karma might reward you!";
+ "local_adventuredaybonus08"="I will never come back!";
+ "local_adventuredaybonus09"="Tell me, why did you do that to me?";
+ "local_adventuredaybonus10"="I chose the wrong party! Darn it!";
+ "local_adventuredaybonus11"="I can't go back to the village like this.";
+ "local_adventuredaybonus12"="I won't lose to the darkness!";
+
+ "local_adventuredaybonustitle"="Select a warrior to sacrifice.";
+ "local_adventureinfo00"="Collect orbs by killing warriors and send monsters to a land of adventure.";
+ "local_adventureinfo01"="Look forward to unexpected stories and rewards.";
+ "local_adventuretip"="Place monsters that will fight most effectively against the approaching warriors.";
+
+ "local_adventureeventeye01"="Hey! Nice to meet you.";
+ "local_adventureeventeye02"="Are my people doing well?";
+ "local_adventureeventeye03"="Were you waiting for me?";
+ "local_adventureeventeye04"="You can even call me a fat pig if you want to, as long as I can be with you...";
+ "local_adventureeventmeetmagicianfailed"="Oh no... You picked the losing ticket.";
+
+ "local_adventureeventmeetmagician"="Oh! Demons! I've been waiting for a long time.{For the moment when the Devil resurrects!{Everything falls under the law of cause and effect.{Everything will be consumed by darkness.";
+ "local_adventureeventmeetmagician01"="But what is this creation?{I thought the Demon King's monsters would be worth at least 3 or 4 stars...";
+ "local_adventureeventmeetmagician02"="When will we stop being curious about the other world?{I heard that even the dead can't stop thinking about it.{I hope it was an enjoyable journey for you guys, too...";
+ "local_adventureeventmeetmagician03"="The Succubus causes trouble when her lust is not satisfied.{It’s good that she found another monster to mate with.";
+ "local_adventureeventmeetmagician04"="How cute! Even little monsters are coming all the way here...{I admire long-lasting endurance.";
+ "local_adventureeventmeetmagician05"="However short or fragile, your lives are also a part of nature.{I'm inspired by the animals’ desire to get stronger to protect themselves from human attacks.";
+ "local_adventureeventmeetmagician06"="Thieves! Crush the humans’ greed and desires!";
+ "local_adventureeventmeetmagician07"="When will we stop being curious about the other world?{I heard that even the dead can't stop thinking about it.{I hope it was an enjoyable journey for you guys, too...";
+ "local_adventureeventmeetmagician08"="How cute! Even little monsters are coming all the way here...{I admire long-lasting endurance.";
+ "local_adventureeventmeetmagician09"="Creatures of love craft!{Cthulhu returns to this land... This is the end of the world.";
+ "local_adventureeventmeetmagician10"="Is it Halloween? These monsters seem very familiar..{I can only give you this instead of candy.";
+ "local_adventureeventmeetmagician11"="Did you go on this journey just to become EXP for warriors?{Don't neglect leveling up.";
+ "local_adventureeventmeetmagician12"="When will we stop being curious about the other world?{I heard that even the dead can't stop thinking about it.{I hope it was an enjoyable journey for you guys, too...";
+ "local_adventureeventmeetmagician13"="Your sword skills are as good as that of the human warriors.{Extinguish their courage and pride!";
+ "local_adventureeventmeetmagician14"="The prophecy that the last of us will eat spaghetti meatballs in order to resurrect the demon Diablo has been fulfilled today.";
+ "local_adventureeventmeetmagician15"="I came running when I felt the earth shaking and found you guys here.{I'll give you this so can you keep quiet?";
+ "local_adventureeventmeetmagician16"="Are you Hell’s beauty queens?{I think I know what bad girl power is now.";
+ "local_adventureeventmeetmagician17"="No way... the two toughest dragons to control are on an adventure together...{The Demon King this time around is really something.";
+ "local_adventureeventmeetmagician18"="What is it this time?{Seeing these rare evil spirits all at once... Just when you think you’ve seen everything in life.....";
+ "local_adventureeventmeetmagician19"="I'm deeply touched by the fact that I’m able to witness giant evil spirits wreaking havoc like this!";
+ "local_adventureeventmeetmagician20"="I'm deeply touched by the fact that I’m able to witness giant evil spirits wreaking havoc like this!";
+ "local_adventureeventmeetmagician21"="I'm deeply touched by the fact that I’m able to witness giant evil spirits wreaking havoc like this!";
+ "local_adventureeventmeetmagician22"="I'm deeply touched by the fact that I’m able to witness giant evil spirits wreaking havoc like this!";
+ "local_adventureeventmeetmagician23"="What is it this time?{Seeing these rare evil spirits all at once... Just when you think you’ve seen everything in life.....";
+ "local_adventureeventmeetmagician24"="Legendary animals all in one place like this... Today must be my lucky day.";
+ "local_adventureeventmeetmagician25"="These are mysterious monsters.";
+ "local_adventureeventmeetmagician26"="These are mysterious monsters.";
+"local_adventureeventmeetmagician27"="These are mysterious monsters.";
+"local_adventureeventmeetmagician28"="These are mysterious monsters.";
+ "local_adventureeventmeetmagicianend"="That's why... I'll tell you your good-luck fortune for cheap.{From gems to special monsters... You don't know which reward you'll get.";
+ "local_adventureeventmeetmagicianselect"="Do you want your good-luck fortune read for %d gold?";
+ "local_adventureeventmeetmagicianno"="Missing a chance like that... but meeting is also fate so I'll give you this.#get gold";
+ "local_adventureeventmeetmagicianok"="Here, pick one of these 12 cards.#show magician";
+
+ "local_teameffectdes01"="1-star monsters' ATK increases by 50%.";
+ "local_teameffectdes02"="Dark type monsters' ATK increases by 10%";
+ "local_teameffectdes03"="3-star monsters' ATK increases by 10%.";
+ "local_teameffectdes04"="Gold acquisition increases by 10%.";
+ "local_teameffectdes05"="3-star monsters' HP increases by 1000 each.";
+ "local_teameffectdes06"="Water type monsters' ATK increases by 13%.";
+ "local_teameffectdes07"="Fire type monsters' ATK increases by 10%.";
+ "local_teameffectdes08"="2-star monsters' ATK increases by 30%.";
+ "local_teameffectdes09"="All monsters' HP increases by 1000 each.";
+ "local_teameffectdes10"="Wood type monsters' ATK increases by 12%.";
+ "local_teameffectdes11"="All monsters' ATK increases by 15%.";
+ "local_teameffectdes12"="Dark type monsters' ATK increases by 15%.";
+ "local_teameffectdes13"="5-star monsters' ATK increases by 15%.";
+ "local_teameffectdes14"="4-star monsters' ATK increases by 20%.";
+ "local_teameffectdes15"="4-star monsters' ATK increases by 30%.";
+ "local_teameffectdes16"="4-star monsters' HP increases by 2000 each.";
+ "local_teameffectdes17"="Dark type monsters' HP increases by 5000 each.";
+ "local_teameffectdes18"="All monsters' ATK increases by 20%.";
+ "local_teameffectdes19"="All monsters' DEF increases by 50%.";
+ "local_teameffectdes20"="6-star monsters' HP increases by 4000 each.";
+ "local_teameffectdes21"="5-star monsters' HP increases by 3000 each.";
+ "local_teameffectdes22"="Fire monsters' HP increases by 3000 each.";
+ "local_teameffectdes23"="Water type monsters' HP increases by 3000 each.";
+ "local_teameffectdes24"="Wood type monsters' HP increases by 3500 each.";
+ "local_teameffectdes25"="HP increases by 3000 for monsters below level 50.";
+ "local_teameffectdes26"="ATK increases by 20% for monsters below level 50.";
+"local_teameffectdes27"="5-star monsters' ATK increases by 30%.";
+"local_teameffectdes28"="5-star monsters' ATK increases by 30%.";
+
+  "local_teamtripinfotitle"="About Adventure";
+
+   "local_coupon_error_01"="This coupon can not be used.";
+ "local_coupon_error_02"="This coupon already used.";
+ "local_coupon_error_03"="This coupon type already used.";
+ "local_coupon_error_04"="This coupon has expired.";
+ "local_coupon_success"="Coupon has been applied successfully.";
+ "local_purchase_error_01"="Failed to complete the transaction.";
+ "local_purchase_error_02"="Wrong transaction information.";
+
+ "local_popupnotenoughorb"="Not enough orbs.";
+
+ 

@@ -1,0 +1,676 @@
+/* 
+  Localizable.strings
+  WelcomeD
+
+  Created by Administrator on 2014. 3. 26..
+
+*/
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/NotoSans-Bold.ttf";
+"local_fontBold"="font/NotoSans-Bold.ttf";
+// Tutorial, right after prologue
+"local_tutorialtalk01"="@eye:Nous sommes dans le monde des humains.{La magie des démons n'atteint pas encore certains donjons.{Tu devras conquérir les donjons un par un pour étendre ton pouvoir.{Seul le niveau d'infamie indique ta force.";
+"local_tutorialtalk02"="@eye:Découvrons à présent le premier donjon.";
+"local_tutorialtalk03"="@eye:Sympa, non ?{Les guerriers humains se rendront tôt ou tard dans les donjons célèbres, mais cela prendra du temps…{Pour l'instant, faisons appel à la magie noire.{Ce stratagème nous permet d'appeler les chevaliers noirs chaque fois que nécessaire.";
+"local_tutorialtalk04"="@eye:Avec le temps, tu pourras utiliser la magie pour activer ces stratagèmes et les chevaliers sélectionnés entreront alors dans le donjon. {Active le levier maintenant.";
+"local_tutorialtalk05"="@eye:Les humains ont tendance à ne pas réfléchir avant de choisir et se contentent des résultats obtenus.@hero:Je sens le souffle du mal !@eye:Et bien, voyons ce que donne le choix de ce chevalier !";
+"local_tutorialtalk06"="@eye:Excellent ! Tu es, Maître, résolument du côté des ténèbres.";
+"local_tutorialtalk07"="@eye:Félicitations ! Tu as conquis le donjon.{Grâce à cette infamie élevée, personne n'osera plus revenir.{Passons à un plus gros donjon.";
+"local_tutorialtalk08"="@eye:Comment trouves-tu ton nouveau donjon ?{Place tes monstres. Les monstres du premier donjon étaient de simples échantillons.{Ta boîte à monstres est vide, tu dois pourtant en choisir un.{Sélectionne CONVOQUER Monstre dans le menu.";
+"local_tutorialtalk09"="@eye:Impossible de savoir ce que tu obtiendras, mais cela fait partie du jeu.{C'est une règle de la magie selon laquelle ce que tu obtiens sans effort te coûtera cher plus tard.{Tu possèdes assez d'or, choisis un monstre.";
+"local_tutorialtalk10"="@eye:Voici le monstre que le sort t'envoie. Tu as tout intérêt à le muscler.{Tu l'as peut-être déjà remarqué, mais plus le monstre a d'étoiles, plus il est rare et fort.";
+"local_tutorialtalk11"="@eye:Les cartes de monstres déjà choisies sont dans la boîte à monstres.";
+"local_tutorialtalk12"="@eye:Le nombre d'étoiles affiché en haut à gauche correspond au COUT d'insertion du monstre dans le donjon.{Lorsque ton infamie augmente, il en est de même pour le coût.";
+"local_tutorialtalk13"="@eye:Remporte les combats, collectionne les monstres et augmente ton infamie !\nTel est ton objectif dans ce monde.{Je te retrouverai la prochaine fois que tu auras besoin d'aide.{Je te laisse 10 000 pièces pour appeler et placer d'autres monstres.";
+
+"local_tutorialtalkbattle01"="@eye:La première ligne de guerriers possède le pouvoir du feu, et les monstres disposant du pouvoir de l'eau seront donc très utiles pour la première bataille.{Le combat étant manuel dans le cas présent, tu peux décider de l'ordre à suivre.{ Les guerriers ont des pouvoirs de feu. Choisissez un monstre ayant des pouvoirs d'eau (en bleu).";
+"local_tutorialtalkbattle02"="@eye:Les monstres qui sont attaqués par de nombreux guerriers peuvent utiliser un 'coup mortel'.{Appuie rapidement sur le bouton de forces, et voyons ce que cela donne.";
+"local_tutorialtalkbattle03"="@eye:Tous les donjons possèdent un piège.\nObserve le résultat d'une carte piège.";
+
+
+"local_tutorialtalkskip00"="@eye:Attends, Maître ! Ecoute-moi jusqu'au bout !\nJe vais te donner davantage d'or, cela ne prendra qu'un instant.";
+"local_tutorialtalkskip01"="@eye:Voici les règles en quelques mots :{1) Remporte autant de victoires que possible avec les guerriers convoqués.\n2) Collecte l'or et appelle de nouveaux monstres ou muscle ceux dont tu disposes déjà.\n3) Augmente ton niveau d'infamie, au fur et à mesure des victoires.\nVoilà, tu connais tes objectifs pour ce monde.{Je reviendrai lorsque tu auras de nouveau besoin de mon aide.";
+
+
+// character event results
+"local_talkeventsystemgetgold"="Tu as gagné %d en or.";
+"local_talkeventsystemlosegold"="Tu as perdu %d en or.";
+"local_talkeventsystemlosegold2"="Tu as gagné %d en or.";
+"local_talkeventsystemgetsuccubuscard"="Tu as remporté une carte 'Succube' !";
+"local_talkeventsystemmonsterlevelsup"="Les aptitudes du monstre sont temporairement renforcées.";
+"local_talkeventsystemmonsterlevelup"="Les monstres se sont temporairement musclés.";
+"local_talkeventsystemherolevelsup"="Les chevaliers, dans le donjon, sont un peu plus forts.";
+"local_talkeventsystemherohpdown"="Le HP des chevaliers du donjon a diminué.";
+"local_talkeventsystemdealmonsterlevelup"="Veux-tu muscler temporairement les monstres avec de l'or ?";
+"local_talkeventsystemdealgem"="Alors, marché conclu ?";
+"local_talkeventsystemgetgem"="Tu as gagné %d joyaux.";
+"local_talkeventsystemgetexp"="Tu as gagné %d en or.";
+
+
+// Character events dialogue
+"local_talkeventswordcatenter"="@sword_cat:Bonjour ! {Suis-je dans l'infâme donjon du Seigneur ? Je suis Toby, félin à l'épée. {Mes charmes et mon intelligence ont comblé mon maître, qui m'a enseigné son art. {J'ai entendu dire que de nombreux guerriers quittaient le village pour venir ici. Je viens donc en visite. {Je suis là pour ramasser des pièces tombées, si vous voulez. {Ne  faites pas attention à moi !";
+"local_talkeventswordcatlose"="@sword_cat:(Arg !) Ne me tue pas ! {Je te donnerai tout l'argent que je possède, {laisse-moi la vie sauve ! {(Maudis sois-tu, je reviendrai plus fort !) #get gold";
+"local_talkeventswordcatwin"="@sword_cat:Je voulais juste ramasser quelques pièces… {Tes monstres ne sont pas à la hauteur. {Non non !) #lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(Miaou) Me revoilà ! {Désolé pour la dernière fois. {Mais j'ai des chatons affamés à la maison… {Je vais juste ramasser quelques pièces tombées et je disparais. {(Pour de bon cette fois !)";
+"local_talkeventswordcatenterwin"="@sword_cat:(Miaou) Tu te souviens de moi, Seigneur ? {Je viens chercher plus d'or. {(Ce donjon est-il toujours aussi branlant ?)";
+"local_talkeventmysterywoman"="@mystery_woman:… {Mon époux est en voyage très loin… {J'espère qu'il mange à sa faim… {J'essaie de faire de mon mieux. #monsters level up";
+"local_talkeventprincessenter"="@princess:… Nous y sommes ! {J'ai bien l'intention de rencontrer le Seigneur aujourd'hui !";
+"local_talkeventprincessexit"="@princess:Ah !";
+"local_talkeventprincesssuccess"="@princess:Ah, enfin ! {Nous voilà, Seigneur. {Je suis la princesse d'un royaume déchu, {et mon unique souhait est de venger mon peuple. {Par pitié ! {Prends-moi à ton service ! #get succubus card";
+"local_talkeventkingenter"="@king:Ca n'a pas été facile de parvenir incognito jusqu'ici ! {J'espérais me muscler {avant que les démons ne dominent à nouveau le monde. {Voici un peu d'or pour cela. {Que ton niveau d'infamie augmente ! #get gold2";
+"local_talkeventkingafter"="@king:Me revoilà, Seigneur tout puissant. {Je suis à tes ordres…#get gold2";
+"local_talkeventmerchantenter"="@merchant:Comment vas-tu Seigneur ? {Je suis un marchand de magie, qui traîne ses guêtres parmi les hommes et dans le monde inhumain, partout où l'appât du gain l'appelle. {Je peux muscler tes monstres pendant cette bataille, serais-tu intéressé ? (3000 or) #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:Bon, tant pis alors. {Peut-être les chevaliers seront-ils intéressés ?";
+"local_talkeventmerchantaccpet"="@merchant:Je te serai d'une grande utilité pendant la bataille ! {Je reviendrai bientôt. #monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:Le diable t'emporte ! {Les guerriers de légende t'écraseront ! {Au nom de Dieu, {démons, soyez maudits ! #hero levels up";
+"local_talkeventwitchesenter"="@witches:Oh Seigneur♥ te voilà !{Je suis heureux d'avoir suivi ces chevaliers ! {Ricanements {Nous avons empoisonné les guerriers~ {La victoire de devrait pas t'échapper cette fois !♥ #hero hp down";
+"local_talkeventfairiesenter"="@warrior: Bel endroit pour prendre des forces. {Je ne suis pas encore au bout de l'aventure. @fairy: D'après la rumeur, le Seigneur est en train de créer d'autres donjons. {Sois prudent ! @warrior: Moi, je n'ai que faire du Seigneur... {Seuls mes propres intérêts comptent !";
+"local_talkeventwarriorlose"="@warrior: Ah... c'est impossible, je ne veux pas mourir sans avoir vu la fin... @fairy: … Je t'avais recommandé la prudence ! {Essaie d'échanger ta vie contre quelque chose.{Seigneur, laisse-nous la vie sauve et tu seras récompensé.#deal gem";
+"local_talkeventwarriordie"="@fairy: Oh non ! J'en étais sûr… {Le démon n'écoute pas la raison… @warrior: Aaaah, je ne veux pas mourir ! @fairy:… Ne t'en fais pas. Tu reprendras vie dans le village.#get gold3";
+"local_talkeventwarrioralive"="@fairy: Mille fois merci ! {(Allez, prenons nos jambes à notre cou !) @warrior: Quel gâchis… {(Je reviendrai plus fort)#get gem";
+"local_talkeventwarriorwin"="@warrior: Ah ! Je savais bien que ce n'était rien. {J'ai bien fait de me muscler ! {Seigneur, on se voit bientôt ? @fairy: Sortons et reprenons notre quête !";
+"local_talkeventwarriorafter"="@warrior: Sommes-nous encore dans le donjon du Seigneur ? Je me demande s'il s'est bonifié avec le temps. @fairy: Ne sois pas aussi arrogant. Reste concentré ! @warrior: Ah, je taillerai en pièces tout monstre qui se présentera !";
+
+
+
+"local_episodetalk01"="@blank: Episode 1. Un chevalier découvre le donjon@hero: Les rumeurs d'une débandade des monstres sont vraies ! {Je ferais mieux de rentrer au village pour colporter la nouvelle !@eye: Oh, l'infamie du Maître augmente à vue d'œil !@hero: Cela ne t'inquiète pas ?";
+"local_episodetalk02"="@blank: Episode 2. L'étoffe d'un chevalier@hero: Il existe de nombreuses sortes de guerriers. {Je suis encore novice, mais avec un peu d'entraînement {je ferai la conquête de ce minable donjon ! @eye: Allo, Police secours ? Puis-je faire une réservation ?@hero: Reserviere dir doch selbst einen!!";
+"local_episodetalk03"="@blank: Episode 3. Kitty, le chat armé @sword_cat: Bonjour, je suis le chat armé !@hero: Hum, tu es un peu différent des autres, non ?@sword_cat: Il paraît qu'on ne s'ennuie pas dans le donjon du Seigneur. {J'adore les défis.@hero: D'accord. Versez du sable sur votre crotte avant de partir.@eye: Du sable sur quoi ?";
+"local_episodetalk04"="@blank: Episode 4. L'interface du chevalier @eye: Bienvenue dans le donjon !@hero: Hum. {Impossible de rentrer sans avoir tué le chef des monstres, ce serait la honte !@eye: Je préfère encore servir de repas aux monstres que de retourner au chômage.@hero: Non, je vais recharger à partir de ma dernière position enregistrée.@eye: Vous pouvez vraiment faire ça ?";
+"local_episodetalk05"="@blank: Episode 5. Créer un lien @hero: Salut Eyeball! {Alors, tu es à la recherche de chevaliers ?@eye: Ne sois pas aussi familier. {Je ne fraternise pas avec les chevaliers qui vont passer à la moulinette.@hero: Tu crois ? {On va me ressusciter dans mon village. {Détendez-vous !@eye: Bien, chevalier. Voici une devinette. {Un chevalier, un viking et un elfe sont entrés dans un donjon, mais seul l'elfe est mort. Devinez pourquoi.@hero: L'elfe avait le moins de pouvoirs ? @eye: Ha. C'est parce que l'elfe est entré en premier. {C'est comme ça que fonctionnent les donjons. {Premier entré, premier mort. {Aussi, faites attention à votre ordre d'entrée.@hero: Un monstre vient de me donner un conseil. {Comme c'est émouvant.@eye: Je ne dis pas que je vous mettrai toujours en troisième position. {Et maintenant, revenons à nos frontières professionnelles.";
+"local_episodetalk06"="@blank: Episode 6. Le secret du chef des monstres@hero: Incroyable, je suis encore en vie !@sword_cat: Incroyable, je repars avec de l'or plein les poches !@eye: Maudit sois-tu ! Tu as eu de la chance c'est tout. On ne t'a opposé que des petits monstres !@hero: Au contraire, nous avons été battus par le chef des monstres, mais il a dit qu'il utiliserait les points kilométriques d'aujourd'hui pour nous épargner.@eye: Il ne pourra jamais contrer l'inflation de cette façon.";
+"local_episodetalk07"="@blank: Episode 7. La mission principale @hero: J'ai découvert quelque chose d'important !@eye: Tu es sérieux tout à coup.@hero: Je suis à la recherche de fragments très anciens parmi lesquels se trouvent une reproduction du Seigneur et de Dieu.@hero: Les anciens décrivaient le Seigneur et Dieu comme étant côte à côte. {Qu'en pensez-vous ?@eye: Eh bien… J'ai survécu de justesse à la dernière extinction de démon, {et le Seigneur a été ressuscité sans mémoire. {Pas même lui ne sait grand-chose du passé.@hero: Je vais terminer la collecte de ces fragments.@eye: Oh… un complot, ça se complique !";
+"local_episodetalk08"="@blank: Episode 8. La clé de l'énigme @sword_cat: Tu es au courant de l'existence d'une clé pour rechercher les fragments ?@eye: Oui, cette clé...@sword_cat: Le chevalier affirme que c'est la clé du passé du Seigneur, {et j'ai la dernière pièce.@eye: Quoi, vous voulez conclure un marché ? Vous voulez goûter ma salive ? {Donnez-la moi !@sword_cat: Ah ! Ne soyez pas dégoûtant. Ou meurtrier. {Laissez tomber ! Je vais m'occuper du chevalier !";
+"local_episodetalk09"="@blank: Episode 9. Compréhension mutuelle @hero: Maintenant qu'il y a plusieurs donjons, je ne sais lequel cibler.@eye: La difficulté varie selon l'emplacement des monstres et les niveaux. {Mais il est avantageux d'essayer un donjon qui a de nombreux chevaliers costauds.@hero: D'autre part, les monstres sont plus variés et l'un d'eux doit commencer.@eye: La longueur du corridor a aussi un impact sur l'attente du chevalier. {Le système n'est pas simple.";
+"local_episodetalk10"="@blank: Episode 10. L'aventure de la princesse @princess: Suis-je dans le donjon du Seigneur ?@eye: Incroyable ! {Une princesse humaine !@princess: Le monde humain est en plein chaos. {Les démons servent de bouc émissaire et tout le monde est envoyé à la guerre. {On brûle les bandes dessinées et les jeux avec des démons. {Mais je ne peux pas imaginer une aventure sans le mal.@eye: Tu es donc ici à cause de la réglementation sur les jeux ?@princess: J'en sais assez sur le monde supérieur, je veux maintenant connaître le monde inférieur. {J'aime l'aventure. {Je veux rencontrer le Seigneur !@eye: Bizarre. {Eh bien, tente ta chance alors. {Si tu peux accéder au chef des monstres, tu pourrais même rencontrer le Seigneur !";
+"local_episodetalk11"="@blank: Episode 11. Une mission commune @hero: Une princesse ici, dans le donjon ? {Une tentative pour sauver la princesse a eu lieu. {J'allais justement m'acheter une belle épée avec mes gains.@eye: Oui, elle était ici. Elle s'est déjà transformée en superbe monstre femelle, ou quelque chose du genre...@hero: Mon Dieu ! Une monstresse sexy… {Ah ! {Il faut que je fasse sa connaissance !@eye: … {Ta vraie motivation est vraiment de lui sauver la vie ?";
+"local_episodetalk12"="@blank: Episode 12. Le passé du Seigneur @hero: J'ai été au bout de la quête des anciens fragments, mais j'ai fait une drôle de découverte.@eye: Quoi donc ?@hero: Je suis sûr qu'avant, le Seigneur faisait l'objet d'un culte.@eye: Le Seigneur, un objet de culte, tu veux dire par les démons ?@hero: Cela voudrait dire que des démons et des humains vivaient ensemble. {De toute façon, c'est le seul enseignement que j'ai tiré de cette quête, mis à part les niveaux d'expérience.@eye: Le passé du Seigneur… {Quelles étaient les relations entre le Seigneur et Dieu ?";
+"local_episodetalk13"="@blank: Episode 13. Le puissant concurrent du chevalier @warrior: Hé, quoi de neuf Eyeball ?@fairy: Du calme. {On est dans le donjon du Seigneur. {C'est plein de démons, pas d'animaux ordinaires.@eye: Un guerrier avec son double féérique. {Un héros avec les accessoires appropriés !@warrior: Bien sûr que je suis le héros !{La fée est un double !@fairy: (Quel idiot… {Le voilà encore tout excité…)@sword_cat: Etre fort ou avoir un niveau élevé ne fait pas de vous un héros. {Les vrais héros, ce sont les catalyseurs d'histoire comme moi.@warrior: Ca suffit avec ton histoire, espèce de chat ! {C'est dans le combat que tu connais ta vraie valeur. {En te détruisant, je vais me libérer de tout. {Il faut tout perdre pour être vraiment libre.@sword_cat: J'ai déjà entendu ça…@eye: Ah, entre. {Je ne sais pas qui est le héros ou le double, {mais je vais te réduire en miettes.";
+"local_episodetalk14"="@blank: Episode 14. Les partisans du Seigneur @hero: Celui qui abandonne tout ce qu'il a de plus précieux domine tous les autres.@eye: Hum...@hero: Celui qui abandonne tout ce qu'il a de plus précieux domine tous les autres.@eye: C'est une devinette ?@hero: C'est écrit sur le temple. {Mais pourquoi abandonner ce qui est précieux pour régner sur tout ?@eye: Pour ces temples, les prophéties doivent rester vagues pour maintenir l'activité.@hero: Dieu est aussi déconcertant que le Seigneur.@king: Ouf. On est arrivé.@hero: Ah ! Le roi !@eye: Ca alors. Que fait ce type ici ?@king: Comment ça va ?@hero: Pas bien. {Le royaume a sombré dans le chaos !@king: Les princesses ne sont pas là, voilà tout. On dit que c'est mauvais signe. {Pas d'inquiétude, il y a beaucoup de gens qui peuvent maintenir la monarchie. Il y a plus de 3000 princesses de royaumes déchus. {On dit qu'il faut abandonner ce qui est précieux pour régner sur tout.@eye: De quoi parlez-vous ? (Cinglé.)@king: Hé hé… {Je suis vraiment du côté des démons.@hero: ?! C'est une plaisanterie ? {Le roi du côté des démons ?@king: Vous le saurez, puisque vous avez terminé la quête de collecte des anciens fragments. {Le Seigneur a été autrefois vénéré par les démons et les humains. Je suis le descendant de ses adeptes humains.@hero: Dieu et le Seigneur étaient vénérés ensemble ?@eye: Je vois… nous commençons à en savoir plus sur le passé du Seigneur. {Mais savez-vous pourquoi il a été écarté ?@king: On n'en sait rien. {Seulement que le Seigneur et les démons ont disparu ensemble. {Ensuite, on a réécrit l'histoire afin que le Seigneur soit la cause de tous les maux.@hero: Si c'est vrai, je découvrirai la vérité qui se cache derrière  l'histoire !@eye: Quelle motivation !@king: Il ne va pas trouver la vérité avec ces niveaux…";
+"local_episodetalk15"="@blank: Episode 15. La requête du guerrier @hero: Prochaine mission, ramasser des écailles de dragon ? {Y a-t-il un dragon dans le donjon ?@eye: Un dragon ? C'est très rare, ça… {Pas sûr que le Maître en ait choisi un. Ils mettent un désordre inimaginable.@sword_cat: Ouh ! Les dragons font peur.@hero: On devrait peut-être laisser passer celui-là.@warrior: Hé hé, j'ai déjà réussi. {J'en ai déjà acheté dans un magasin.@eye: Ce magasin a vraiment tout.@sword_cat: Le chevalier noir est rapide.@warrior: Si tu n'as pas d'argent, attrape un dragon.@hero: Il faut d'abord en voir un pour pouvoir l'attraper… {Hé, Seigneur ! Choisis un dragon !@eye: Fais confiance à la chance du Seigneur.";
+"local_episodetalk16"="@blank: Episode 16. Un objet légendaire @hero: Cette épée du dernier chef des monstres est une relique légendaire appelée 'Moitié de l'éternité'.@eye: ...Incroyable, non ?@hero: Et comme son nom l'indique, il y a une autre moitié. {L'autre moitié est un bouclier assorti.@eye: Si c'est si rare, ce ne sera pas facile à trouver.@merchant: J'ai le bouclier qui va avec !@hero: Oh !@eye: Etrange marchand… {Il anticipe la demande !@merchant: Avec de l'or, on achète tout. {50 000 en or, s'il vous plait.@eye: Plutôt cher. {Un chevalier ne pourrait pas se le permettre…@hero: Et voilà.@eye: ?@merchant: Profitez bien de votre achat !@eye: Où avez-vous trouvé autant d'argent ?@hero: J'ai vendu l'épée légendaire. {J'ai plus besoin de défense que d'offense.@eye: …";
+"local_episodetalk17"="@blank: Episode 17. Le pouvoir des disparus @hero: Ce bouclier légendaire dont je me suis emparé, il est bizarre.@eye: Quoi encore ?@hero: L'épée est lumineuse, mais pas le bouclier. {Le marchand m'aurait arnaqué ?@eye: C'est bizarre. Sans pouvoirs, vous ne pourrez rien faire de plus et serez perdu…@warrior: Attendez ! Je crois avoir vu des armes sans pouvoirs. {Selon les sorcières, elles faisaient partie d'un élément désormais disparu.@hero: Il y avait un autre élément ? {Outre le feu, l'eau, le bois et la lumière ?@warrior: Demande aux sorcières. {Elles viennent souvent près du donjon avec des affiches soutenir le Seigneur.";
+"local_episodetalk18"="@blank: Episode 18. Les sorcières soutiennent le Seigneur @witches: Le Seigneur m'a mené la vie dure aujourd'hui. {Pour gagner, il me faut des monstres polyvalents. Ricanements.@hero: Et voilà. {Hé les sorcières, vous connaissez le chevalier noir ?@witches: Alors ? Ricanements. {Qu'est-ce que cela représente pour toi ?@hero: Je voulais vous interroger sur le pouvoir qui a disparu jadis.@witches: Un chevalier qui s'intéresse à de telles choses… incroyable ! {Il est dangereux d'en parler, nous ne pouvons pas rester. {Si on sait dans le Temple de la lumière que nous avons parlé, nous serons poursuivis par les sorcières.@hero: J'ai acheté un objet hyper cher mais qui n'a aucun pouvoir! {Je ne veux pas me ridiculiser en entrant dans le donjon sans pouvoirs…@witches: Alors, pourquoi ne pas faire un test ? {Vous êtes un chevalier et devez donc bien connaître les quêtes.@hero: Quelle est votre quête ?@witches: Vous aiderez le Seigneur. Ricanements. {Sacrifiez 5 joyaux afin que le Seigneur puisse convoquer un nouveau monstre. {Ricanements.@hero: Un chevalier aide le Seigneur ? Absurde.@eye: Considérez cela comme... un droit d'entrée sur un terrain de chasse !@hero: … Bien. {Obtenir 5 joyaux, ce n'est rien. Je serai très bientôt de retour !";
+"local_episodetalk19"="@blank: Episode 19. Le passé du Seigneur (2)@hero: Il m'a fallu plus de temps que prévu pour trouver 5 joyaux.@witches: Tu les a ? Donne-les au Seigneur.@hero: Bon.@witches: Parlons maintenant. Comme l'avez deviné, l'élément disparu est l'opposé de la lumière: les ténèbres.@hero: Les ténèbres ?@witches: Autrefois, le Seigneur était vénéré au même titre que Dieu. {Dieu et le Seigneur ont créé des formes de vie avec différents pouvoirs et l'un de ces pouvoirs était les ténèbres.@hero: Le Seigneur était un dieu créateur ?@witches: Oui. Et un jour, Dieu a chassé le Seigneur et les créatures nées des ténèbres, les démons. {Puis les ténèbres ont disparu.@hero: Le Seigneur a été chassé ?@senior_priest: Ca suffit ! Méchante sorcière {Jacasser comme ça !@witches: Ah ! D'où venez-vous ?@senior_priest: Celui qui parlera du savoir ancien du temple de la lumière connaîtra la mort !@witches: Hum ! L'infamie du Seigneur augmente chaque jour ! {Le retour des pouvoirs des ténèbres n'est qu'une question de temps !@senior_priest: Dieu a abandonné le Seigneur. {Les simples mortels comme nous ne comprennent jamais la volonté de Dieu, ils ne font que la suivre. Voilà notre lot.@hero: Sortons d'ici avant que le grand prêtre ne nous voie.";
+"local_episodetalk20"="@blank: Episode 20. Le monstre inutilisable @hero: Ce bouclier légendaire était donc celui des forces des ténèbres. {Jamais je n'ai dépensé autant pour quelque chose d'aussi inutile…@eye: Le jour ou le Seigneur ouvrira tous les donjons, ce sera le retour des ténèbres !@hero: Prendre le parti du Seigneur pour pouvoir utiliser un élément me semble un peu…@succubus: Hé, chevalier, {vous avez un beau bouclier.@hero: Ah ! Un monstre à l'extérieur du donjon !@succubus: J'avais besoin de prendre l'air.@eye: C'était une princesse auparavant.@hero: Une princesse ? {La princesse est un succube maintenant ?@succubus: Oui. Maintenant que je suis ici, je trouve cela ennuyeux.@hero: Vous êtes un monstre, je me fiche que vous vous ennuyiez !@succubus: Chevalier, vous n'auriez pas envie de me tuer, non ?@hero: Euh… la princesse pour qui j'ai eu le béguin… (et une possibilité de promotion sociale… !)@succubus: Ne soyez pas désolé pour moi. {Le fait d'être un monstre m'a ouvert les yeux sur beaucoup de choses. {Les monstres sont comme les humains, il leur manque tous quelque chose. {Quelqu'un doit être de leur côté.@hero: Je crois que vous aimeriez vous allier à eux contre nous…@succubus: Nous devons nous aussi comprendre le côté obscur de la vie !";
+"local_episodetalk21"="@blank: Episode 21. La menace divine @hero: Quelle sera la réaction divine lorsque le Seigneur aura pris possession de tous les donjons des quatre pays ?@warrior: Ne t'inquiète pas. {Je remplirai toutes les missions et détruirai le Seigneur. @sword_cat: Quel que soit le côté gagnant, il vaut mieux avoir économisé assez d'argent au cas où !@hero: On dit que dans d'autres pays il y a des guerriers à 99 niveaux.@warrior: 99 niveaux ? Même un guerrier à 10 000 niveaux ne peut pas tuer un chef des monstres d'un seul coup.@eye: Idiots ! Peu importe le nombre de vos niveaux ou le nombre de guerriers que vous envoyez, le Seigneur a des pouvoirs illimités ! {Dans une autre dimension, quelqu'un lui apporte son aide.@warrior: Hum ! Ce quelqu'un ET le Seigneur ont intérêt à être prêts ! {Des anges apparaissent au pays de la lumière !@eye: Des anges ? Nous avons aussi des démons ailés. {Faites les venir !";
+"local_episodetalk22"="@blank: Episode 22. L'objectif du prêtre @senior_priest: Soldats ! Diminuez l'infamie du Seigneur, {et rendez gloire à Dieu !@eye: Tu ne peux pas entrer comme cela dans le donjon ! {Prends un numéro !@senior_priest: …@hero: Prêtre, quel est le problème avec Dieu et le Seigneur ? {Ils étaient d'abord amis, et maintenant ils sont ennemis.@senior_priest: Cela ne vous regarde pas. {Dieu promet la richesse uniquement à ceux qui le vénèrent.@hero: La vénération est une condition sine qua non de la richesse… ?@senior_priest: Cela vous gène ? {Ne recherchons-nous pas tous la richesse ? {Un prêtre est une personne qui soutient ce système. {Personne n'a besoin de connaître la vérité. Ainsi, tout le monde est gagnant.@hero: Moi, ce que je veux connaître, c'est la vérité ! {Comment le Seigneur et le pouvoir des ténèbres ont-ils disparu ?@senior_priest: Puisque vous êtes si curieux, je vais vous le dire. {Une fois que vous vous serez occupé du chef dans ce donjon !@eye:  Cela est PLUTOT gênant. Si je veux apporter de l'aide, il faut que je laisse le chef perdre face au héros.";
+"local_episodetalk23"="@blank: Episode 23. Le Seigneur et Dieu @hero: J'ai enfin eu la peau du chef des monstres.@eye: Désormais les niveaux d'infamie sont à la baisse. {Va voir le grand prêtre et interroge-le sur le passé du Seigneur.@senior_priest: Bienvenue, héros. Vous vous êtes bien débarrassé du chef des monstres.@hero: Maintenant, parlez-moi du passé du Seigneur.@senior_priest: Pour faire court, Dieu et le Seigneur régnaient ensemble. {Mais Le Seigneur est allé à l'encontre de la volonté de Dieu et celui-ci a chassé les démons et les ténèbres. {Il a effacé la mémoire du Seigneur et l'a enfermé dans le donjon.@hero: Je vois. {Les démons et les humains vivaient donc ensemble ?@senior_priest: Les démons et les humains ont été séparés les uns des autres en fonction de leurs pouvoirs. {Ils n'étaient pas des corps distincts.@hero: Donc tous les pouvoirs résidaient dans un corps mais étaient séparés.@senior_priest: Tout cela nous dépasse. {En tant qu'humains, tout ce que nous pouvons faire est de nous laisser guider par la bonté et de profiter des bons côtés de la vie.@eye: Les humains doivent être confrontés aux ténèbres, eux aussi ! {Il faut connaître le côté obscur pour aller de l'avant. {Sinon, qui va jeter des œufs à ceux et celles qui portent de la fourrure, qui va aider les pauvres ?@senior_priest: Arrêtez ces idioties!";
+"local_episodetalk24"="@blank: Episode 24. Manifestations divines @eye: Avant que le Seigneur ne soit enfermé, les humains ne formaient qu'un seul et même être. {Ils ont ensuite été répartis, selon leurs pouvoirs, en anges, en simples mortels, en fées, en elfes et en démons. @hero: Et maintenant que Dieu sait que le Seigneur s'est échappé, il va essayer de le remettre sous les verrous.@eye: Qu'allez-vous faire ?@hero: Je ne sais pas. {Pour qui suis-je censé me battre… ?@eye: Ah !@eye_white: …@hero: Oh… le globe oculaire est devenu blanc !@eye_white: … Je suis… Dieu…@hero: Dieu ? Le globe oculaire est Dieu ?@eye_white: Dieu s'est brièvement manifesté sous la forme de ce globe oculaire. C'est horrible, mais faites-moi confiance. {Je parle à présent à l'être d'une autre dimension qui aide le Seigneur. {Si vous abandonnez les démons que vous avez amassés jusqu'ici et partez, je vous laisserai la vie sauve.@hero: Menteur ! Même vous, que pouvez-vous faire à un être d'une autre dimension que la nôtre ?@eye_white: Des remises pour les applis ! Des joyaux ! {Votre nom dans les Remerciements spéciaux !@hero: Mais tout cela est intéressant ! {Seigneur ! Ne perdez pas ! Vous ne pouvez pas perdre cela !@eye_white: Je vous aurai prévenu. {Mes armées les plus puissantes vont fondre sur le donjon. {Nous verrons jusqu'à quel point votre infamie peut augmenter !@eye: (Pat !) {Euh… Je reviens…@hero: Tout va bien ? Dieu avait pris possession de ton corps !@eye: Euh… Je pouvais lire dans les pensées de Dieu.@hero: Quoi ? Vos pensées étaient liées alors que votre esprit était sous contrôle ? {Je pense avoir déjà vu ça dans un film…@eye: D'une certaine façon. Dans le temple de la lumière, il y a une autobiographie de Dieu. {Le passé du Seigneur est dans ce livre.@hero: Je vais me le procurer !@merchant: C'est inutile. Je l'ai en stock.@eye: Ah !@merchant: 50 000 en or, s'il vous plait.";
+"local_episodetalk25"="@blank: Episode 25. L'autobiographie de Dieu{A l'origine, j'étais seul.{J'étais à la recherche d'une émotion particulière et réelle.{ J'ai donc créé une personnalité différente de la mienne. C'est ainsi qu'est né le Seigneur.{Nous avons passé des siècles à créer des choses et à nous amuser.{ Les créatures qui avaient des pouvoirs des ténèbres ne vénéraient que le Seigneur.{J'étais jaloux. J'ai commencé à haïr le Seigneur et ses sbires.{Le Seigneur refusait de détruire les créatures liées au ténèbres.{J'ai donc effacé la mémoire du Seigneur, séparé les pouvoirs parmi les créatures et éliminé les ténèbres.{Et les êtres séparés sont maintenant appelés démons.";
+"local_episodetalk26"="@blank: Episode 26. Début du jugement @eye: Le secret a été éventé. { Le Seigneur a tenté d'empêcher notre extinction… {Dieu ne l'entendais pas ainsi. {Et Dieu tente toujours de tuer les démons.@hero: La confrontation est inévitable.@angel: Marionnettes du Seigneur ! {Vous ne serez jamais pardonné ! {Voici les forces de la lumière !@hero: Les anges attaquent !@senior_priest: Les anges ont des niveaux de force astronomiques. {Préparez-vous à mourir, Seigneur.@eye: La victoire dans le donjon du pays de la lumière sera difficile. {Faisons de notre mieux !@hero: Hé, globe oculaire, je veux combattre à tes côtés !@eye: Hein ? {Un chevalier qui se bat à nos côtés ?@hero: Oui ! {Convoquez plus de démons avec mes joyaux !@eye: Mais que va-t-il advenir de vous ?@hero: Ma quête ne m'intéresse plus.@angel: Un humain au côté des démons… {Impardonnable ! Meurs !@hero: Ah ! Je… meurs… (plop)@eye: Le chevalier est mort. Cela semble mal joué, mais c'est réel. {Il est mort pour la race des démons…";
+"local_episodetalk27"="@blank: Episode 27. Fin de l'aventure @warrior: La fin du Seigneur est la mission ultime. {Je ne crois pas le chevalier mène encore ce combat. {Tant mieux, cela fera moins de concurrence ! @angel: Pour ta noble action, Dieu vous bénit.@warrior: Une bénédiction divine ?@angel: Exact. {Pour vous c'est la fin. {Mais il vous dire adieu à votre fée.@angel: Je ferai de vous un être complet. {Un être comme ceux qui existaient avant la séparation des humains et des démons. {Un démon escrimeur. {Se présenter comme un démon escrimeur ! @warrior: Démon… démon escrimeur ! Oh !@eye: Il va être encore plus insupportable.@knight: … Euh… quoi de neuf pour moi ?@angel: … Vos niveaux ont un peu augmenté.@knight: … Je pense être désavantagé.@angel: Peu importe ! En route pour le donjon !";
+"local_episodetalk28"="@blank: Epilogue @eye: Bravo, Maître ! {Tu as défait nombre de tes adversaires et à ce niveau d'infamie, Dieu te considère comme une force avec laquelle il faut désormais compter.@king: Félicitations ! {Tu es allé jusqu'au bout de l'histoire, ce qui n'est pas rien.@senior_priest: Qui aurait cru que libérer le monde des ténèbres serait si difficile ?@hero: Hé globe oculaire ! Comment allez-vous ?@eye: Ah ! Je croyais que vous étiez mort, chevalier !@hero: Je viens de découvrir quelque chose de stupéfiant.@hero: Je suis un chevalier d'une autre dimension. {Il y a plusieurs Dieux mais un seul Seigneur.@eye: ?@hero: Lorsque les ténèbres ont été séparées des autres pouvoirs, le Seigneur et ses démons ont été scindés en différents fragments. {Ainsi, les guerriers, les démons et les Seigneurs ont différentes formes.@eye: Il y a plusieurs maîtres ?@hero: Les guerres des Seigneurs qui ont commencé dans plusieurs dimensions se sont intensifiées en se concentrant en un seul lieu. {Chaque Seigneur peut comparer ses progrès à ceux des autres Seigneurs sur un tableau des scores.@eye: Oui… une concurrence sans fin !@hero: Le défi que le Seigneur doit relever commence maintenant ! {Je n'arrêterai jamais d'augmenter mes niveaux !@eye: C'est parti. {Etrange de savoir qu'il existe plusieurs versions de moi-même. {Mais je n'y peux rien. J'espère que le maître se débrouille bien dans sa dimension pour devenir le Seigneur numéro un !@blank: FIN";
+"local_episodetalk29"="@blank: Début de la guerre des démons @sword_cat: Le temps des ténèbres est venu. {Le plus effrayant est que les seigneurs s'observent les uns les autres.@eye: Ce que cela signifie ?@sword_cat: Que des seigneurs d'autres dimensions enverront des monstres, de temps à autre. {Les monstres peuvent affluer vers le donjon.@eye: Une guerre entre les démons.@sword_cat: Les monstres peuvent entrer de façon aléatoire.@succubus: Sauve-moi, jolie chatte escrimeuse !@sword_cat: Ah Je m'en vais !";
+
+
+
+
+// Heroes, when they enter the dungeon
+"local_minitalkenter01"="Hum, ???";
+"local_minitalkenter02"="En route !";
+"local_minitalkenter03"="Quelqu'un a vu une malle aux trésors ?";
+"local_minitalkenter04"="Dieu de la lumière, viens-moi en aide !";
+"local_minitalkenter05"="Prends ça !";
+"local_minitalkenter06"="Que l'enfer t'emporte !";
+"local_minitalkenter07"="Vous avez demandé de l'aide ?";
+"local_minitalkenter08"="Tue le chef, épouse la princesse !";
+"local_minitalkenter09"="Mon glaive est sans pareil !";
+"local_minitalkenter10"="Prends cela Seigneur ! Et encore cela !";
+"local_minitalkenter11"="Mon glaive aura raison du ciel !";
+"local_minitalkenter12"="Le donjon est si profond... et si beau !";
+"local_minitalkenter13"="Cet endroit craint, je me sauve.";
+"local_minitalkenter14"="Bien le bonjour à toi le costaud.";
+"local_minitalkenter15"="Des os, mais pour quoi faire ?";
+"// Heroes, when they walk the dungeon
+"local_minitalkcrossroad01"="A gauche, à gauche...Oh non !";
+"local_minitalkcrossroad02"="J'ai un mauvais pressentiment...";
+"local_minitalkcrossroad03"="Je ressens de bonnes vibrations par là.";
+"local_minitalkcrossroad04"="J'ai soif de sang...";
+"local_minitalkcrossroad05"="J'ai choisi ce côté !";
+"local_minitalkcrossroad06"="Tous avec moi !";
+"local_minitalkcrossroad07"="Où que j'aille, les monstres trépassent !";
+"local_minitalkcrossroad08"="Eh, arrêtez de pousser !";
+"local_minitalkcrossroad09"="Peu importe, ne t'inquiète pas !";
+"local_minitalkcrossroad10"="A Rome...";
+"local_minitalkcrossroad11"="Je sens la présence de démons...";
+"local_minitalkcrossroad12"="Chaque choix porte conséquence...";
+"local_minitalkcrossroad13"="Il y a toujours un passage !";
+"local_minitalkcrossroad14"="Pas à droite ! A gauche, c'est mieux !";
+"local_minitalkcrossroad15"="Euh, est-ce que j'ai vraiment besoin d'une raison ?";
+// Heroes, when they are waiting battle
+"local_minitalkwaitting01"="Allez, finissons-en !";
+"local_minitalkwaitting02"="Qu'est-ce qui te retiens ?";
+"local_minitalkwaitting03"="Oui, en plein dans le mille !";
+"local_minitalkwaitting04"="Tu vas avoir une trace...";
+"local_minitalkwaitting05"="Laisse-m'en !";
+"local_minitalkwaitting06"="Elle a dû te coûter cher, cette épée ?";
+"local_minitalkwaitting07"="Où sont les toilettes ?";
+"local_minitalkwaitting08"="Crétins !";
+"local_minitalkwaitting09"="Avance !";
+"local_minitalkwaitting10"="Accroche-toi, pense à ta mère !";
+"local_minitalkwaitting11"="Le temps vaut de l'or, mon ami !";
+"local_minitalkwaitting12"="Tu es déjà mort.";
+"local_minitalkwaitting13"="C'est amusant les donjons.";
+"local_minitalkwaitting14"="Laisse-moi l'achever !";
+"local_minitalkwaitting15"="Et si je prenais mes jambes à mon cou ?";
+"// heroes, when they fight with monster
+"local_minitalkbattle01"="Sois maudit !";
+"local_minitalkbattle02"="Meurs, sale monstre !";
+"local_minitalkbattle03"="Et ça, c'est pour maman !";
+"local_minitalkbattle04"="Ah ! Ca fait mal !";
+"local_minitalkbattle05"="Oh non, mon glaive a perdu de son tranchant...";
+"local_minitalkbattle06"="On ne lâche rien !";
+"local_minitalkbattle07"="Je vais bientôt retrouver des couleurs !";
+"local_minitalkbattle08"="Ce n'était pas si mal, non ?";
+"local_minitalkbattle09"="Il était fort ce monstre, quel gâchis !";
+"local_minitalkbattle10"="Il se pourrait bien que je meure...";
+"local_minitalkbattle11"="Ensemble nous avons combattu, ensemble nous survivrons !";
+"local_minitalkbattle12"="J'ai oublié de donner à manger au chat avant de partir !";
+"local_minitalkbattle13"="Le combat ne fait que commencer !";
+"local_minitalkbattle14"="Le problème avec mon glaive, c'est que... Ah !";
+"local_minitalkbattle15"="L'heure de ta mort, cest... maintenant !";
+"// heroes, when they won
+"local_minitalkwin01"="J'ai gagné, maudits monstres !";
+"local_minitalkwin02"="Cette victoire est à marquer d'une croix blanche !";
+"local_minitalkwin03"="Aouh ! Aouh ! Aouh !";
+"local_minitalkwin04"="Le dîner est servi.";
+"local_minitalkwin05"="Quelqu'un a du neuf ?";
+"local_minitalkwin06"="Incroyable, j'ai survécu.";
+"local_minitalkwin07"="Ce donjon n'est vraiment pas terrible.";
+"local_minitalkwin08"="Il s'en est fallu de peu !";
+"local_minitalkwin09"="La quantité, c'est important...";
+"local_minitalkwin10"="Je reviendrai !";
+"local_minitalkwin11"="Demain, il fera jour !";
+"local_minitalkwin12"="La victoire ou la mort !";
+"local_minitalkwin13"="Je m'en retourne voir mon épouse...";
+"local_minitalkwin14"="A bientôt !";
+"local_minitalkwin15"="L'or, on s'en moque, c'est le message qui importe.";
+// heroes, when they lost the battle
+"local_minitalkdie01"="Ah, je meurs...";
+"local_minitalkdie02"="C'est trop bête, j'étais presque au niveau suivant...";
+"local_minitalkdie03"="Si seulement je m'étais souvenu de la potion !";
+"local_minitalkdie04"="Oh, ça fait mal...";
+"local_minitalkdie05"="Le niveau de difficulté est trop élevé !";
+"local_minitalkdie06"="Courage, les gars...";
+"local_minitalkdie07"="La blessure est trop profonde...";
+"local_minitalkdie08"="Les humains triompheront...";
+"local_minitalkdie09"="Ah, ça brûle !";
+"local_minitalkdie10"="Maman, au secours !";
+"local_minitalkdie11"="Valar morghulis!";
+"local_minitalkdie12"="La nuit est sombre et pleine de pièges";
+"local_minitalkdie13"="Chez nous, on paie toujours ses dettes !";
+"local_minitalkdie14"="L'hiver arrive";
+"local_minitalkdie15"="On est quitte, maintenant...";
+
+// Eyeball, when monster lost the battle (at the result popup)
+"local_minitalklost01"="La cupidité ne mène à rien...";
+"local_minitalklost02"="Le chef a perdu sa concentration ou quoi ?";
+"local_minitalklost03"="Concentre-toi sur ce donjon !";
+"local_minitalklost04"="Pas grave, tu gagneras la prochaine fois.";
+"local_minitalklost05"="On reviendra trois fois plus nombreux...";
+"local_minitalklost06"="Maudits guerriers !";
+"local_minitalklost07"="Pour l'honneur du monde des démons !";
+"local_minitalklost08"="Les guerriers sont hystériques !";
+"local_minitalklost09"="Que je sois châtié, oh Maître !";
+"local_minitalklost10"="Tu as joué de malchance !";
+"local_minitalklost11"="Que la chance soit avec toi, Maître !";
+"local_minitalklost12"="Regarde comme mon petit monstre a grandi !";
+"local_minitalklost13"="La défaite est la mère de toutes les vengeances.";
+"local_minitalklost14"="Les démons impudents doivent être châtiés.";
+"local_minitalklost15"="Encore ce raseur !";
+
+// Normal monster, when they are summoned.
+"local_minitalksummonlow01"="Je suis petit mais plein de volonté.";
+"local_minitalksummonlow02"="Je donnerais volontiers ma vie.";
+"local_minitalksummonlow03"="Les humains, ça craint !";
+"local_minitalksummonlow04"="La viande de guerrier, il n'y a que cela de vrai !";
+"local_minitalksummonlow05"="Cette bataille n'aura pas été vaine !";
+"local_minitalksummonlow06"="Du sang... mon empire pour du sang !";
+"local_minitalksummonlow07"="Bleurgh, Elfe.";
+"local_minitalksummonlow08"="J'entends ton appel.";
+"local_minitalksummonlow09"="Les ténèbres pour l'humanité !";
+"local_minitalksummonlow10"="Un bon bol d'air, ça fait longtemps !";
+"local_minitalksummonlow11"="Ca fait longtemps que je ne suis pas revenu dans ce donjon.";
+"local_minitalksummonlow12"="Je vais tuer au moins trois guerriers !";
+"local_minitalksummonlow13"="Si je meurs, ce sera les armes à la main !";
+"local_minitalksummonlow14"="Quelles sont mes chances de l'emporter ?";
+"local_minitalksummonlow15"="Est-ce que je serai à la hauteur ?";
+
+
+// Superior monster, when they are summoned.
+"local_minitalksummonhigh01"="Avez-vous besoin d'aide, Monseigneur ?";
+"local_minitalksummonhigh02"="Un coup de main et je me sauve !";
+"local_minitalksummonhigh03"="Et bien, je l'ai échappé belle !";
+"local_minitalksummonhigh04"="Tu as bien fait de me choisir.";
+"local_minitalksummonhigh05"="Tu possèdes la même force qu'un monstre jetable.";
+"local_minitalksummonhigh06"="Vous les humains, pas bons, moi aider vous !";
+"local_minitalksummonhigh07"="Tu ne manques pas d'air de m'appeler à l'aide !";
+"local_minitalksummonhigh08"="En passant plus de temps ensemble, on serait amis !";
+"local_minitalksummonhigh09"="Quel goût auront les guerriers d'aujourd'hui ?";
+"local_minitalksummonhigh10"="On parlera de mon contrat plus tard, OK ?";
+"local_minitalksummonhigh11"="Plus je serai connu, plus je serai fort !";
+"local_minitalksummonhigh12"="Je suis bien assez fort.";
+"local_minitalksummonhigh13"="Zut, je n'ai rien d'autre prévu pour aujourd'hui";
+"local_minitalksummonhigh14"="Mort aux humains...";
+"local_minitalksummonhigh15"="Tu en sûr ? Tes batteries sont à plat.";
+
+
+// system texts please, Don't delete codes. %d means numbers. \n means enter key.
+
+"local_popupalreadyclear"="Tu es dans le donjon des exercices.";
+"local_popupneedlevel"="Tu ne peux accéder à ce donjon qu'avec un niveau d'infamie de %d.";
+"local_popuphealallmonster"="Le HP de tous les monstres du donjon sera rétabli.";
+"local_popupemptypotion"="Pas assez de potion, veux-tu en acheter ?";
+"local_popupbought"="Achat effectué.";
+"local_popupcannotbuy"="Pas assez de joyaux.";
+"local_popupnhnpriceerror"="";
+"local_popupslotcountiszero"="Pas assez de rotations. \nVeux-tu en acheter ?";
+"local_popupnomoreenhance"="Impossible de se muscler davantage.";
+"local_popupnotenoughmoney"="Pas assez d'or.";
+"local_popupnotenoughpotion"="Pas assez de potion.";
+"local_popupnotenoughgem"="Pas assez de joyaux. \nVeux-tu en acheter ?";
+"local_popupnotenoughspin"="Pas assez de rotations.";
+"local_popupcannotsummon"="Tu peux te positionner uniquement après la bataille.";
+"local_popupcostover"="Trop de bons monstres, pas assez de force d'équipe.";
+"local_popupcostzero"="Le combat ne peut pas commencer sans un monstre sur le pont.\nPlace tes monstres.";
+"local_popupasksell"="Veux-tu le changer en or \n(%d)";
+"local_popupbossroomisempty"="Le combat ne peut pas commencer sans un monstre dans la salle du chef.\nPlace tes monstres.";
+"local_popupstageexitnotice"="Si tu actives la carte du monde pendant le combat, c'est la défaite assurée.";
+"local_popupinvenisfull"="Ta boîte à monstres est pleine.";
+"local_popupusingmonster"="Ce monstre est en cours d'utilisation.";
+"local_popupgetreward"="Tu as reçu une récompense.";
+"local_popupcompletebonus"="Tu as trouvé de la magie, et des joyaux...";
+
+// episode names
+"local_episodetitle00"="Prologue";
+"local_episodetitle01"="Un chevalier découvre le donjon.";
+"local_episodetitle02"="L'étoffe d'un chevalier";
+"local_episodetitle03"="Kitty le chat armé";
+"local_episodetitle04"="L'interface du chevalier";
+"local_episodetitle05"="Bâtir une relation";
+"local_episodetitle06"="Le secret du chef des monstres";
+"local_episodetitle07"="Mission principale";
+"local_episodetitle08"="La clé de l'énigme";
+"local_episodetitle09"="Compréhension mutuelle";
+"local_episodetitle10"="L'aventure de la princesse";
+"local_episodetitle11"="La mission commune";
+"local_episodetitle12"="Le passé du Seigneur";
+"local_episodetitle13"="Le puissant concurrent du chevalier";
+"local_episodetitle14"="Les partisans du Seigneur";
+"local_episodetitle15"="La requête du guerrier";
+"local_episodetitle16"="L'objet légendaire";
+"local_episodetitle17"="Le pouvoir des disparus";
+"local_episodetitle18"="Les sorcières sont du côté du Seigneur";
+"local_episodetitle19"="Le passé du Seigneur (2)";
+"local_episodetitle20"="Le monstre invincible";
+"local_episodetitle21"="La menace divine";
+"local_episodetitle22"="L'objectif du prêtre";
+"local_episodetitle23"="Le Seigneur et Dieu";
+"local_episodetitle24"="Les manifestations divines";
+"local_episodetitle25"="Autobiographie de Dieu";
+"local_episodetitle26"="Début du jugement";
+"local_episodetitle27"="Fin de l'aventure";
+"local_episodetitle28"="Epilogue";
+
+// store menu
+"local_uigemtitle"="La poitrine du farfadet";
+"local_uislottitle"="Le chargeur de rotations";
+"local_uislotdes"="Les rotations sont activées par la puissance des ténèbres.";
+"local_uipotiontitle"="Le magasin du succube";
+"local_uiPotiondes"="Observe le résultat d'une carte piège.";
+// result UI
+"local_uibattleresultgetmoney"="Trophée acquis !";
+"local_uibattleresultgetmobexp"="Hausse de l'EXP de combat !";
+"local_uibattleresultgetlevelbonus"="Bonus LV acquis !";
+"local_uibattleresultgetexplose"="Le niveau d'infamie reste inchangé en raison de l'échec de la défense du monstre.";
+"local_uibattleresultgetexplose2"="Si ce donjon est trop difficile, essaie de ramasser de l'or dans un donjon déjà réussi.";
+"local_uibattleresultgetexpwin"="Niveau d'infamie plus haut !";
+// strengthen UI
+"local_uienhancedes"="Choisir un monstre principal";
+"local_uienhancelvdes"="Après LV";
+"local_uienhancepricedes"="Or";
+"local_uienhanceselectdes"="Sélectionné";
+
+"local_levelupeventlevel"="Bonus Niveau infamie";
+"local_levelupeventdungeon"="Bravo !\nLe peuple de cette contrée \n a succombé aux ténèbres.";
+// menu title
+"local_gotchatitle"="Convoquer Monstre";
+"local_inventitle"="Boîte à monstres";
+"local_equipmonster"="Joindre\nmonstre";
+
+"local_summonmonsterdes"="Sélectionne un monstre.";
+"local_summonmonstercarddes"="Sélectionne un emplacement pour le monstre.";
+
+
+// heroes, when they are walking around dungeon.
+"local_readytalk01"="Hum, ???";
+"local_readytalk02"="En route !";
+"local_readytalk03"="Quelqu'un a vu une malle aux trésors ?";
+"local_readytalk04"="Dieu de la lumière, viens-moi en aide !";
+"local_readytalk05"="Prends ça !";
+"local_readytalk06"="Que l'enfer t'emporte !";
+"local_readytalk07"="Vous avez demandé de l'aide ?";
+"local_readytalk08"="Tue le chef, épouse la princesse !";
+"local_readytalk09"="Mon glaive est sans pareil !";
+"local_readytalk10"="Prends cela Seigneur ! Et encore cela !";
+"local_readytalk11"="Mon glaive aura raison du ciel !";
+"local_readytalk12"="Le donjon est si profond... et si beau !";
+"local_readytalk13"="Bien le bonjour à toi le costaud.";
+"local_readytalk14"="Des os, mais pour quoi faire ?";
+"local_readytalk15"="J'ai un mauvais pressentiment...";
+"local_readytalk16"="Je ressens de bonnes vibrations par là.";
+"local_readytalk17"="J'ai soif de sang...";
+"local_readytalk18"="J'ai choisi ce côté !";
+"local_readytalk19"="Tous avec moi !";
+"local_readytalk20"="Où que j'aille, les monstres trépassent !";
+"local_readytalk21"="Eh, arrêtez de pousser !";
+"local_readytalk22"="Peu importe, ne t'inquiète pas !";
+"local_readytalk23"="Voici mon royaume";
+"local_readytalk24"="Je sens la présence de démons...";
+"local_readytalk25"="Chaque choix porte conséquence...";
+"local_readytalk26"="Il y a toujours un passage !";
+"local_readytalk27"="Pas à droite ! A gauche, c'est mieux !";
+"local_readytalk28"="Euh, est-ce que j'ai vraiment besoin d'une raison ?";
+"local_readytalk29"="Qu'est-ce qui te retiens ?";
+"local_readytalk30"="Oui, en plein dans le mille !";
+"local_readytalk31"="Elle a dû te coûter cher, cette épée ?";
+"local_readytalk32"="Où sont les toilettes ?";
+"local_readytalk33"="Le temps vaut de l'or, mon ami !";
+"local_readytalk34"="Tu es déjà mort.";
+"local_readytalk35"="C'est amusant les donjons.";
+"local_readytalk36"="Laisse-moi l'achever !";
+"local_readytalk37"="Et si je prenais mes jambes à mon cou ?";
+"local_readytalk38"="Sois maudit !";
+"local_readytalk39"="Oh non, mon glaive a perdu de son tranchant...";
+"local_readytalk40"="On ne lâche rien !";
+"local_readytalk41"="Je vais bientôt retrouver des couleurs !";
+"local_readytalk42"="Ensemble nous avons combattu, ensemble nous survivrons !";
+"local_readytalk43"="J'ai oublié de donner à manger au chat avant de partir !";
+"local_readytalk44"="Le combat ne fait que commencer !";
+"local_readytalk45"="Le problème avec mon glaive, c'est que... Ah !";
+"local_readytalk46"="L'heure de ta mort, cest... maintenant !";
+"local_readytalk47"="Aouh ! Aouh ! Aouh !";
+"local_readytalk48"="Quelqu'un a du neuf ?";
+"local_readytalk49"="Incroyable, j'ai survécu.";
+"local_readytalk50"="Ce donjon n'est vraiment pas terrible.";
+"local_readytalk51"="Il s'en est fallu de peu !";
+"local_readytalk52"="La quantité, c'est important...";
+"local_readytalk53"="Je reviendrai !";
+"local_readytalk54"="Demain, il fera jour !";
+"local_readytalk55"="La victoire ou la mort !";
+"local_readytalk56"="Je m'en retourne voir mon épouse...";
+"local_readytalk57"="A bientôt !";
+"local_readytalk58"="L'or, on s'en moque, c'est le message qui importe.";
+"local_readytalk59"="C'est trop bête, j'étais presque au niveau suivant...";
+"local_readytalk60"="Si seulement je m'étais souvenu de la potion !";
+"local_readytalk61"="Le niveau de difficulté est trop élevé !";
+"local_readytalk62"="Les humains triompheront...";
+"local_readytalk63"="Valar morghulis!";
+"local_readytalk64"="La nuit est sombre et pleine de pièges";
+"local_readytalk65"="Chez nous, on paie toujours ses dettes !";
+"local_readytalk66"="L'hiver arrive";
+"local_readytalk67"="On est quitte, maintenant...";
+
+
+"local_yes"="Oui";
+"local_no"="Non";
+"local_ok"="Ok";
+"local_cancel"="Annuler";
+
+"local_networkdisconnected"="Réseau déconnecté";
+"local_networkdisconnecteddes"="L'appareil n'est pas connecté au réseau.";
+"local_waitaminute"="Attendez quelques instants...";
+"local_networkretry"="Le réseau est instable.\nRecommencer ?";
+"local_couldnotgoshop"="Vous ne pourrez faire des achats qu'après le combat.";
+
+// Eyeball monster, when he's idle. He talks very much.
+"local_tips01"="Attention, les puissants guerriers sont plus nombreux.";
+"local_tips02"="Place des monstres plus puissants que ceux du héros pour avoir une défense efficace !";
+"local_tips03"="Tu ne sauras pas ce que tu obtiendras, mais cela fait partie du jeu...";
+"local_tips04"="Tu as assez d'or, choisis un monstre.";
+"local_tips05"="Les cartes de monstres déjà choisies sont dans la boîte à monstres.";
+"local_tips06"="La cupidité ne mène à rien...";
+"local_tips07"="Tu devrais te concentrer sur ce donjon.";
+"local_tips08"="Maudits guerriers !";
+"local_tips09"="Les guerriers sont hystériques !";
+"local_tips10"="Regarde comme mon petit monstre a grandi !";
+"local_tips11"="Remporte les combats, collectionne les monstres et augmente ton infamie !";
+"local_tips12"="Remporte autant de victoires que possible avec les guerriers convoqués.";
+"local_tips13"="Collecte l'or et appelle de nouveaux monstres ou muscle ceux dont tu disposes déjà.";
+"local_tips14"="Augmente ton niveau d'infamie au fur et à mesure des victoires.";
+"local_tips15"="Voici le repère des démons.";
+"local_tips16"="Bienvenue dans le donjon extrême ! Soit diabolique !";
+"local_tips17"="Maître ! Les démons ont abandonné ce pays depuis trop longtemps !";
+"local_tips18"="Perce le secret des pouvoirs envolés.";
+"local_tips19"="Fais tourner le roue du démon pour que les ténèbres reviennent dans le pays de la lumière.";
+"local_tips20"="Convoque et muscle les monstres avec de l'or et des joyaux !";
+"local_tips21"="Regarde les chevaliers de l'ombre se vider de leur sang !";
+"local_tips22"="Tourne la roue du démon pour attirer les chevaliers dans le donjon.";
+"local_tips23"="Ton niveau d'infamie augmentera uniquement si le monstre de la salle du chef l'emporte.";
+"local_tips24"="La guerre séculaire entre la lumière et les ténèbres. Seul toi peut y mettre fin !";
+"local_tips25"="Place des monstres plus puissants que ceux du héros pour avoir une défense efficace !";
+"local_tips26"="La lumière l'emporte sur tous les autres pouvoirs.";
+
+"local_pleaselevelup"="Donne-moi plus de force !";
+
+"local_exitgametitle"="QUITTER";
+"local_exitgamedes"="Es-tu sûr de vouloir quitter le jeu ?";
+
+// push message, when user doesn't play the game for a while.
+"local_localnoticeday1"="Maître, la guerre séculaire entre la lumière et les ténèbres, seul toi peut y mettre fin !";
+"local_localnoticeday3"="Maître ! Lève-toi !";
+"local_localnoticeday7"="Maître ! Les démons ont abandonné ce pays depuis trop longtemps !";
+
+// Skill description
+"local_skilldescritical"="Attaque critique !";
+"local_skilldesheal"="Rétablit le HP du monstre de %d.";
+"local_skilldespoison"="Le guerrier perd %d HP à chaque mouvement.";
+"local_skilldesleech"="Absorbe %d HP d'un guerrier.";
+"local_skilldesinsight"="Destruction des attributs du héros";
+"local_skilldesterror"="Diminue l'ATK d'un guerrier de %.1f%%";
+"local_skilldeshorror"="Diminue la DEF d'un guerrier de %.1f%%";
+"local_skilldescurse"="Diminue le niveau d'un guerrier de %d.";
+
+
+
+"local_popupmvmpopup"="Le titre de Maître de la magie est en jeu.\nVérifie ton classement maintenant.";
+
+// Daily quest list
+"local_dailyquestdes01"="Remporte 5 parties";
+"local_dailyquestdes02"="Remporte 10 parties";
+"local_dailyquestdes03"="Tue 5 héros avec l'attribut FEU";
+"local_dailyquestdes04"="Tue 5 héros avec l'attribut EAU";
+"local_dailyquestdes05"="Tue 5 héros avec l'attribut ARBRE";
+"local_dailyquestdes06"="Convoque 3 monstres";
+"local_dailyquestdes07"="Convoque 2 monstres";
+"local_dailyquestdes08"="Convoque un monstre";
+"local_dailyquestdes09"="Convoquer un monstre 3 étoiles";
+"local_dailyquestdes10"="Convoquer un monstre 2 étoiles";
+"local_dailyquestdes11"="Muscle et remonte le monstre d'un niveau";
+"local_dailyquestdes12"="Défi monstre contre monstre";
+
+// error messages
+"local_dberrorexit"="Erreur DB";
+"local_dbdeviceerrorexit"="Erreur ID matériel";
+"local_dbchangeerrorexit"="Changement de base de données détecté.";
+"local_iapnotice"="La fermeture forcée pendant une transaction peut provoquer des erreurs.";
+"local_noticenewversion"="Mets à jour vers la dernière version.";
+
+"local_serverfileerror"="Données en double a été utilisé dans d'autres appareils.";
+"local_servernetworkretry"="Connexion réseau faible. Réessayer ?";
+"local_levelupcounterror"="Erreur Exp;
+"local_serverfirstconnet"="La première lecture nécessite une connexion réseau.";
+
+"local_popupuiaskbuy"="Es-tu sûr de vouloir convoquer ?";
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+"local_adventuredaybonus01"="S'il vous plait, ne me tuez pas.";
+ "local_adventuredaybonus02"="J'ai un nouveau-né.";
+ "local_adventuredaybonus03"="S'il vous plait ! Je viens de me marier !";
+ "local_adventuredaybonus04"="Vous allez me tuer ?";
+ "local_adventuredaybonus05"="Je n'ai pas peur du tout.";
+ "local_adventuredaybonus06"="Ouah ! Sale démon !";
+ "local_adventuredaybonus07"="Epargnez-moi et le karma vous récompensera !";
+ "local_adventuredaybonus08"="Je ne reviendrai jamais !";
+ "local_adventuredaybonus09"="Dites-moi, pourquoi m'avez-vous fait cela ?";
+ "local_adventuredaybonus10"="J'ai choisi la mauvaise personne ! Zut !";
+ "local_adventuredaybonus11"="Je ne peux pas retourner au village comme ça.";
+ "local_adventuredaybonus12"="Je ne veux pas perdre face aux ténèbres !";
+
+ "local_adventuredaybonustitle"="Sélectionnez un guerrier à sacrifier.";
+ "local_adventureinfo00"="Collectez des orbes en tuant des guerriers et envoyez des monstres dans un pays d'aventure.";
+ "local_adventureinfo01"="Attendez-vous à des aventures et des récompenses imprévues.";
+ "local_adventuretip"="Placez des monstres qui se battront le plus efficacement contre les guerriers qui approchent.";
+
+ "local_adventureeventeye01"="Hé ! Ravi de vous rencontrer.";
+ "local_adventureeventeye02"="Les miens vont bien ?";
+ "local_adventureeventeye03"="Vous m'attendiez ?";
+ "local_adventureeventeye04"="Vous pouvez même me traiter de porc si vous le voulez, tant que je peux rester avec vous...";
+ "local_adventureeventmeetmagicianfailed"="Oh non... Vous avez choisi le mauvais ticket.";
+
+ "local_adventureeventmeetmagician"="Oh ! Les démons ! J'attends depuis longtemps.{L'heure de la résurrection du Diable !{Tout est soumis à la loi de cause à effet.{Tout sera englouti dans les ténèbres.";
+ "local_adventureeventmeetmagician01"="Mais qu'est-ce que cette création ?{Je pensais que les monstres du Roi démon valaient au moins 3 ou 4 étoiles...";
+ "local_adventureeventmeetmagician02"="Quand cesserons-nous de nous intéresser à l'autre monde ?{J'ai entendu dire que même les morts ne peuvent pas arrêter d'y penser.{J'espère que vous avez apprécié le voyage, les gars...";
+ "local_adventureeventmeetmagician03"="Le Succube cause des problèmes lorsqu'il n'assouvit pas son désir.{C'est très bien qu'il ait réussi à s'accoupler à un autre monstre.";
+ "local_adventureeventmeetmagician04"="Comme c'est mignon ! Il y a même des petits monstres qui viennent par ici...{J'admire l'endurance et la ténacité.";
+ "local_adventureeventmeetmagician05"="Qu'elles soient courtes ou fragiles, vos vies font également partie de la nature.{Je m'inspire de la volonté des animaux de devenir plus forts pour se protéger des attaques de l'homme.";
+ "local_adventureeventmeetmagician06"="Voleurs ! A bas l'avidité et les désirs des humains !";
+ "local_adventureeventmeetmagician07"="Quand cesserons-nous de nous intéresser à l'autre monde ?{J'ai entendu dire que même les morts ne peuvent pas arrêter d'y penser.{J'espère que vous avez apprécié le voyage, les gars...";
+ "local_adventureeventmeetmagician08"="Comme c'est mignon ! Il y a même des petits monstres qui viennent par ici...{J'admire l'endurance et la ténacité.";
+ "local_adventureeventmeetmagician09"="Créatures de Lovecraft !{Cthulhu revient dans ce pays... C'est la fin du monde.";
+ "local_adventureeventmeetmagician10"="C'est Halloween ? Ces monstres me disent quelque chose...{Je peux uniquement vous donner cela à la place de bonbons.";
+ "local_adventureeventmeetmagician11"="Avez-vous entrepris ce voyage juste pour devenir EXP pour les guerriers ?{N'oubliez pas de franchir des niveaux.";
+ "local_adventureeventmeetmagician12"="Quand cesserons-nous de nous intéresser à l'autre monde ?{J'ai entendu dire que même les morts ne peuvent pas arrêter d'y penser.{J'espère que vous avez apprécié le voyage, les gars...";
+ "local_adventureeventmeetmagician13"="Votre habileté à l'épée est égale à celle des guerriers humains.{Anéantissez leur courage et leur orgueil !";
+ "local_adventureeventmeetmagician14"="La prophétie selon laquelle le dernier d'entre nous mangera des spaghettis aux boulettes de viande pour ressusciter le démon Diablo s'est réalisée aujourd'hui.";
+ "local_adventureeventmeetmagician15"="Je suis venu en courant lorsque j'ai senti la terre trembler et je vous ai trouvés ici, les gars.{Si je vous donne ça, vous restez tranquille ?";
+ "local_adventureeventmeetmagician16"="C'est vous les reines de beauté de l'enfer ?{Je crois savoir maintenant ce qu'est le pouvoir d'une fille méchante.";
+ "local_adventureeventmeetmagician17"="Pas question... les deux dragons les plus coriaces à contrôler sont ensemble dans une aventure...{Le Roi démon vaut le détour cette fois-ci.";
+ "local_adventureeventmeetmagician18"="Qu'est-ce qu'il y a maintenant ?{Voir en même temps ces esprits du mal peu courants... Alors qu'on pense avoir tout vu dans la vie.....";
+ "local_adventureeventmeetmagician19"="Je suis très affecté de voir des esprits du mal géants faire de tels ravages !";
+ "local_adventureeventmeetmagician20"="Je suis très affecté de voir des esprits du mal géants faire de tels ravages !";
+ "local_adventureeventmeetmagician21"="Je suis très affecté de voir des esprits du mal géants faire de tels ravages !";
+ "local_adventureeventmeetmagician22"="Je suis très affecté de voir des esprits du mal géants faire de tels ravages !";
+ "local_adventureeventmeetmagician23"="Qu'est-ce qu'il y a maintenant ?{Voir en même temps ces esprits du mal peu courants... Alors qu'on pense avoir tout vu dans la vie.....";
+ "local_adventureeventmeetmagician24"="Des animaux légendaires réunis en un tel endroit... Ce doit être mon jour de chance.";
+ "local_adventureeventmeetmagician25"="Ce sont des monstres mystérieux.";
+ "local_adventureeventmeetmagician26"="Ce sont des monstres mystérieux.";
+"local_adventureeventmeetmagician27"="Ce sont des monstres mystérieux.";
+"local_adventureeventmeetmagician28"="Ce sont des monstres mystérieux.";
+ "local_adventureeventmeetmagicianend"="C'est pourquoi... Je vais vous dire la bonne aventure pour pas cher.{Joyaux ou monstres spéciaux... Vous ne savez pas quelle sera votre récompense.";
+ "local_adventureeventmeetmagicianselect"="Voulez-vous connaître votre avenir pour %d or ?";
+ "local_adventureeventmeetmagicianno"="Laisser passer une telle occasion... mais comme une rencontre c'est aussi le destin, je vais vous donner ça.#get gold";
+ "local_adventureeventmeetmagicianok"="Choisissez une de ces 12 cartes.#show magician";
+
+ "local_teameffectdes01"="L'ATK des monstres à 1 étoile augmente de 50 %.";
+ "local_teameffectdes02"="L'ATK des monstres de type sombre augmente de 10 %.";
+ "local_teameffectdes03"="L'ATK des monstres à 3 étoiles augmente de 10 %.";
+ "local_teameffectdes04"="L'acquisition d'or augmente de 10 %.";
+ "local_teameffectdes05"="Le HP des monstres à 3 étoiles augmente de 1000 chacun.";
+ "local_teameffectdes06"="L'ATK des monstres de type eau augmente de 13 %.";
+ "local_teameffectdes07"="L'ATK des monstres de type feu augmente de 10 %.";
+ "local_teameffectdes08"="L'ATK des monstres à 2 étoiles augmente de 30 %.";
+ "local_teameffectdes09"="Le HP de tous les monstres augmente de 1000 chacun.";
+ "local_teameffectdes10"="L'ATK des monstres de type bois augmente de 12 %.";
+ "local_teameffectdes11"="L'ATK de tous les monstres augmente de 15 %.";
+ "local_teameffectdes12"="L'ATK des monstres de type sombre augmente de 15 %.";
+ "local_teameffectdes13"="L'ATK des monstres à 5 étoiles augmente de 15 %.";
+ "local_teameffectdes14"="L'ATK des monstres à 4 étoiles augmente de 20 %.";
+ "local_teameffectdes15"="L'ATK des monstres à 4 étoiles augmente de 30 %.";
+ "local_teameffectdes16"="Le HP des monstres à 4 étoiles augmente de 2000 chacun.";
+ "local_teameffectdes17"="Le HP des monstres de type sombre augmente de 5000 chacun.";
+ "local_teameffectdes18"="L'ATK de tous les monstres augmente de 20 %.";
+ "local_teameffectdes19"="Le DEF de tous les monstres augmente de 50 %.";
+ "local_teameffectdes20"="Le HP des monstres à 6 étoiles augmente de 4000 chacun.";
+ "local_teameffectdes21"="Le HP des monstres à 5 étoiles augmente de 3000 chacun.";
+ "local_teameffectdes22"="Le HP des monstres de type feu augmente de 3000 chacun.";
+ "local_teameffectdes23"="Le HP des monstres de type eau augmente de 3000 chacun.";
+ "local_teameffectdes24"="Le HP des monstres de type bois augmente de 3500 chacun.";
+ "local_teameffectdes25"="Le HP augmente de 3000 pour les monstres en dessous du niveau 50.";
+ "local_teameffectdes26"="L'ATK augmente de 20 % pour les monstres en dessous du niveau 50.";
+"local_teameffectdes27"="L'ATK des monstres à 5 étoiles augmente de 30 %.";
+"local_teameffectdes28"="L'ATK des monstres à 5 étoiles augmente de 30 %.";
+
+ "local_teamtripinfotitle"="Aventure";
+
+ "local_coupon_error_01"="Ce coupon ne peut être utilisé."; 
+ "local_coupon_error_02"="Ce coupon déjà utilisé.";
+ "local_coupon_error_03"="Ce type de coupon déjà utilisé.";
+ "local_coupon_error_04"="Ce coupon a expiré.";
+ "local_coupon_success"="Coupon a été appliquée avec succès.";
+ "local_purchase_error_01"="Impossible de terminer l'opération.";
+ "local_purchase_error_02"="Informations sur les transactions erronées.";
+
+ "local_popupnotenoughorb"="Pas assez de orbes.";
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+ 

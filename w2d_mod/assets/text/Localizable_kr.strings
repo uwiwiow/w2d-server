@@ -1,0 +1,662 @@
+/* 
+  Localizable.strings
+  WelcomeD
+
+  Created by Administrator on 2014. 3. 26..
+
+*/
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/BMHANNA.ttf";
+"local_fontBold"="font/BMHANNA.ttf";
+// 튜토리얼
+"local_tutorialtalk01"="@eye:여기가 바로 인간계.\n아직 마력이 닿지 않는 던전도 있습니다.{첫 던전부터 순서대로 던전을 늘려서 세력을 확장하세요.\n주인님의 업무 평가는 바로 이 악명도 레벨로 한답니다.";
+"local_tutorialtalk02"="@eye:우선 첫 번째 던전으로 가봅시다.";
+"local_tutorialtalk03"="@eye:아담한 던전이죠?{악명 높은 던전엔 자연히 인간 용사들이 찾아오게 되겠지만, 그러면 시간이 너무 많이 걸려서요… {저희는 마계의 힘을 써볼까 합니다.{바로 우리가 원할 때 용사들을 불러올 수 있는 장치죠.";
+"local_tutorialtalk04"="@eye:시간이 지나면 쌓이는 마력을 사용해서 이 장치를 작동시키면 선택된 용사들이 던전에 입장하게 됩니다.{부담없이 당겨보세요";
+"local_tutorialtalk05"="@eye:인간들은 자신의 선택에 대해 과정은 생각 안하고 결과만 확신하는 경향이 있죠.@hero:이쪽에서 악마의 기운이 느껴지는군!@eye:크크크… 이 용사가 선택한 길은 어떤 운명을 가져다 줄까요?";
+"local_tutorialtalk06"="@eye:잘하셨어요! 역시 주인님은 어둠의 편입니다.{그래도 조심하세요. 때론 강한 용사들이 오기도 하니깐요.";
+"local_tutorialtalk07"="@eye:축하합니다. 던전을 정복하셨습니다.{악명이 올라 이 던전엔 이제 아무도 오지 않을 거 같네요.\n더 넓은 던전으로 가봅시다.";
+"local_tutorialtalk08"="@eye:새로운 던전은 마음에 드시나요?{이제 몬스터를 새로 배치해야해요.\n첫 번째 던전의 몬스터들은 샘플 같은 거였죠.\n보관함에 몬스터가 없으니까 몬스터를 뽑아봅시다.{메뉴에서 몬스터 소환을 눌러보세요.";
+"local_tutorialtalk09"="@eye:솔직히 어떤 몬스터가 뽑힐지 미리 알 수 없어요.\n얄궂지만 이게 또 재미죠.\n손쉽게 얻는 것엔 보상이 따른다 라는 것도 마계의 법칙이랄까요.{골드가 충분하니까 하나 뽑아보세요.";
+"local_tutorialtalk10"="@eye:이 녀석이군요. 강화를 시키면 쓸모가 있을지도 모르겠어요.{눈치채셨겠지만 별이 많은 몬스터일수록 희귀하고 자질이 보다 뛰어나요.";
+"local_tutorialtalk11"="@eye:뽑은 몬스터 카드는 보관함에 있어요.{보관함 버튼을 눌러보세요.";
+"local_tutorialtalk12"="@eye:화면 왼쪽 위에 보이는 저 별의 개수가 바로 몬스터를 던전 안에 넣을 수 있는 비용입니다.\n악명이 높아지면 비용 한계도 늘어나요.";
+"local_tutorialtalk13"="@eye:전투에서 많은 승리를 거둬서 강력한 몬스터들을 모아 악명 레벨을 높이는 것!\n그것이 주인님이 이 세계에서 할 일입니다.{그럼 저는 다음 도움이 필요할 때 다시 오도록 하겠습니다.\n10000골드를 드릴테니 몬스터를 더 뽑아서 배치시킨다음 전투를 시작하세요";
+"local_tutorialtalk14"="@eye:전투에서 많은 승리를 거둬서 강력한 몬스터들을 모으고 악명 레벨을 높이는 것!\n그것이 주인님이 이 세계에서 할 일입니다.{그럼 저는 다음 도움이 필요할 때 다시 오도록 하겠습니다.\n10000골드를 드릴테니 몬스터를 더 뽑아서 배치시킨다음 전투를 시작하세요";
+
+"local_tutorialtalkbattle01"="@eye:첫 번째 줄의 용사들은 불 속성이군요.\n첫 전투는 물 속성의 몬스터들이 유리하겠네요.{지금은 수동 전투이기 때문에 전투 순서를 정할 수 있어요.\n용사가 불 속성이니까 파란색으로 표시된 물 속성의 몬스터를 하나 선택해보세요.";
+"local_tutorialtalkbattle02"="@eye:용사를 많이 해치운 몬스터는 용사에게 '치명타'를 줄 기회를 얻게 됩니다.{재빨리 스킬 버튼을 눌러보세요.";
+"local_tutorialtalkbattle03"="@eye:모든 던전에는 함정 방이 있어요.\n함정 카드를 가지고 있다면 어떤 효과가 나타나는지 지켜보세요.";
+
+//스킵 시도
+"local_tutorialtalkskip00"="@eye:아… 아니, 주인님! 스킵하거나 졸지 마시고 부디 제 얘기를 끝까지 봐주세요!!\n골드도 두둑히 드려요! 금방이면 됩니다요";
+"local_tutorialtalkskip01"="@eye:그럼 정말 간단히 게임의 목적만 말씀 드릴게요.{1) 뽑기로 소환된 용사들과의 전투에서 가능한 많은 승리를 거두세요\n2) 골드를 모아서 강력한 몬스터들을 새로 소환하거나 강화시키세요\n3) 전투로 악명도 레벨을 높이세요{이상이 주인님이 이 세계에서 할 일입니다.{그럼 저는 다음 도움이 필요할 때 다시 오도록 하겠습니다.";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트 시스템
+"local_talkeventsystemgetgold"="%d 골드를 획득했다.";
+"local_talkeventsystemlosegold"="%d 골드를 잃었다.";
+"local_talkeventsystemlosegold2"="%d 골드를 획득했다.";
+"local_talkeventsystemgetsuccubuscard"="서큐버스 카드를 획득했다.";
+"local_talkeventsystemmonsterlevelsup"="몬스터 능력이 일시적으로 더 강해졌다.";
+"local_talkeventsystemmonsterlevelup"="몬스터들이 일시적으로 더 강해졌다.";
+"local_talkeventsystemherolevelsup"="던전 안 용사들이 조금 더 강해졌다.";
+"local_talkeventsystemherohpdown"="던전 안 용사들의 HP가 감소했다.";
+"local_talkeventsystemdealmonsterlevelup"="골드를 주고 몬스터들을 일시적으로 강화하시겠습니까?";
+"local_talkeventsystemdealgem"="거래에 응하시겠습니까?";
+"local_talkeventsystemgetgem"="%d개의 보석을 획득했다.";
+"local_talkeventsystemgetexp"="%d 골드를 획득했다.";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트
+"local_talkeventswordcatenter"="@sword_cat:안녕하십니까~? (냐-옹)\n여기가 그 유명한 마왕의 던전이라고요?{저는 토비라는 고양이 용사입니다.{특유의 용맹함과 재치로 스승의 마음에 들어 검술까지 배우게 되었지요.{마을에서 이곳으로 떠난 용사들이 많다기에 저도 와봤습니다.{저는 뭐, 그냥 떨어진 동전이나 주으려고 온겁니다.\n부디 노여워하지 마시길~";
+"local_talkeventswordcatlose"="@sword_cat:(하악!!) 아이고! 제발 목숨만!!!{제가 모은 돈 다 놓고 가겠으니\n부디 살려만 주십시요~{(아깝다옹, 조금 더 실력을 키워서 다시 와야겠다옹!)#get gold";
+"local_talkeventswordcatwin"="@sword_cat:떨어진 동전만 줍고 가려고 했는데..\n부하들 실력이 소문만큼 좋진 않더군요.{골드 좀 실례해 가겠습니다.\n(냐아아아앙)#lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(냐-아) 또~ 왔습니다.\n지난 번엔 실례가 많았습니다.{실은 집에 처자식이 굶고 있어서..\n떨어진 골드만 좀 가져가겠습니다~{(이번엔 어림없다옹!)";
+"local_talkeventswordcatenterwin"="@sword_cat:(냐-옹) 마왕님, 저 기억나시죠? 후후후후…\n이번에도 골드 좀 가져가겠습니다요{(지난 번 처럼 허술한 던전이겠지? 후후..)";
+"local_talkeventmysterywoman"="@mystery_woman:…{객지 생활이 힘들텐데…\n밥이라도 제때 챙겨 먹는지..{남편 몰래 이렇게라도 도움을 주고 가야지.#monsters level up";
+"local_talkeventprincessenter"="@princess:...여기로군!{오늘은 마왕님을 반드시 알현하고 몬스터가 되고말겠어!";
+"local_talkeventprincessexit"="@princess:꺄아아아악!!";
+"local_talkeventprincesssuccess"="@princess:아아.. 드디어!{마왕님을 뵙게 되었군요.{사실 저는 패전국의 공주,\n지금 왕국에 쌓인 원한을 푸는 것만이 제 삶의 목표일 뿐이랍니다.{부디!!\n제 몸을 마왕님께 바칠 수 있게 해주세요!#get succubus card";
+"local_talkeventkingenter"="@king:이크, 천민들 눈을 피해서 여기까지 오느라 고생했습니다.{마계가 세상을 지배하게 될 때,\n저 또한 부디 잘 부탁드리고자…{이렇게 골드 좀 모아왔습니다.\n악명도가 더더욱 높아지시길 기원합니다.#get gold2";
+"local_talkeventkingafter"="@king:또 왔습니다, 위대하신 마왕님.{잘 부탁드리겠습니다. 헤헤..#get gold2";
+"local_talkeventmerchantenter"="@merchant:안녕하십니까? 마왕님.{저는 마계든 인간계든 돈이 되는 곳이라면 무엇이든 파는 마법 상인이올시다.{원하신다면 이번 전투에서 모든 몬스터들의 레벨을 오르게 해드릴 수 있는데, 3000골드에 어떠십니까? #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:뭐, 싫으시면 어쩔 수 없지요.\n용사들에게 팔아야겠네요.";
+"local_talkeventmerchantaccpet"="@merchant:전투에 큰 도움이 될겁니다!\n그럼 다음에 또 뵙겠습니다요.#monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:사악하고 불결한 것!\n언젠가 예언 속 용사가 그대를 심판하리라!!{신의 이름으로,\n악마야 물럿거라!!!#hero levels up";
+"local_talkeventwitchesenter"="@witches:마왕님♥ 여기 계셨군요!!{역시 용사들을 쫓아오길 잘했어!\n깔깔깔{용사들에게 독을 먹여두었답니다~\n부디 이번 전투에서도 승리하세요♥#hero hp down";
+"local_talkeventfairiesenter"="@warrior:에… 여기라면 레벨업 노가다를 하기 좋겠지?\n메인 퀘스트가 아니니까 말이야.@fairy:소문에 마왕이 터를 잡은 던전들이 있다고 들었어.{그래도 조심하는게 좋을거야.@warrior:헤헷, 퀘스트에 없는 마왕따위…\n난 주인공이라구!!";
+"local_talkeventwarriorlose"="@warrior:허억… 이럴 수가.. 이런 데서 엔딩도 못 보고 죽을 순 없어…@fairy:…이래서 내가 조심하랬잖아!{목숨을 구걸해보자{마왕님, 부디 이번엔 살려주세요.\n(둘 중 하나의 보상은 보석, 다른 하나는 골드)#deal gem";
+"local_talkeventwarriordie"="@fairy:헉! 역시..\n악마와는 말이 통하지 않아…@warrior:으아아아, 죽고싶지 않아!!@fairy:…괜찮아, 마을에서 부활하면 돼#get gold3";
+"local_talkeventwarrioralive"="@fairy:아, 감사합니다!!\n(어서 빨리 나가자구!)@warrior:쳇… 아깝지만…\n(더 강력해져서 돌아와야겠군)#get gem";
+"local_talkeventwarriorwin"="@warrior:하핫!\n여기 별 거 아니잖아.{역시 무기를 부지런히 강화하길 잘했어!{그럼 마왕님, 또 보자구!?@fairy:자, 이제 나가서 메인퀘스트에 집중해!";
+"local_talkeventwarriorafter"="@warrior:여기도 마왕의 던전인건가? 마왕이 그간 분발 좀 했으려나 @fairy:너무 까불지 마! 신중해! @warrior:훗, 난 내 앞의 모든 몬스터를 벨 뿐이야!";
+
+// ** 순서 꼭 지켜야함 ** //
+// 에피소드
+"local_episodetalk01"="@blank:에피소드 1. 던전을 발견한 어느 용사@hero:마계의 몬스터들이 돌아오고 있다는 소문이 사실이었군!{어서 마을로 가서 이 사실을 알려야겠어!@eye:호오! {주인님의 인기가 나날이 높아지는군요!@hero:이봐, 긴장해야 하지 않아?";
+"local_episodetalk02"="@blank:에피소드 2. 용사의 자질@hero:용사도 여러 종류가 있지.{난 아직 초보 용사지만 숙련 용사나 왕국 용사가 되면 {이까짓 던전은 쉽게 클리어할거야.@eye:여보세요? 거기 119죠? {여기 응급차 한대 예약하려고 하는데요.@hero:벌써부터 예약하지마!!";
+"local_episodetalk03"="@blank:에피소드 3. 고양이 검사@sword_cat:안녕하십니까?{모자 쓴 고양이올시당.@hero:넌 보통 검사가 아니구나?@sword_cat:마왕님의 던전이 점점 공략하기 어려워진다는 소문이 있어서요.{제 실력을 확인해보고 싶어서 찾아왔습니다.@hero:그래? 뭐 어쨌든 응가는 꼭 땅에 묻고 가도록 해@eye:응??{어디다 응가를 묻는다는 거야?!!";
+"local_episodetalk04"="@blank:에피소드 4. 용사의 인터페이스@eye:극한의 던전에 어서 와.@hero:큰일이네.{이대로 보스몹도 못 잡고 마을로 돌아가면 면목이 없는데.@eye:백수가 될 바에야 던전에 납치되서 몬스터의 재료가 되는 건 어때?@hero:아니, 세이브 했던 곳으로 다시 로드 하려고.@eye:그…그래도 되나?";
+"local_episodetalk05"="@blank:에피소드 5. 관계 형성@hero:이봐, 눈깔 괴물!{오늘도 용사들을 관찰하고 있나?@eye:친한 척 하지 마.{난 곧 사망할 용사들과 사회적 관계를 형성하고 싶지 않아.@hero:그래?{하지만 난 매번 마을에서 살아나는 걸.{너도 조금은 여유를 가지라고.@eye:좋아, 용사. 그럼 내가 수수께끼를 하나 내지.{'용사와 바이킹과 엘프가 던전에 들어갔는데 엘프만 죽었지. 왜일까?'@hero:…엘프 레벨이 가장 낮아서?@eye:후후.. 정답은 '엘프가 가장 먼저 들어가서'야.{던전의 시스템이란 게 그렇지.{첫 줄로 뽑힌 애들이 먼저 죽기 마련이야.{그러니 줄을 잘 서라구.@hero:몬스터가 해주는 충고라니,\n나 조금 소름 돋았어.@eye:흠.. 그렇다고 내가 널 항상 3번째 줄에 넣어주겠다는 뜻은 아니야.{이제 전문적인 관계로 다시 돌아가자고.";
+"local_episodetalk06"="@blank:에피소드 6. 보스 몬스터의 비밀@hero:으랏차! 모처럼 살아서(?) 돌아가는 군.@sword_cat:으히히히~ 저도 골드 한 더미를 안고 가네용.@eye:이 녀석들!! 운이 좋았던 거겠지.{잔당 처치만 한 거 아니야?@hero:아니, 보스 몬스터한테 깨졌는데,{그간 적립한 마일리지 사용으로 오늘 하루는 살려주겠다고 하더라고.@eye:보스 녀석, 그런 장사를…";
+"local_episodetalk07"="@blank:에피소드 7. 메인 퀘스트@hero:메인 퀘스트 중에 뜻밖의 사실을 알았다!@eye:뭐냐, 갑자기 진지한 얼굴로..@hero:'고대 유물의 조각 모음'이라는 퀘스트를 진행 중인데 모으고 있는 조각의 그림에 마왕과 신이 함께 있었다구.@hero:마왕과 신이 함께 고대 숭배물에 나란히 있었다니.{넌 이거에 대해 뭐 아는 거 없어?@eye:글쎄.. 나는 마족들이 멸종될 때 간신히 살아남았던 경우고,{마왕님은 기억을 잃으신 채 부활되셔서..{과거에 대해선 마왕님도 아는 바가 없는 거 같아.@hero:일단 이 조각을 다 모아봐야겠어.@eye:오~ 이제 스토리 초반을 공략하는 느낌인데?";
+"local_episodetalk08"="@blank:에피소드 8. 퀘스트 해결의 열쇠@sword_cat:용사가 모으고 있다는 '고대 유물의 조각 모음' 말인데용.@eye:메인퀘스트라더니 찾는 사람이 많은가 보네.@sword_cat:용사에게 듣자 하니 마왕의 과거를 찾는 단서라던데,{제가 마침 마지막 조각을 하나 가지고 있어서용.@eye:뭐냐, 거래라도 하자는 거냐?! 내 침맛 좀 볼래?{당장 내놔라, 응?@sword_cat:하악! 음란하고 공격적인 몬스터로군용.{이 제안은 없던 걸로 하겠어용! 거래는 용사와 해야지!";
+"local_episodetalk09"="@blank:에피소드 9. 서로에 대한 이해@hero:이제 던전이 여러 개가 돼서 어딜 공략해야 할 지 고민되네.@eye:몬스터의 배치나 강화 레벨에 따라 난이도는 천지차이.{하지만 강한 용사들이 많이 나오는 던전으로 가는 게 용사 입장에선 생존에 유리하겠지.@hero:반대로 마왕 입장에선 몬스터의 종류도 많아지고 강화까지 해야 하니, 좀 바쁘겠군@eye:복도의 길이에 따라 대기인원의 행동까지 달라질 수 있지.{알고 보면 복잡한 시스템이야.";
+"local_episodetalk10"="@blank:에피소드 10. 공주의 모험@princess:여기가 마왕의 던전인가요?@eye:그렇다만?! 으잉?{ 인간계의 공주잖아?@princess:인간계는 지금 매우 어지러운 상태예요.{마족을 금한다며 규제는 많아지고 모두가 전쟁에 나가도록 강요 받죠.{마족이 등장하는 만화책은 무조건 불태워지고 게임도 제재 받고 있어요. {하지만 저는 악이 없는 모험은 상상할 수 없어요.@eye:지나친 게임 규제 때문에 마왕의 던전에 왔다고?@princess:저는 땅 위의 고통을 충분히 알았으니 이제 땅 아래의 즐거움도 알아야겠어요.{저는 모험심이 아주 많거든요.{당장 마왕님을 만나고 싶어요!@eye:이상한 세상의 이상한 공주로군.{그렇다면 네 운을 시험해보아라.{ 보스 룸 끝까지 도달한다면 마왕님을 만나게 될지도 모르지. 후후";
+"local_episodetalk11"="@blank:에피소드 11. 흔한 퀘스트@hero:공주가 이 던전에 왔다는 게 사실이야?{공주를 구출해오라는 서브 퀘스트가 있었어.{퀘스트 보상으로 가장 좋은 검을 사려고 했는데..@eye:응, 왔었지. 그리고 이미 섹시한 여성형 몬스터가 됐다나 어쨌다나.@hero:아, 맙소사! 섹시한 여성형 몬스터..{ 하학!{당장 만나봐야겠어!@eye:...{정말로 구출이 목적인거냐?";
+"local_episodetalk12"="@blank:에피소드 12. 마왕의 과거@hero:드디어 '고대 유물의 조각 모음' 퀘스트를 완료했는데, 뭔가 찝찝해@eye:왜?@hero:마왕을 숭배하던 사람들도 있었다는 내용 같아.@eye:마왕을 숭배한다 라… 마족 아니었을까?@hero:글쎄, 그렇다면 마족들이 인간들이랑 같이 살았다는 말이 되는데?{어쨌든 이번 메인퀘스트로 얻게 된 건 그 사실과 경험치 뿐이네.@eye:마왕님의 과거라.. {마왕님과 신은 어떤 관계였지?";
+"local_episodetalk13"="@blank:에피소드 13. 용사의 강력한 경쟁자@warrior:앗! 저 눈깔 뭐야?!!@fairy:진정해!\n여긴 마왕의 던전이야. {보통 산짐승들하고는 다른 마족들이 있는 곳이라구.@eye:오호라~ 요정과 함께 다니는 용사라…{정말 주인공 포스가 풍기는데?@warrior:그거야 당연히 내가 주인공이지! {요정은 거들 뿐이라고!@fairy:(이 녀석... {또 흥분하기 시작했어..)@sword_cat:힘이 세거나 레벨이 높다고 주인공은 아니죠.{저처럼 자기 개발을 게을리 하지 않고 메인 스토리를 풀어나가는 인물이 바로 주인공.@warrior:자기 개발 따위 다 쓸데없는 일이야.{싸워봐야 네가 어떤 놈인지 알 수 있다고.{널 파괴시킴으로써 모든 것에서 자유로워질 수 있어.{모든 걸 잃어봐야만 진정한 자유를 얻을 수 있다.@sword_cat:어디서 들어본 말인 거 같은데..@eye:헤헷, 어서 들어와 봐.{누가 주인공인지 조연인지 모르겠지만,{ 아무튼 잘게 썰어줄게.";
+"local_episodetalk14"="@blank:에피소드 14. 마왕의 추종자들@hero:'가장 소중한 것을 포기한 자가 지배자가 된다'@eye:음?@hero:'가장 소중한 것을 포기한 자가 지배자가 된다'@eye:수수께끼인가?@hero:신전에 적힌 문장이야.{근데 왜 소중한 것을 포기해야 지배자가 되는 거지?@eye:신전에 있는 말이라면 지들 멋대로 비유하고 해석하라고 만든 말이겠지 뭐.@hero:신도 마왕만큼 이해하기 어렵군.@king:휴~ 겨우 도착했구먼@hero:으악! 왕이다!@eye:어라.. 저 인간이 여길 왜??@king:안녕하십니까?@hero:저는 안녕하지 못합니다.{시국이 어수선하다던데요.@king:공주들이 행방불명 되고 있어서 말들이 많죠. 나라의 망조라나. {괜찮아요. 대를 이을 사람은 많으니까. 패전국의 공주들만 3천명이 넘는 답니다. 후후.{방금 말한 거 처럼 '소중한 것을 잃어야 지배자가 된다'는 말도 있다잖아요?@eye:그게 무슨 소리지? (이상한 왕이로군.)@king:크흐흐.. {저는 사실.. 마족 편입니다.@hero:?! 그게 무슨 소리요?!{ 왕이 마족 편이라니?@king:자네처럼 '고대 유물의 조각 모음'이라는 퀘스트를 완료한 용사라면 알 테지.{마왕도 한 때는 인간과 마족들로부터 숭배를 받던 위치였다네. 나는 그 마왕을 숭배하던 인간의 후손이지.@hero:마왕과 신이 함께 숭배를 받았다고?@eye:오호라~ 마왕님의 과거가 조금 밝혀졌군요.{그런데 왜 마왕님은 봉인돼있었고 또 기억을 잃었을까요?@king:그건 우리도 모르네.{마족과 마왕이 한번에 자취를 감췄다는 이야기만 전해질 뿐.{이후 역사는 조작되어 마왕은 온갖 불행의 원인으로만 이야기되고 있지.@hero:그게 사실이라면 그 역사에 가려진 진실을 찾아야겠어!@eye:오~ 모처럼 용사가 의욕에 불타오르는군요.@king:저 레벨로 가능할까..";
+"local_episodetalk15"="@blank:에피소드 15. 용사의 가소로운 요청@hero:다음 퀘스트는… '용의 비늘 수집'??{이봐, 너희 던전에 용 있어?@eye:용? 용은 정말 레어한 몬스터인데..{주인님이 뽑으셨으려나. 있어도 키우기가 어려운 몬스터라.@sword_cat:으~~ 드래곤 종류는 너무 무서워용@hero:역시 이번 퀘스트는 포기해야 하나.@warrior:후후, 난 이미 성공했지.{그냥 상인한테 샀어.@eye:그 상인은 없는 게 없군.@sword_cat:오, 역시 검은 용사가 빠르군요.@warrior:돈이 없으면 직접 용이라도 잡아보던가@hero:용을 구경이라도 할 수 있어야 시도를 하던가 말던가 하지..{어이~ 마왕, 용 좀 뽑아줘!@eye:마왕님의 운을 믿어 봐.";
+"local_episodetalk16"="@blank:에피소드 16. 전설의 아이템@hero:지난번 보스 몬스터에게서 주은 검, 알고 보니 '영원의 절반'라는 전설템이었어.@eye:… 추카추카@hero:근데 그 검이 절반이라는 이름답게 세트템이었지.{ 쌍을 이루는 방패가 있데.@eye:그 정도로 레어한 아이템이라면 찾기 힘들걸?@merchant:그것과 쌍을 이루는 방패를 제가 갖고 있지요.@hero:오오옷!!@eye:무서운 상인이로군;{수요의 냄새를 맡다니.@merchant:골드만 있다면 뭐든 가질 수 있는 세상이니까요.{5만골드만 주세요.@eye:어마어마한 가격이로군.{용사가 그 돈이 있을 리가..@hero:여기요.@eye:?!!@merchant:그럼 잘 쓰세요~@eye:어디서 그런 돈이 난 거야?@hero:그 전설의 검을 팔았거든.{난 공격보단 방어가 약해서.@eye:…";
+"local_episodetalk17"="@blank:에피소드 17. 사라진 원소 속성@hero:지난 번 획득한 전설의 방패 말인데, 이상한 점이 있어.@eye:응? 뭐가?@hero:전설의 검은 빛의 원소 속성이었는데, 방패는 속성이 없어.{ 상인이 사기를 친 걸까?@eye:그거 이상하네, 속성이 없으면 부가 효과가 적어서 손해일 텐데..@warrior:아! 무속성 무기는 나도 본 거 같아.{마녀들 말로는 원래 있던 원소 속성이 사라진 거라더군.@hero:사라진 원소가 있다구?{불, 물, 나무, 빛 말고 다른 어떤 속성이 있었던 걸까?@warrior:마녀들한테 물어봐.{가끔 플랜카드를 들고 던전에 와서 마왕을 응원하는 거 같더군.";
+"local_episodetalk18"="@blank:에피소드 18. 마녀는 마왕편@witches:오늘도 마왕님은 멋졌어.{역시 몬스터는 골고루 강해야 하나 봐. 깔깔@hero:어휴~ 겨우 찾았다.{댁이 검은 용사를 알고 있는 마녀인가요?@witches:그래서요? 깔깔깔.{용사가 제게 무슨 볼 일이죠?@hero:고대에 있었으나 사라진 원소 속성에 대해 묻고 싶어서요.@witches:흠~ 그런 것에 관심을 갖는 용사가 있다니… 신기하네.{위험한 얘기니까 함부로 말해줄 순 없어요.{빛의 신전에서 알게 되면 마녀사냥을 당할 지도 모르니까.@hero:욜라 비싼 전설템을 샀는데 속성이 비어있다구요!!{무속성 상태로 던전에 들어가는 바보가 되고 싶지 않은데..@witches:그럼 한가지 테스트를 해보죠.{용사라면 퀘스트는 익숙할 테니.@hero:퀘스트란 게…뭐지? (꿀꺽)@witches:당신, 우리 마왕님을 도와줘야겠어요. 깔깔깔.{마왕님이 새로운 몬스터를 소환할 수 있도록 보석 5개를 바치는 거예요.{깔깔깔깔@hero:용사가 마왕을 돕는다니?? 말도 안되.@eye:사냥터 이용료라고 생각하고 좀 도와줘라.@hero:…알겠어.{보석 5개야 금방 모으니 기다려 봐!";
+"local_episodetalk19"="@blank:에피소드 19. 마왕의 과거 (2)@hero:보석 5개 모으는 데 은근 오래 걸리는 군.@witches:구해왔나요? 그럼 마왕님께 바치세요.@hero:알았어요. 알았다구.@witches:그럼 말해드리죠. 사라진 원소 속성은 예감했겠지만, 바로 빛의 반대 속성인 '어둠'이예요.@hero:어둠?!@witches:과거 마왕이 신과 함께 나란히 숭배 받던 시절이 있었죠.{마왕님과 신은 함께 여러 속성의 생명체들을 만들었는데 그 중 하나는 암흑 속성이었죠.@hero:마왕도 창조신이었다구요?@witches:네, 그리고 어느 날 마왕님과 암흑 속성의 마족들은 신으로부터 버림받았죠.{속성 자체도 사라졌구요.@hero:마왕이 신으로부터 버림받았다고?@senior_priest:거기까지다. 이 교활한 마녀 (비치 위치).{함부로 떠들고 다니는 구나.@witches:히익!! 깜짝이야.@senior_priest:빛의 신전에서 금하고 있는 고대 지식을 함부로 말하고 다니는 자는 신의 심판을 받을 것이다!@witches:흥! 마왕님의 악명은 점점 높아지고 있어!{머지않아 암흑의 속성도 부활할 거야!@senior_priest:신은 마왕을 버렸다.{우리 같은 창조물들은 그 의도는 알 수 없어도 그 뜻을 따라야 해. 그것이 창조물의 도리야.@hero:고위 사제의 눈에 띄기 전에 어서 도망가자.";
+"local_episodetalk20"="@blank:에피소드 20. 벨 수 없는 몬스터@hero:결국 이 전설의 방패는 암흑 속성이었군.{쓸모 없는 물건을 그렇게 비싸게 주고 사다니…@eye:마왕님이 모든 던전을 열게 되는 그날 암흑 속성도 부활할지도 모르지.@hero:전설템 하나 쓰자고 마왕을 응원하기는 좀…@succubus:거기 용사,{섹시한 방패를 가지고 있네?@hero:앗! 던전 밖에서 몬스터를 만나다니!@succubus:바깥 공기가 그리워서 나와봤어.@eye:인사해, 이쪽은 전직 공주야.@hero:공주님이라고?{공주님이 서큐버스가 되다니…@succubus:막상 던전에 사니까 너무 심심한 거 있지.@hero:몬스터가 된 주제에 심심한 거 내가 알 바 아니라구요!@succubus:용사! 몬스터가 된 나를 정말로 베지 않을 거야?@hero:흑.. 내가 (짝)사랑하던 공주가…(신분 상승의 기회가…!)@succubus:너무 아쉬워 하지 말아. {몬스터가 된 나는 이전보다 더 많이 볼 수 있게 됐어.{몬스터는 불쌍한 존재들, 인간처럼 각자 무언가가 결핍되어 있지.{누군가는 이들 편이 되어줘야 해.@hero:인간의 편을 버리고 몬스터의 편이 되다니…@succubus:삶의 어두운 부분도 볼 줄 알아야해!";
+"local_episodetalk21"="@blank:에피소드 21. 다가오는 신의 위협@hero:마왕이 이대로 4대륙의 던전을 모두 차지하게 되면 신은 어떻게 반격할까?@warrior:걱정하지마. {내가 메인퀘스트를 다 깨고 마왕을 없앨 테니.@sword_cat:어느 쪽이든 그럴 땔 대비해서 돈을 많이 모아두는 게 장땡!@hero:물 건너 다른 대륙의 정예 용사들 중엔 99렙의 용사들도 있다던데.@warrior:99렙? 흠.. 제 아무리 만렙 용사라도 보스급 몬스터를 한방에 이기긴 쉽지 않아.@eye:바보들! 아무리 레벨 업을 하고 수로 밀어붙여도 마왕님의 몬스터들은 무한하다!!{차원의 바깥에서 누군가가 마족의 힘이 재소환 되도록 도와주고 있지.@warrior:흥! 글쎄, 그 차원 바깥의 누군가나 마왕도 긴장하는 게 좋을걸?{빛의 대륙에는 천사들까지 나타나고 있다는군!@eye:천사? 몬스터들 중에도 날개 달고 있는 녀석들은 많아.{하나도 안 무섭다고!";
+"local_episodetalk22"="@blank:에피소드 22. 신자들의 목적@senior_priest:용사들이여! 총력을 다해 마왕의 악명을 낮추고{신께 영광을 돌려라!!@eye:아무나 던전에 들어갈 수 있는 게 아니야!{번호표 뽑고 기다리라구!@senior_priest:…@hero:사제님, 근데 말이야. 신과 마왕은 무슨 관계야?{왜 과거에는 둘이 사이가 좋았는데 지금은 이렇게 나빠지게 된 거지?@senior_priest:그건… 우리가 알 바 아니다.{신은 자신의 숭배자들에게만 부를 약속하셨으니까.@hero:숭배에 돈이 조건이라니…@senior_priest:불편한 진실인가?\n하지만 솔직히 모두가 돈을 위해 살고 있지 않나?{사제인 나는 일종의 그런 시스템을 돕는 존재지.{진실은 필요 없어. 누구나 그걸로 심신의 이익을 본다는 사실이지.@hero:내가 일단 궁금한 건 진실이야!{마왕과 어둠의 원소 속성이 어떻게 사라지게 됐던 건지 알아야겠어.@senior_priest:그것이 그렇게 궁금하다면 알려주마.{이 던전의 보스를 해치우고 온다면 말이야!@eye:이거 난감하군. 협조하자니 보스가 용사에게 져야 하잖아.";
+"local_episodetalk23"="@blank:에피소드 23. 마왕과 신@hero:어쩌다 보니 겨우 보스를 깼네.@eye:덕분에 악명도가 하락했어.{이제 어서 고위사제를 만나서 마왕님의 과거에 대해 좀 더 캐보라고.@senior_priest:어서 오게. 용사. 정말로 보스를 깼구나?@hero:그러니 마왕의 과거에 대해 어서 말해줘.@senior_priest:짧게 얘기해주지. 처음에 마왕과 신은 함께 땅을 다스리는 관계였다.{하지만 마왕은 신을 거역했고 신은 마왕의 창조물인 마족들과 어둠의 원소를 없애셨지.{또 마왕의 기억을 지우고 던전 깊숙이 봉인했었다.@hero:그랬던 거로군.{그럼 그 전엔 마족 또한 인간과 어울려 살았다는 건가?@senior_priest:마족과 인간은 속성에 따라 분리된 존재들이다.{이전에는 아마도 한 몸이었을 거야.@hero:모든 속성이 한 몸이었는데 분리되었다는 거로군.@senior_priest:사실 윗분들 사정이야 우리가 알 바 아니니.{빛의 속성을 선택한 인간들은 그저 속성대로 좋은 것에만 이끌리고 좋은 것만 원하고 누리면 되.@eye:인간들은 어둠에도 눈을 돌려야 할 필요가 있어!{누군가는 삶의 어두운 부분도 볼 줄 알아야 위기도 극복할 수 있는 거라고!{안 그러면 누가 모피에 계란을 던지고, 누가 소외된 계층을 돕지?@senior_priest:바보 같은 소리를 하는군!";
+"local_episodetalk24"="@blank:에피소드 24. 신의 재림@eye:마왕님이 신으로 부터 봉인 당하기 전까지 인간은 이른바 완전체였던거군.{분리된 창조물의 속성에 따라 천사, 인간, 요정이나 엘프 같은 반 인간, 그리고 마족으로 분리됐던 거야. @hero:그나저나 마왕의 봉인이 풀린 걸 안 이상 신은 다시 마왕을 봉인하려 할 거야.@eye:넌 이제 어떻게 할거냐?@hero:아직.. 모르겠어.. {나는 누구를 위해 싸워야 하는 거지..?@eye:앗!!@eye_white:…@hero:뭐지? 눈알이 하얗게 됐어!@eye_white:…나는… 신이다.@hero:신이라고? 눈알이 신이라고?@eye_white:신이 눈알의 몸을 빌려 잠시 재림한 거다. 못생겼지만 믿어라.{마왕의 부활을 도운 차원 너머의 존재에게 말한다. {지금까지 모아온 마족들에 대한 소유권을 포기하고 떠난다면 목숨만은 살려주겠다.@hero:거짓말! 차원너머의 존재에게 네가 뭘 할 수 있다는 거지?@eye_white:인앱할인! 보석 제공! {스페셜 땡스 투에 넣어주는 것 따위를 말하지!@hero:그건 다 좋은 것들이잖아!{마왕!! 지지 말라고! 절대로 이걸 그만둬선 안되는거야!@eye_white:아무튼 나는 경고했다.{이제부터 더 강한 나의 군대들이 던전을 공격할 것이다.{그대가 악명을 얼마나 높일 수 있는지 두고 보도록 하지.@eye:(팟!){으음.. 이제 정신이 돌아왔네요.@hero:이봐! 괜찮아? 신이 네 몸에 들어왔었어!@eye:으.. 신의 생각을 잠시나마 읽을 수 있었어.@hero:뭐?? 마인드 콘트롤을 당하는 동안 지배자의 정신과 링크되었었다는 건가?{어떤 영화에서 본 거 같은..@eye:그런 셈이지. 빛의 대륙에 있는 신전에 '신의 자서전'이 있어.{그 책에 마왕의 과거가 있을 거야.@hero:내가 가볼게!@merchant:그럴 필요 없어요. 제가 갖고 있거든요.@eye:오옷!!@merchant:5만 골드만 주세요.";
+"local_episodetalk25"="@blank:에피소드 25. 신의 자서전{태초에 신은 홀로 있었다.{신은 무언가 고귀하고 진실된 감정을 갖고 싶었다.{그리하여 신은 자신과 반대되는 성격의 인격을 만들었다. 그것이 마왕의 탄생이었다.{둘은 함께 시간을 보내며 다른 창조물들을 만들고 즐거워했다.{창조물이 가진 속성 중 어둠의 속성이 강했던 이들은 오직 마왕만 숭배했다.{신은 질투를 느꼈다. 마왕과 마족에 대한 증오가 싹튼 것이다.{마족을 비롯해 어둠을 가진 창조물의 일부를 제거하는 계획에 마왕은 동의하지 않았다.{이에 신은 마왕의 기억을 지워버리고 봉인한 다음 창조물들의 속성을 분리시킨 다음 어둠 원소를 없애버렸다.{이 때 분리된 자들이 바로 오늘날 마족으로 불리는 자들이다.";
+"local_episodetalk26"="@blank:에피소드 26. 심판의 시작@eye:비밀이 밝혀졌군.\n마왕님은 마족의 멸망을 막으려 하셨는데…{신은 그걸 놔두지 않았어.\n그리고 신은 지금도 마족을 멸망시키려 하고 있고.@hero:대결은 불가피하겠군.@angel:마왕의 앞잡이들!\n너희들은 결코 용서받을 수 없다!{빛의 공격을 받아라!@hero:드디어 천사 놈들이 들이닥치기 시작했어!@senior_priest:천사님들은 어마어마한 힘을 가진 고렙 분들이시지.{각오해라, 마왕이여.@eye:빛의 대륙 던전에서는 승리 확률이 확실히 줄어들겠네요.{전력을 다합시다!@hero:이봐, 눈알. 나도 마족 편에서 싸우겠어!@eye:엥?\n용사가 우리 편으로?@hero:그래!\n내가 주는 보석으로 마족을 소환해!@eye:그럼 이제 넌 어찌할 셈인데?@hero:난 부모를 잃고 마을에서 줄곳 외톨이로 살았어. 이런 나의 출신 성분만으로 판가름하는 세상이지만, 사실 그건 아무 상관없던 거야.{악마로 태어났든 마을의 이름없는 용사로 태어났든, 자신이 누군지 알았으면 끝판까지 가는 게 삶 아니겠어?!{그걸 알았으니...\n용사로서... 나는 죽어도 상관없다.@angel:감히...\n인간 주제에 마족의 편의 들다니…{용서할 수 없다. 죽어라!@hero:으악!!! 쥬…금.. (털썩)@eye:헉! 용사가 죽었다. 연출은 엉성하지만 정말이야{마족을 위해… 이럴 수가..";
+"local_episodetalk27"="@blank:에피소드 27. 완전체@warrior:역시 마왕을 무찌르는 것이 마지막 퀘스트로군.{용사 녀석, 더 이상 퀘스트 진행도 안하고 있는 거 같던데,{아무튼 경쟁자가 줄어들었어. 크크.@angel:그대의 그 간의 공적에 대한 보상으로 신의 축복을 선사하겠다.@warrior:신의 축복?@angel:그렇다.\n그대 입장에선 엔딩이지.{다만 요정과는 작별이다.@angel:그대를 완전체로 만들어주겠다.\n인간과 마족이 분리되기 이전의 존재 말이다.{그것이 바로 마검사.\n마검사로 다시 태어나라!@warrior:마.. 마검사!! 크오오오!!!@eye:성가신 녀석이 하나 더 늘어나게 됐네.@knight:…음? 딱히 달라진 게….??@angel:… 레벨이 조금 올랐을 거다.@knight:...손해 본 기분이…@angel:아..아무튼!! 던전으로 출격!!!";
+"local_episodetalk28"="@blank:에필로그@eye:주인님, 수고하셨습니다!{몰려오는 적들도 어느 정도 해치웠고 이 정도 악명이라면 신도 더 이상 어쩌지 못할 겁니다.@king:축하 드립니다!\n그 동안 이렇게 많은 스토리를 읽느라 수고하셨습니다.@senior_priest:크윽!! 어둠을 없애는 것이 이렇게 어려울 줄이야.@hero:어이~ 눈알! 오랜만이야.@eye:아닛!! 용사는 죽은 줄로만 알았는데?!@hero:후후.. 놀랄 만한 사실이 하나 있어.@hero:난 다른 차원의 용사야.\n용사와 마왕은 하나만 있는 게 아니지.@eye:?@hero:어둠의 원소가 다른 속성들과 분리될 때, 마왕과 마족들의 인격은 여러 갈래로 분리됐었지.{즉, 용사도 마족도, 마왕도 여러 인격이 됐다는 거야.@eye:주인님이 여러 명이라고?!@hero:각 차원에서 시작된 마왕들의 전쟁이 한 지점에 모이게 되면서 이동할 수 있게 된 거지.{그리고 각 마왕들은 리더보드를 통해 서로의 악명 레벨을 비교해볼 수 있게 되었다는 군.{이 얘기를 해주러 왔어.@eye:이럴 수가… 무한 경쟁의 시대인가!@hero:마왕의 도전은 이제부터 시작이라고!{나도 레벨 업을 그만두지 않을 테니까!@eye:네.. 그렇게 되었다고 합니다..\n저랑 똑같은 존재가 있다니 이상한 기분이 드는 군요.{그래도 뭐 어쩔 수 있나요. 주인님도 지금까지 하셨던 것 처럼 꾸준히 악명을 높이면 세계 1위의 마왕님이 되는 것도 문제 없을 겁니다!@blank:THE END";
+"local_episodetalk29"="@blank:에피소드 29. 마족 전쟁의 시작@sword_cat:암흑의 시대가 왔어용.{게다가 더 무서운 건… 마왕들이 서로를 견제하고 있다는 것이예용.@eye:무슨 뜻이야?@sword_cat:이제 다른 차원의 마왕들이 때때로 몬스터들을 보낼거예용.{던전에 몬스터들이 들이닥칠 수도 있다는 거죠.@eye:마족 간의 전쟁이로군.@sword_cat:랜덤하게 몬스터들이 들이닥칠 수 있으니 알고계세용.@succubus:날 지켜줘, 키티 섹시 야옹 검사!@sword_cat:하악! 그럼 저는 이만!!";
+
+
+
+// ** 순서 상관 없음 ** //
+// 던전 미니 대사
+"local_minitalkenter01"="콜록콜록! 먼지가 많군";
+"local_minitalkenter02"="마왕의 실력을 검증해보겠다";
+"local_minitalkenter03"="보물 상자를 찾을 수 있으려나";
+"local_minitalkenter04"="빛의 신이여, 도와주소서!";
+"local_minitalkenter05"="검과 함께 간다앗!";
+"local_minitalkenter06"="오늘 저녁은 지옥에서 먹는 거다!";
+"local_minitalkenter07"="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ";
+"local_minitalkenter08"="보스를 공략해서 공주님께 청혼해야지!";
+"local_minitalkenter09"="전설의 검이 있으니 난 무적이야!";
+"local_minitalkenter10"="이봐, 마왕! 내 레벨 똑똑히 봐두라고!";
+"local_minitalkenter11"="나의 칼은 하늘을 뚫을 칼이다!";
+"local_minitalkenter12"="던전이 깊고.. 아름다워!";
+"local_minitalkenter13"="이건 미친 짓이야 난 여기서 나가야겠어";
+"local_minitalkenter14"="안녕하신가, 힘세고 강한 아침!";
+"local_minitalkenter15"="뼈가 부러져도, 걸을 수 없게 돼도 좋다!";
+
+"local_minitalkcrossroad01"="이럴 땐 왼쪽 아니면 오른쪽이지";
+"local_minitalkcrossroad02"="불길한데..";
+"local_minitalkcrossroad03"="오케이! 이쪽에서 좋은 느낌이 와";
+"local_minitalkcrossroad04"="음.. 이쪽에선 피비린내가 나는군";
+"local_minitalkcrossroad05"="난 이쪽으로 가볼게!";
+"local_minitalkcrossroad06"="모두 나를 따르라!";
+"local_minitalkcrossroad07"="어느 쪽이든 오늘 걸리는 몬스터는 오늘 죽는 줄 알아라!";
+"local_minitalkcrossroad08"="어이! 밀지 말라고!";
+"local_minitalkcrossroad09"="흥! 고민할 필요 없어!";
+"local_minitalkcrossroad10"="남들 가는 길 따라가는 게 제일이지";
+"local_minitalkcrossroad11"="이쪽에서 악마의 기운이 느껴지는군!";
+"local_minitalkcrossroad12"="모든 선택에는 결과가 있는 법";
+"local_minitalkcrossroad13"="방법은 언제나 있어!";
+"local_minitalkcrossroad14"="오른쪽으로 가지마! 왼쪽에게 실례다!";
+"local_minitalkcrossroad15"="이쪽으로 가는데 이유가 어딨어? 그냥 가는 거지.";
+
+"local_minitalkwaitting01"="빨리 좀 해치워!";
+"local_minitalkwaitting02"="거기서 왜 그러고 있냐?";
+"local_minitalkwaitting03"="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ";
+"local_minitalkwaitting04"="윽! 아프겠다!";
+"local_minitalkwaitting05"="내 몫은 남겨두라고!";
+"local_minitalkwaitting06"="오 저 칼 비싼 건데?";
+"local_minitalkwaitting07"="힐이 필요해!";
+"local_minitalkwaitting08"="멍청한 놈들!";
+"local_minitalkwaitting09"="더 빨리 움직여!";
+"local_minitalkwaitting10"="죽지마! 고향에 계신 어머니를 생각해!";
+"local_minitalkwaitting11"="시간은 금이라고 친구!";
+"local_minitalkwaitting12"="너는 이미 죽어있다!";
+"local_minitalkwaitting13"="던전은 엔터테인먼트!";
+"local_minitalkwaitting14"="저 칼, 보험은 들었을까";
+"local_minitalkwaitting15"="지금 도망치기엔 늦었을까";
+
+"local_minitalkbattle01"="이 벌레 같은 녀석들!";
+"local_minitalkbattle02"="죽어라 이 몬스터들!";
+"local_minitalkbattle03"="죽어라! 부모님의 원수!";
+"local_minitalkbattle04"="으악! 아프잖아!";
+"local_minitalkbattle05"="이럴 수가! 칼이 무뎌졌어..";
+"local_minitalkbattle06"="우리들은! 지지 않는다!";
+"local_minitalkbattle07"="레벨 업이 머지 않았어!! 힘내!";
+"local_minitalkbattle08"="훗! 별 거 아닌데?";
+"local_minitalkbattle09"="죽이기에 아까운 실력의 몬스터로군.";
+"local_minitalkbattle10"="윽! 윽! 죽을 거 같아..";
+"local_minitalkbattle11"="무리를 이룬 늑대들은 살아남는다!";
+"local_minitalkbattle12"="깊은 산속 옹달샘! 누가 와서 먹나요!";
+"local_minitalkbattle13"="이제 막 탄력 받았어!";
+"local_minitalkbattle14"="내 검술의 원리는 말이지.. 커헉!! 푸허헉!";
+"local_minitalkbattle15"="귀하의 사망시각은… 바로 지금!";
+
+"local_minitalkwin01"="이겼다! 개똥같은 몬스터들!ㅋㅋ";
+"local_minitalkwin02"="이날의 승리를 영원히 기억하리라!";
+"local_minitalkwin03"="아우! 아우! 아우!";
+"local_minitalkwin04"="저녁은 집에서 먹겠군";
+"local_minitalkwin05"="득템한 사람?";
+"local_minitalkwin06"="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ";
+"local_minitalkwin07"="이 던전은 너무 허술하군";
+"local_minitalkwin08"="정말 아슬아슬했어";
+"local_minitalkwin09"="역시 수로 밀어붙여야 해";
+"local_minitalkwin10"="곧 다시 오겠다!";
+"local_minitalkwin11"="우리에겐 내일이란 게 생겼잖아";
+"local_minitalkwin12"="승리 아니면 죽음 뿐. 그 가운데는 없어";
+"local_minitalkwin13"="아내가 기다리는 집으로 가자";
+"local_minitalkwin14"="아윌비백!";
+"local_minitalkwin15"="흥! 골드는 필요 없어! 중요한 건 메시지다.";
+
+"local_minitalkdie01"="주…죽는 건가";
+"local_minitalkdie02"="아깝다 레벨 업이 눈앞이었는데";
+"local_minitalkdie03"="포션 하나만 더 챙겨왔어도!!";
+"local_minitalkdie04"="아프다..";
+"local_minitalkdie05"="난이도가 너무 높아!";
+"local_minitalkdie06"="뒤.. 뒤를 부탁한다";
+"local_minitalkdie07"="..상처가 너무 깊어";
+"local_minitalkdie08"="인간이.. 언젠가 승리할 것이다";
+"local_minitalkdie09"="아악! 너무 아파!";
+"local_minitalkdie10"="이럴 때 부모님 생각이 나는구나";
+"local_minitalkdie11"="발라 모르굴리스!";
+"local_minitalkdie12"="밤은 어둡고 공포로 가득합니다";
+"local_minitalkdie13"="우리 가문은 언제나 빚을 갚는다";
+"local_minitalkdie14"="겨울이 오고 있다";
+"local_minitalkdie15"="빚을 갚았을 뿐이다";
+
+"local_minitalklost01"="과욕은 금물입니다";
+"local_minitalklost02"="보스가 방심한 걸까요";
+"local_minitalklost03"="좀 더 이 던전에 집중하셔야 할 거 같아요";
+"local_minitalklost04"="졌지만 괜찮아요. 다음엔 이길 거니까요";
+"local_minitalklost05"="세배로 갚아줍시다";
+"local_minitalklost06"="빌어먹을 용사 녀석!!";
+"local_minitalklost07"="마족의 명예를 지키십시오!";
+"local_minitalklost08"="용사가 미쳐 날뛰고 있습니다";
+"local_minitalklost09"="카학! 제게 벌을 주세요";
+"local_minitalklost10"="운이 조금 없었습니다";
+"local_minitalklost11"="행운의 신이 마왕님 편이길!";
+"local_minitalklost12"="저를 봐요, 내 안의 괴물이 이렇게 커졌어요";
+"local_minitalklost13"="패배는 복수의 어머니입니다";
+"local_minitalklost14"="성급한 악마는 벌을 받아야해요.";
+"local_minitalklost15"="성가신 녀석이 있었습니다";
+
+
+"local_minitalksummonlow01"="미천한 힘이지만 보태겠습니다요";
+"local_minitalksummonlow02"="내 한 목숨, 기꺼이 바칠게요";
+"local_minitalksummonlow03"="인간… 나빠요";
+"local_minitalksummonlow04"="용사 고기 마시쪄";
+"local_minitalksummonlow05"="이번 전투를 헛되게 하지 않을게요";
+"local_minitalksummonlow06"="피를… 피를 주세요!";
+"local_minitalksummonlow07"="엘프는 맛없어요";
+"local_minitalksummonlow08"="소환에 응하겠습니다";
+"local_minitalksummonlow09"="인간에게 어둠을!";
+"local_minitalksummonlow10"="바깥 공기가 오랜만이군요";
+"local_minitalksummonlow11"="이 던전은 오랜만이네요";
+"local_minitalksummonlow12"="용사 세명 처치하는게 목표!";
+"local_minitalksummonlow13"="죽더라도 화끈하게 싸워보자!";
+"local_minitalksummonlow14"="윽! 이길 수 있을까?";
+"local_minitalksummonlow15"="저라도 괜찮겠어요?";
+
+
+
+"local_minitalksummonhigh01"="내 힘이 필요한가, 마왕이여";
+"local_minitalksummonhigh02"="잠깐 돕고 가겠네";
+"local_minitalksummonhigh03"="화장실가는 중에 소환하면 곤란하지!";
+"local_minitalksummonhigh04"="날 뽑다니 운이 좋군";
+"local_minitalksummonhigh05"="일회용 몬스터의 레벨은 당신의 레벨과 동일하다";
+"local_minitalksummonhigh06"="인간.. 나쁘다.. 나.. 당신을 돕는다..";
+"local_minitalksummonhigh07"="나를 소환하다니 대단하군";
+"local_minitalksummonhigh08"="자주 보다가 정들겠어";
+"local_minitalksummonhigh09"="오늘 용사들은 어떤 맛일까?";
+"local_minitalksummonhigh10"="계약직 몬스터의 파워를 보여주마!";
+"local_minitalksummonhigh11"="악명이 높아질수록 나도 강해진다";
+"local_minitalksummonhigh12"="나라면 충분할 것이다";
+"local_minitalksummonhigh13"="마침 한가하니 도와주겠다";
+"local_minitalksummonhigh14"="인간에게 죽음을…";
+"local_minitalksummonhigh15"="아직 레벨이 부족한데 괜찮겠어?";
+
+// ** 순서 상관 없음 ** //
+// 팝업
+
+"local_popupalreadyclear"="튜토리얼 던전입니다.";
+"local_popupneedlevel"="해당 던전은 %d 부터 입장 할 수 있습니다.";
+"local_popuphealallmonster"="던전에 있는 모든 몬스터의 HP를 회복시킵니다.";
+"local_popupemptypotion"="포션이 부족합니다. 구입하러 가시겠습니까?";
+"local_popupbought"="구매하였습니다.";
+"local_popupcannotbuy"="보석이 부족합니다.";
+"local_popupnhnpriceerror"="네이버 가격 정보를 가져오는데 실패했습니다.";
+"local_popupslotcountiszero"="스핀이 부족합니다. 채우러 가시겠습니까?";
+"local_popupnomoreenhance"="더 이상 강화시킬 수 없습니다.";
+"local_popupnotenoughmoney"="골드가 부족합니다.";
+"local_popupnotenoughpotion"="포션이 부족합니다.";
+"local_popupnotenoughgem"="보석이 부족합니다.\n상점으로 이동하시겠습니까?";
+"local_popupnotenoughspin"="스핀이 부족합니다.";
+"local_popupcannotsummon"="전투가 끝나야 배치하실 수 있습니다.";
+"local_popupcostover"="소환가능한 팀 코스트(별)를 초과하였습니다.\n악명을 높여서 팀 코스트(별)을 올리세요!";
+"local_popupcostzero"="덱에 몬스터가 없으면 전투를 시작할 수 없습니다.\n몬스터를 배치하세요.";
+"local_popupasksell"="골드로 교환하시겠습니까?\n(가격 : %d)";
+"local_popupbossroomisempty"="보스 룸에 몬스터가 없으면 전투를 시작할 수 없습니다.\n몬스터를 배치하세요.";
+"local_popupstageexitnotice"="전투 중 월드맵으로 나가면 패배로 처리됩니다";
+"local_popupinvenisfull"="인벤이 가득 찼습니다.";
+"local_popupusingmonster"="사용중인 몬스터 입니다.";
+"local_popupgetreward"="보상을 획득하였습니다.";
+"local_popupcompletebonus"="마법을 완성하여 보석을 획득하였습니다.";
+
+"local_episodetitle00"="프롤로그";
+"local_episodetitle01"="던전을 발견한 어느 용사";
+"local_episodetitle02"="용사의 자질";
+"local_episodetitle03"="고양이 검사";
+"local_episodetitle04"="용사의 인터페이스";
+"local_episodetitle05"="관계 형성";
+"local_episodetitle06"="보스 몬스터의 비밀";
+"local_episodetitle07"="메인 퀘스트";
+"local_episodetitle08"="퀘스트 해결의 열쇠";
+"local_episodetitle09"="서로에 대한 이해";
+"local_episodetitle10"="공주의 모험";
+"local_episodetitle11"="흔한 퀘스트";
+"local_episodetitle12"="마왕의 과거";
+"local_episodetitle13"="용사의 강력한 경쟁자";
+"local_episodetitle14"="마왕의 추종자들";
+"local_episodetitle15"="용사의 가소로운 요청";
+"local_episodetitle16"="전설의 아이템";
+"local_episodetitle17"="사라진 원소 속성";
+"local_episodetitle18"="마녀는 마왕의 편";
+"local_episodetitle19"="마왕의 과거";
+"local_episodetitle20"="벨 수 없는 몬스터";
+"local_episodetitle21"="다가오는 신의 위협";
+"local_episodetitle22"="신자들의 목적";
+"local_episodetitle23"="마왕과 신";
+"local_episodetitle24"="신의 재림";
+"local_episodetitle25"="신의 자서전";
+"local_episodetitle26"="심판의 시작";
+"local_episodetitle27"="완전체";
+"local_episodetitle28"="에필로그";
+
+"local_uigemtitle"="고블린의 보석 시장";
+"local_uislottitle"="어둠의 스핀충전";
+"local_uislotdes"="어둠의 힘으로 던전의 스핀 머신 사용 횟수를 늘립니다.";
+"local_uipotiontitle"="서큐버스의 함정카드";
+"local_uiPotiondes"="함정 카드를 구입합니다";
+
+"local_uibattleresultgetmoney"="전리품 획득!";
+"local_uibattleresultgetmobexp"="몬스터 경험치 획득!";
+"local_uibattleresultgetlevelbonus"="레벨 보너스 획득!";
+"local_uibattleresultgetexplose"="보스의 수비 실패로 악명이 그대로예요.\n\n골드를 모아서 강력한 몬스터들을 새로 소환하거나 강화시키세요.";
+"local_uibattleresultgetexplose2"="너무 힘겨운 던전이라면 이전에 클리어하셨던 던전에서 골드를 모아보시는 것은 어떻습니까?";
+"local_uibattleresultgetexpwin"="악명 높아졌다!";
+
+"local_uienhancedes"="재료 몬스터들을 선택하세요";
+"local_uienhancelvdes"="강화 후 Lv";
+"local_uienhancepricedes"="필요 Gold";
+"local_uienhanceselectdes"="선택";
+
+"local_levelupeventlevel"="악명도 레벨업 보너스!";
+"local_levelupeventdungeon"="수고하셨습니다!\n이 지역의 인간들은\n어둠에 굴복하였습니다.";
+
+"local_gotchatitle"="몬스터 소환";
+"local_inventitle"="악마 보관함";
+"local_equipmonster"="장착 몬스터";
+
+"local_summonmonsterdes"="몬스터를 선택하세요";
+"local_summonmonstercarddes"="몬스터를 배치시킬 슬롯을 선택하세요";
+
+"local_mvmselectdes"="전투에 나갈 몬스터를 순서대로 선택하세요";
+
+
+"local_readytalk01"="콜록콜록! 먼지가 많군";
+"local_readytalk02"="마왕의 실력을 검증해보겠다";
+"local_readytalk03"="보물 상자를 찾을 수 있으려나";
+"local_readytalk04"="빛의 신이여, 도와주소서!";
+"local_readytalk05"="검과 함께 간다앗!";
+"local_readytalk06"="오늘 저녁은 지옥에서 먹는 거다!";
+"local_readytalk07"="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ";
+"local_readytalk08"="보스를 공략해서 공주님께 청혼해야지!";
+"local_readytalk09"="전설의 검이 있으니 난 무적이야!";
+"local_readytalk10"="이봐, 마왕! 내 레벨 똑똑히 봐두라고!";
+"local_readytalk11"="나의 칼은 하늘을 뚫을 칼이다!";
+"local_readytalk12"="던전이 깊고.. 아름다워!";
+"local_readytalk13"="안녕하신가, 힘세고 강한 아침!";
+"local_readytalk14"="뼈가 부러져도, 걸을 수 없게 돼도 좋다!";
+"local_readytalk15"="불길한데..";
+"local_readytalk16"="오케이! 이쪽에서 좋은 느낌이 와";
+"local_readytalk17"="음.. 이쪽에선 피비린내가 나는군";
+"local_readytalk18"="난 이쪽으로 가볼게!";
+"local_readytalk19"="모두 나를 따르라!";
+"local_readytalk20"="어느 쪽이든 오늘 걸리는 몬스터는 오늘 죽는 줄 알아라!";
+"local_readytalk21"="어이! 밀지 말라고!";
+"local_readytalk22"="흥! 고민할 필요 없어!";
+"local_readytalk23"="남들 가는 길 따라가는 게 제일이지";
+"local_readytalk24"="이쪽에서 악마의 기운이 느껴지는군!";
+"local_readytalk25"="모든 선택에는 결과가 있는 법";
+"local_readytalk26"="방법은 언제나 있어!";
+"local_readytalk27"="오른쪽으로 가지마! 왼쪽에게 실례다!";
+"local_readytalk28"="이쪽으로 가는데 이유가 어딨어? 그냥 가는 거지.";
+"local_readytalk29"="거기서 왜 그러고 있냐?";
+"local_readytalk30"="ㅎㅎㅎㅎㅎㅎㅎㅎ";
+"local_readytalk31"="오 저 칼 비싼 건데?";
+"local_readytalk32"="힐이 필요해!";
+"local_readytalk33"="시간은 금이라고 친구!";
+"local_readytalk34"="눈알! 너는 이미 죽어있다!";
+"local_readytalk35"="던전은 엔터테인먼트!";
+"local_readytalk36"="저 칼, 보험은 들었을까";
+"local_readytalk37"="지금 도망치기엔 늦었을까";
+"local_readytalk38"="이 벌레 같은 녀석들!";
+"local_readytalk39"="이럴 수가! 칼이 무뎌졌어..";
+"local_readytalk40"="우리들은! 지지 않는다!";
+"local_readytalk41"="레벨 업이 머지 않았어!! 힘내!";
+"local_readytalk42"="무리를 이룬 늑대들은 살아남는다!";
+"local_readytalk43"="깊은 산속 옹달샘! 누가 와서 먹나요!";
+"local_readytalk44"="이제 막 탄력 받았어!";
+"local_readytalk45"="내 검술의 원리는 말이지.. 커헉!! 푸허헉!";
+"local_readytalk46"="귀하의 사망시각은… 바로 지금!";
+"local_readytalk47"="아우! 아우! 아우!";
+"local_readytalk48"="득템한 사람?";
+"local_readytalk49"="음냐ㅋ";
+"local_readytalk50"="이 던전은 너무 허술하군";
+"local_readytalk51"="정말 아슬아슬했어";
+"local_readytalk52"="역시 수로 밀어붙여야 해";
+"local_readytalk53"="곧 다시 오겠다!";
+"local_readytalk54"="우리에겐 내일이란 게 생겼잖아";
+"local_readytalk55"="승리 아니면 죽음 뿐. 그 가운데는 없어";
+"local_readytalk56"="아내가 기다리는 집으로 가자";
+"local_readytalk57"="아윌비백!";
+"local_readytalk58"="흥! 골드는 필요 없어! 중요한 건 메시지다.";
+"local_readytalk59"="아깝다 레벨 업이 눈앞이었는데";
+"local_readytalk60"="포션 하나만 더 챙겨왔어도!!";
+"local_readytalk61"="난이도가 너무 높아!";
+"local_readytalk62"="인간이.. 언젠가 승리할 것이다";
+"local_readytalk63"="발라 모르굴리스!";
+"local_readytalk64"="밤은 어둡고 공포로 가득합니다";
+"local_readytalk65"="우리 가문은 언제나 빚을 갚는다";
+"local_readytalk66"="겨울이 오고 있다";
+"local_readytalk67"="빚을 갚았을 뿐이다";
+
+
+"local_yes"="예";
+"local_no"="아니요";
+"local_ok"="확인";
+"local_cancel"="취소";
+
+"local_networkdisconnected"="네트워크 끊김";
+"local_networkdisconnecteddes"="인터넷에 연결되어 있지 않습니다";
+"local_waitaminute"="기다려주세요";
+"local_networkretry"="네트워크 상태가 원활하지 않습니다.\n재시도 하시겠습니까?";
+"local_couldnotgoshop"="전투가 끝나야 구매하실 수 있습니다.";
+
+"local_tips01"="조심하세요. 때론 강한 용사들이 오기도 하니깐요.";
+"local_tips02"="용사의 속성보다 강한 속성으로 배치해야 효과적인 방어를 할 수 있어요!";
+"local_tips03"="솔직히 어떤 몬스터가 뽑힐지 미리 알 수 없어요.\n얄궂지만 이게 또 재미죠.";
+"local_tips04"="골드가 충분하니까 하나 뽑아보세요.";
+"local_tips05"="뽑은 몬스터 카드는 보관함에 있어요.보관함 버튼을 눌러보세요.";
+"local_tips06"="과욕은 금물입니다";
+"local_tips07"="좀 더 이 던전에 집중하셔야 할 거 같아요";
+"local_tips08"="빌어먹을 용사 녀석!!";
+"local_tips09"="용사가 미쳐 날뛰고 있습니다";
+"local_tips10"="저를 봐요, 내 안의 괴물이 이렇게 커졌어요";
+"local_tips11"="전투에서 많은 승리를 거둬서 강력한 몬스터들을 모으고 악명 레벨을 높이는 것!\n그것이 주인님이 이 세계에서 할 일입니다.";
+"local_tips12"="뽑기로 소환된 용사들과의 전투에서 가능한 많은 승리를 거두세요";
+"local_tips13"="골드를 모아서 강력한 몬스터들을 새로 소환하거나 강화시키세요";
+"local_tips14"="전투로 악명도 레벨을 높이세요";
+"local_tips15"="부담없이 당겨보세요\n오른쪽 아래의 레버가 바로 우리가 원할 때 용사들을 불러올 수 있는 장치죠.";
+"local_tips16"="극한의 던전에 어서 와! 마성의 게이머가 되어봐!";
+"local_tips17"="주인님! 악마가 땅에서 사라진 지 너무 오래됐습니다!";
+"local_tips18"="불,물,나무,빛.. 그리고 사라진 속성의 비밀을 찾아보세요.";
+"local_tips19"="빛의 대륙에 어둠이 다시 찾아오도록 악마의 스핀을 돌려주세요.";
+"local_tips20"="용사들의 시체에서 나온 골드와 보석으로 몬스터들을 소환하고 강화시키세요!";
+"local_tips21"="얄미운 용사들이 피 흘리는 모습을 지켜봐 주세요!";
+"local_tips22"="악마의 스핀을 돌려 인간 용사들을 던전에 불러오세요.";
+"local_tips23"="리뷰를 남겨주세요! 주인님!";
+"local_tips24"="빛과 어둠의 끝나지 않는 싸움! 당신이 끝내세요!";
+"local_tips25"="용사의 속성보다 강한 속성으로 배치해야 효과적인 방어를 할 수 있어요!";
+"local_tips26"="빛은 나머지 모든 속성을 이겨요";
+
+"local_pleaselevelup"="강화해 주세요.";
+
+"local_enhancehelp"="강화에는 해당 몬스터의 별 개수만큼의 별이 더 필요해요. 예를 들어, 6성 몬스터는 레벨 업 하는데 총 6개의 별이 재료로 필요합니다.";
+
+"local_exitgametitle"="게임 종료";
+"local_exitgamedes"="게임을 종료하시겠습니까?";
+
+"local_localnoticeday1"="빛과 어둠의 끝나지 않는 싸움! 주인님이 끝내세요!";
+"local_localnoticeday3"="주인님! 이제 그만 일어나시죠?!";
+"local_localnoticeday7"="주인님! 악마가 땅에서 사라진 지 너무 오래됐습니다!";
+
+
+"local_skilldescritical"="치명타 공격!!";
+"local_skilldesheal"="몬스터의 HP를 %d만큼 회복시킨다";
+"local_skilldespoison"="용사가 움직일 때마다 지속적으로 %d씩 HP가 감소한다";
+"local_skilldesleech"="용사의 HP를 %d만큼 뺏어온다";
+"local_skilldesinsight"="용사의 원소 속성을 무력화시킨다";
+"local_skilldesterror"="용사의 공격력을 %.1f%% 감소시킨다";
+"local_skilldeshorror"="용사의 방어력을 %.1f%% 감소시킨다";
+"local_skilldescurse"="용사의 레벨을 %d단계 아래로 낮춘다";
+
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+"local_popupmvmpopup"="마계의 주인 자리를 놓고 전세계의 경쟁이 치열하다고 해요.\n당신의 오늘 랭킹을 확인해보세요.";
+
+"local_dailyquestdes01"="5번 승리하세요";
+"local_dailyquestdes02"="10번 승리하세요";
+"local_dailyquestdes03"="불속성 용사를 5명 해치우세요";
+"local_dailyquestdes04"="물속성 용사를 5명 해치우세요";
+"local_dailyquestdes05"="나무속성 용사를 5명 해치우세요";
+"local_dailyquestdes06"="새로운 몬스터를 3마리 뽑으세요";
+"local_dailyquestdes07"="새로운 몬스터를 2마리 뽑으세요";
+"local_dailyquestdes08"="새로운 몬스터를 1마리 뽑으세요";
+"local_dailyquestdes09"="3성 몬스터를 뽑아보세요";
+"local_dailyquestdes10"="2성 몬스터를 뽑아보세요";
+"local_dailyquestdes11"="몬스터를 강화해서 레벨을 높여보세요";
+"local_dailyquestdes12"="몬스터 대전을 1회 플레이하세요";
+
+"local_dberrorexit"="DB 오류";
+"local_dbdeviceerrorexit"="디바이스 아이디 오류";
+"local_dbchangeerrorexit"="DB 변경이 감지되었습니다";
+"local_iapnotice"="결제 시 앱을 강제로 종료시키면 예기치 못한 오류가 생길 수 있으니 주의해주세요";
+"local_noticenewversion"="새 버전으로 업데이트 해주세요";
+
+"local_serverfileerror"="중복된 데이터가 다른 기기에서 사용되었습니다.";
+"local_servernetworkretry"="인터넷 연결이 원활하지 않습니다.\n다시 시도하시겠습니까?";
+"local_levelupcounterror"="비정상적인 값을 감지하였습니다. 어플을 종료합니다.";
+"local_serverfirstconnet"="첫 실행 시에는 네트워크 연결이 필요합니다.";
+
+"local_popupuiaskbuy"="정말로 소환하시겠습니까?";
+
+"local_adventuredaybonus01"="제발 살려주세요";
+"local_adventuredaybonus02"="집에 갓태어난 아이가 있어요";
+"local_adventuredaybonus03"="제발요! 혼인한지 얼마 안됐어요!";
+"local_adventuredaybonus04"="날 죽이려고?";
+"local_adventuredaybonus05"="하나도 무섭지 않아";
+"local_adventuredaybonus06"="캬악! 퉤! 더러운 악마!";
+"local_adventuredaybonus07"="날 살려주면 운이 좋아질지도 몰라!";
+"local_adventuredaybonus08"="다시는 오지 않을게요!";
+"local_adventuredaybonus09"="말해봐요, 나한테 왜 그랬어요?";
+"local_adventuredaybonus10"="파티를 잘못 골랐어! 젠장!";
+"local_adventuredaybonus11"="마을에 돌아갈 면목이 없구나";
+"local_adventuredaybonus12"="절대 어둠에 굴복하지 않겠어!";
+
+"local_adventuredaybonustitle"="희생시킬 용사를 선택하세요";
+"local_adventureinfo00"="용사를 죽일 때 마다 채워지는 오브를 모아 몬스터들을 모험의 대륙으로 여행 보낼 수 있게 됩니다";
+"local_adventureinfo01"="예기치 않은 이야기와 보상을 기대해보세요";
+"local_adventuretip"="다가오는 용사들의 속성에 맞춰 몬스터들을 배치시키세요";
+
+"local_adventureeventeye01"="여어~ 반가워요";
+"local_adventureeventeye02"="내 동족들은 잘 있나요?";
+"local_adventureeventeye03"="나를 기다린 거야?";
+"local_adventureeventeye04"="돼지라고 욕해도 좋아, 당신과 함께 할 수 있다면…";
+"local_adventureeventmeetmagicianfailed"="이걸 어쩌나… 이건 꽝이라는 뜻이야.";
+
+"local_adventureeventmeetmagician"="앗! 마족이구나! 오랫동안 기다려왔지.{바로 마왕님이 부활하실 때를!{모든 것은 인과의 법칙 속에 있지.{곧 세상은 어둠으로 물들 것이야.";
+"local_adventureeventmeetmagician01"="그런데 이 구성은 뭐지?{마왕님의 몬스터들이라면 적어도 3성,4성은 될 줄 알았는데…";
+"local_adventureeventmeetmagician02"="다른 세계에 대한 호기심은 어디에서 끝나는 걸까나?{죽은 자도 그 생각을 멈추지 못한다고 하더군.{너희들에게도 즐거운 여행이 되었기를…";
+"local_adventureeventmeetmagician03"="서큐버스는 음욕을 채우지 못하면 말썽을 부리곤 하지.{그것과 쌍을 이루는 몬스터를 만나 다행이야.";
+"local_adventureeventmeetmagician04"="귀여워라! 쪼그만 몬스터들이 여기까지 오다니..{끈질긴 생명력에 감탄했지뭐야.";
+"local_adventureeventmeetmagician05"="아무리 작고 연약한 짐승이라해도 너희의 생명 또한 자연의 일부.{인간의 공격으로부터 스스로를 지키기 위해 강력해지고자 하는 동물들의 열망에 감탄했다.";
+"local_adventureeventmeetmagician06"="약탈꾼들이군! 인간의 소유에 대한 열망과 욕심을 무너뜨려주거라!";
+"local_adventureeventmeetmagician07"="다른 세계에 대한 호기심은 어디에서 끝나는 걸까나?{죽은 자도 그 생각을 멈추지 못한다고 하더군.{너희들에게도 즐거운 여행이 되었기를…";
+"local_adventureeventmeetmagician08"="귀여워라! 쪼그만 몬스터들이 여기까지 오다니..{끈질긴 생명력에 감탄했지뭐야.";
+"local_adventureeventmeetmagician09"="러브 크래프트의 크리쳐들이로군!{크툴루가 이 땅에 재림하다니… 세상은 이제 끝이야.";
+"local_adventureeventmeetmagician10"="할로윈인가? 친숙한 몬스터들이군.{사탕 대신 줄 게 이것밖에 없구나.";
+"local_adventureeventmeetmagician11"="용사의 경험치 재료가 되려고 떠난 여행은 아니겠지?{너희도 레벨업을 게을리하지 말거라.";
+"local_adventureeventmeetmagician12"="다른 세계에 대한 호기심은 어디에서 끝나는 걸까나?{죽은 자도 그 생각을 멈추지 못한다고 하더군.{너희들에게도 즐거운 여행이 되었기를…";
+"local_adventureeventmeetmagician13"="검술로는 인간 용사들에게도 뒤쳐지지 않을 터!{그들의 용기와 자존심을 베거라!";
+"local_adventureeventmeetmagician14"="우리들 중 마지막 남은 자들은 악마 디아블로의 부활을 위해 스파게티 미트볼을 먹으리라는 예언이 오늘 성취되었구나.";
+"local_adventureeventmeetmagician15"="땅이 울리는 소리에 찾아왔더니 너희들이로구나.{이걸 줄테니 좀 조용해주겠니?";
+"local_adventureeventmeetmagician16"="마계의 나름 미모라는 녀석들이 설마 너희들?{배드걸파워가 뭔지 이제야 알 거 같구나.";
+"local_adventureeventmeetmagician17"="설마… 가장 다루기 힘들다고 하는 두 용이 나란히 모험을 하다니.{이번 마왕님은 정말로 대단한 분이시구나";
+"local_adventureeventmeetmagician18"="이번엔 또 뭐지?{이런 희귀한 마신들을 한번에 만나게 되다니… 오래 살다보니 별일이야.";
+"local_adventureeventmeetmagician19"="거대 마신들이 이렇게 땅을 휩쓸고 다니는 광경을 직접 보게되다니 감격스럽구나!";
+"local_adventureeventmeetmagician20"="거대 마신들이 이렇게 땅을 휩쓸고 다니는 광경을 직접 보게되다니 감격스럽구나!";
+"local_adventureeventmeetmagician21"="거대 마신들이 이렇게 땅을 휩쓸고 다니는 광경을 직접 보게되다니 감격스럽구나!";
+"local_adventureeventmeetmagician22"="거대 마신들이 이렇게 땅을 휩쓸고 다니는 광경을 직접 보게되다니 감격스럽구나!";
+"local_adventureeventmeetmagician23"="이번엔 또 뭐지?{이런 희귀한 마신들을 한번에 만나게 되다니… 오래 살다보니 별일이야.";
+"local_adventureeventmeetmagician24"="전설의 동물들이 이렇게 한자리에… 오늘은 로또를 사야겠다";
+"local_adventureeventmeetmagician25"="신비한 몬스터들이로군.";
+"local_adventureeventmeetmagician26"="신비한 몬스터들이로군.";
+"local_adventureeventmeetmagician27"="신비한 몬스터들이로군.";
+"local_adventureeventmeetmagician28"="신비한 몬스터들이로군.";
+"local_adventureeventmeetmagicianend"="그런 이유로…. 나름 싼 가격에 행운의 점을 봐주지.{보석부터 특별한 몬스터까지… 어떤 보상을 얻게 될지 몰라.";
+"local_adventureeventmeetmagicianselect"="%d 골드에 행운의 점을 보겠어?";
+"local_adventureeventmeetmagicianno"="이런 기회를 놓치다니… 그래도 만난 것도 인연이니 이걸 줄게.#get gold";
+"local_adventureeventmeetmagicianok"="자, 그럼 12장의 카드 중에 하나를 골라봐#show magician";
+
+"local_teameffectdes01"="1성 몬스터들의 공격력이 50% 증가합니다";
+"local_teameffectdes02"="어둠속성 몬스터의 공격력이 10% 증가합니다";
+"local_teameffectdes03"="3성 몬스터의 공격력이 10% 증가합니다";
+"local_teameffectdes04"="골드 획득량이 10% 증가합니다";
+"local_teameffectdes05"="3성 몬스터들의 HP가 1000씩 증가합니다";
+"local_teameffectdes06"="물속성 몬스터의 공격력이 13% 증가합니다";
+"local_teameffectdes07"="불속성 몬스터의 공격력이 10% 증가합니다";
+"local_teameffectdes08"="2성 몬스터들의 공격력이 30% 증가합니다";
+"local_teameffectdes09"="모든 몬스터들의 HP가 1000씩 증가합니다";
+"local_teameffectdes10"="나무속성 몬스터의 공격력이 12% 증가합니다";
+"local_teameffectdes11"="모든 몬스터들의 공격력이 15% 증가합니다";
+"local_teameffectdes12"="어둠속성 몬스터들의 공격력이 15% 증가합니다";
+"local_teameffectdes13"="5성 몬스터들의 공격력이 15% 증가합니다";
+"local_teameffectdes14"="4성 몬스터들의 공격력이 20% 증가합니다";
+"local_teameffectdes15"="4성 몬스터들의 방어력이 30% 증가합니다";
+"local_teameffectdes16"="4성 몬스터들의 HP가 2000씩 증가합니다";
+"local_teameffectdes17"="어둠속성 몬스터들의 HP가 5000씩 증가합니다";
+"local_teameffectdes18"="모든 몬스터들의 공격력이 20% 증가합니다";
+"local_teameffectdes19"="모든 몬스터들의 방어력이 50% 증가합니다";
+"local_teameffectdes20"="6성 몬스터들의 HP가 4000씩 증가합니다";
+"local_teameffectdes21"="5성 몬스터들의 HP가 3000씩 증가합니다";
+"local_teameffectdes22"="불속성 몬스터들의 HP가 3000씩 증가합니다";
+"local_teameffectdes23"="물속성 몬스터들의 HP가 3000씩 증가합니다";
+"local_teameffectdes24"="나무속성 몬스터들의 HP가 3500씩 증가합니다";
+"local_teameffectdes25"="레벨 50 이하 몬스터들의 HP가 3000 증가합니다";
+"local_teameffectdes26"="레벨 50 이하 몬스터들의 공격력이 20% 증가합니다";
+"local_teameffectdes27"="5성 몬스터들의 공격력이 30% 증가합니다";
+"local_teameffectdes28"="5성 몬스터들의 방어력이 30% 증가합니다";
+
+"local_teamtripinfotitle"="모험 모드 소개";
+
+
+ "local_coupon_error_01"="사용할 수 없는 쿠폰입니다.";
+ "local_coupon_error_02"="이미 사용한 쿠폰입니다.";
+ "local_coupon_error_03"="이미 사용한 쿠폰 타입입니다.";
+ "local_coupon_error_04"="유효기간이 만료된 쿠폰입니다.";
+ "local_coupon_success"="쿠폰이 정상적으로 적용되었습니다.";
+ "local_purchase_error_01"="거래를 완료하지 못했습니다.";
+ "local_purchase_error_02"="잘못된 거래 정보 입니다.";
+
+"local_popupnotenoughorb"="오브가 부족합니다.";
+

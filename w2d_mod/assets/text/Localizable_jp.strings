@@ -1,0 +1,683 @@
+/* 
+  Localizable.strings
+  WelcomeD
+
+  Created by Administrator on 2014. 3. 26..
+
+*/
+
+// ** 순서 꼭 지켜야함 ** //
+"local_font"="font/PixelMplus12-Regular.ttf";
+"local_fontBold"="font/PixelMplus12-Bold.ttf";
+// 튜토리얼
+"local_tutorialtalk01"="@eye:ここは人間界。まだ魔力が届かないダンジョンもあります。{はじめのダンジョンから順番にダンジョンを増やして勢力を伸ばしましょう。{ご主人様の業務評価はこの悪名レベルで判断します。";
+"local_tutorialtalk02"="@eye:まずは、はじめのダンジョンにいきましょう。";
+"local_tutorialtalk03"="@eye:ちんまりしたダンジョンですね。{悪名高いダンジョンになればは自然と人間の勇者たちが来ますが、そうなると時間が掛かりますので…{我々は魔界の力を使ってみましょう。{そうすれば、私たちが望むときに勇者たちを呼び寄せることができます。";
+"local_tutorialtalk04"="@eye:時間が経つと溜まる魔力を使ってこの装置を作動させると、選ばれた勇者たちがダンジョンに入ってきます。{引いてみてください。";
+"local_tutorialtalk05"="@eye:人間たちは自分の選択に対してどんなことが起こるだろうかとは考えず、良い結果だけを確信する傾向があります。@hero:ここから悪魔の気配がする!@eye:くくく…この勇者が選んだ道にはどんな運命が待っているかな。";
+"local_tutorialtalk06"="@eye:お見事です!やはりご主人様は闇に愛されていますね。{でも気をつけてください。ときには強い勇者が来ることもありますから。";
+"local_tutorialtalk07"="@eye:おめでとうございます。ダンジョンを極めました。{悪名が上がって、このダンジョンにはこれ以上誰も来ないと思います。\nもっと広いダンジョンに行きましょう。";
+"local_tutorialtalk08"="@eye:新しいダンジョンは気に入りましたか？{新しいダンジョンに挑むためには改めてモンスターを配置し直さなければなりません。{保管BOXに配置できるモンスターがいないので新たなモンスターを引いてみましょう。\nメニューからモンスター召喚を押してください。";
+"local_tutorialtalk09"="@eye:正直、どんなモンスターが出るかは事前には分かりません。{簡単に手に入るモンスターなんて面白くないでしょう？{ゴールドは充分にあるので一回引いてみましょう。";
+"local_tutorialtalk10"="@eye:こいつですね。強化させると役に立つかもしれませんよ。{気付いたかもしれませんが、星が多いほど、レアなもので優れた資質を持ってます。";
+"local_tutorialtalk11"="@eye:引いたモンスターカードは保管BOXにあります。\n保管BOXボタンを押してください。";
+"local_tutorialtalk12"="@eye:画面の左の上に見える星の数がモンスターをダンジョンに配置できる費用です。\n悪名が上がると費用限界も増えます。";
+"local_tutorialtalk13"="@eye:戦闘で多くの勝利を挙げて、強力なモンスターたちを集め、悪名度レベルを高めること!\nそれがご主人様がこの世界でするべきことです。{それでは私はそろそろ…次に助けが必要な時にまた来ます。\n10000コインを差し上げますので、モンスターを引き、配置して戦闘を始めましょう。";
+
+"local_tutorialtalkbattle01"="@eye:最初の列の勇者たちは火属性です。最初の戦いでは、水属性のモンスターが有利でしょうね。 {今は手動戦闘ですので戦いの順序を指定することができます。勇者が火属性だから、青色で表示された水属性のモンスターを一つ選びましょう。 ";
+"local_tutorialtalkbattle02"="@eye:勇者からたくさん攻撃されたモンスターは勇者に「大打撃」を与える機会を得ます。いち早くスキルボタンを押してください。{スキルボタンを押して見てください。";
+"local_tutorialtalkbattle03"="@eye:すべてのダンジョンには罠の部屋があります。罠カードを手に入れたら、どんな効果が出るか確認してみてください。";
+
+//스킵 시도
+"local_tutorialtalkskip00"="@eye:おや、ご主人様!スキップをしたり居眠りしたりはしないで話を最後まで聞いてください!!ゴールドをたっぷり差し上げますよ!もうすぐ終わりますから。";
+"local_tutorialtalkskip01"="@eye:では、簡単にゲームの目的を案内します。{1)召喚された勇者たちとの戦闘でなるべく多くの勝利をあげましょう。{2)ゴールドを集めて強力なモンスターを召喚したり強化させましょう。{3)戦闘で悪名度を高めます。\nこれがご主人様がこの世界でするべきことです。{それでは、私が必要になった時にまたお会いしましょう。";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트 시스템
+"local_talkeventsystemgetgold"="%d ゴールドを獲得しました。";
+"local_talkeventsystemlosegold"="%d ゴールドを失いました。";
+"local_talkeventsystemlosegold2"="%d ゴールドを獲得しました。";
+"local_talkeventsystemgetsuccubuscard"="サキュバスカードを獲得しました。";
+"local_talkeventsystemmonsterlevelsup"="モンスターの能力が一時的に更に強くなった。";
+"local_talkeventsystemmonsterlevelup"="モンスターたちが一時的に更に強くなった。";
+"local_talkeventsystemherolevelsup"="ダンジョン内の勇者たちが少し強くなった。";
+"local_talkeventsystemherohpdown"="ダンジョン内の勇者たちのHPが減少した。";
+"local_talkeventsystemdealmonsterlevelup"="ゴールドを使ってモンスターたちを一時的に強化しますか?";
+"local_talkeventsystemdealgem"="取引しますか?";
+"local_talkeventsystemgetgem"="宝石%d個を獲得しました。";
+"local_talkeventsystemgetexp"="%d ゴールドを獲得しました。";
+
+// ** 순서 꼭 지켜야함 ** //
+// 이벤트
+"local_talkeventswordcatenter"="@sword_cat:はじめましてにゃん!\nここがあの有名な魔王のダンジョン?{私はトビー!ネコ勇者なんだ。{類稀な勇ましさと才覚があって師匠に気に入られ、剣術まで学んだんだ。{町からここに来た勇者たちが多いと聞いたので、私も来て見ました。{私は落ちてるコインでも拾おうかなと思って来たんです。\nどうか腹を立てないで下さいね。";
+"local_talkeventswordcatlose"="@sword_cat:(はっ??!!)お願いします!命だけは!!!{私が拾ったコインは全部置いて行きますから\nどうかお許しを～。{(惜しかったにゃん、もう少し実力を付けてから又くるにゃん!)#get gold";
+"local_talkeventswordcatwin"="@sword_cat:落ちているコインだけ拾って帰ろうかと思ったけど、\n部下たちの実力は噂ほど良くないみたいだにゃん。{ゴールドちょこっと拝借するにゃん。\n(ニャニャニャニャニャ〜)#lose gold";
+"local_talkeventswordcatenterlose"="@sword_cat:(にゃ〜ん)また来ました。\n先日はお世話になりました。{実は家で妻と子供がお腹を空かせて待っているんです…\n落ちてるゴールド持って帰らなければ。{(今回は必ず!)";
+"local_talkeventswordcatenterwin"="@sword_cat:(にゃーん)魔王様、私を覚えていますか?フフフ…\n今回もゴールドをちょこーっと頂きます。{(今回もどうせ、前回のようにお粗末なダンジョンだろう?フフ…)";
+"local_talkeventmysterywoman"=" @mystery_woman:…{旅先での生活がどれだけきついか…\n食事はきちんと取ってるのかどうか…{夫をこっそり助けなきゃ。#monsters level up";
+"local_talkeventprincessenter"="@princess…ここね!{今日こそは必ず、魔王様にお会いするわ!";
+"local_talkeventprincessexit"="@princess: Ggiyaaaa";
+"local_talkeventprincesssuccess"="@princess:ああ…ついに!{魔王様にお会いできて嬉しいです。{実は私、敗戦国の姫、\n今の王国に対する恨みを晴らすことが私の目標です。{どうか!!\n私も魔王様と一緒に行動させて下さい。#get succubus card";
+"local_talkeventkingenter"="@king:人の目を避けてここまで来るのに苦労しました。{魔界がこの地を支配する時をわたしもご一緒したく。\n{ゴールドも集めて来ました。\n悪名がさらに高まるよう、祈ります。#get gold2";
+"local_talkeventkingafter"="@king:また来ました、偉大なる魔王様。{よろしくお願いします。ヘヘ…。#get gold2";
+"local_talkeventmerchantenter"=" @merchant:はじめまして、魔王様。{私は魔界であろうが人間界であろうが金になるものなら何でも売る魔法商人です。{お望みでしたら、今回の戦闘で全てのモンスターのレベルを上げられますが、どうですか。(3000ゴールド) #deal monsters level up";
+"local_talkeventmerchantrefuse"="@merchant:ま、いやでしたらしょうがない。\n勇者たちに売りに行きましょうかね。";
+"local_talkeventmerchantaccpet"="@merchant:戦闘に役に立ちますよ!\nではでは、またお会いしましょう。.#monsters level up";
+"local_talkeventseniorpriestenter"="@senior_priest:邪悪で不潔なもの!\nいつか予言の勇者がそなたを審判する!!{神の名のもとに、\n悪魔よ、退け!!!#hero levels up";
+"local_talkeventwitchesenter"="@witches: 魔王様♥ここにいらっしゃったんですね!!{勇者たちを追いかけてよかったわ!\nキャッキャッキャ{勇者たちに毒を飲ませました~\n今回の戦闘にも勝利してくださいませ♥︎#hero hp down";
+"local_talkeventfairiesenter"="@warrior:ここならレベルアップのための経験を積むのに最適だろう?\nメインクエストでもないし。@fairy:噂によると魔王が占領したダンジョンがあるらしいよ。{気をつけたほうがいいよ。@warrior:へへ、クエストにいない魔王なんか…\n私は主人公だぞ!!";
+"local_talkeventwarriorlose"="@warrior:そ…そんな…こんなところでエンディングも見られないまま、死ぬなんて@fairy:…だから気を付けろって言ったでしょう!{魔王さま、今回どうかお許しを、、、（二つのうち、一つは宝石、もう一つはゴールド）#deal gem";
+"local_talkeventwarrioralive"="@fairy:やっぱり…\n悪魔とは話にならないわ...@warrior:うわ、ああっ、死にたくない!!@fairy:大丈夫。町で復活すればいいの。#get gem";
+"local_talkeventwarriordie"="@fairy:あ、ありがとうございます。\n(早く、出ましょう!)@warrior:チッ、残念だが…\n(次はもっと強くなってから来ないとな)#get gold3";
+"local_talkeventwarriorwin"="@warrior:はは!\n大したことなかったな。{やっぱり武器を強化しといてよかった!{では魔王様、また会おうぜ?!@fairy:さ、これからはメインクエストに集中して!";
+"local_talkeventwarriorafter"="@warrior:ここも魔王のダンジョンなのか?魔王もちょっとは成長したかな?@fairy:あんまり調子に乗っちゃダメ!慎重に!@warrior:ふっ、私は、私の前に立ち塞がる全てのモンスターを斬るだけだ!";
+
+// ** 순서 꼭 지켜야함 ** //
+// 에피소드
+"local_episodetalk01"="@blank:エピソード1 ダンジョンを発見した、とある勇者@hero:魔界のモンスターたちが戻ってくるというウワサは本当だったんだ!{早く村に戻ってこのことを知らせなきゃ!@eye:イヤ~!{ご主人様の人気が日に日に上がりますね!@hero:おい!お前、ちょっとは緊張したらどうだ？";
+"local_episodetalk02"="@blank:エピソード2 勇者の資質@hero:勇者にもいろんな種類がある。{私はまだ素人だが、熟練勇者や王国勇者になると{こんなダンジョン簡単にクリアできる。@eye:もしもし。119番ですよね?{救急車1台を呼びたいんですけど…@hero:まだ呼ぶな!!";
+"local_episodetalk03"="@blank:エピソード3 ネコ剣士@sword_cat:はじめまして?{帽子を被るネコだにゃん。@hero:お前ただの剣士ではないな?@sword_cat:魔王のダンジョンがどんどん難しくなっているという噂を耳にしまして。{自分の実力を確認したくて参りました。@hero:そうなのか?ま、とにかくウンチはちゃんと地面に埋めてから行きな。@eye:え?{どこへ埋めるって?!!";
+"local_episodetalk04"="@blank:エピソード4 勇者のインターフェース@eye:極限のダンジョンへようこそ。@hero:大変だ。{このままボスモンスターも倒せずに村に戻ったら皆に合わせる顔がない。@eye:しがない勇者やってるより、ダンジョンでモンスターの素材になるのはどう?@hero:いや、さっきセーブしたところからロードし直そうと思って。@eye:そ…それってアリ?";
+"local_episodetalk05"="@blank:エピソード5 関係作り@hero:おい、目玉のバケモノ!{今日も俺たちの事見守ってくれてるのか?@eye:馴れ馴れしく話かけるな。{私はもうすぐ死ぬ勇者たちと仲良くなんてなりたくない。@hero:そうか?{でも、俺は毎回村で甦るんだから。{あんたも、もう少し余裕を持てよな。@eye:よかろう、勇者よ。私が、ナゾを一つ掛けてやろう。{’勇者とバイキングとエルフがダンジョンに入ったが、エルフだけが死んでしまった。なぜか?@hero:…エルフのレベルが低かったから?@eye:フフ。正解は’エルフが先頭にいたから’だ。{ダンジョンのシステムっていうのはそういうもんさ。{先頭に選ばれたやつから死ぬもんだ{だから入る順番をよく考えて決めるんだ。@hero:モンスターからの忠告だなんて、\nぞっとするな。@eye:フム…そうだとしても、あんたを3番目にしてあげるっていう意味じゃないぞ。{さあ、無駄話はここでおしまいだ。";
+"local_episodetalk06"="@blank:エピソード6 ボスモンスターの秘密@hero:よっしゃー!ひっさしぶりに生きて(?)帰れるんだな。@sword_cat:へへ。私もゴールド沢山拾いました。@eye:コラ!!ただ運がよかったんだろう。{ザコばっかり倒したんじゃない?@hero:いや、ボスモンスターには敗れたんだが、{今までのマイレージを使用して今回だけは許してくれるって。@eye:ボスめ、そんな商売を…";
+"local_episodetalk07"="@blank:エピソード7 メインクエスト@hero:メインクエスト中に思いがけない事実に気付いてしまった!@eye:なんだよ、急に真剣な顔で…@hero:’古代の遺物の欠片集め’というクエストをやってるが、集まっている欠片の絵に魔王と神が一緒にいたんだ。@hero:魔王と神が古代の崇拝物に一緒にいるなんて。{お前、何か知らないか?@eye:さあ、私は魔族たちが滅する時、辛うじて生き残っただけで、{魔王様は記憶を失ったまま甦って…{過去については魔王様もなにも知らないみたい。@hero:とりあえず、この欠片を全部集めないとな。@eye:ほう～、ストーリー前半を攻略する感じだな。";
+"local_episodetalk08"="@blank:エピソード8 クエスト解決の鍵@sword_cat:勇者が集めてる’古代遺物の欠片’なんだけど。@eye:メインクエストらしく、探すやつらが結構いるみたいだな。@sword_cat:勇者から聞きましたが、これが魔王の過去を探す手がかりだと。{ちょうど最後の欠片を手に入れましたが…@eye:なんだ、この私と取引でもするつもりか?!痛い目にあいたいのか、バカネコめ?{今すぐ、よこせ!、あれ?@sword_cat:はっ!卑怯で攻撃的なモンスターだにゃん。{この提案はなかったことにするにゃん!勇者と取引するんだにゃん!";
+"local_episodetalk09"="@blank:エピソード9 お互いの理解@hero:ダンジョンが増えると、どこから攻略すれば良いか見当がつかないな。@eye:モンスターの配置や強化レベルによって難易度差が激しい。{でも強い勇者たちがたくさん出るダンジョンに行く方が勇者の立場では生存に有利だろう。@hero:逆に魔王の立場ではモンスターの種類も多いし、強化までしないといけないから、ちょっと忙しくなる。@eye:待機している人の行動は廊下の長さによって異なることがある。{知れば知るほど複雑なシステムだ。";
+"local_episodetalk10"="@blank:エピソード10 姫の冒険@princess:ここが魔王のダンジョンですか?@eye:そうだが?!おや?{人間界の姫じゃん?@princess:人間界は今、とても混乱している状態です。{魔族を禁じる規制が増えて、みんな戦争に行くよう強いられています。{魔族が登場する漫画は全部燃やされたり、ゲームも規制されています。{しかし私は悪がない冒険は想像もできません。@eye:厳しいゲーム規制のせいで魔王のダンジョンに来たと?@princess:私は地上の苦しみを十分感じましたから、今回は地下の楽しみも知りたいです。{私は冒険心満々ですもの。{今すぐ、魔王に会いたいです。@eye:変な姫だな。{ならば、貴様の運を試さなきゃ。{ボスルームまでたどり着いたら魔王様に会えるかも。フフ。";
+"local_episodetalk11"="@blank:エピソード11 ありふれたクエスト@hero:姫様がこのダンジョンに来たって本当なのか?{お姫様救出というサブクエストがあったんだ。{クエスト報酬で一番良い剣を買おうと思ってたのに…@eye:そう、来てるよ。でも今はもうセクシーな女モンスターになったかな。@hero:そ、そんな!セクシーなモンスターだと?{はっ!{今すぐ会いに行かなければ~!@eye:…{お前、本当に救出が目的なのか?";
+"local_episodetalk12"="@blank:エピソード12 魔王の過去@hero:ついに’古代の遺物の欠片集め’クエストを完了したが、なんか気になるね。@eye:何で?@hero:魔王を崇拝した人々もいたらしいんだ。@eye:魔王を崇拝する…か、魔族だったんじゃね?@hero:さあ、そうなると魔族と人間が一緒に暮らしてたってことになる。{とにかく今回のメインクエストで獲得したものはその情報と経験値だけだな。@eye:魔王の過去か…{魔王様と神はどんな関係だったのかな?";
+"local_episodetalk13"="@blank:エピソード13 勇者の強力なライバル@warrior:あっ!あの目玉はなんだ?!!@fairy:落着いて!\nここは魔王のダンジョンなの。{普通の野獣とは違う魔族が住んでるのよ。@eye:ほお~妖精が付いてる勇者か…{主人公っぽい感じするじゃん@warrior:それは当然さ。私は主役!{妖精は脇役なんだから!@fairy:こいつ…{またいつものが始まったわ。@sword_cat:力ばっかりが強くても主役じゃないっすよ。{私みたいに自己鍛錬を怠らず、着々とメインストーリーを進める人物こそが主役でしょう。@warrior:自己鍛錬なんか全部無駄だ。{実際に戦ってみないと貴様がどんな奴か分からない。{貴様を倒せば全てから自由になれる。{全てを失えば、真の自由を得ることができる。@sword_cat:何処かで聞いたような…@eye:へへ、いいからさっさと入りなよ。{誰が主役か脇役か知らないが、{上手く料理してやる。";
+"local_episodetalk14"="@blank:エピソード14 魔王の取り巻き達@hero:一番大切な物を諦める者、支配者になる。@eye:うん?@hero:一番大切な物を諦める者、支配者になる。@eye:なぞなぞなのか?@hero:神殿に書かれていた文章だ。{なぜ、大切なものを諦めれば、支配者になれるんだろう。@eye:どうせ、神殿の言葉なんて、勝手に解釈するために作られたものだろう。@hero:神も魔王と同じくらいわかりにくいな。@king:ふ〜、やっとたどり着いた。@hero:わっ、王様だ!@eye:あの人間がなぜここに?@king:皆さん、お元気ですか?@hero:あまり元気でははありませんが…。{民衆が騒がしいようですが…@king:姫たちが行方不明になって。国が滅びる兆しだとか。{でも、大丈夫です。跡を継ぐものは大勢いますから。敗戦国の姫たちだって3千人もいます。フフ{さっき話したように’大切なものを失わなければ、支配者になれないでしょう。@eye:なんの話だ?(変な王だな。)@king:フフフ…{実は私…魔族の味方です。@hero:?!な…何言ってんだ?!{王様が魔族の味方なんて?@king:君みたいに’古代遺物の欠片集め’とかいうクエストを完了した勇者なら分かるはず。{魔王もかつては人間と魔族たちから崇拝された。私はその魔王を崇拝した人間の子孫だ。@hero:魔王と神が一緒に崇拝されたと?@eye:ほおー。魔王様の過去が少し明らかになりましたね。{なのに、何で魔王様は封じられ、また記憶も失われたんでしょう?@king:それは私も知らぬ。{魔族と魔王が一気に姿を消したという話だけ伝わっただけ。{その後歴史は捏造され、魔王はあらゆる不幸の原因として語られている@hero:それが本当なら、歴史に遮られた真実を取り戻す。@eye:ほおー。なんだか勇者が意欲に燃えてるね。@king:あのレベルで大丈夫なのか。";
+"local_episodetalk15"="@blank:エピソード15 勇者のとんでもない要請@hero:次のクエストは…’竜の鱗の収集’??{おい、ダンジョンにドラゴンもいるか?@eye:ドラゴン?ドラゴンは本当にレアなモンスターだが…{親分、持ってたっけ…持ってても育てにくいモンスターだから。@sword_cat:ドラゴンは怖すぎ~@hero:やはり今回のクエストは諦めたほうがいいか。@warrior:フフ、私はもうクエストに成功した。{ただ単に、商人から買ったんだけど。@eye:あの商人から買えないものはないな。@sword_cat:お、さすが黒い剣士。早いですね。@warrior:お金がないなら、直接、ドラゴン倒しにでも行ったら?@hero:ドラゴンに会うこともできないのにどうやって倒せるんだよ{おい、魔王～ドラゴンを引いてくれよ!@eye:魔王様を信じよう。";
+"local_episodetalk16"="@blank:エピソード16 伝説のアイテム@hero:前回、ボスモンスターから拾った剣、調べたら’永遠の片割れ’と呼ばれる伝説のアイテムだった。@eye:…おめでとう。@hero:だが、その剣は片割れという名に相応しく、セットアイテムだった。{対になる盾があるんだって。@eye:それほどのレアアイテムなら、なかなか見つけられないだろう。@merchant:それと対になる盾は私が持っています。@hero:おおおっ!!@eye:恐ろしい商人め;{需要の匂いを嗅ぎ分けるなんて@merchant:ゴールドさえあれば何でも手に入る世界ですからね。{5万ゴールドです。@eye:とんでもない金額だな。{勇者にそんな金があるわけが…@hero:はい5万ゴールド。@eye:?!!@merchant:はい、まいど～@eye:どっからそんな金が…@hero:あの伝説の剣を売ったんだ。{私は攻撃より防御が弱いんでね。@eye:…";
+"local_episodetalk17"="@blank:エピソード17 消えた元素の属性@hero:前回獲得した伝説の盾なんだが、変なところがある。@eye:え?何が?@hero:伝説の剣は光元素の属性だったのに、盾には属性がないんだ。{商人に騙されたのかな?@eye:それは可笑しい。属性がないと追加効果がないから損するのに。@warrior:あっ!無属性の武器を見たことがある。{魔女の話では元々あったはずの元素の属性が消えたらしい。@hero:消えた元素だって?{火、水、木、光以外にどんな属性だったのかな。@warrior:魔女に確認して見よう。{たまにプラカードを持ってダンジョンに来ては魔王を応援するから。";
+"local_episodetalk18"="@blank:エピソード18 魔女は魔王の味方@witches:今日の魔王様もステキだった。{やっぱりモンスターはもれなくちゃーんと育てなきゃいけないわ。げらげら@hero:フウ~やっと見つけた。{あなたが黒い勇者を知っている魔女ですか?@witches:そうだけど?げらげら。{勇者が私に何の用?@hero:古代にはあったが、現在は消えてしまった元素の属性について聞きたいです。@witches:へえ~そんなものに興味を持つ勇者がいるなんて…意外ね。{危険な話しだから軽々しく話すわけにはいかないの。{光の神殿について漏らすと魔女狩りの対象にされるかも知れないし。@hero:超~高い伝説のアイテムを買ったが、属性が失われていたんだ!!{無属性のままダンジョンに入るバカにはなりたくないのに…@witches:ならば、テストクエストをしてみましょう。{勇者ならクエストに慣れているでしょう。@hero:クエストって…何?(ごくり)@witches:あんた、ウチの魔王様を助けてあげてちょうだい。げらげら。{魔王様が新しいモンスターを召喚できるよう宝石5個を捧げるのよ。{げらげら@hero:勇者が魔王を助けるなんて??ありえない。@eye:情報料だと思って、ね。@hero:…分かった。{宝石5個ぐらいは簡単に集められるし。集めてくるから待ってろよ!";
+"local_episodetalk19"="@blank:エピソード19 魔王の過去(2)@hero:宝石5個集めるのにけっこう時間がかかったな。@witches:持ってきた?じゃ、魔王様に捧げなさい。@hero:分かった。分かったってば。@witches:では、教えてあげましょう。消えた元素の属性は光の反対属性である’闇’です。@hero:闇?!@witches:過去、魔王様が神様と共に崇拝された時代があった。{魔王様と神様は一緒に様々な属性の生命体を作ったが、その一つが暗黒属性だった。@hero:魔王が創造神だと?@witches:ええ、そしてある日、魔王様と暗黒属性の魔族たちは神様から捨てられた。{属性ももちろん消えてしまったわ。@hero:魔王が神様から捨てられただと?@senior_priest:そこまでだ。この狡猾な魔女。(ビッチウィッチ)。{勝手にペラペラとしゃべりやがって。@witches:ヒィッ!!ビックリした。@senior_priest:光の神殿で禁じられておる古代知識を軽々しく吐き出す者、神の審判を受けよ!@witches:ちっ!魔王様の悪名はドンドン上がっているわ!{やがて暗黒の属性も甦るから!@senior_priest:神は魔王を捨てた。{我々のような創られた者達はその意図は分からなくても、その意思に従わねばならないのだ。@hero:高位司祭の目につく前に早く逃げようぜ。";
+"local_episodetalk20"="@blank:エピソード20 斬れないモンスター@hero:結局、この伝説の盾は暗黒属性だった。{役に立たないものをあんな高値で買うとは…@eye:魔王様が全てのダンジョンを解放した、その時に暗黒属性も復活するかも…@hero:伝説のアイテム1個を使うためだけに、魔王応援するのはちょっとな…@succubus:そこの勇者、{セクシーな盾を持ってるね?@hero:あっ!ダンジョンの外でモンスターに会うとは!@succubus:外の空気が懐かしくて、ちょっと出てきただけよ。@eye:挨拶でもしたらどうだ。こっちは元、お姫様だ。@hero:姫だと?{姫がサキュバスになるとは…@succubus:いざダンジョンに住んでみると、とても退屈なの。@hero:モンスターになったくせに、そんなのもの知るか。@succubus:勇者よ!モンスターになった私を、斬らないわよね?@hero:私の愛する姫様が…(レベルアップのチャンスが…!)@succubus:あまり残念に思わないで。{モンスターになった私は以前より視野が広くなったの。{モンスターはかわいそうな存在たち、人間と同じようにそれぞれ何かが欠けているの。{誰かが彼らの味方にならなくちゃ。@hero:人間を捨てて、モンスターの味方になるとは…@succubus:人生のドロドロとした暗い部分も見るべきよ。";
+"local_episodetalk21"="@blank:エピソード21 近づいてくる神の脅威@hero:魔王がこのまま4大陸を支配占すると、神はどんな手を使って反撃するかな?@warrior:心配するな。{私がメインクエストを全部クリアして魔王を倒すから。@sword_cat:どんな時も、なにが起こっても良いようにゴールドを沢山集めとくのが一番だ!@hero:海を渡った他の大陸の精鋭勇者たちの中にはレベル99の勇者もいるらしいが…@warrior:レベル99?フム…いくら最大レベルの勇者であっても、ボス級のモンスターに勝つのは簡単じゃない。@eye:バカやろう!どんなにレベルアップして数で押し切ろうとしても魔王様のモンスターは無限だ!!{次元の外から誰かが魔族の力が尽きないよう手伝ってくれるているのさ。@warrior:フフ!その次元の外にいる誰かさんや魔王も緊張した方がいいぞ。{光の大陸には天使まで現れているみたいだからな!@eye:天使だと?モンスターの中にだって翼が付いているやつは大勢いるさ。{ちっとも怖くないね!";
+"local_episodetalk22"="@blank:エピソード22 信者たちの目的@senior_priest:勇者たちよ!全総力をかけて、魔王の悪名を落とすのだ{神に栄光を!@eye:順番抜かしでダンジョンには入ることは許されない!{番号札を引いて待ちなさい!@senior_priest:…@hero:司祭様、ところで神と魔王はどんな関係なんですか?{過去では仲が良かったのに、なぜ今は仲が悪いんですか@senior_priest:それは…我々が知る必要はない。{神は崇拝者だけに約束したんだ。@hero:崇拝するには金が条件とは…@senior_priest:聞くに耐えぬか?\nだが正直、みんな金のために生きているんだろう。{司祭である私はそのシステムを助ける存在なのだ。{真実は必要ない。誰だって金で心身の安らぎを得る事があるのは事実だ。@hero:私が気になるのは真実だ!{魔王と暗黒属性がなぜ消えてしまったのか調べている。@senior_priest:そんなに気になるなら、教えてやる。{このダンジョンのボスを倒した後にな。@eye:これはまいったな。協力すると、ボスの負けになるし。";
+"local_episodetalk23"="@blank:エピソード23 魔王と神@hero:なんとなくボスをやっつけることができたぞ。@eye:おかげで悪名が下がったよ。{さあ、早く高位司祭に会って魔王様の過去について探っておいでよ。@senior_priest:よく戻って来た、勇者よ。本当にボスをやっつけるとはな。@hero:ああ、さあ魔王の過去について教えろよ。@senior_priest:簡単に言うと、最初は魔王と神は共にこの地を治める関係だった。{しかし魔王は神に逆らって、神は魔王の創造物だった魔族と闇の元素を消去した。{そして魔王の記憶を消してダンジョンの奥深くに封印した。@hero:そうだったのか。{だとしたら、その前には魔族も人間と混じって暮らしてたってことか?@senior_priest:魔族と人間は属性によって分かれた存在だ。{遙か昔はおそらく一つだったかもしれない。@hero:全ての属性が一つだったのに、分かれてしまったのか。@senior_priest:上の事情まで我々が理解する必要はない。{光の属性を選んだ人間たちはそのまま光に惹かれ、望み、恵まれればいい。@eye:人間たちは闇にも目を向ける必要がある!{人生の暗いところを見ないと、危機を乗り越えることができないんだ!{そうでなければ誰が権力者に盾突く?誰が迫害された人達を助ける?@senior_priest:つまらぬことを言う!";
+"local_episodetalk24"="@blank:エピソード24 神の再来@eye:魔王様が神によって封印される前まで人間は言うなれば完全体だったのか。{創造物の属性に従って天使、人間、妖精やエルフみたいな半人間、そして魔族に分かれたんだ。@hero:いずれにしても魔王の封印が解けた以上、神は再び魔王を封印しようとする。@eye:おまえはどうする?@hero:まだ…分からない…{私は誰のために戦うべきなのか…@eye:ああっ!!@eye_white:…@hero:何だ?目玉が白くなった!@eye_white:…私は…神だ。@hero:神だと?目玉が神?@eye_white:少しの間、こいつの体を借りて地上にやってきたのだ。信じ難いだろうがな。{魔王の復活を助けている次元の外にいる存在へ告ぐ。{今まで集めた魔族の所有権を放棄し去るのであれば命だけは助けてやろう。@hero:嘘だ!次元を越えた存在を相手に、お前に何ができるって言うんだ。@eye_white:アプリ内課金割引、宝石提供!{スペシャルサンクスなどに名を入れることだ!@hero:すげえいいなそれ!{だめだぞ魔王!!負けるな!絶対に諦めてはいけない!@eye_white:とにかく私は警告した。{これからより強い兵隊がダンジョンへ攻撃を開始する。{貴様がどれだけ悪名を上げられるか見守っていてやろう。@eye:(ぱっ!){あれ…元に戻りましたね。@hero:おい!大丈夫なのか?神がいきなりお前の体に入ってきたんだ!ろ@eye:う…神の考えをしばらくの間読めたんだ。@hero:何?マインドコントロールをされてる間、神の精神とリンクしてたってことか?{どっかの映画で見たような…@eye:そういうことさ。光の大陸にある神殿に’神の自叙伝’がある。{その本に魔王の過去があるはずだ。@hero:私が行ってくるよ!@merchant:その必要はない。私が持っています。@eye:おおっ!!@merchant:5万ゴールドです。";
+"local_episodetalk25"="@blank:エピソード25 神の自叙伝{天地創造時、神は孤独であった。{神は尊くそれでいて純粋な感情を持ちたかった。{そして神は自身と真逆の性格の人格を作った。{二人は共に他の創造物を作りながら楽しく時間を過ごした。{創造物が持た属性に中で闇の属性が強かったものたちは魔王だけを崇拝した。{神は嫉妬した。魔王と魔族に対する憎しみが芽生えた。{魔族をはじめとして闇の属性を持つ創造物の一部を消し去る計画について魔王は同意しなかった。{ゆえに神は魔王の記憶を消して封印した後、創造物たちの属性を分離させてから闇の元素も消した。{この時分離されたものたちが魔族であった。";
+"local_episodetalk26"="@blank:エピソード26 審判の始まり@eye:秘密が明るみに出たな。\n魔王様は魔族の滅亡だけは防ごうとしたのに…{神はそれを許せなかった。\nそして神は今も魔族を滅亡させようとしている。@hero:戦いは避けられないな。@angel:魔王の手下たち!\nお前たちは決して許さぬ!{光の攻撃を受けなさい!@hero:とうとう天使がやってきた!@senior_priest:天使たちはとてつもなく大きな力を持つ存在だ。{覚悟しろ、魔王よ。@eye:光の大陸のダンジョンでは勝利の確率が下がりますね。{全力を尽くせ!@hero:おい、目玉。私も魔族と共に戦う!@eye:え?\n勇者が我々の味方に?@hero:そうだ!\n私が持っている宝石で魔族を召喚しろ!@eye:お前はどうするんだ?@hero:メインクエストなんてもうどうでもいいんだ。@angel:人間のくせに魔族の味方になるなんて…{許せない。死ね!@hero:わっ!!!し…死んだ。(どっかり)@eye:ゆ…勇者が死んじゃった。演出は荒っぽいけど…{魔族のために…そんな…";
+"local_episodetalk27"="@blank:エピソード27 完全体@warrior:やっぱり魔王を倒すのが最後のクエストだな。{勇者のやろう、クエストも進めずに、{とにかく、ライバルが減るのはいい事だ。フフフ@angel:そなたの今までの功績に対し、神の祝福を与えよう。@warrior:神の祝福?@angel:そうだ。\nそなたはそろそろエンディングを迎える頃だろう。{ただ、妖精とはお別れだ。@angel:そなたを完全体にしてやろう。\n人間と魔族に分離される前の存在にな。{それこそが魔剣士。\n魔剣士として甦ろ!@warrior:魔…剣士!!クオオオオォ!!!@eye:厄介な奴がまた増えた。@knight:…あれ?あまり変化が感じられない…??@angel:…レベルが少し上がったはずだ。@knight:…なんか損した気分…@angel:と…とにかく!!ダンジョンへ出撃だ!!!";
+"local_episodetalk28"="@blank:エピソード28 エピローグ@eye:ご主人様、ご苦労様でした!{押し寄せ来た敵たちもある程度片付いたし、この程度の悪名であれば、神も何もできないはずです。@king:おめでとうございます。\nそして、今まで長いストーリーを読んでいただき、真にありがとうございます。@senior_priest:くっ!!闇を消し去る事がこれほど難しいとはな。@hero:おい~目玉!久しぶりだな。@eye:おや?勇者は死んだと思っていたのに?!@hero:フフ…驚くべきことが一つある。@hero:私は別の次元の勇者さ。\n勇者と魔王は一人ではない。@eye:?@hero:闇の元素が他の属性と分離された時、魔王と魔族たちの人格はいくつかに分かれた。{つまり、勇者も魔族も魔王も色んな人格になったってことだ。@eye:ご主人様が何人もいるってこと?@hero:それぞれの次元で始まった魔王たちの戦いがこうして一つの場所に集まることによって、私たちは移動することができるようになった。{そして各魔王たちはリーダーボードを通じてお互いの悪名レベルを競うことができる。{この話を伝えるために来たんだ。@eye:そんな…終わりなき戦いじゃないか!@hero:魔王の挑戦はこれからだ!{私だってレベルアップを続けるからな。@eye:はい…そうなりました。\n私と同じ存在がどこかにいると思うと妙な気分になりますね。{でもしょうがないですね。ご主人様も今まで通りこつこつ悪名を上げれば、世界最強の魔王様になるのも夢ではないです。@blank:THE END";
+"local_episodetalk29"="@blank:魔族戦争の始まり@sword_cat:暗黒時代が来たにゃん。{しかしもっと恐ろしいのは…魔王たちがお互いを牽制し始めたことだにゃん。@eye:どういう意味?@sword_cat:これから別の次元の魔王たちがモンスターを送ってくるにゃん。{ダンジョンにモンスターたちがやってくることもあるってこと。@eye:魔族の戦争だな。@sword_cat:ランダムにモンスターがやってくるかもしれないから気をつけて下さいね。@succubus:私を守って、セクシーなネコ剣士さん!@sword_cat:わ…わたしはこれで失礼します!!";
+
+
+
+// ** 순서 상관 없음 ** //
+// 던전 미니 대사
+"local_minitalkenter01"="ごほんごほん!ほこりが多いな。";
+"local_minitalkenter02"="魔王の実力とやらを見せてもらおうか!？";
+"local_minitalkenter03"="宝箱を探せるかな";
+"local_minitalkenter04"="光の神よ、助けてください。";
+"local_minitalkenter05"="剣と共にいく!";
+"local_minitalkenter06"="今日の晩飯は地獄で食べるんだな!";
+"local_minitalkenter07"="派手にやられたな。";
+"local_minitalkenter08"="ボスを攻略してお姫様にプロポーズを!!!";
+"local_minitalkenter09"="伝説の剣があるから私は無敵だ!";
+"local_minitalkenter10"="おい、魔王!私のレベルをちゃんと見ろよ!";
+"local_minitalkenter11"="私の剣は天を突く剣だ!";
+"local_minitalkenter12"="ダンジョンが深く…美しい!";
+"local_minitalkenter13"="冗談じゃない。私はここから出る";
+"local_minitalkenter14"="おはよう、素敵な朝!";
+"local_minitalkenter15"="骨が折れても、歩けなくてもいい!";
+
+"local_minitalkcrossroad01"="こういう時は左か右かだ";
+"local_minitalkcrossroad02"="不吉だな…";
+"local_minitalkcrossroad03"="よし!こっちからいい感じがする。";
+"local_minitalkcrossroad04"="ふむ…こっちは血なまぐさいな。";
+"local_minitalkcrossroad05"="私はこっちに向かう!";
+"local_minitalkcrossroad06"="者ども、つづけ";
+"local_minitalkcrossroad07"="今日の私に出会えば、無事には帰れないからな!";
+"local_minitalkcrossroad08"="おい!押さないでくれ!";
+"local_minitalkcrossroad09"="ちっ!悩む必要はない。";
+"local_minitalkcrossroad10"="人の後に続くのが一番さ。";
+"local_minitalkcrossroad11"="こっちの方から悪魔の気配がする。";
+"local_minitalkcrossroad12"="全ての選択には結果がある。";
+"local_minitalkcrossroad13"="必ず解決する方法はある!";
+"local_minitalkcrossroad14"="右の方へ行くな!左のほうに失礼だ!";
+"local_minitalkcrossroad15"="こっちに行くのに理由なんて必要ない。ただ行くだけ。";
+
+"local_minitalkwaitting01"="早くやっつけろ!";
+"local_minitalkwaitting02"="そこで何をしている?";
+"local_minitalkwaitting03"="そう!そのタイミングで一発だ!";
+"local_minitalkwaitting04"="くっ!痛そう!";
+"local_minitalkwaitting05"="私の分は残しといて!";
+"local_minitalkwaitting06"="おっ!あの剣は高いんだぞ!";
+"local_minitalkwaitting07"="チカラが欲しい!";
+"local_minitalkwaitting08"="バカやろう!";
+"local_minitalkwaitting09"="もっと早く動け!";
+"local_minitalkwaitting10"="死ぬな!故郷の母親を思い出せ!";
+"local_minitalkwaitting11"="友よ、時は金なりだ。";
+"local_minitalkwaitting12"="お前はもう死んでる!";
+"local_minitalkwaitting13"="ダンジョンはエンターテインメント!";
+"local_minitalkwaitting14"="あの剣、保険きくかな?";
+"local_minitalkwaitting15"="逃げるには遅くない?";
+
+"local_minitalkbattle01"="この、寄生虫みたいなやつ";
+"local_minitalkbattle02"="死ね、モンスター!";
+"local_minitalkbattle03"="死ね、親のかたき!";
+"local_minitalkbattle04"="うわっ!痛いじゃないか!";
+"local_minitalkbattle05"="そんな…剣が鈍った。";
+"local_minitalkbattle06"="我々は!負けない!";
+"local_minitalkbattle07"="レベルアップはもうすぐだ!!頑張れ!";
+"local_minitalkbattle08"="ふっ!大したもんじゃね。";
+"local_minitalkbattle09"="殺すにはもったいないモンスターだな。";
+"local_minitalkbattle10"="死…死にそう…";
+"local_minitalkbattle11"="群れを成すオオカミは生き残る!";
+"local_minitalkbattle12"="山奥の泉!飲みに来るのは誰ですか!";
+"local_minitalkbattle13"="盛り上がってきたぞ!";
+"local_minitalkbattle14"="私の剣術の原理はさ…";
+"local_minitalkbattle15"="あなたの死期は…今だ!";
+
+"local_minitalkwin01"="勝ったぞ!くっそったれモンスターども!";
+"local_minitalkwin02"="この日の勝利を永遠に覚えていろ!";
+"local_minitalkwin03"="おう!おう!おう!";
+"local_minitalkwin04"="晩ご飯は家で食べられる。";
+"local_minitalkwin05"="アイテムGETした人?";
+"local_minitalkwin06"="ヒュー、生きて帰れる。";
+"local_minitalkwin07"="このダンジョンはお粗末すぎる。";
+"local_minitalkwin08"="本当に際どいところだった。";
+"local_minitalkwin09"="やはり数で押し切らないと。";
+"local_minitalkwin10"="またすぐもどる!";
+"local_minitalkwin11"="我々には明日があるさ。";
+"local_minitalkwin12"="勝つか死ぬか、他の選択肢はない。";
+"local_minitalkwin13"="妻が待っている家へ帰ろう";
+"local_minitalkwin14"="アイル・ビー・バック!";
+"local_minitalkwin15"="ふん!ゴールドはいらない!大事なのはメッセージだ。";
+
+"local_minitalkdie01"="し…死ぬのか";
+"local_minitalkdie02"="惜しい、レベルアップ直前だったのに";
+"local_minitalkdie03"="ポーション1個さえあれば!!";
+"local_minitalkdie04"="痛い…";
+"local_minitalkdie05"="レベルが高すぎ!";
+"local_minitalkdie06"="あ…あとを頼んだぞ。";
+"local_minitalkdie07"="…怪我がひど過ぎる。";
+"local_minitalkdie08"="人間が…いつかは勝利するはずだ。";
+"local_minitalkdie09"="あっ!痛すぎ!";
+"local_minitalkdie10"="こんな時は両親の顔が浮かぶんだな。";
+"local_minitalkdie11"="ヴァラ・モグリス!";
+"local_minitalkdie12"="夜は暗くて恐怖でいっぱいだ。";
+"local_minitalkdie13"="この借りは必ず返す。";
+"local_minitalkdie14"="冬が近づいてくる。";
+"local_minitalkdie15"="借金を返しただけです。";
+
+
+"local_minitalklost01"="欲張りは禁物です。";
+"local_minitalklost02"="ボスが油断したのかな";
+"local_minitalklost03"="もっとこのダンジョンに集中しないと…";
+"local_minitalklost04"="負けはしたが大丈夫です。次は必ず勝つから。";
+"local_minitalklost05"="3倍返しです。";
+"local_minitalklost06"="くそっ、勇者のやろう!!";
+"local_minitalklost07"="魔族の名誉を守ってください。";
+"local_minitalklost08"="勇者が狂ったように暴れています。";
+"local_minitalklost09"="私に天罰を!";
+"local_minitalklost10"="今回はツイてなかった。";
+"local_minitalklost11"="幸運の神が魔王様の味方になるように!";
+"local_minitalklost12"="私を見て、私の中の怪物がこんなに大きくなりました。";
+"local_minitalklost13"="敗北は復讐の母親です。";
+"local_minitalklost14"="せっかちな悪魔には罰を与えるべきだ。";
+"local_minitalklost15"="厄介な奴でした。";
+
+
+"local_minitalksummonlow01"="微々たる力にしかなりませんが、加えていただきますよ";
+"local_minitalksummonlow02"="私のこの命、喜んで捧げるましょう";
+"local_minitalksummonlow03"="人間...悪い";
+"local_minitalksummonlow04"="勇者の肉、おいちい";
+"local_minitalksummonlow05"="今回の戦いを無駄にしないよ";
+"local_minitalksummonlow06"="血を...血をください！";
+"local_minitalksummonlow07"="エルフは不味い";
+"local_minitalksummonlow08"="召喚に応じます";
+"local_minitalksummonlow09"="人間に闇を！";
+"local_minitalksummonlow10"="外の空気は久しぶりですね";
+"local_minitalksummonlow11"="このダンジョンは久しぶりですね";
+"local_minitalksummonlow12"="勇者を三人倒すのが目的！";
+"local_minitalksummonlow13"="死んでもなお、熱く戦ってみよう！";
+"local_minitalksummonlow14"="うっ！勝てるのか？";
+"local_minitalksummonlow15"="私でも大丈夫ですか？";
+
+
+
+"local_minitalksummonhigh01"="私の力が必要なのか、魔王よ";
+"local_minitalksummonhigh02"="ちょっと助けてから行くね";
+"local_minitalksummonhigh03"="トイレに行く時に召喚されたら困るでしょ！";
+"local_minitalksummonhigh04"="私はなんて運がいいんだ";
+"local_minitalksummonhigh05"="使い捨てモンスターのレベルは、あなたのレベルと同じである";
+"local_minitalksummonhigh06"="人間..悪い..私..あなたを助ける。";
+"local_minitalksummonhigh07"="私を召喚するなんてすごいね";
+"local_minitalksummonhigh08"="良く会うから情が移りそう";
+"local_minitalksummonhigh09"="今日の勇者たちはどんな奴らかな？";
+"local_minitalksummonhigh10"="下請けモンスターの力を見せてやる！";
+"local_minitalksummonhigh11"="悪名が高くなるほど、私も強くなる";
+"local_minitalksummonhigh12"="私なら充分だろう";
+"local_minitalksummonhigh13"="ちょうど暇だから手伝ってあげる";
+"local_minitalksummonhigh14"="人間に死を...";
+"local_minitalksummonhigh15"="まだレベルが足りないけど大丈夫？";
+
+// ** 순서 상관 없음 ** //
+// 팝업
+
+"local_popupalreadyclear"="チュートリアル・ダンジョンです。";
+"local_popupneedlevel"="このダンジョンはレベル%dから入れます。";
+"local_popuphealallmonster"="ダンジョンにある全モンスターのHPを回復します。";
+"local_popupemptypotion"="ポーションが足りません。購入画面に移動しますか?";
+"local_popupbought"="購入成功!";
+"local_popupcannotbuy"="宝石が足りません。";
+"local_popupnhnpriceerror"="네이버 가격 정보를 가져오는데 실패했습니다.";
+"local_popupslotcountiszero"="スピン回数が足りません。購入画面に移動しますか。";
+"local_popupnomoreenhance"="これ以上強化できません。";
+"local_popupnotenoughmoney"="ゴールドが足りません。";
+"local_popupnotenoughpotion"="ポーションが足りません。";
+"local_popupnotenoughgem"="宝石が足りません。購入画面に移動しますか?";
+"local_popupnotenoughspin"="スピン回数が足りません。";
+"local_popupcannotsummon"="戦闘が終わらないと配置ができません。";
+"local_popupcostover"="召喚できるチームコスト(星)を超えました。\n悪名を上げてチームコスト(星)を上げましょう!";
+"local_popupcostzero "="デッキにモンスターが存在しない場合、戦闘を開始できません。\nモンスターを配置して下さい。";
+"local_popupasksell"="本当にゴールドに変えますか。\n(%d)";
+"local_popupbossroomisempty"="ボスルームにモンスターがいないと戦闘が始まりません。モンスターを配置して下さい。\nモンスターを配置して下さい。";
+"local_popupstageexitnotice"="戦闘中、ワールドマップに出れば敗北になってしまいます。";
+"local_popupinvenisfull"="モンスター保管BOXが一杯です。";
+"local_popupusingmonster"="使用中のモンスターです。";
+"local_popupgetreward"="報酬を獲得しました。";
+"local_popupcompletebonus"="魔法を完成して宝石を獲得しました。";
+
+
+"local_episodetitle00"="プロローグ";
+"local_episodetitle01"="ダンジョンを発見したある勇者";
+"local_episodetitle02"="勇者の資質";
+"local_episodetitle03"="ネコ剣士";
+"local_episodetitle04"="勇者のインターフェース";
+"local_episodetitle05"="関係作り";
+"local_episodetitle06"="ボスモンスターの秘密";
+"local_episodetitle07"="メインクエスト";
+"local_episodetitle08"="クエスト解決の鍵";
+"local_episodetitle09"="お互いの理解";
+"local_episodetitle10"="姫の冒険";
+"local_episodetitle11"="ありふれたクエスト";
+"local_episodetitle12"="魔王の過去";
+"local_episodetitle13"="勇者の強力なライバル";
+"local_episodetitle14"="魔王の取り巻き達";
+"local_episodetitle15"="勇者のとんでもない要請";
+"local_episodetitle16"="伝説のアイテム";
+"local_episodetitle17"="消えた元素の属性";
+"local_episodetitle18"="魔女は魔王の味方";
+"local_episodetitle19"="魔王の過去(2)";
+"local_episodetitle20"="斬れないモンスター";
+"local_episodetitle21"="近づいてくる神様の脅威";
+"local_episodetitle22"="信者たちの目的";
+"local_episodetitle23"="魔王と神";
+"local_episodetitle24"="神の再臨";
+"local_episodetitle25"="神の自叙伝";
+"local_episodetitle26"="審判の始まり";
+"local_episodetitle27"="完全体";
+"local_episodetitle28"="エピローグ";
+
+
+"local_uigemtitle"="ゴブリンの宝石売り場";
+"local_uislottitle"="月光のスピン充電所";
+"local_uislotdes"="闇の力でダンジョンのスピンマシン使用回数を増やします。";
+"local_uipotiontitle"="サキュバスの罠カード店";
+"local_uiPotiondes"="罠カードを購入します。";
+
+"local_uibattleresultgetmoney"="報酬獲得!";
+"local_uibattleresultgetmobexp"="モンスターEXP獲得!";
+"local_uibattleresultgetlevelbonus"="レベルボーナス獲得!";
+"local_uibattleresultgetexplose"="ボスの守備失敗で悪名度がそのままです。\n\nゴールドを集めて強力なモンスターを召喚したり強化させましょう。";
+"local_uibattleresultgetexplose2"="クリアしにくいダンジョンなら、クリアしたダンジョンでゴールドを集めて見るのはいかかですか？";
+"local_uibattleresultgetexpwin"="悪名が上がった!";
+
+"local_uienhancedes"="素材モンスターを選んでください。";
+"local_uienhancelvdes"="強化後レベル";
+"local_uienhancepricedes"="必要ゴールド";
+"local_uienhanceselectdes"="選択";
+
+"local_levelupeventlevel"="悪名レベルアップボーナス!";
+"local_levelupeventdungeon"="ご苦労様です\nこの地域の人間たちは\n暗闇に屈しました。";
+
+"local_gotchatitle"="モンスター召喚";
+"local_inventitle"="アイテムボックス";
+"local_equipmonster"="装着モンスター";
+
+"local_summonmonsterdes"="モンスターを選んで下さい。";
+"local_summonmonstercarddes"="モンスターを配置するスロットを選んで下さい。";
+
+
+
+"local_readytalk01"="ごほんごほん!ほこりが多いな。";
+"local_readytalk02"="魔王の実力とやらを見せてもらおうか!？";
+"local_readytalk03"="宝箱を探せるかな";
+"local_readytalk04"="光の神よ、助けてください。";
+"local_readytalk05"="剣と共にいく!";
+"local_readytalk06"="今日の晩飯は地獄で食べるんだな!";
+"local_readytalk07"="派手にやられたな。";
+"local_readytalk08"="ボスを攻略してお姫様にプロポーズを!!!";
+"local_readytalk09"="伝説の剣があるから私は無敵だ!";
+"local_readytalk10"="おい、魔王!私のレベルちゃんと見ろよ!";
+"local_readytalk11"="私の剣は天を突く剣だ!";
+"local_readytalk12"="ダンジョンが深く…美しい!";
+"local_readytalk13"="おはよう、素敵な朝!";
+"local_readytalk14"="骨が折れても、歩けなくてもいい!";
+"local_readytalk15"="不吉だな…";
+"local_readytalk16"="よし!こっちからいい感じがする。";
+"local_readytalk17"="ふむ…こっちは血なまぐさいな。";
+"local_readytalk18"="私はこっちに向かう!";
+"local_readytalk19"="者ども、つづけ";
+"local_readytalk20"="今日の私に出会えば、無事には帰れないからな!";
+"local_readytalk21"="おい!押さないでくれ!";
+"local_readytalk22"="ちっ!悩む必要はない。";
+"local_readytalk23"="人の後に続くのが一番さ。";
+"local_readytalk24"="こっちの方から悪魔の気配がする。";
+"local_readytalk25"="全ての選択には結果があり。";
+"local_readytalk26"="必ず解決する方法はある!";
+"local_readytalk27"="右の方へ行くな!左のほうに失礼だ!";
+"local_readytalk28"="こっちに行くのに理由なんて必要ない。ただ行くだけ。";
+"local_readytalk29"="そこで何をしている?";
+"local_readytalk30"="そう!そのタイミングで一発だ!";
+"local_readytalk31"="おっ!あの剣は高いんだぞ!";
+"local_readytalk32"="チカラが欲しい!";
+"local_readytalk33"="友よ、時は金なりだ。";
+"local_readytalk34"="お前はもう死んでる!";
+"local_readytalk35"="ダンジョンはエンターテインメント!";
+"local_readytalk36"="あの剣、保険きくかな?";
+"local_readytalk37"="逃げるには遅くない?";
+"local_readytalk38"="この、寄生虫みたいなやつ";
+"local_readytalk39"="そんな…剣が鈍った。";
+"local_readytalk40"="我々は!負けない!";
+"local_readytalk41"="レベルアップはもうすぐだ!!頑張れ!";
+"local_readytalk42"="群れを成すオオカミは生き残る!";
+"local_readytalk43"="山奥の泉!飲みに来るのは誰ですか!";
+"local_readytalk44"="盛り上がってきたぞ!";
+"local_readytalk45"="私の剣術の原理はさ…";
+"local_readytalk46"="あなたの死期は…今だ!";
+"local_readytalk47"="おう!おう!おう!";
+"local_readytalk48"="アイテムGETした人?";
+"local_readytalk49"="ヒュー、生きて帰れる。";
+"local_readytalk50"="このダンジョンはお粗末すぎる。";
+"local_readytalk51"="本当に際どいところだった。";
+"local_readytalk52"="やはり数で押し切らないと。";
+"local_readytalk53"="またすぐもどる!";
+"local_readytalk54"="我々には明日があるさ。";
+"local_readytalk55"="勝つか死ぬか、他の選択肢はない。";
+"local_readytalk56"="妻が待っている家へ帰ろう";
+"local_readytalk57"="アイル・ビー・バック!";
+"local_readytalk58"="ふん!ゴールドはいらない!大事なのはメッセージだ。";
+"local_readytalk59"="惜しい、レベルアップ直前だったのに";
+"local_readytalk60"="ポーション1個さえあれば!!";
+"local_readytalk61"="レベルが高すぎ!";
+"local_readytalk62"="人間が…いつかは勝利するはずだ。";
+"local_readytalk63"="ヴァラ・モグリス!";
+"local_readytalk64"="夜は暗くて恐怖でいっぱいだ。";
+"local_readytalk65"="この借りは必ず返す。";
+"local_readytalk66"="冬が近づいてくる。";
+"local_readytalk67"="借金を返しただけです。";
+
+
+"local_yes"="はい";
+"local_no"="いいえ";
+"local_ok"="確認";
+"local_cancel"="取り消し";
+
+"local_networkdisconnected"="ネットワーク切断";
+"local_networkdisconnecteddes"="インターネットに繋がれていません";
+"local_waitaminute"="お待ち下さい。";
+"local_networkretry"="ネットワークの接続が不安定です。\nリトライ?";
+"local_couldnotgoshop"="戦闘が終わらないと購入ができません。";
+
+
+"local_tips01"="でも気をつけてください。ときには強い勇者が来ることもありますから。";
+"local_tips02"="勇者の属性を超える強い属性で配置すれば、効率的に防げます。";
+"local_tips03"="正直、どんなモンスターが出るかは事前には分かりません。これがまた楽しみでしょう。";
+"local_tips04"="ゴールドは充分なので一回引いてみましょう。";
+"local_tips05"="引いたモンスターカードは保管BOXにあります。\n保管BOXボタンを押してください。";
+"local_tips06"="欲張りは禁物です。";
+"local_tips07"="もう少しこのダンジョンに集中しないと…";
+"local_tips08"="くそっ、勇者のやろう!!";
+"local_tips09"="勇者が狂ったように暴れています。";
+"local_tips10"="私を見て、私の中の怪物がこんなに大きくなりました。";
+"local_tips11"="戦闘で多くの勝利を挙げて、強力なモンスターたちを集め、悪名度レベルを高めること!\nそれがご主人様がこの世界でするべきことです。";
+"local_tips12"="召喚された勇者たちとの戦闘でなるべく多くの勝利を挙げましょう。";
+"local_tips13"="ゴールドを集めて強力なモンスターを召喚したり強化させましょう。";
+"local_tips14"="戦闘で悪名度を高めます。";
+"local_tips15"="引いてみてください。\n右下のレバーを押せば、呼び出したい時に勇者を呼び寄せる事ができます。";
+"local_tips16"="極限のダンジョンへようこそ!魔性のプレイヤーになれ!";
+"local_tips17"="ご主人様!悪魔が姿を消して数百年が経ちました。";
+"local_tips18"="火、水、木、光…そして消えた属性の秘密を探しましょう。";
+"local_tips19"="光の大陸に再び闇が訪れるよう悪魔のスピンを回して下さい。";
+"local_tips20"="勇者の屍から出たゴールドと宝石で、モンスターたちを召喚し、強化しましょう!";
+"local_tips21"="憎らしい勇者たちが苦しむ姿を見届けよう。";
+"local_tips22"="悪魔のスピンを回して、人間の勇者たちをダンジョンへ呼んでください。";
+"local_tips23"="ご主人様！レビューを残してください。";
+"local_tips24"="光と闇の終わりなき戦い!あなたの手で決着を着けよう!";
+"local_tips25"="勇者の属性を超える強い属性で配置すれば、効率的に防げます。";
+"local_tips26"="光は他の属性全てに有利です。";
+
+"local_pleaselevelup"="強化してください。";
+
+"local_enhancehelp"="強化にはモンスターの星の数だけの星が必要です。つまり、星6のモンスターはレベルアップするには、合計６個の星が材料として必要です。";
+
+"local_exitgametitle"="ゲーム終了";
+"local_exitgamedes"="ゲームを終了しますか?";
+
+
+"local_localnoticeday1"="光と闇の終わりなき戦い!あなたの手で決着を着けよう!";
+"local_localnoticeday3"="ご主人様、'早く'目を覚ましてください?!";
+"local_localnoticeday7"="ご主人様!悪魔が姿を消して数百年が経ちました。";
+
+
+"local_skilldescritical"="大打撃";
+"local_skilldesheal"="モンスターの HPを %d回復させる";
+"local_skilldespoison"="勇士が部屋を移動する度に %dずつ HPが減少する";
+"local_skilldesleech"="勇士の HPを %d奪って来る";
+"local_skilldesinsight"="勇士の元素属性を無力化させる";
+"local_skilldesterror"="勇士の攻撃力を %.1f%% 減少させる";
+"local_skilldeshorror"="勇士の防御力を %.1f%% 減少させる";
+"local_skilldescurse"="勇士のレベルを %d段階下げる";
+
+
+
+
+
+
+"com.orca.welcome.conquer1"="CgkI5bLsu4UWEAIQAA";
+"com.orca.welcome.conquer2"="CgkI5bLsu4UWEAIQAQ";
+"com.orca.welcome.conquer3"="CgkI5bLsu4UWEAIQAg";
+"com.orca.welcome.conquer4"="CgkI5bLsu4UWEAIQAw";
+"com.orca.welcome.combo2"="CgkI5bLsu4UWEAIQBA";
+"com.orca.welcome.combo3"="CgkI5bLsu4UWEAIQBg";
+"com.orca.welcome.episodes"="CgkI5bLsu4UWEAIQBw";
+"com.orca.welcome.level_10"="CgkI5bLsu4UWEAIQCA";
+"com.orca.welcome.level_20"="CgkI5bLsu4UWEAIQCQ";
+"com.orca.welcome.level_30"="CgkI5bLsu4UWEAIQCg";
+"com.orca.welcome.level_40"="CgkI5bLsu4UWEAIQCw";
+"com.orca.welcome.level_50"="CgkI5bLsu4UWEAIQDA";
+"com.orca.welcome.level_60"="CgkI5bLsu4UWEAIQDQ";
+"com.orca.welcome.level_70"="CgkI5bLsu4UWEAIQDg";
+"com.orca.welcome.level_80"="CgkI5bLsu4UWEAIQDw";
+"com.orca.welcome.level_90"="CgkI5bLsu4UWEAIQEA";
+"com.orca.welcome.level_99"="CgkI5bLsu4UWEAIQEQ";
+"com.orca.welcome.usetrap"="CgkI5bLsu4UWEAIQEg";
+"com.orca.welcome.eventmom"="CgkI5bLsu4UWEAIQEw";
+"com.orca.welcome.eventcat"="CgkI5bLsu4UWEAIQFA";
+"com.orca.welcome.srank_1"="CgkI5bLsu4UWEAIQFQ";
+"com.orca.welcome.srank_10"="CgkI5bLsu4UWEAIQFg";
+"com.orca.welcome.srank_50"="CgkI5bLsu4UWEAIQFw";
+"com.orca.welcome.srank_100"="CgkI5bLsu4UWEAIQGA";
+"com.orca.welcome.srank_200"="CgkI5bLsu4UWEAIQGQ";
+"com.orca.welcome.collect_01"="CgkI5bLsu4UWEAIQGg";
+"com.orca.welcome.collect_02"="CgkI5bLsu4UWEAIQGw";
+"com.orca.welcome.collect_03"="CgkI5bLsu4UWEAIQHA";
+"com.orca.welcome.collect_04"="CgkI5bLsu4UWEAIQHQ";
+"com.orca.welcome.collect_05"="CgkI5bLsu4UWEAIQHg";
+"com.orca.welcome.collect_06"="CgkI5bLsu4UWEAIQHw";
+"com.orca.welcome.collect_07"="CgkI5bLsu4UWEAIQIA";
+"com.orca.welcome.collect_08"="CgkI5bLsu4UWEAIQIQ";
+"com.orca.welcome.collect_09"="CgkI5bLsu4UWEAIQIg";
+"com.orca.welcome.collect_10"="CgkI5bLsu4UWEAIQIw";
+"com.orca.welcome.collect_11"="CgkI5bLsu4UWEAIQJA";
+"com.orca.welcome.collect_12"="CgkI5bLsu4UWEAIQJQ";
+"com.orca.welcome.collect_13"="CgkI5bLsu4UWEAIQJg";
+"com.orca.welcome.collect_14"="CgkI5bLsu4UWEAIQJw";
+"com.orca.welcome.collect_15"="CgkI5bLsu4UWEAIQKA";
+"com.orca.welcome.collect_16"="CgkI5bLsu4UWEAIQKQ";
+"com.orca.welcome.collect_17"="CgkI5bLsu4UWEAIQKg";
+"com.orca.welcome.collect_18"="CgkI5bLsu4UWEAIQKw";
+"com.orca.welcome.collect_19"="CgkI5bLsu4UWEAIQLA";
+"com.orca.welcome.collect_20"="CgkI5bLsu4UWEAIQLQ";
+"com.orca.welcome.collect_21"="CgkI5bLsu4UWEAIQLg";
+"com.orca.welcome.collect_22"="CgkI5bLsu4UWEAIQLw";
+"com.orca.welcome.collect_23"="CgkI5bLsu4UWEAIQMA";
+"com.orca.welcome.collect_24"="CgkI5bLsu4UWEAIQMQ";
+"com.orca.welcome.collect_25"="CgkI5bLsu4UWEAIQPQ";
+"com.orca.welcome.collect_26"="CgkI5bLsu4UWEAIQPg";
+"com.orca.welcome.collect_27"="CgkI5bLsu4UWEAIQVw";
+"com.orca.welcome.collect_28"="CgkI5bLsu4UWEAIQWA";
+"com.orca.welcome.collect_4star"="CgkI5bLsu4UWEAIQMg";
+"com.orca.welcome.collect_5star"="CgkI5bLsu4UWEAIQMw";
+"com.orca.welcome.collect_6star"="CgkI5bLsu4UWEAIQNA";
+"com.orca.welcome.collect_all"="CgkI5bLsu4UWEAIQNQ";
+"com.orca.welcome.collect_buyinapp"="CgkI5bLsu4UWEAIQNg";
+
+"local_popupmvmpopup"="魔界の王座を掛けて全世界が競争する!\n今日の順位を確認してください。";
+
+
+"local_dailyquestdes01"="5勝してください。";
+"local_dailyquestdes02"="10勝してください。";
+"local_dailyquestdes03"="火属性の勇者5人を殺してください。";
+"local_dailyquestdes04"="水属性の勇者5人を殺してください。";
+"local_dailyquestdes05"="木属性の勇者5人を殺してください。";
+"local_dailyquestdes06"="新しいモンスター3匹を引いてください。";
+"local_dailyquestdes07"="新しいモンスター2匹を引いてください。";
+"local_dailyquestdes08"="新しいモンスター1匹を引いてください。";
+"local_dailyquestdes09"="3つ星のモンスターを引いてください。";
+"local_dailyquestdes10"="2つ星のモンスターを引いてください。";
+"local_dailyquestdes11"="モンスターを強化してレベルを上げてみてください。";
+"local_dailyquestdes12"="モンスター対戦を1回プレーしてください。";
+
+
+"local_dberrorexit"="DBエラー";
+"local_dbdeviceerrorexit"="Device ID エラー";
+"local_dbchangeerrorexit"="DB変更が検出されました。";
+"local_iapnotice"="購入中、アプリを強制終了した場合、予期せぬエラーが発生する恐れがありますので、気をつけてください。";
+"local_noticenewversion"="最新のバージョンにアップデートして下さい。";
+
+"local_serverfileerror"="重複したデータが他の端末で使用されました。";
+"local_servernetworkretry"="インターネットのアクセスができません。リトライしてください。";
+"local_levelupcounterror"="正常でない値を検知しました。アプリを終了します。";
+"local_serverfirstconnet"="はじめて実行する場合はインターネットの接続が必要です。";
+
+"local_popupuiaskbuy"="本当に召喚しますか？";
+
+
+
+
+"local_teamtripinfotitle"="冒険";
+
+
+"local_adventuredaybonus01"="助けてください";
+ "local_adventuredaybonus02"="家に生まれたばかりの子供がいます。";
+ "local_adventuredaybonus03"="どうか助けてください！結婚したばかりなんです。";
+ "local_adventuredaybonus04"="俺を殺す気か？";
+ "local_adventuredaybonus05"="何にも怖くない！";
+ "local_adventuredaybonus06"="キャーッ！チェッ！卑怯な悪魔め！";
+ "local_adventuredaybonus07"="俺を助けると運が良くなるかもよ";
+ "local_adventuredaybonus08"="二度と来ないから！";
+ "local_adventuredaybonus09"="言ってみな、なんで俺にそんな事したんだ？";
+ "local_adventuredaybonus10"="パーティー選びを間違えた。畜生！";
+ "local_adventuredaybonus11"="町に戻るなんて面目丸潰れだよ。";
+ "local_adventuredaybonus12"="絶対に暗闇に屈しない！";
+
+ "local_adventuredaybonustitle"="犠牲にする勇者を選んでください。";
+ "local_adventureinfo00"="勇者を殺す度満たされるオーブを集め、モンスター達を冒険の大陸に旅立たせることができます。";
+ "local_adventureinfo01"="思いがけない物語と報償を期待してください。";
+ "local_adventuretip"="近づいてる勇者の属性に合わせてモンスターを配置してください。";
+
+ "local_adventureeventeye01"="よ～ッ、どうも～！";
+ "local_adventureeventeye02"="僕の同族は元気にしてますか？";
+ "local_adventureeventeye03"="僕を待ってた？";
+ "local_adventureeventeye04"="ブタって言われてもいい。あなたと一緒なら、、";
+ "local_adventureeventmeetmagicianfailed"="どうしよう、、、これはハズレっていうことなんだ。";
+
+ "local_adventureeventmeetmagician"="アッ、魔族か！長い間待ってたぞ。{今こそまさに、魔王様が復活なさる時を！{全てのものは因果の法則の中にある。{すぐ世の中は暗闇に染まるはず。";
+ "local_adventureeventmeetmagician01"="でも、この構成は何だ？{魔王様のモンスターなら低く見ても３つ星、4つ星だと思ったのに、、";
+ "local_adventureeventmeetmagician02"="他の世界に対する好奇心はどこで終わるのだろうか？{死んでもなお、その好奇心は抑えられないと聞く。{お前たちも楽しい旅立ちだったと、、";
+ "local_adventureeventmeetmagician03"="サキュバスは淫欲を満たさないとよくトラブルを起こすのだ。{それとペアを組んでるモンスターに会えてよかった。";
+ "local_adventureeventmeetmagician04"="かわいい！ちっちゃいモンスターがここまで来るなんて、、、{しつこい生命力に驚いた。";
+ "local_adventureeventmeetmagician05"="いくら小さくて弱い生き物だとしてもお前らの命もまた自然の一部。{人間の攻撃から自分を守るため強まろうとする生き物の熱意に感心した。";
+ "local_adventureeventmeetmagician06"="略奪者か！人間の卑しい略奪の心を崩してやる！";
+ "local_adventureeventmeetmagician07"="他の世界に対する好奇心はどこで終わるのだろうか？{死んでもなお、その好奇心は抑えられないと聞く。{お前たちも楽しい旅立ちだったと、、";
+ "local_adventureeventmeetmagician08"="かわいい！ちっちゃいモンスターがここまで来るなんて、、、{しつこい生命力に驚いた。";
+ "local_adventureeventmeetmagician09"="ラブ・クラフトのクリーチャーだな。{クトゥルフがこの地に蘇るって、、、世界は終わった。";
+ "local_adventureeventmeetmagician10"="ハロウィンか？見慣れたモンスターばかりだ。{キャンディーの代わりにあげられるものがこれしかないな。";
+ "local_adventureeventmeetmagician11"="経験値のアップのための旅行じゃなかったの？{お前らもレベルアップを怠らないでほしい。";
+ "local_adventureeventmeetmagician12"="他の世界に対する好奇心はどこで終わるのだろうか？{死んでもなお、その好奇心は抑えられないと聞く。{お前たちも楽しい旅立ちだったと、、";
+ "local_adventureeventmeetmagician13"="剣術では人間の勇者にも劣るべからず！{彼の勇気とプライドを切り捨てるべし！";
+ "local_adventureeventmeetmagician14"="われらの中、最後まで残ったものは悪魔ディアブロの復活のため{スパゲッティーミートボールを食べるっていう予言は成就するべし。";
+ "local_adventureeventmeetmagician15"="地が轟く音を頼りに来たが、お前たちかよ。{これをあげるからちょっと静かに！";
+ "local_adventureeventmeetmagician16"="魔界の美しいモンスターって、もしかしてお前ら？{バットガール・パワーが何かようやく分かった。";
+ "local_adventureeventmeetmagician17"="まさか、、一番相手にし辛い二頭のドラゴンが一緒に冒険するなんて、、{今度の魔王様は本当にすごい方だな。";
+ "local_adventureeventmeetmagician18"="今度はなんだ？{こんなに珍しい魔神達に一度に会うなんて、、おかしなこともあるものだ。";
+ "local_adventureeventmeetmagician19"="巨大魔神がこんなに地を荒らす光景を見られるなんて、、感激だ。";
+ "local_adventureeventmeetmagician20"="巨大魔神がこんなに地を荒らす光景を見られるなんて、、感激だ。";
+ "local_adventureeventmeetmagician21"="巨大魔神がこんなに地を荒らす光景を見られるなんて、、感激だ。。";
+ "local_adventureeventmeetmagician22"="巨大魔神がこんなに地を荒らす光景を見られるなんて、、感激だ。。";
+ "local_adventureeventmeetmagician23"="今度はなんだ？{こんなに珍しい魔神達に一度に会うなんて、、おかしなこともあるものだ。";
+ "local_adventureeventmeetmagician24"="伝説の生き物が一同に、、今日は宝くじを買わないと、、";
+ "local_adventureeventmeetmagician25"="不思議なモンスターだな。";
+ "local_adventureeventmeetmagician26"="不思議なモンスターだな。";
+"local_adventureeventmeetmagician27"="不思議なモンスターだな。";
+"local_adventureeventmeetmagician28"="不思議なモンスターだな。";
+ "local_adventureeventmeetmagicianend"="そういうわけで、、それなりに安い価格で占ってやるよ。{宝石から特別なモンスターまで、、どんな報償がもらえるかわかったもんじゃない。";
+ "local_adventureeventmeetmagicianselect"=" %d ゴールドで幸運の占いを見る？";
+ "local_adventureeventmeetmagicianno"="こんなチャンスを逃すなんて、、、でもこの出会いも縁だからこれを上げる。#get gold";
+ "local_adventureeventmeetmagicianok"="さ、では12枚のカードの中から一枚を選んでみて#show magician";
+
+ "local_teameffectdes01"="１つ星モンスターの攻撃力が５０％増加します。";
+ "local_teameffectdes02"="暗闇の属性のモンスターの攻撃力が１０％増加します。";
+ "local_teameffectdes03"="３つ星モンスターの攻撃力が１０％増加します。";
+ "local_teameffectdes04"="ゴールドの獲得量が１０％増加します。";
+ "local_teameffectdes05"="３つ星モンスターのHPが１０００ずつ増加します。";
+ "local_teameffectdes06"="水属性のモンスターの攻撃力が１３％増加します。";
+ "local_teameffectdes07"="火属性のモンスターの攻撃力が１０％増加します。";
+ "local_teameffectdes08"="２つ星のモンスターの攻撃力が１２％増加します。";
+ "local_teameffectdes09"="全てのモンスターのHPが１０００ずつ増加します。";
+ "local_teameffectdes10"="木属性のモンスターの攻撃力が１５％増加します。";
+ "local_teameffectdes11"="全てのモンスターの攻撃力が１５％増加します。";
+ "local_teameffectdes12"="暗闇の属性のモンスターの攻撃力が１５％増加します。";
+ "local_teameffectdes13"="５つ星モンスターの攻撃力が１５％増加します。";
+ "local_teameffectdes14"="４つ星モンスターの攻撃力が２０％増加します。";
+ "local_teameffectdes15"="４つ星モンスターの防御力が３０％増加します。";
+ "local_teameffectdes16"="４つ星モンスターのHPが２０００ずつ増加します。";
+ "local_teameffectdes17"="暗闇の属性のモンスターのHPが５０００ずつ増加します。";
+ "local_teameffectdes18"="全てのモンスターの攻撃力が２０％増加します。";
+ "local_teameffectdes19"="全てのモンスターの防御力が５０％増加します。";
+ "local_teameffectdes20"="６つ星モンスターのHPが４０００ずつ増加します。";
+ "local_teameffectdes21"="５つ星モンスターのHPが３０００ずつ増加します。";
+ "local_teameffectdes22"="火属性のモンスターのHPが３０００ずつ増加します。";
+ "local_teameffectdes23"="水属性のモンスターのHPが３０００ずつ増加します。";
+ "local_teameffectdes24"="木属性のモンスターのHPが３５００ずつ増加します。";
+ "local_teameffectdes25"="レベル５０以下のモンスターのHPが３０００ずつ増加します。";
+ "local_teameffectdes26"="レベル５０以下のモンスターの攻撃力が２０％増加します。";
+"local_teameffectdes27"="5つ星モンスターの攻撃力が3０％増加します。";
+"local_teameffectdes28"="5つ星モンスターの防御力が３０％増加します。";
+
+  "local_coupon_error_01"="このクーポンは使用できません。"; 
+ "local_coupon_error_02"="このクーポンはすでに使用されています。";
+ "local_coupon_error_03"="このクーポンのタイプは、すでに使用されています。";
+ "local_coupon_error_04"="このクーポンは有効期限が切れています。";
+ "local_coupon_success"="クーポンが正常に適用されています。";
+ "local_purchase_error_01"="購入できませんでした。";
+ "local_purchase_error_02"="誤った購入情報。";
+
+"local_popupnotenoughorb"="オブが足りません。";
+
+
+
+
+
+
+
+ 
+ 
+ 

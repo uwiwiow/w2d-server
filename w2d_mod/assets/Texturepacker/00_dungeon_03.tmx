@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="88" height="11" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile1" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="01_fire_map.pvr.ccz" width="512" height="512"/>
+  <tile id="11">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Type" value="Tile"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="trap" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="CD_UI_trap.pvr.ccz" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="BOMB"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="type" value="HEAL"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="type" value="COIN"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="type" value="BONUS"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="99" name="01_fire_map_01" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="01_fire_map_01.pvr.ccz" width="256" height="512"/>
+ </tileset>
+ <layer name="Background" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6AamH+7F3JIWDVVVVV9/gBFvDEp
+  </data>
+ </layer>
+ <layer name="Tile" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALiAPdAO2CYAx4g1gFiXSRaGgvWhWI+JCwAxTA2SF4PSmujqUXHulgwPrXo9iKztUkwh1h1ejjsRffvKBgFo2AUjIJRMApGAaUAANrgCBs=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztV8tuwkAMXGjoEUpzqNTHBSQObcL/f15jaUeZDF5vEsqtlkaBxHg9Y683pHRruwHvhJPjA9sEmOP/FxbFUx4RF471SFN9DWfHrxnQD7gO6DJ6um4df/Wdy6XkhxwQ0zPlEq3RU15ze2RtPVTnS5rqbNxeA2zF17TdC7oV+SEWtOB4XqyvAR+EkiYci3VmQw06ysE+ay9FprXR+l/y/Tn6bsRX9QWXJT3B67Y5Bq6oF8PuH5KvnfrVctN6sl9N46by/N/q9lR5/iwwze1MsL7dp/Gc2ObnUf9qLK/ujJd8hX+UY3vHupG/fT/k+IeFHKKcPTNtbRbwGcdnMTQuYU58nT2IW/udckN+pd/yHgevM13P+VmNQ0njpdqCh/LXOXwRTrucq+kU7RWtHaM2y6Bvm27rzjNf5ybeMa6FdaP6sK3pJY9Dib8COZm2J7pf09eL9ZnGc+pKsbX/0OtebfDuh3dH70x6K6w/V+N7rEnTnqgB/cp895mbp3FUu+801QFcsZdPQW78nnBM4zwH2nQ7UyI+j9La+3+xBMxB9Y1q5821n8xxyZp8Vno4prrGujfX2i9EASjT
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztVtEKgzAMbNXJ2MO+ZNv/f94WUCghl1w7LQoeBEu8Ju01xqbEYSB5R8IN+Meuq+DRW+NcWALjrOZo7SyNkb4TwemBHjqLLu+fvZan2Gd5evlb9Z0Mn8VFPH3OLNA3NhAxMxizeZ/AolilJmj9Gki3Mp7HEci67mS+C32AakX8UW209rAx+fW7dd61j1v1WcaK6le4j8rcHqz/i+eflXlnt/K1zpF2c/De4zDnwvZpBi09u7XPW3G2yh/VXTR/D9TkQXclL8Y/+9hbA7Sfs6D27Ng7wIU2nFnfLwGIAuk=
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztldkKhDAMRePIdPv/Dx58KISQ3eogeECsmua2N7UF8LEx76rRpznyemI06BjO5vsnG/A+e6hC308yF9fmKIn8Xm1MtK4F5LFlPZbIeCzR4Lo1XEH319KdfXGcVv8V+8Mk4rEV69XdA5oHK+f7sp5Ono96Seu3MPGUgdrfwDiG8d1av1Fd7zqOzHcFU0/6LzQ9rXZ4L6Mx1nk1GN1Cruz50UH2mNPV0PbyO2jojr3x9sNE5mGdU5q/XqLeRvf1aH4ae3Xdm9B+ApnaPW2OL/fxA7VJApQ=
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztlksKwDAIRN3lc/8Dd5NFELVaFYT6ILhJHTOmtQA65lkehvP5bO76vGf9wkTRCuUv1zepF1r9dZaGAbS/GT4vFDERdzkzn0bvjm97s2qT+h+tifNF3F9Lnii9phZcX7Pfaem7uYPy4HzUXotWNJa5RNUunZ2bARv8/nK61fzF4BkcAeXvX6n+f9s0jY0HIPQCEg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwVUB9oBo2BIAWqmF2qZxU4lc6gJBqObRsHgBJw4xLmoZA45AGQWNfM6Bxo9VAAh94LyOR8SphVAL09wlS8cDOSF8WBtB+gy0D5shzMglB5Gw5V2QGcA7R6s+ZmaQGmgHUAnAAAdugIu
+  </data>
+ </layer>
+ <layer name="Tile Layer 8" width="88" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztl9sKgCAMhve0pRSd6P0JSWkNTyu1jP6bEbTTNxUF+Lb6pwtwSGSMKzPGr1UpeAgSx7AuqRR90JpL98DV+nQBF/R2pr/OGrWdb8Swnbvc/Vpy3bQFc03aLonjSjiYuWYniaV+Pt8conXUIMVHza6L/L+BvTfDlTv3t97bYhXLSfEZgM/HxjWU8yt3Qg5bFx+6/6noPGw5BbLm7MeMa1zDuM/QevGxxZabE/vjb9vbJjfjDXbPIXs=
+  </data>
+ </layer>
+ <objectgroup name="Object" width="88" height="11">
+  <object name="Start" x="256" y="256" width="64" height="64"/>
+  <object name="Next_1" x="896" y="256" width="64" height="64"/>
+  <object name="Next_2" x="1600" y="256" width="64" height="64"/>
+  <object name="Next_3" x="2368" y="256" width="64" height="64"/>
+  <object name="Slot_1" x="1216" y="256" width="64" height="64"/>
+  <object name="Slot_2" x="1920" y="256" width="64" height="64"/>
+  <object name="Slot_3" x="2688" y="256" width="64" height="64"/>
+  <object name="Goal" x="5184" y="256" width="64" height="64"/>
+  <object name="Slot_4" x="3200" y="256" width="64" height="64"/>
+  <object name="Next_4" x="2880" y="256" width="64" height="64"/>
+  <object name="Next_5" x="3456" y="256" width="64" height="64"/>
+  <object name="Slot_5" x="3776" y="256" width="64" height="64"/>
+  <object name="Next_6" x="4096" y="256" width="64" height="64"/>
+  <object name="Slot_6" type="Trap" x="4416" y="256" width="64" height="64"/>
+  <object name="Next_7" x="4736" y="256" width="64" height="64"/>
+  <object name="Slot_7" x="5056" y="256" width="64" height="64"/>
+ </objectgroup>
+</map>
